@@ -22,13 +22,24 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                     <img src="../asset/TempLogo.png" alt="tempory logo for CWP" style="width: 25px; height: auto"/>
                 </a>
                 <!-- Right-sided navbar links -->
-                <div class="w3-right w3-hide-small">
+                <div class="w3-right w3-hide-medium w3-hide-small">
                     <a href="about_us.html" class="w3-bar-item w3-button"><i class="fa fa-info-circle"></i> ABOUT</a>
                     <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
                     <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-twitch"></i> ABTS</a>
                     <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-youtube-play"></i> MLBT</a>
                     <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-gamepad"></i> CWPS</a>
                     <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+                    <a href="javascript:void(0)" onclick="darkMode()" class="w3-bar-item w3-button"><i class="fa fa-adjust"></i></a>
+                </div>
+                <!-- Hide right-floated links on mediums screens and replace them with just a icon -->
+
+                <div class="w3-right w3-hide-small w3-hide-large">
+                    <a href="about_us.html" class="w3-bar-item w3-button"><i class="fa fa-info-circle"></i></a>
+                    <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
+                    <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-twitch"></i></a>
+                    <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-gamepad"></i></a>
+                    <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
                     <a href="javascript:void(0)" onclick="darkMode()" class="w3-bar-item w3-button"><i class="fa fa-adjust"></i></a>
                 </div>
                 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -42,6 +53,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <!-- Sidebar on small screens when clicking the menu icon -->
         <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
             <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+            <a href="javascript:void(0)" onclick="darkMode()" class="w3-bar-item w3-button">THEME</a>
             <a href="about_us.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
             <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
             <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
