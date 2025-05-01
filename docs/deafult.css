@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 1 May 2025, 14:33:36
+    Author     : TKZI's Laptop
+*/
+
+body {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #ffffff;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+        font-family: "Raleway", sans-serif
+        }
+
+        body, html {
+          height: 100%;
+          line-height: 1.8;
+        }
+
+        /* Full height image header */
+        .bgimg-1 {
+          background-position: center;
+          background-size: cover;
+          background-image: url("/w3images/mac.jpg");
+          min-height: 100%;
+        }
+
+        .w3-bar .w3-button {
+          padding: 16px;
+        }
