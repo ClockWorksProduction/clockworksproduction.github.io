@@ -9,7 +9,7 @@
         <div class="nav-links">
             <a href="/about_us.html" class="nav-link w3-bar-item"><i class="fa fa-info-circle"></i> ABOUT</a>
             <a class="nav-link w3-bar-item"><i class="fa fa-envelope"></i> CONTACT</a>
-            <button id="theme-toggle" class="nav-link w3-bar-item">DARK</button>
+            <button id="theme-toggle-nav" class="nav-link w3-bar-item" onclick="toggleTheme()"></button>
         </div>
 
         <!-- Hide right-floated links on medium and large screens and replace them with a menu icon -->
@@ -22,7 +22,7 @@
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    <button id="theme-toggle-side" class="w3-bar-item w3-button">DARK</button>
+    <button id="theme-toggle-side" class="w3-bar-item w3-button" onclick="toggleTheme()"></button>
     <a href="/clockworksproduction.github/about_us.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
     <a onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
