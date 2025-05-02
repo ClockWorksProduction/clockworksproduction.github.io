@@ -1,0 +1,12 @@
+- [ ] Make a good looking design
+- [ ] Create a good header
+- [ ] Create a good footer
+- [ ] Create sections that will contain the websites content
+- [ ] Write the content of the different sections
+- [ ] Write a good looking, good functioning comment box
+- [ ] Add JavaScript for the comment box to interact with a SQL Server
+- [ ] Have a JavaScript on load for comments to load on page load
+- [ ] Create a SQL database
+- [ ] Link SQL Server to the code
+- [ ] Add social media buttons for easy access
+- [ ] Add button to go back to the top of the page
