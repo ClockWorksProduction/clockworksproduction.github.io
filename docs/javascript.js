@@ -21,10 +21,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // if it's light -> go dark
         if(themeStylesheet.href.includes('light')){
             themeStylesheet.href = 'dark-theme.css';
+            themeToggleLarge.innerText = 'LIGHT';
+            themeToggleLarge.innerText = 'LIGHT';
             themeToggle.innerText = 'LIGHT';
         } else {
             // if it's dark -> go light
             themeStylesheet.href = 'light-theme.css';
+            themeToggleLarge.innerText = 'DARK';
+            themeToggleMedium.innerText = 'DARK';
             themeToggle.innerText = 'DARK';
         }
         // save the preference to localStorage
@@ -35,10 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // if it's light -> go dark
         if(themeStylesheet.href.includes('light')){
             themeStylesheet.href = 'dark-theme.css';
+            themeToggleLarge.innerText = 'LIGHT';
+            themeToggleMedium.innerText = 'LIGHT';
             themeToggle.innerText = 'LIGHT';
         } else {
             // if it's dark -> go light
             themeStylesheet.href = 'light-theme.css';
+            themeToggleLarge.innerText = 'DARK';
+            themeToggleMedium.innerText = 'DARK';
             themeToggle.innerText = 'DARK';
         }
         // save the preference to localStorage
@@ -49,10 +57,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // if it's light -> go dark
         if(themeStylesheet.href.includes('light')){
             themeStylesheet.href = 'dark-theme.css';
+            themeToggleLarge.innerText = 'LIGHT';
+            themeToggleLarge.innerText = 'LIGHT';
             themeToggle.innerText = 'LIGHT';
         } else {
             // if it's dark -> go light
             themeStylesheet.href = 'light-theme.css';
+            themeToggleLarge.innerText = 'DARK';
+            themeToggleMedium.innerText = 'DARK';
             themeToggle.innerText = 'DARK';
         }
         // save the preference to localStorage
