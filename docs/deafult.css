@@ -8,13 +8,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 
 body {
-    background-color: #ffffff;
+    background-color: #fff;
     color: #000;
 }
 
-.dark-mode {
+body.dark {
     background-color: #000;
-    color: #ffffff;
+    color: #fff;
 }
 
 body,h1,h2,h3,h4,h5,h6 {
