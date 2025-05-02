@@ -1,4 +1,7 @@
 name: Deploy to GitHub Pages
+theme: jekyll-theme-minimal
+title: ClockWorksProduction
+description: Bookmark this to keep an eye on my project updates!
 
 on:
   push:
