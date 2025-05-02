@@ -5,78 +5,38 @@
 
 // this one is jut to wait for the page to load
 localStorage.setItem('theme', 'deafult.css');
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
 
-document.addEventListener('DOMContentLoaded', () => {
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
 
-    const themeStylesheet = document.getElementById('theme');
-    const themeToggleLarge = document.getElementById('theme-toggle-large');
-    const themeToggleMedium = document.getElementById('theme-toggle-medium');
-    const themeToggle = document.getElementById('theme-toggle');
-    const storedTheme = localStorage.getItem('theme');
-    if(storedTheme){
-        themeStylesheet.href = storedTheme;
+// JavaScript to toggle between themes
+const themeToggleButtons = document.querySelectorAll('#theme-toggle, #theme-toggle-side, #theme-toggle-large, #theme-toggle-medium');
+const themeStylesheet = document.getElementById('theme');
+let currentTheme = 'light'; // Default to light theme
+
+// Function to set the theme
+function setTheme(theme) {
+    if (theme === 'dark') {
+        themeStylesheet.href = 'dark-theme.css';
+        currentTheme = 'dark';
+    } else {
+        themeStylesheet.href = 'light-theme.css';
+        currentTheme = 'light';
     }
+}
 
-    themeToggleLarge.addEventListener('click', () => {
-        // if it's light -> go dark
-        if(themeStylesheet.href.includes('light')){
-            themeStylesheet.href = 'dark-theme.css';
-            themeToggleLarge.innerText = 'LIGHT';
-            themeToggleLarge.innerText = 'LIGHT';
-            themeToggle.innerText = 'LIGHT';
-        } else {
-            // if it's dark -> go light
-            themeStylesheet.href = 'light-theme.css';
-            themeToggleLarge.innerText = 'DARK';
-            themeToggleMedium.innerText = 'DARK';
-            themeToggle.innerText = 'DARK';
-        }
-        // save the preference to localStorage
-        localStorage.setItem('theme',themeStylesheet.href);
-    });
-
-    themeToggle.addEventListener('click', () => {
-        // if it's light -> go dark
-        if(themeStylesheet.href.includes('light')){
-            themeStylesheet.href = 'dark-theme.css';
-            themeToggleLarge.innerText = 'LIGHT';
-            themeToggleMedium.innerText = 'LIGHT';
-            themeToggle.innerText = 'LIGHT';
-        } else {
-            // if it's dark -> go light
-            themeStylesheet.href = 'light-theme.css';
-            themeToggleLarge.innerText = 'DARK';
-            themeToggleMedium.innerText = 'DARK';
-            themeToggle.innerText = 'DARK';
-        }
-        // save the preference to localStorage
-        localStorage.setItem('theme',themeStylesheet.href);
-    });
-
-    themeToggle.addEventListener('click', () => {
-        // if it's light -> go dark
-        if(themeStylesheet.href.includes('light')){
-            themeStylesheet.href = 'dark-theme.css';
-            themeToggleLarge.innerText = 'LIGHT';
-            themeToggleLarge.innerText = 'LIGHT';
-            themeToggle.innerText = 'LIGHT';
-        } else {
-            // if it's dark -> go light
-            themeStylesheet.href = 'light-theme.css';
-            themeToggleLarge.innerText = 'DARK';
-            themeToggleMedium.innerText = 'DARK';
-            themeToggle.innerText = 'DARK';
-        }
-        // save the preference to localStorage
-        localStorage.setItem('theme',themeStylesheet.href);
-    });
-
+themeToggleButtons.forEach(button => {
     button.addEventListener('click', () => {
-        document.body.classList.toggle('dark');
-        localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+      if (currentTheme === 'light') {
+          setTheme('dark');
+          button.textContent = 'LIGHT'; // Change the button text to 'LIGHT'
+      } else {
+          setTheme('light');
+          button.textContent = 'DARK'; // Change the button text back to 'DARK'
+      }
     });
-
-    if (localStorage.getItem('theme') === 'dark') {
-        document.body.classList.add('dark');
-    }
 });
