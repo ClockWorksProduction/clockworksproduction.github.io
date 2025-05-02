@@ -1,11 +1,4 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : 1 May 2025, 14:33:36
-    Author     : TKZI's Laptop
-*/
+
 
 body {
     background-color: #fff;
@@ -18,22 +11,38 @@ body.dark {
 }
 
 body,h1,h2,h3,h4,h5,h6 {
-        font-family: "Raleway", sans-serif
-        }
+    font-family: "Raleway", sans-serif
+}
 
-        body, html {
-          height: 100%;
-          line-height: 1.8;
-        }
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
 
-        /* Full height image header */
-        .bgimg-1 {
-          background-position: center;
-          background-size: cover;
-          background-image: url("/w3images/mac.jpg");
-          min-height: 100%;
-        }
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/mac.jpg");
+    min-height: 100%;
+}
 
-        .w3-bar .w3-button {
-          padding: 16px;
-        }
+.logo{
+    width: 25px;
+    height: auto;
+}
+.nav-link {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Media query for small and medium screens */
+@media (max-width: 992px) {
+    .nav-links {
+        display: none; /* Hide the links on small and medium screens */
+    }
+}
