@@ -21,7 +21,7 @@ function toggleTheme() {
   const body = document.body;
   const themeToggleButtons = document.querySelectorAll('#theme-toggle-nav, #theme-toggle-side');
   
-    if (theme === 'dark') {
+    if (currentTheme === 'dark') {
       themeStylesheet.href = 'light-theme.css';
       body.style.backgroundColor = '#ffffff'; // Light mode background
       currentTheme = 'light';
@@ -34,6 +34,20 @@ function toggleTheme() {
       button.textContent = currentTheme === 'dark' ? 'LIGHT' : 'DARK'; // Update button text
     });
   }
+
+// Function to set the theme
+function setTheme(theme) {
+  const body = document.body;
+  if (theme === 'dark') {
+    themeStylesheet.href = 'dark-theme.css';
+    body.style.backgroundColor = '#1e1e1e'; // Dark mode background
+    currentTheme = 'dark';
+  } else {
+    themeStylesheet.href = 'light-theme.css';
+    body.style.backgroundColor = '#ffffff'; // Light mode background
+    currentTheme = 'light';
+  }
+}
 
 // Set the initial theme on page load
 document.addEventListener('DOMContentLoaded', () => {
