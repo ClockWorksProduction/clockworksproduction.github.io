@@ -23,11 +23,13 @@ function toggleTheme() {
   
     if (currentTheme === 'dark') {
       themeStylesheet.href = 'light-theme.css';
-      body.style.backgroundColor = '#ffffff'; // Light mode background
+      body.style.backgroundColor = '#ffffff';
+      body.style.color = '#1e1e1e' // Light mode background
       currentTheme = 'light';
     } else {
       themeStylesheet.href = 'dark-theme.css';
-      body.style.backgroundColor = '#1e1e1e'; // Dark mode background
+      body.style.backgroundColor = '#1e1e1e';
+      body.style.color = '#ffffff' // Dark mode background
       currentTheme = 'dark';
     }
     themeToggleButtons.forEach(button => {
@@ -40,11 +42,13 @@ function setTheme(theme) {
   const body = document.body;
   if (theme === 'dark') {
     themeStylesheet.href = 'dark-theme.css';
-    body.style.backgroundColor = '#1e1e1e'; // Dark mode background
+    body.style.backgroundColor = '#1e1e1e';
+    body.style.color = '#ffffff' // Dark mode background
     currentTheme = 'dark';
   } else {
     themeStylesheet.href = 'light-theme.css';
-    body.style.backgroundColor = '#ffffff'; // Light mode background
+    body.style.backgroundColor = '#ffffff';
+    body.style.color = '#1e1e1e' // Light mode background
     currentTheme = 'light';
   }
 }
