@@ -12,8 +12,6 @@
 <link href="deafult.css" rel="stylesheet" type="text/css"/>
 <link id="theme" rel="stylesheet" type="text/css" href="light-theme.css"/>
   <body>
-      <!-- Navbar (sit on top) -->
-        <div id="nav-placeholder"></div>
         <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
             <div class="w3-display-left" style="padding:48px">
                 <span class="w3-jumbo w3-hide-small">ClockWorksProduction</span><br>
@@ -21,6 +19,53 @@
                 <span class="w3-large">Giving knowledge in a fun way, est. 2021</span>
             </div>
         </header>
+
+      <section class="mermaid-chart">
+          <h2>Our History</h2>
+          <pre class="mermaid">
+            %%{init: {'gitGraph': {'mainBranchName': 'The Knowledge Zone International'}} }%%
+              gitGraph
+                  commit id:"6 Jan 2021 TKZI first setup"
+                  branch "BlackTiger Hangout Discord server"
+                  commit id: "6 Jun 2021, Discord Community Created"
+                  checkout "The Knowledge Zone International"
+                  commit id:"8 Jun 2021, First full length Video (TKZI)"
+                  commit id:"Dec 2021, Expand Sub-channel with MLBT"
+                  branch "Agent Black Tiger's Mission Log (also call Mission Log BlackTiger)"
+                  commit id:"31 Dec 2022, 1st FNIA series Gacha Animation"
+                  checkout "The Knowledge Zone International"
+                  commit id:"20 Feb 2023, Revert back to doing Video essay via Gacha Explain Theories AND Knowledge"
+                  branch "Gacha Explain Theories AND Knowledge (GETAK)"
+                  checkout "Agent Black Tiger's Mission Log (also call Mission Log BlackTiger)"
+                  commit id:"Q1 2023, GETAK announce on MLBT"
+                  commit id:"mid 2023, Put Both MLBT and GETAK on-hold" type: REVERSE
+                  checkout "Gacha Explain Theories AND Knowledge (GETAK)"
+                  cherry-pick id:"mid 2023, Put Both MLBT and GETAK on-hold" parent:"Q1 2023, GETAK announce on MLBT"
+                  checkout "The Knowledge Zone International"
+                  branch AgentBlackTigerStreams
+                  commit id:"Q1 2024, Twitch Channel Created"
+                  branch ClockWorkProduction
+                  branch "ClockWorkProduction Studio"
+                  commit id: "4 Feb 2024, Starting developing 1st Game; Void Impendium"
+                  checkout "The Knowledge Zone International"
+                  checkout AgentBlackTigerStreams
+                  commit id: "16 May 2024, First ever Stream(Before system crash :0), DreadMoon Competion with YT @ZlimBratSki"
+                  checkout ClockWorkProduction
+                  merge "The Knowledge Zone International" id:"Restructure the Content Branch"
+                  checkout AgentBlackTigerStreams
+                  commit id: "10 April 2025, First ever VRChat Steram and Officicaly being a furry :3"
+                  checkout "BlackTiger Hangout Discord server"
+                  commit id:"8 April 2025, Founder Birthday and Major Discord Community Update"
+                  checkout ClockWorkProduction
+                  commit id:"13 April 2025, New website is created under the new Structure"
+          </pre>
+      </section>
+      <!-- Navbar (sit on top) -->
+        <div id="nav-placeholder"></div>
+        <script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+          mermaid.initialize({ startOnLoad: true });
+        </script>
         <script>
  fetch('nav.html')
             .then(response => response.text())
