@@ -17,12 +17,19 @@
             <img src="asset/TempLogo.png" alt="tempory logo for CWP" class="logo"/>
         </a>
         <!-- Right-sided navbar links -->
-        <div class="nav-links">
-            <a href="/index.html" class="nav-link w3-bar-item">HOME</a>
+        <div class="nav-links w3-dropdown-hover">
             <a href="/about_us.html" class="nav-link w3-bar-item">ABOUT US</a>
-            <a href="#" class="nav-link w3-bar-item">TEAM</a>
+            <div class="nav-links w3-dropdown-hover">
+                <button class="nav-link w3-bar-item w3-botton">OUR WORK</button>
+                <div class="w3-dropdown-content w3-bar-block w3-border">
+                    <a href="/abts.html" class="w3-bar-item w3-button">AgentBlackTigerStreams</a>
+                    <a href="/ani_yt.html" class="w3-bar-item w3-button">Animation</a>
+                    <a href="/works.html" class="w3-bar-item w3-button">Game Studio</a>
+                </div>
+            </div>
+            <a href="#" class="nav-link w3-bar-item">TEAM :3</a>
             <a href="#" class="nav-link w3-bar-item">CONTACT</a>
-            <button id="theme-toggle-nav" class="nav-link w3-bar-item" onclick="toggleTheme()">DARK</button>
+            <button id="theme-toggle-nav" class="nav-link w3-bar-item w3-botton" onclick="toggleTheme()">DARK</button>
         </div>
 
         <!-- Hide right-floated links on medium and large screens and replace them with a menu icon -->
@@ -38,6 +45,7 @@
     <button id="theme-toggle-side" class="nav-link w3-bar-item" onclick="toggleTheme()">DARK</button>
     <a href="/index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
     <a href="/about_us.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
-    <a href="#" class="nav-link w3-bar-item">TEAM</a>
+            <button class="nav-link w3-bar-item w3-botton">OUR WORK</button>
+    <a href="#" class="nav-link w3-bar-item">TEAM :3</a>
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
