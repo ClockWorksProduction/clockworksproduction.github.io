@@ -43,6 +43,6 @@ body, html {
 /* Media query for small and medium screens */
 @media (max-width: 992px) {
     .nav-links {
-        display: none; /* Hide the links on small and medium screens */
+        display: none; /* Hide the links on small and medium screens, but leave the button */
     }
 }
