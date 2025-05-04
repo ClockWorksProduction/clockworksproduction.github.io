@@ -66,8 +66,13 @@
           import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
           mermaid.initialize({ startOnLoad: true });
         </script>
+        <div id="footer-placeholder"></div>
         <script>
             fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+              document.getElementById('footer-placeholder').innerHTML = data;
+            });
         </script>
         <script>
             fetch('nav.html')
