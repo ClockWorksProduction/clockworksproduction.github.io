@@ -5,12 +5,12 @@
     <title>ClockWorksProduction</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-        <script src="https://kit.fontawesome.com/6b3a6b196a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="https://kit.fontawesome.com/6b3a6b196a.js" crossorigin="anonymous"></script>
+    <link href="deafult.css" rel="stylesheet" type="text/css"/>
+    <link id="theme" rel="stylesheet" type="text/css" href="light-theme.css"/>
 </head>
-<link href="deafult.css" rel="stylesheet" type="text/css"/>
-<link id="theme" rel="stylesheet" type="text/css" href="light-theme.css"/>
   <body>
         <header class="bgimg-1 w3-display-container w3-grayscale-min" style="background: url('asset/BTW1.jpg'); color: aliceblue; height: fit-content;" id="home">
             <div class="w3-display-left" style="padding:48px">
@@ -20,9 +20,9 @@
             </div>
         </header>
 
-      <section class="mermaid-chart w3-display-container">
+      <section class="mermaid-chart w3-card w3-topbar w3-bottombar">
           <h2>Our History</h2>
-          <pre class="mermaid">
+          <pre class="mermaid" style="background-color: darkolivegreen">
             %%{init: {'gitGraph': {'mainBranchName': 'The Knowledge Zone International'}} }%%
               gitGraph
                   commit id:"6 Jan 2021 TKZI first setup"
@@ -67,7 +67,10 @@
           mermaid.initialize({ startOnLoad: true });
         </script>
         <script>
- fetch('nav.html')
+            fetch('footer.html')
+        </script>
+        <script>
+            fetch('nav.html')
             .then(response => response.text())
             .then(data => {
               document.getElementById('nav-placeholder').innerHTML = data;
