@@ -14,13 +14,6 @@ body,h1,h2,h3,h4,h5,h6,p {
     font-family: "Raleway", sans-serif;
 }
 
-header {
-    background: url('asset/BTW1.jpg'); 
-    color: aliceblue;
-    text-shadow: 2px 2px black;
-    height: fit-content;
-}
-
 body, html {
     height: 100%;
     line-height: 1.8;
@@ -34,8 +27,11 @@ section{
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image: url("/w3images/mac.jpg");
-    min-height: 100%;
+    background-image: url("asset/BTW1.jpg");
+    min-height: 50%;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+    height: fit-content;
 }
 
 .logo{
