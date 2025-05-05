@@ -36,7 +36,19 @@
     <main>
         <!-- Page Specific Content Goes Here -->
         <iframe id='kofiframe' src='https://ko-fi.com/blacktigersclockworks/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='blacktigersclockworks'></iframe>
+        <!-- Add a placeholder for the Twitch embed -->
+        <div id="twitch-embed"></div>
 
+        <!-- Load the Twitch embed JavaScript file -->
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+        <script type="text/javascript">
+          new Twitch.Embed("twitch-embed", {
+            width: 100%,
+            channel: "agentblacktigerstreams",
+          });
+        </script>
     </main>
 
     <!-- Footer Placeholder -->
