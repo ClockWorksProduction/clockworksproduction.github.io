@@ -1,8 +1,7 @@
 { pkgs, ... }: {
  channel = "stable-24.05";
- packages = \[
- \];
- env = {};
+ packages = 
+ env; = {};
  idx = \{
  extensions = \[
  \];
