@@ -22,9 +22,9 @@
             <div class="nav-links w3-bar-item w3-dropdown-hover" style="padding: 0px 0px 0px 0px">
                 <button class="nav-link w3-botton">OUR WORK</button>
                 <div class="w3-dropdown-content w3-bar-block w3-border">
-                    <a href="/abts.html" class="w3-bar-item w3-button">AgentBlackTigerStreams</a>
-                    <a href="/ani_yt.html" class="w3-bar-item w3-button">Animation</a>
-                    <a href="/works.html" class="w3-bar-item w3-button">Game Studio</a>
+                    <a href="/abts.html" class="nav-link w3-bar-item w3-button">AgentBlackTigerStreams</a>
+                    <a href="/ani_yt.html" class="nav-link w3-bar-item w3-button">Animation</a>
+                    <a href="/works.html" class="nav-link w3-bar-item w3-button">Game Studio</a>
                 </div>
             </div>
             <a href="/meet_the_crew.html" class="nav-link w3-bar-item">TEAM :3</a>
@@ -40,12 +40,19 @@
 </div>
 
 <!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-large w3-hide-medium" style="display:none" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-gray w3-card w3-animate-left w3-hide-large w3-hide-medium" style="display:none" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
     <button id="theme-toggle-side" class="nav-link w3-bar-item" onclick="toggleTheme()">DARK</button>
-    <a href="/index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
-    <a href="/about_us.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
-            <button class="nav-link w3-bar-item w3-botton">OUR WORK</button>
-    <a href="#" class="nav-link w3-bar-item">TEAM :3</a>
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    <a href="/index.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">HOME</a>
+    <a href="/about_us.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">ABOUT US</a>
+    <div class="nav-links w3-bar-item w3-dropdown-hover" style="padding: 0px 0px 0px 0px">
+        <button class="nav-link w3-botton">OUR WORK <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+            <a href="/abts.html" class="nav-link w3-bar-item w3-button">AgentBlackTigerStreams</a>
+            <a href="/ani_yt.html" class="nav-link w3-bar-item w3-button">Animation</a>
+            <a href="/works.html" class="nav-link w3-bar-item w3-button">Game Studio</a>
+        </div>
+    </div>
+    <a href="/meet_the_crew.html" class="nav-link w3-bar-item">TEAM :3</a>
+    <a href="#" onclick="w3_close()" class="nav-link w3-bar-item w3-button">CONTACT</a>
 </nav>
