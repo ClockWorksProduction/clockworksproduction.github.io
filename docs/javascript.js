@@ -24,12 +24,12 @@ function toggleTheme() {
     if (currentTheme === 'dark') {
       themeStylesheet.href = 'light-theme.css';
       body.style.backgroundColor = '#ffffff';
-      body.style.color = '#1e1e1e' // Light mode background
+      body.style.color = '#1e1e1e'; // Light mode background
       currentTheme = 'light';
     } else {
       themeStylesheet.href = 'dark-theme.css';
       body.style.backgroundColor = '#1e1e1e';
-      body.style.color = '#ffffff' // Dark mode background
+      body.style.color = '#ffffff'; // Dark mode background
       currentTheme = 'dark';
     }
     themeToggleButtons.forEach(button => {
