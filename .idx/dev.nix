@@ -43,12 +43,12 @@
       # Runs when a workspace is first created
       onCreate = {
         # Example: install JS dependencies from NPM
-        # npm-install = "npm install";
+        npm-install = "npm install";
       };
       # Runs when the workspace is (re)started
       onStart = {
         # Example: start a background task to watch and re-build backend code
-        # watch-backend = "npm run watch-backend";
+        watch-backend = "npm run watch-backend";
       };
     };
   };
