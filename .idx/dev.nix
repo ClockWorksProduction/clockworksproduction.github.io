@@ -19,10 +19,6 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
-      "eamodio.gitlens"
-      "GitHub.vscode-pull-request-github"
-      "MermaidChart.vscode-mermaid-chart"
-      "sissel.shopify-liquid"
     ];
 
     # Enable previews

@@ -1,0 +1,22 @@
+{
+  "name": "clockworksproduction.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClockWorksProduction/clockworksproduction.github.io.git"
+  },
+  "author": "ClockWorksPorduction",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClockWorksProduction/clockworksproduction.github.io/issues"
+  },
+  "homepage": "https://github.com/ClockWorksProduction/clockworksproduction.github.io#readme",
+  "description": ""
+}
