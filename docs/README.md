@@ -1,12 +1,12 @@
-# React + Vite
+# About ClockWorksProduction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ClockWorksProduction is a creative collective and production house with a passion for bringing imaginative projects to life. We are involved in various creative endeavors, including game development, animation, and virtual entertainment.
 
-Currently, two official plugins are available:
+We operate through three distinct branches:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **CWP Studio** – Our game development arm dedicated to creating enjoyable and interactive learning experiences through games. We aim to explore new ways of learning that are both educational and fun.
+- **FrameForge** – Our animation studio that specializes in producing stylized visuals and creative short films. Our process is fueled by "Coffee + Synifig + Passion." You can see examples of our work like "MLBT."
+- **PixelPulse** – CWP's in-house VTuber group, a collective of virtual talents focusing on enjoyable learning and fun through streams and videos. AgentBlackTigerStreams is an example of a VTuber within PixelPulse.
 
-## Expanding the ESLint configuration
+Through these branches, ClockWorksProduction strives to push creative boundaries and deliver unique and engaging content.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
