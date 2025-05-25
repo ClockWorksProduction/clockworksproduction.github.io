@@ -6,7 +6,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "run dev"
+    "test": "serve docs"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
     "url": "https://github.com/ClockWorksProduction/clockworksproduction.github.io/issues"
   },
   "homepage": "https://github.com/ClockWorksProduction/clockworksproduction.github.io#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
 }
