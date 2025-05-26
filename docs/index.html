@@ -44,81 +44,93 @@
       <!-- About Section -->
       <div class="w3-container w3-padding-64" id="about">
         <h2 class="w3-xxlarge w3-center">About Us</h2>
-        <p class="w3-center">ClockWorksProduction is a digital content group focused on combining entertainment and education. Established in 2021, we specialize in storytelling across games, animations, and interactive media.</p>
+        <p class="w3-center">
+          ClockWorksProduction (CWP) is a creative digital collective blending entertainment and education through immersive storytelling. Founded in 2021, what began as a passion project has grown into a multi-branch studio specializing in games, animation, and interactive media. With a focus on innovation, narrative, and atmospheric design, CWP is dedicated to crafting meaningful and engaging experiences across every medium we touch.
+        </p>
+        <p class="w3-center">
+          Our team is made up of storytellers, coders, artists, and dreamers — all working together to bring compelling, eerie, and unforgettable experiences to life.
+          Whether you're delving into one of our command-line horror games, watching animated tales unfold, or following our VTuber talent, we’re here to blur the line between fiction and reality.
+        </p>
       </div>
 
       <!-- Featured Projects -->
-      <div class="w3-container w3-padding-64 w3-light-grey" id="projects">
+      <div class="w3-container w3-padding-64" id="projects">
         <h2 class="w3-xxlarge w3-center">CWP Sub-Branch</h2>
         <div class="w3-row-padding w3-center">
           <div class="w3-col l4 m6 s12 w3-margin-bottom">
-            <div class="featured-card">
-              <img src="project1.png" alt="Void Impendium">
-              <h3>Void Impendium</h3>
-              <p>A command-line horror game that blends reactor simulation with narrative dread. Currently on hold.</p>
-            </div>
+            <a href="/pixelpulse.html" style="text-decoration: none;">
+              <div class="featured-card">
+                <img src="/asset/PixelPulse_Logo.png" alt="PixelPulse">
+                <h3>PixelPulse</h3>
+                <p>CWP's in-house VTuber group, focusing on enjoyable learning and fun through interactive streams and engaging videos. Meet talents like AgentBlackTigerStreams!</p>
+              </div>
+            </a>
           </div>
           <div class="w3-col l4 m6 s12 w3-margin-bottom">
-            <div class="featured-card">
-              <img src="project2.png" alt="FrameForge">
-              <h3>FrameForge</h3>
-              <p>Our animation division, where frames come to life with cinematic quality and powerful storytelling.</p>
-            </div>
+            <a href="/frameforge.html" style="text-decoration: none;">
+              <div class="featured-card">
+                <img src="/asset/FrameForge_Logo.png" alt="FrameForge">
+                <h3>FrameForge</h3>
+                <p>CWP's animation studio, known for producing stylized visuals and hauntingly creative short films. As we like to say, "Coffee + Synfig + Passion = Our Animation". Check out "MLBT" for a taste of our work!</p>
+              </div>
+            </a>
           </div>
           <div class="w3-col l4 m6 s12 w3-margin-bottom">
-            <div class="featured-card">
-              <img src="project3.png" alt="CWP Studio">
-              <h3>CWP Studio</h3>
-              <p>The game development arm of ClockWorksProduction, producing indie games with unique aesthetics and mechanics.</p>
-            </div>
+            <a href="/cwp_studio.html" style="text-decoration: none;">
+              <div class="featured-card">
+                <img src="/asset/CWP Studio New Logo.png" alt="CWP Studio">
+                <h3>CWP Studio</h3>
+                <p>Our game development arm. Here at CWP Studio, we aim to create and explore new ways of enjoyable learning through games and interactive experiences, just like how learning is supposed to be fun. :3c</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-      <!-- Timeline (Mermaid.js) -->
+      <!-- Vertical Timeline (gitGraph) -->
       <div class="w3-container w3-padding-64" id="timeline">
         <h2 class="w3-xxlarge w3-center">Our History</h2>
         <div class="w3-card w3-padding w3-light-grey">
-          <pre class="mermaid" style="background-color: #2f4f4f; color: white; padding: 1em; border-radius: 10px;">
-            %%{init: {'gitGraph': {'mainBranchName': 'The Knowledge Zone International'}, 'theme':'forest'}}%%
-            gitGraph
-                commit id:"6 Jan 2021 TKZI first setup"
-                branch "BlackTiger Hangout Discord server"
-                commit id: "6 Jun 2021, Discord Community Created"
-                checkout "The Knowledge Zone International"
-                commit id:"8 Jun 2021, First full length Video (TKZI)"
-                commit id:"Dec 2021, Expand Sub-channel with MLBT"
-                branch "Agent Black Tiger's Mission Log (also call Mission Log BlackTiger)"
-                commit id:"31 Dec 2022, 1st FNIA series Gacha Animation"
-                checkout "The Knowledge Zone International"
-                commit id:"20 Feb 2023, Revert back to doing Video essay via Gacha Explain Theories AND Knowledge"
-                branch "Gacha Explain Theories AND Knowledge (GETAK)"
-                checkout "Agent Black Tiger's Mission Log (also call Mission Log BlackTiger)"
-                commit id:"Q1 2023, GETAK announce on MLBT"
-                commit id:"mid 2023, Put MLBT on-hold"
-                checkout "Gacha Explain Theories AND Knowledge (GETAK)"
-                commit id:"mid 2023, Put GETAK on-hold"
-                checkout "The Knowledge Zone International"
-                branch AgentBlackTigerStreams
-                commit id:"Q1 2024, Twitch Channel Created"
-                branch ClockWorkProduction
-                branch "ClockWorkProduction Studio"
-                commit id: "4 Feb 2024, Starting developing 1st Game; Void Impendium"
-                checkout "The Knowledge Zone International"
-                checkout AgentBlackTigerStreams
-                commit id: "16 May 2024, First ever Stream(Before system crash :0), DreadMoon Competion with YT @ZlimBratSki"
-                checkout ClockWorkProduction
-                merge "The Knowledge Zone International" id:"Restructure the Content Branch"
-                checkout AgentBlackTigerStreams
-                commit id: "10 April 2025, First ever VRChat Steram and Officicaly being a furry :3"
-                checkout "BlackTiger Hangout Discord server"
-                commit id:"8 April 2025, Founder Birthday and Major Discord Community Update"
-                checkout ClockWorkProduction
-                commit id:"13 April 2025, New website is created under the new Structure"
-                checkout "Agent Black Tiger's Mission Log (also call Mission Log BlackTiger)"
-                commit id:"25 May 2025, FNIA series is continue :3c"
-                checkout "ClockWorkProduction Studio"
-                commit id:"26 May 2025, Put Void Impendium on-hold"
-                checkout ClockWorkProduction
+          <pre class="mermaid" style="background-color: #2f4f4f; color: white; padding: 1em; border-radius: 10px; overflow-x: auto;">
+          %%{ init: { 'gitGraph': { 'mainBranchName': 'TKZI', 'rotateCommitLabel': true }, 'theme': 'forest' } }%%
+          gitGraph
+            commit id: "6 Jan 2021: TKZI Setup"
+            branch Discord
+            commit id: "6 Jun 2021: Discord Community Created"
+            checkout TKZI
+            commit id: "8 Jun 2021: First TKZI Video"
+            commit id: "Dec 2021: Expanded to MLBT"
+            branch MLBT
+            commit id: "31 Dec 2022: FNIA Gacha Series Launch"
+            checkout TKZI
+            commit id: "20 Feb 2023: GETAK Launch (Video Essays)"
+            branch GETAK
+            checkout MLBT
+            commit id: "Q1 2023: GETAK Announced on MLBT"
+            commit id: "Mid 2023: MLBT On-Hold"
+            checkout GETAK
+            commit id: "Mid 2023: GETAK On-Hold"
+            checkout TKZI
+            branch Streams
+            commit id: "Q1 2024: Twitch Channel Created"
+            branch CWP
+            branch CWP_Studio
+            commit id: "4 Feb 2024: Start 'Void Impendium'"
+            checkout TKZI
+            checkout Streams
+            commit id: "16 May 2024: First Stream (w/ ZlimBratSki)"
+            checkout CWP
+            merge TKZI id: "May 2024: Restructure Content Branch"
+            checkout Streams
+            commit id: "10 Apr 2025: VRChat Debut & Furry Reveal"
+            checkout Discord
+            commit id: "8 Apr 2025: Discord Update & Birthday"
+            checkout CWP
+            commit id: "13 Apr 2025: New Website Launched"
+            checkout MLBT
+            commit id: "25 May 2025: FNIA Series Continues"
+            checkout CWP_Studio
+            commit id: "26 May 2025: Void Impendium On-Hold"
+            checkout CWP
           </pre>
         </div>
       </div>

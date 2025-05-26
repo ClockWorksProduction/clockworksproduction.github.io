@@ -3,5 +3,11 @@
     background-color: #1e1e1e;
     color: #ffffff;
     text-shadow: 1px 1px darkgray;
+    transition: 0.3s;
     }
+}
+
+.featured-card {
+    background-color: darkgray;
+    transition: 0.3s;
 }
