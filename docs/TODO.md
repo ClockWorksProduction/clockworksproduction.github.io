@@ -3,11 +3,7 @@
 - [ ] Create a good footer
 - [ ] Create sections that will contain the websites content
 - [ ] Write the content of the different sections
-- [ ] Write a good looking, good functioning comment box
-- [ ] Add JavaScript for the comment box to interact with a SQL Server
-- [ ] Have a JavaScript on load for comments to load on page load
 - [ ] Add button to go back to the top of the page
 - [ ] Create a good header
-- [ ] Link SQL Server to the code
 - [ ] Add social media buttons for easy access
-- [ ] Create a SQL database
+- [ ] Explore building a cross-platform interaction system with a Discord bot backend to integrate website, Discord server, subreddit, and Twitch.

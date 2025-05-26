@@ -63,3 +63,62 @@ section{
         display: none; /* Hide the links on small and medium screens, but leave the button */
     }
 }
+
+/* Footer Styling */
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex-direction: column; /* Stack items vertically by default */
+}
+
+.footer .footer-section {
+    margin: 10px;
+    width: 100%; /* Sections take full width in vertical layout */
+    text-align: center; /* Center text in sections for mobile */
+}
+
+.footer .social-icons a {
+    display: inline-block; /* Arrange icons horizontally within their container */
+    margin: 0 5px; /* Add some spacing between icons */
+}
+
+.footer h3, .footer h4, .footer h6 {
+    color: #555; /* Default dark grey for headings */
+    text-align: center; /* Center headings for mobile */
+}
+
+.footer a {
+    color: #007bff; /* Default link color */
+    text-decoration: none;
+    display: block; /* Make links block level to stack vertically in mobile sections */
+    margin-bottom: 5px; /* Add space between stacked links */
+}
+
+/* Adjust links for horizontal display within social icon groups */
+.footer .social-icons a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media query for wider screens (PC layout) */
+@media (min-width: 768px) {
+   
+    .footer .footer-section {
+        width: auto; /* Allow sections to take their size based on grid */
+        margin: 0; /* Remove margin for grid layout */
+    }
+
+    .footer h3, .footer h4, .footer h6 {
+        text-align: left; /* Align headings to the left for PC */
+    }
+
+    .footer a {
+        display: inline; /* Make links inline for horizontal flow in PC sections */
+        margin-bottom: 0; /* Remove bottom margin */
+        margin-right: 10px; /* Add right margin for spacing between inline links */
+    }
+}
