@@ -14,7 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <link href="deafult.css" rel="stylesheet" type="text/css"/>
     <link id="theme" rel="stylesheet" type="text/css" href="light-theme.css"/>
     <link rel="icon" type="image/x-icon" href="asset/CWP_logo_static_edited.png">
@@ -27,70 +29,57 @@
     <!-- End Google Tag Manager (noscript) -->
     <!-- Navbar (sit on top) -->
     <div id="nav-placeholder"></div>
-    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-        <div class="w3-display-left w3-rows" style="padding:48px">
-            <span class="w3-jumbo w3-hide-medium w3-hide-small">ClockWorksProduction</span>
-            <span class="w3-xxlarge w3-hide-large w3-hide-small">ClockWorksProduction</span>
-            <span class="w3-hide-large w3-hide-medium" style="font-size: xx-large">ClockWorksProduction</span>
-            <br><span class="w3-large">Giving knowledge in a fun way, est. 2021</span>
-        </div>
+
+    <!-- Hero Section -->
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home" style="background-size: cover; background-position: center;">
+      <div class="w3-display-left w3-rows" style="padding:48px">
+        <span class="w3-jumbo w3-hide-medium w3-hide-small">ClockWorksProduction</span>
+        <span class="w3-xxlarge w3-hide-large w3-hide-small">ClockWorksProduction</span>
+        <span class="w3-hide-large w3-hide-medium" style="font-size: xx-large">ClockWorksProduction</span>
+        <br><span class="w3-large">Giving knowledge in a fun way, est. 2021</span>
+        <br><a href="#about" class="w3-button w3-round-large w3-theme w3-margin-top">Learn More ↓</a>
+      </div>
     </header>
     <main>
-      <section class="w3-container w3-padding-64" id="about">
-        <div class="w3-content w3-center">
-            <h2 class="w3-xxxlarge w3-text-theme">About ClockWorksProduction</h2>
-            <p class="w3-large w3-margin-top">
-                ClockWorksProduction (CWP) is an independent creative collective dedicated to crafting immersive experiences across games, animation, and digital entertainment.
-                What started as a passion project quickly evolved into a multi-branch studio focused on storytelling, innovation, and atmospheric design.
-            </p>
-            <p class="w3-large w3-margin-top">
-                Our team is made up of storytellers, coders, artists, and dreamers — all working together to bring compelling, eerie, and unforgettable experiences to life.
-                Whether you're delving into one of our command-line horror games, watching animated tales unfold, or following our VTuber talent, we’re here to blur the line between fiction and reality.
-            </p>
-            <div class="w3-large w3-margin-top">
-                <strong>Branches of CWP:</strong><br>
-                <ul class="w3-ul w3-left-align w3-large w3-margin-top">
-                    <li><strong>CWP Studio</strong> – Our game development arm. Here at CWP Studio, we aim to create and explore new ways of enjoyable learning through games and interactive experiences, just like how learning is supposed to be fun. :3c</li>
-                    <li><strong>FrameForge</strong> – CWP's animation studio, known for producing stylized visuals and hauntingly creative short films. As we like to say, "Coffee + Synifig + Passion = Our Animation". Check out "MLBT" for a taste of our work!</li>
-                    <li><strong>PixelPulse</strong> – CWP's in-house VTuber group, focusing on enjoyable learning and fun through interactive streams and engaging videos. Meet talents like AgentBlackTigerStreams!</li>
-                </ul>
+      <!-- About Section -->
+      <div class="w3-container w3-padding-64" id="about">
+        <h2 class="w3-xxlarge w3-center">About Us</h2>
+        <p class="w3-center">ClockWorksProduction is a digital content group focused on combining entertainment and education. Established in 2021, we specialize in storytelling across games, animations, and interactive media.</p>
+      </div>
+
+      <!-- Featured Projects -->
+      <div class="w3-container w3-padding-64 w3-light-grey" id="projects">
+        <h2 class="w3-xxlarge w3-center">Featured Projects</h2>
+        <div class="w3-row-padding w3-center">
+          <div class="w3-col l4 m6 s12 w3-margin-bottom">
+            <div class="featured-card">
+              <img src="project1.png" alt="Void Impendium">
+              <h3>Void Impendium</h3>
+              <p>A command-line horror game that blends reactor simulation with narrative dread. Currently on hold.</p>
             </div>
-            <p class="w3-large w3-margin-top">
-                From concept to execution, we aim to push boundaries and challenge expectations. Thanks for being part of our journey. 🚀
-            </p>
-        </div>
-      </section>
-      <section class="w3-container">
-        <div class="w3-content">
-          <h2 class="w3-xxxlarge w3-text-theme">Featured Projects</h2>
-          <div class="w3-row-padding w3-margin-top">
-            <div class="w3-col l4 m6 s12 w3-margin-bottom">
-              <div class="w3-display-container">
-                <img src="placeholder_image.jpg" alt="Project 1" style="width:50%">
-                <div class="w3-display-bottomleft w3-container w3-padding-small">
-                  <h3>Project Title 1</h3>
-                </div>
-              </div>
-              <p>Brief description of Project 1. Highlight its key features or what makes it special.</p>
+          </div>
+          <div class="w3-col l4 m6 s12 w3-margin-bottom">
+            <div class="featured-card">
+              <img src="project2.png" alt="FrameForge">
+              <h3>FrameForge</h3>
+              <p>Our animation division, where frames come to life with cinematic quality and powerful storytelling.</p>
             </div>
-            <div class="w3-col l4 m6 s12 w3-margin-bottom">
-              <div class="w3-display-container">
-                <img src="placeholder_image.jpg" alt="Project 2" style="width:50%">
-                <div class="w3-display-bottomleft w3-container w3-padding-small">
-                  <h3>Project Title 2</h3>
-                </div>
-              </div>
-              <p>Brief description of Project 2. Highlight its key features or what makes it special.</p>
-            </div>
-            <div class="w3-col l4 m6 s12 w3-margin-bottom">
+          </div>
+          <div class="w3-col l4 m6 s12 w3-margin-bottom">
+            <div class="featured-card">
+              <img src="project3.png" alt="CWP Studio">
+              <h3>CWP Studio</h3>
+              <p>The game development arm of ClockWorksProduction, producing indie games with unique aesthetics and mechanics.</p>
             </div>
           </div>
         </div>
-      </section>
-      <section class="mermaid-chart w3-card w3-topbar w3-bottombar">
-        <h2>Our History</h2>
-        <pre class="mermaid" style="background-color: darkolivegreen;">
-          %%{init: {'gitGraph': {'mainBranchName': 'The Knowledge Zone International'}, 'theme':'forest'}}%%
+      </div>
+      <!-- Timeline (Mermaid.js) -->
+      <div class="w3-container w3-padding-64" id="timeline">
+        <h2 class="w3-xxlarge w3-center">Our History</h2>
+        <div class="w3-card w3-padding w3-light-grey">
+          <pre class="mermaid" style="background-color: #2f4f4f; color: white; padding: 1em; border-radius: 10px;">
+            %%{init: {'gitGraph': {'mainBranchName': 'The Knowledge Zone International'}, 'theme':'forest'}}%%
             gitGraph
                 commit id:"6 Jan 2021 TKZI first setup"
                 branch "BlackTiger Hangout Discord server"
@@ -131,17 +120,17 @@
                 commit id:"26 May 2025, Put Void Impendium on-hold"
                 checkout ClockWorkProduction
           </pre>
-      </section>
-
-      <section class="w3-container w3-center w3-padding-64">
-        <h2 class="w3-xxxlarge w3-text-theme">Join Our Journey</h2>
-        <p>Become a part of the ClockWorksProduction community and explore our creative endeavors!</p>
-        <div>
-          <a href="#" class="w3-button w3-round-large w3-theme w3-margin-bottom">Explore Our Projects</a>
-          <a href="#" class="w3-button w3-round-large w3-theme w3-margin-bottom">Join Discord</a>
-          <a href="#" class="w3-button w3-round-large w3-theme w3-margin-bottom">Support Us</a>
         </div>
-      </section>
+      </div>
+
+      <!-- Community CTA -->
+      <div class="w3-container w3-padding-64 w3-center w3-dark-grey" id="join">
+        <h2 class="w3-xxlarge">Join the ClockWorksCommunity</h2>
+        <p>Explore our projects, connect with creators, and be part of the journey.</p>
+        <a href="#" class="w3-button w3-round-large w3-theme w3-margin-bottom"><i class="fas fa-gamepad"></i> Explore Our Projects</a>
+        <a href="#" class="w3-button w3-round-large w3-theme w3-margin-bottom"><i class="fab fa-discord"></i> Join Discord</a>
+        <a href="#" class="w3-button w3-round-large w3-theme w3-margin-bottom"><i class="fas fa-heart"></i> Support Us</a>
+      </div>
     </main>
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
