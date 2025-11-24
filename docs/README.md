@@ -10,3 +10,13 @@ We operate through three distinct branches:
 
 Through these branches, ClockWorksProduction strives to push creative boundaries and deliver unique and engaging content.
 
+---
+
+Repository notes (docs/ reorganized):
+
+- `assets/` - CSS and JS were moved to `assets/css/` and `assets/js/` for clear separation of static assets.
+- `partials/` - Shared partials such as `nav.html` and `footer.html` were moved to `partials/`.
+- `pages/` - Site content pages (about, contact, projects, team) were moved to `pages/` and updated to reference assets using root-relative paths.
+
+If you host this on GitHub Pages, the site root remains `docs/` and these root-relative paths (starting with `/`) will resolve correctly when served from the site domain. If you preview locally by opening files directly, use the files under `pages/` or update paths accordingly.
+
