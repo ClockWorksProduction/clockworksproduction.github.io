@@ -1,0 +1,44 @@
+[
+    {
+        "name": "War Thunder",
+        "description": "In War Thunder, aircraft, attack helicopters, ground forces and naval ships collaborate in realistic competitive battles. You can choose from over 2000 vehicles and an extensive variety of combat situations many of which are exclusive. You can find yourself blasting your pursuers from a bomber turret, defending your teammates on the ground from an air raid with anti-aircraft guns, shooting down enemy planes with a firestorm from multiple rocket launchers, or trying to sink an enemy warship with a torpedo from a fast attack boat.",
+        "image": "/asset/Game/War Thunder/1920x1080_aircraft_marathon_april_25_logo_b83e49bf78a28c329973c8cc20928584.jpg",
+        "link": "https://warthunder.com/en/registration"
+    },
+    {
+        "name": "Balatro",
+        "description": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+        "image": "/asset/Game/Balatro/Balatro_keyart.png",
+        "link": "https://store.steampowered.com/app/2357570/Balatro/"
+    },
+    {
+        "name": "ASTRONEER",
+        "description": "Explore and reshape distant worlds! Astroneer is set during the 25th century’s Intergalactic Age of Discovery, where Astroneers explore the frontiers of outer space, risking their lives in harsh environments to unearth rare discoveries and unlock the mysteries of the universe. Players can work together to build custom bases and vehicles and use terrain to create anything they can imagine. A player’s creativity and ingenuity is the key to seeking out and thriving on exciting planetary adventures!",
+        "image": "/asset/Game/ASTRONEER/header.png",
+        "link": "https://store.steampowered.com/app/361420/ASTRONEER/"
+    },
+    {
+        "name": "ATLYSS",
+        "description": "Atlyss (stylized in all caps) is an upcoming action role-playing game developed by indie developer Kiseff. It is published by Kiseff under the name KisSoft.[1] Demos of the game were available through itch.io from 2021, and it was released in early access through Steam on November 22, 2024. in reality, the developer does not have an official release date for the game yet.",
+        "image": "/asset/Game/Atlyss/xpoGs+.png",
+        "link": "https://kiseff.itch.io/atlyss"
+    },
+    {
+        "name": "Buckshot Roulette",
+        "description": "Buckshot Roulette is a tabletop horror game that attempts to re-design the infamous game of Russian Roulette, replacing the traditional revolver with a proper 12-gauge pump-action shotgun. This extra firepower, and more importantly the different mechanics in handling a shotgun compared to a revolver, offers a fresh take on the classic and deadly game of chance.",
+        "image": "/asset/Game/Buckshot Roulette/download.jpg",
+        "link": "https://store.steampowered.com/app/2835570/Buckshot_Roulette/"
+    },
+    {
+        "name": "VRChat",
+        "description": "VRChat is an ever-expanding virtual universe powered by a passionate community who create and share virtual worlds, avatars, and interactive experiences.",
+        "image": "/asset/Game/VRChat/Landscape_CoverArt_Blue.png",
+        "link": "https://www.vrchat.com"
+    },
+    {
+        "name": "NetHack",
+        "description": "NetHack is a single-player roguelike video game, first released in 1987. It is one of the oldest games still in active development. In NetHack, the player takes the role of a hero who must descend into a dungeon to retrieve the Amulet of Yendor.",
+        "image": "/asset/Game/Nethack/scrn3b.gif",
+        "link": "https://www.nethack.org/"
+    }
+]

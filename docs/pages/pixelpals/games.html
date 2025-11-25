@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,52 +22,10 @@
     <main>
       <!-- Game I own -->
       <div class="w3-container w3-padding-64" id="projects">
-        <div class="w3-row-padding w3-center">
-          <div class="w3-col l4 m6 s12 w3-margin-bottom">
-            <a href="/pages/pixelpals/" style="text-decoration: none;">
-              <div class="featured-card">
-                <img src="asset/Game/WT/1920x1080_aircraft_marathon_april_25_logo_b83e49bf78a28c329973c8cc20928584.jpg" alt="War Thunder">
-                <h3>War Thunder</h3>
-                <p>In War Thunder, aircraft, attack helicopters, ground forces and naval ships collaborate in realistic competitive battles. You can choose from over 2000 vehicles and an extensive variety of combat situations many of which are exclusive. You can find yourself blasting your pursuers from a bomber turret, defending your teammates on the ground from an air raid with anti-aircraft guns, shooting down enemy planes with a firestorm from multiple rocket launchers, or trying to sink an enemy warship with a torpedo from a fast attack boat.</p>
-              </div>
-            </a>
-          </div>
-          <div class="w3-col l4 m6 s12 w3-margin-bottom">
-            <a href="/pages/frameforge/" style="text-decoration: none;">
-              <div class="featured-card">
-                <img src="/asset/FrameForge_Logo.png" alt="FrameForge">
-                <h3>FrameForge</h3>
-                <p>CWP's animation studio, known for producing stylized visuals and hauntingly creative short films. As we like to say, "Coffee + Synfig + Passion = Our Animation". Check out "MLBT" for a taste of our work!</p>
-              </div>
-            </a>
-          </div>
-          <div class="w3-col l4 m6 s12 w3-margin-bottom">
-            <a href="/pages/cwp-studio/" style="text-decoration: none;">
-              <div class="featured-card">
-                <img src="/asset/CWP Studio New Logo.png" alt="CWP Studio">
-                <h3>CWP Studio</h3>
-                <p>Our game development arm. Here at CWP Studio, we aim to create and explore new ways of enjoyable learning through games and interactive experiences, just like how learning is supposed to be fun. :3c</p>
-              </div>
-            </a>
-          </div>
+        <div class="w3-row-padding w3-center" id="game-cards-container">
+          <!-- Game cards will be inserted here by JavaScript -->
         </div>
       </div>
-        <div class="w3-container">
-            <h2>ASTRONEER</h2>
-            <p>Explore and reshape distant worlds! Astroneer is set during the 25th century’s Intergalactic Age of Discovery, where Astroneers explore the frontiers of outer space, risking their lives in harsh environments to unearth rare discoveries and unlock the mysteries of the universe. Players can work together to build custom bases and vehicles and use terrain to create anything they can imagine. A player’s creativity and ingenuity is the key to seeking out and thriving on exciting planetary adventures!</p>
-            <hr>
-            <h2>ATLYSS</h2>
-            <p>Atlyss (stylized in all caps) is an upcoming action role-playing game developed by indie developer Kiseff. It is published by Kiseff under the name KisSoft.[1] Demos of the game were available through itch.io from 2021, and it was released in early access through Steam on November 22, 2024. in reality, the developer does not have an official release date for the game yet.</p>
-            <hr>
-            <h2>Balatro</h2>
-            <p>The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.</p>
-            <hr>
-            <h2>Buckshot Roulette</h2>
-            <p>Buckshot Roulette is a tabletop horror game that attempts to re-design the infamous game of Russian Roulette, replacing the traditional revolver with a proper 12-gauge pump-action shotgun. This extra firepower, and more importantly the different mechanics in handling a shotgun compared to a revolver, offers a fresh take on the classic and deadly game of chance.<br><br>The game takes place at the top of an underground nightclub, where the metal railings tremble to the pulse of long lost drum machines. A crooked AI dealer is waiting for you. Will you meet them?</p>
-            <hr>
-            <h2>VRChat</h2>
-            <p>VRChat is an ever-expanding virtual universe powered by a passionate community who create and share virtual worlds, avatars, and interactive experiences.<br><br>Since its founding in 2015, the platform has grown to millions of users and features a passionate community of creators who have published tens of millions of unique pieces of content.<br><br>Using Unity and our SDK, creators can build avatars or worlds and upload them to share with others. This open-ended creativity and the dynamics of sharing in an active social environment has led to a never-ending fountain of entertaining, surprising and wonderful experiences. </p>
-        </div>
     </main>
     <div id="footer-placeholder"></div>
     <script>
@@ -78,6 +35,26 @@
         fetch('/partials/footer.html')
             .then(response => response.text())
             .then(data => { document.getElementById('footer-placeholder').innerHTML = data; });
+
+        fetch('/assets/data/abts_games.json')
+            .then(response => response.json())
+            .then(games => {
+                const container = document.getElementById('game-cards-container');
+                games.forEach(game => {
+                    const card = `
+                        <div class="w3-col l4 m6 s12 w3-margin-bottom">
+                            <a href="${game.link}" style="text-decoration: none;">
+                                <div class="featured-card">
+                                    <img src="${game.image}" alt="${game.name}">
+                                    <h3>${game.name}</h3>
+                                    <p>${game.description}</p>
+                                </div>
+                            </a>
+                        </div>
+                    `;
+                    container.innerHTML += card;
+                });
+            });
     </script>
     <script src="/assets/js/javascript.js" type="text/javascript"></script>
 </body>
