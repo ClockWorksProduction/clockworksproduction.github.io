@@ -1,6 +1,0 @@
-﻿Name: CoD(2022)
-Steam match: None found
-Has header.jpg: False
-Steam AppID: 2885870
-Steam URL: https://store.steampowered.com/app/2885870/
-Image: header.jpg
