@@ -1,0 +1,15 @@
+Store: Steam (Gate Keeper: Infinity): https://store.steampowered.com/app/2681560/Gate_Keeper_Infinity/
+
+Description:
+A fast-paced, rogue-lite game where you must search for the stolen 'Heart of the Universe' and fight through waves of enemies and epic bosses, alone or with friends in co-op mode.
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

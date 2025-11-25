@@ -1,0 +1,15 @@
+Store: itch.io (Also available on Steam): https://kay-yu.itch.io/holocure
+
+Description:
+A free fan-made, casual, rogue-lite game starring the talents of hololive. Collect weapons, skills, and powerful item combinations to defeat waves of enemies and bosses.
+
+Metadata:
+Steam AppID: 2420510
+Steam URL: https://store.steampowered.com/app/2420510/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

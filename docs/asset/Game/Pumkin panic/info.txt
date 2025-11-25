@@ -1,0 +1,15 @@
+Store: Steam (PUMPKIN PANIC): https://steamcommunity.com/app/3177920
+
+Description:
+A cozy farm simulation game where you plant crops and go fishing. Be careful, though, as strange things are happening in the area, suggesting a survival or horror twist.
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: None

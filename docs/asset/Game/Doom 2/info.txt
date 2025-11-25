@@ -1,0 +1,15 @@
+Store: Steam (DOOM II Classic): https://store.steampowered.com/app/9070/DOOM_II_Classic/
+
+Description:
+The sequel to the legendary DOOM. The demons have overrun Earth, and you must fight through twelve all-new levels of carnage, a double-barreled shotgun, and the nastiest monsters ever conceived.
+
+Metadata:
+Steam AppID: 2280
+Steam URL: https://store.steampowered.com/app/2280/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

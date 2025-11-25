@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/220200/Kerbal_Space_Program/
+
+Description:
+A space flight simulation game where you take charge of the space program for the alien race known as the Kerbals. Build rockets, aircraft, and rovers, and attempt to launch them into orbit and beyond.
+
+Metadata:
+Steam AppID: 220200
+Steam URL: https://store.steampowered.com/app/220200/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

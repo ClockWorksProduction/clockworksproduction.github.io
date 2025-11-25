@@ -1,0 +1,15 @@
+Store: Microsoft Store (Kn1ght FaLL): https://www.microsoft.com/en-jm/p/kn1ght-fall/9n8438p0k96b
+
+Description:
+Knight FALL is a free 2D platformer game where the knight (you), has to explore the world through 5 enjoyable levels!
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: None

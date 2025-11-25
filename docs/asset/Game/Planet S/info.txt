@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/1948430/Planet_S/
+
+Description:
+A real-time strategy game where you colonize multiple planets in a solar system to advance your civilization. Build cities, manage resources, and choose between peaceful expansion or military dominance.
+
+Metadata:
+Steam AppID: 1948430
+Steam URL: https://store.steampowered.com/app/1948430/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

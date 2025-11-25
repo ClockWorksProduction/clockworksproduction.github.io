@@ -1,0 +1,15 @@
+Store: Steam (Hitman World of Assassination): https://store.steampowered.com/app/1659040/HITMAN_World_of_Assassination/
+
+Description:
+The definitive version of the modern Hitman trilogy, combining all content from Hitman 1, 2, and 3. Embark on a globe-trotting adventure across sandbox locations, eliminating high-profile targets as the master assassin, Agent 47.
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

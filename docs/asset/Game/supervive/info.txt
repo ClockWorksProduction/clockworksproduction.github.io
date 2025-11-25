@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/2376990/Supervive/
+
+Description:
+A 10-player Battle Royale where you scavenge for resources, craft unique items, and fight monsters to survive. Features an innovative take on the genre with crafting and resource management.
+
+Metadata:
+Steam AppID: 1283700
+Steam URL: https://store.steampowered.com/app/1283700/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

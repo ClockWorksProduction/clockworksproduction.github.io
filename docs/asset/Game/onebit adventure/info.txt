@@ -1,0 +1,15 @@
+Store: Google Play (OneBit Adventure): https://play.google.com/store/apps/details?id=com.tinytorch.onebit&hl=en_US
+
+Description:
+A casual turn-based roguelike RPG where you ascend through a tower, fighting monsters and leveling up. The game is known for its simple pixel art and deep progression system.
+
+Metadata:
+Steam AppID: 1688320
+Steam URL: https://store.steampowered.com/app/1688320/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

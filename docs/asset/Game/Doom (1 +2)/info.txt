@@ -1,0 +1,10 @@
+﻿Name: Doom (1 +2)
+Title: Save 75% on DOOM Eternal on Steam
+AppID: 782330
+Steam URL: https://store.steampowered.com/app/782330/
+Has header.jpg: True
+
+Description:
+Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.
+Steam AppID: 782330
+Image: header.jpg

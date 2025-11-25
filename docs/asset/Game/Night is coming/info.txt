@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/1011590/Night_is_Coming/
+
+Description:
+A survival strategy game set in a world inspired by Slavic mythology. Build your settlement, manage settlers, and prepare your defenses for the relentless approach of the eternal Darkness.
+
+Metadata:
+Steam AppID: 1011590
+Steam URL: https://store.steampowered.com/app/1011590/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

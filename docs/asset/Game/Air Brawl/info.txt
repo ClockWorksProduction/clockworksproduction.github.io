@@ -1,0 +1,15 @@
+Store: Landfall Games Presskit (Available on Steam Early Access/Free at one point): https://landfall.se/air-brawl-1
+
+Description:
+Air Brawl provides interesting and creative ways for the player to destroy their enemies. Instead of just damage, weapons have many different attributes they can afflict on their targets. The game features 6 planes with varying roles and loadouts.
+
+Metadata:
+Steam AppID: 375600
+Steam URL: https://store.steampowered.com/app/375600/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

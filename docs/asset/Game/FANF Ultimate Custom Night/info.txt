@@ -1,0 +1,15 @@
+Store: Steam (Ultimate Custom Night): https://store.steampowered.com/app/871720/Ultimate_Custom_Night/
+
+Description:
+The ultimate Five Nights at Freddy's mashup. Players choose from 50 animatronic characters spanning seven FNaF games, setting their difficulty from 0 to 20 to create a nightmare challenge.
+
+Metadata:
+Steam AppID: 2073620
+Steam URL: https://store.steampowered.com/app/2073620/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

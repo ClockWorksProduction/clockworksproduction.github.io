@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/1118200/People_Playground/
+
+Description:
+A violence sandbox game. Unleash your creativity by experimenting with different objects, weapons, and tools on ragdoll people. It's a physics-based testing ground with no set goals.
+
+Metadata:
+Steam AppID: 1118200
+Steam URL: https://store.steampowered.com/app/1118200/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

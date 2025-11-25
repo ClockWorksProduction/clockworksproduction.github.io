@@ -1,0 +1,15 @@
+Store: Steam (DCS World Free-to-Play): https://store.steampowered.com/app/223750/DCS_World_Steam_Edition/
+
+Description:
+DCS World is a Digital Combat Simulator, a truly free-to-play digital battlefield focused on the simulation of military aircraft, ground units, and naval vessels. The base game is a realistic combat simulator sandbox.
+
+Metadata:
+Steam AppID: 223750
+Steam URL: https://store.steampowered.com/app/223750/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

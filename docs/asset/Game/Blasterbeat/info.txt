@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/1575680/BlasterBeat/
+
+Description:
+The award-winning PvP rhythm-shooter. Master shooting to a unique variety of tracks in dynamic and innovative gameplay in arenas that shine on the beat.
+
+Metadata:
+Steam AppID: 1575680
+Steam URL: https://store.steampowered.com/app/1575680/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

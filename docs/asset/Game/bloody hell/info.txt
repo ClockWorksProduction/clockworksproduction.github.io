@@ -1,0 +1,15 @@
+Store: itch.io: https://gamiworks.itch.io/bloody-hell
+
+Description:
+A frantic, fast-paced bullet hell/shooter where you play as a skeleton trying to defend yourself against waves of demons. Complete challenges, earn coins, and upgrade your abilities.
+
+Metadata:
+Steam AppID: 2056220
+Steam URL: https://store.steampowered.com/app/2056220/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

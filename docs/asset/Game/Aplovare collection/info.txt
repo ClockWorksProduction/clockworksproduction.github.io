@@ -1,0 +1,15 @@
+Store: Info Not Found
+
+Description:
+Information for a specific game titled 'Aplovare collection' with a primary store link was not found. This may be a smaller or fan-made title.
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: None

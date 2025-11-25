@@ -1,0 +1,15 @@
+Store: Steam (Stardew Valley): https://store.steampowered.com/app/413150/Stardew_Valley/
+
+Description:
+A country-life RPG. Inherit your grandfather's old farm plot, turn your overgrown fields into a lively farm, raise animals, craft goods, mine for treasure, and start a new life in the valley.
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: None

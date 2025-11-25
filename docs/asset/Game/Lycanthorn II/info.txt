@@ -1,0 +1,15 @@
+Store: Steam (Lycanthorn II - Rain of Beasts): https://store.steampowered.com/app/1546440/Lycanthorn_II__Rain_of_Beasts/
+
+Description:
+A 3D homage to retro classics. You play as Rain, a Vampire Hunter, exploring an open world, using first-person melee combat to dash, dodge, and dice around demons and beasts from legend.
+
+Metadata:
+Steam AppID: 1546440
+Steam URL: https://store.steampowered.com/app/1546440/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

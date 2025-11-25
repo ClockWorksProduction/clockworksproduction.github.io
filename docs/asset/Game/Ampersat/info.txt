@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/1356040/Ampersat/
+
+Description:
+A shooty, slashy, RPG-y game mixing retro and modern sensibilities. A blend of influences from Gauntlet & Smash TV to Zelda & Angband, Ampersat is a handcrafted adventure but with appeal to Roguelite fans. Battle ASCII creatures in colorful areas & free letters to return language to the village!
+
+Metadata:
+Steam AppID: 1356040
+Steam URL: https://store.steampowered.com/app/1356040/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

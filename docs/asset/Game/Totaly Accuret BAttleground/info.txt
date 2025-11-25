@@ -1,0 +1,15 @@
+Store: Steam (Totally Accurate Battlegrounds): https://store.steampowered.com/app/823130/Totally_Accurate_Battlegrounds/
+
+Description:
+A humorous take on the Battle Royale genre. Wacky physics and ragdoll combat make for a chaotic and funny free-to-play experience where you fight to be the last one standing.
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: None

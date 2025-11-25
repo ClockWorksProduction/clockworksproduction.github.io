@@ -1,0 +1,15 @@
+Store: Official Website / Various Platforms (Free Software): http://www.nethack.org/common/info.html
+
+Description:
+A single-player dungeon exploration game and one of the most famous roguelikes. The emphasis is on discovering the detail of the randomly generated dungeon and its denizens.
+
+Metadata:
+Steam AppID: 837200
+Steam URL: https://store.steampowered.com/app/837200/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

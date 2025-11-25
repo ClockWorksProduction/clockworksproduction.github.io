@@ -1,0 +1,15 @@
+Store: Steam (Also on mobile app stores): https://store.steampowered.com/app/3092660/Reverse_1999/
+
+Description:
+A 20th Century Time-Travel Strategic RPG. As the Timekeeper, you travel across eras from the Roaring '20s to the turn of the millennium, uncovering the truth about the mysterious 'Storm'.
+
+Metadata:
+Steam AppID: 3092660
+Steam URL: https://store.steampowered.com/app/3092660/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

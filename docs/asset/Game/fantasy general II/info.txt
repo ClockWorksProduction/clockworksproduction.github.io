@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/1025440/Fantasy_General_II_Invasion/
+
+Description:
+A turn-based strategy game set in the high fantasy world of Kroll. Command mighty armies, recruit powerful heroes, and lead your forces in epic battles.
+
+Metadata:
+Steam AppID: 1025440
+Steam URL: https://store.steampowered.com/app/1025440/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

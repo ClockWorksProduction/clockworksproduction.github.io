@@ -1,0 +1,15 @@
+Store: Steam Community (Also available on other platforms): https://steamcommunity.com/games/callofwar
+
+Description:
+Take over the control of one of the mighty nations during the times of World War 2 in this persisting long-term strategy game. Conquer provinces, forge alliances and build up your economy in real-time.
+
+Metadata:
+Steam AppID: 815351
+Steam URL: https://store.steampowered.com/app/815351/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

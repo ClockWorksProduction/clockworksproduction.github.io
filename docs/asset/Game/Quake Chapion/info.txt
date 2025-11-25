@@ -1,0 +1,15 @@
+Store: Steam (Quake Champions): https://store.steampowered.com/app/611500/Quake_Champions/
+
+Description:
+A fast-paced, arena-style first-person shooter that brings the frantic, high-skill competition of Quake to the modern era. Features diverse characters (Champions) with unique abilities.
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: None

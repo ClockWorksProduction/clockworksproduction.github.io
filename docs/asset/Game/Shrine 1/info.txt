@@ -1,0 +1,15 @@
+Store: itch.io (Shrine): https://scumhead.itch.io/shrine-2016-jam-edition
+
+Description:
+A first-person shooter made in the Doom engine. Battle a nightmarish eldritch horde across multiple challenging levels in a retro Gothic Lovecraftian world.
+
+Metadata:
+Steam AppID: 1584090
+Steam URL: https://store.steampowered.com/app/1584090/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

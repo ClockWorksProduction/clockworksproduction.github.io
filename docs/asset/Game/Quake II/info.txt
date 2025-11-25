@@ -1,0 +1,15 @@
+Store: Steam (Quake II Enhanced): https://store.steampowered.com/app/2320/Quake_II/
+
+Description:
+The critically acclaimed military sci-fi FPS developed by id Software. Experience the authentic, enhanced and complete version of the original, including the base campaign, mission packs, and crossplay multiplayer.
+
+Metadata:
+Steam AppID: 2320
+Steam URL: https://store.steampowered.com/app/2320/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

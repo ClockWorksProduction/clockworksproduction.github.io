@@ -1,0 +1,15 @@
+Store: Steam (Dominion of Darkness): https://store.steampowered.com/app/2464730/Dominion_of_Darkness/
+
+Description:
+If referring to 'Dominion of Darkness' - a free RPG/strategy text game where the player takes on the role of a Sauron-style Lord of Darkness with the goal of conquering the world.
+
+Metadata:
+Steam AppID: 1131620
+Steam URL: https://store.steampowered.com/app/1131620/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

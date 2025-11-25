@@ -1,0 +1,15 @@
+Store: Steam (theHunter Classic): https://store.steampowered.com/app/253710/theHunter_Classic/
+
+Description:
+A free-to-play, highly realistic hunting simulation game. Track, spot, and strategically hunt various species of animals across vast, detailed open-world environments.
+
+Metadata:
+Steam AppID: 1507640
+Steam URL: https://store.steampowered.com/app/1507640/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

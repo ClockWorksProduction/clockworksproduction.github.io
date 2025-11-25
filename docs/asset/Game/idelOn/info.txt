@@ -1,0 +1,15 @@
+Store: Steam (Idleon - Idle MMO): https://store.steampowered.com/app/1476900/Idleon__Idle_MMO/
+
+Description:
+The first MMORPG where your characters keep working when you're offline! Unlock up to 10 unique classes, defeat bosses, and skill up your characters while you sleep in this unique Idle/MMO hybrid.
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: None

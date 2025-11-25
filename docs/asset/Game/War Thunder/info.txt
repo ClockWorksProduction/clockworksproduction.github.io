@@ -1,13 +1,15 @@
-About War Thunder
+Store: Steam (Also on Xbox/PlayStation): https://store.steampowered.com/app/236390/War_Thunder/
 
-In War Thunder, aircraft, attack helicopters, ground forces and naval ships collaborate in realistic competitive battles. You can choose from over 2000 vehicles and an extensive variety of combat situations many of which are exclusive. You can find yourself blasting your pursuers from a bomber turret, defending your teammates on the ground from an air raid with anti-aircraft guns, shooting down enemy planes with a firestorm from multiple rocket launchers, or trying to sink an enemy warship with a torpedo from a fast attack boat.
+Description:
+A free-to-play MMO military game dedicated to aviation, armored vehicles, and naval craft from World War II and the Cold War. Engage in massive historical battles on land, air, and sea.
 
-Features include:
-Cross-platform gameplay between Windows PC, Linux, Mac, PlayStation 4, Xbox One, PlayStation 5 and Xbox Series X|S users.
-Over 2,000 highly detailed aircraft, helicopters, tanks, warships and other combat vehicles crafted carefully from historical documents and surviving sources.
-Over 100 maps representing the main historical battle theaters.
-Intense PvP experiences in full-scale combat missions at various difficulty settings for all play styles and degrees of experience.
-Rich PvE content including dynamic historical campaigns and solo missions.
-Regular content updates including new vehicles, maps, missions and nations.
-Astonishing graphics, authentic sound effects and beautiful music creating an atmosphere to fully immerse yourself in.
-Create custom content for War Thunder and share it on War Thunder Live, with the prospect of earning real money through the Revenue Share Partner System!
+Metadata:
+Steam AppID: 236390
+Steam URL: https://store.steampowered.com/app/236390/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

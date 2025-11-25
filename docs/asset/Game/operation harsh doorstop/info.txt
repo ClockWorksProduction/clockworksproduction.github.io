@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/736590/Operation_Harsh_Doorstop/
+
+Description:
+A community-developed, open-source tactical shooter. It offers a realistic combat experience in a highly moddable framework, focusing on infantry combat and teamwork.
+
+Metadata:
+Steam AppID: 950900
+Steam URL: https://store.steampowered.com/app/950900/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: None

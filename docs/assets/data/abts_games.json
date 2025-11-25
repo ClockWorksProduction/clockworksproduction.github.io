@@ -1,44 +1,782 @@
 [
     {
-        "name": "War Thunder",
-        "description": "In War Thunder, aircraft, attack helicopters, ground forces and naval ships collaborate in realistic competitive battles. You can choose from over 2000 vehicles and an extensive variety of combat situations many of which are exclusive. You can find yourself blasting your pursuers from a bomber turret, defending your teammates on the ground from an air raid with anti-aircraft guns, shooting down enemy planes with a firestorm from multiple rocket launchers, or trying to sink an enemy warship with a torpedo from a fast attack boat.",
-        "image": "/asset/Game/War Thunder/1920x1080_aircraft_marathon_april_25_logo_b83e49bf78a28c329973c8cc20928584.jpg",
-        "link": "https://warthunder.com/en/registration"
+        "name": "Age of conquest IV",
+        "description": "Store: Epic Games Store: https://store.epicgames.com/en-US/p/age-of-conquest-iv-c29987\n\nDescription:\nAge of Conquest is a turn based grand strategy wargame. Wage colossal wars solo, against the AI, or take on your gaming friends in cross-platform multiplayer games. Form alliances and fight co-op style with the AI and other players for ultimate victory.\n\nMetadata:\nSteam AppID: 314970\nSteam URL: https://store.steampowered.com/app/314970/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Age of conquest IV/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Age+of+conquest+IV"
     },
     {
-        "name": "Balatro",
-        "description": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
-        "image": "/asset/Game/Balatro/Balatro_keyart.png",
-        "link": "https://store.steampowered.com/app/2357570/Balatro/"
+        "name": "Air Brawl",
+        "description": "Store: Landfall Games Presskit (Available on Steam Early Access/Free at one point): https://landfall.se/air-brawl-1\n\nDescription:\nAir Brawl provides interesting and creative ways for the player to destroy their enemies. Instead of just damage, weapons have many different attributes they can afflict on their targets. The game features 6 planes with varying roles and loadouts.\n\nMetadata:\nSteam AppID: 375600\nSteam URL: https://store.steampowered.com/app/375600/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Air Brawl/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Air+Brawl"
+    },
+    {
+        "name": "Albion online",
+        "description": "Store: Google Play (also available on Steam and other platforms): https://play.google.com/store/apps/details?id=com.albiononline\n\nDescription:\nA true cross-platform MMO experience with a vast open world, hardcore PvE and PvP combat, a fully player-driven economy, and a unique, classless \"you are what you wear\" system.\n\nMetadata:\nSteam AppID: 761890\nSteam URL: https://store.steampowered.com/app/761890/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Albion online/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Albion+online"
+    },
+    {
+        "name": "Alchemy Unbound",
+        "description": "Store: Steam: https://store.steampowered.com/app/2858840/Alchemy_Unbound/\n\nDescription:\nA drag and drop crafting game that offers unbound possibilities. No limits, no direction, just pure creativity and endless crafting. Uses AI to create the elements making the possibilities unbound.\n\nMetadata:\nSteam AppID: 2858840\nSteam URL: https://store.steampowered.com/app/2858840/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Alchemy Unbound/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Alchemy+Unbound"
+    },
+    {
+        "name": "Ampersat",
+        "description": "Store: Steam: https://store.steampowered.com/app/1356040/Ampersat/\n\nDescription:\nA shooty, slashy, RPG-y game mixing retro and modern sensibilities. A blend of influences from Gauntlet & Smash TV to Zelda & Angband, Ampersat is a handcrafted adventure but with appeal to Roguelite fans. Battle ASCII creatures in colorful areas & free letters to return language to the village!\n\nMetadata:\nSteam AppID: 1356040\nSteam URL: https://store.steampowered.com/app/1356040/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Ampersat/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Ampersat"
+    },
+    {
+        "name": "Astral party",
+        "description": "Store: Steam: https://store.steampowered.com/app/2622000/Astral_Party/\n\nDescription:\nA multiplayer party game populated by cute anime girls! Choose your favorite character, strategize skills & cards, and roll the dice to destroy friendships in this unique board game. Supports up to 4 players online or single play with AI.\n\nMetadata:\nSteam AppID: 2622000\nSteam URL: https://store.steampowered.com/app/2622000/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Astral party/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Astral+party"
     },
     {
         "name": "ASTRONEER",
-        "description": "Explore and reshape distant worlds! Astroneer is set during the 25th century’s Intergalactic Age of Discovery, where Astroneers explore the frontiers of outer space, risking their lives in harsh environments to unearth rare discoveries and unlock the mysteries of the universe. Players can work together to build custom bases and vehicles and use terrain to create anything they can imagine. A player’s creativity and ingenuity is the key to seeking out and thriving on exciting planetary adventures!",
-        "image": "/asset/Game/ASTRONEER/header.png",
-        "link": "https://store.steampowered.com/app/361420/ASTRONEER/"
+        "description": "\u00ef\u00bb\u00bfName: ASTRONEER\nTitle: Save 70% on ASTRONEER on Steam\nAppID: 361420\nSteam URL: https://store.steampowered.com/app/361420/\nRelease Date: 16 Dec, 2016\nDeveloper: System Era Softworks\nPublisher: System Era Softworks\nTags: Multiplayer, Open World Survival Craft, Open World, Survival, Space, Exploration\nHas header.jpg: True\n\nDescription:\nInteract with strange new worlds in a unique and tactile way, molding the environment itself as if it were clay in your hands. Build your base, master resource management, automate your production lines, and more as you unravel the mysteries of the universe, alone or with friends.\nSteam AppID: 361420\nImage: header.jpg",
+        "image": "/asset/Game/ASTRONEER/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=ASTRONEER"
     },
     {
-        "name": "ATLYSS",
-        "description": "Atlyss (stylized in all caps) is an upcoming action role-playing game developed by indie developer Kiseff. It is published by Kiseff under the name KisSoft.[1] Demos of the game were available through itch.io from 2021, and it was released in early access through Steam on November 22, 2024. in reality, the developer does not have an official release date for the game yet.",
-        "image": "/asset/Game/Atlyss/xpoGs+.png",
-        "link": "https://kiseff.itch.io/atlyss"
+        "name": "Atlyss",
+        "description": "Store: Steam: https://store.steampowered.com/app/2768430/ATLYSS/?l=thai&curator_clanid=28006321\n\nDescription:\nA Singleplayer/Online RPG where you can fight with or against friends in a surreal world filled with creatures beyond comprehension. Customize and progress your character(s), complete quests, and discover strange locations.\n\nMetadata:\nSteam AppID: 2768430\nSteam URL: https://store.steampowered.com/app/2768430/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Atlyss/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Atlyss"
+    },
+    {
+        "name": "AWARIA",
+        "description": "Store: Steam: https://store.steampowered.com/app/3274300/Awaria/\n\nDescription:\nAwaria is a short game about working in haunted maintenance tunnels. Check what's wrong, craft all the needed parts and deliver them. Features claustrophobic penal labor and dodging deadly projectiles.\n\nMetadata:\nSteam AppID: 3274300\nSteam URL: https://store.steampowered.com/app/3274300/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/AWARIA/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=AWARIA"
+    },
+    {
+        "name": "Balatro",
+        "description": "Store: Steam: https://store.steampowered.com/app/2379780/Balatro/\n\nDescription:\nThe poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.\n\nMetadata:\nSteam AppID: 2379780\nSteam URL: https://store.steampowered.com/app/2379780/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Balatro/Balatro_keyart.png",
+        "link": "https://store.steampowered.com/search/?term=Balatro"
+    },
+    {
+        "name": "Besiege",
+        "description": "Store: Steam: https://store.steampowered.com/app/346010/Besiege/\n\nDescription:\nA physics building game about constructing mechanical machines to annihilate armies, obliterate castles and overcome challenging obstacles. Conquer the campaign or skirmish with friends in Multiplayer!\n\nMetadata:\nSteam AppID: 346010\nSteam URL: https://store.steampowered.com/app/346010/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Besiege/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Besiege"
+    },
+    {
+        "name": "bitburner",
+        "description": "Store: Steam: https://store.steampowered.com/app/1812650/Bitburner/\n\nDescription:\nAn incremental RPG where the progression is done by writing scripts. Start as a novice hacker and work your way up to earning millions and automating your gameplay using JavaScript.\n\nMetadata:\nSteam AppID: 1812820\nSteam URL: https://store.steampowered.com/app/1812820/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/bitburner/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=bitburner"
+    },
+    {
+        "name": "Black desert",
+        "description": "Store: Pearl Abyss Official Shop: https://blackdesert.pearlabyss.com/ASIA/en-US/Game/Buy\n\nDescription:\nLimitless Adventures and Countless Battles in a Vast Open World. Step into the world of Black Desert to experience action-packed combat and unforgettable adventures.\n\nMetadata:\nSteam AppID: 582660\nSteam URL: https://store.steampowered.com/app/582660/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Black desert/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Black+desert"
+    },
+    {
+        "name": "Black skyland",
+        "description": "Store: Steam: https://store.steampowered.com/app/1143810/Black_Skylands/\n\nDescription:\nThe first steampunk experience that combines elements of open world, sandbox, top-down shooter, and action-adventure games. Become the captain of an airship and explore the world of the skies, gather resources and build powerful weapons, uncover ancient secrets and fight beneath your ship's sails.\n\nMetadata:\nSteam AppID: 1799480\nSteam URL: https://store.steampowered.com/app/1799480/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Black skyland/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Black+skyland"
+    },
+    {
+        "name": "Blasterbeat",
+        "description": "Store: Steam: https://store.steampowered.com/app/1575680/BlasterBeat/\n\nDescription:\nThe award-winning PvP rhythm-shooter. Master shooting to a unique variety of tracks in dynamic and innovative gameplay in arenas that shine on the beat.\n\nMetadata:\nSteam AppID: 1575680\nSteam URL: https://store.steampowered.com/app/1575680/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Blasterbeat/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Blasterbeat"
+    },
+    {
+        "name": "bloody hell",
+        "description": "Store: itch.io: https://gamiworks.itch.io/bloody-hell\n\nDescription:\nA frantic, fast-paced bullet hell/shooter where you play as a skeleton trying to defend yourself against waves of demons. Complete challenges, earn coins, and upgrade your abilities.\n\nMetadata:\nSteam AppID: 2056220\nSteam URL: https://store.steampowered.com/app/2056220/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/bloody hell/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=bloody+hell"
+    },
+    {
+        "name": "Boardland",
+        "description": "Store: Steam: https://store.steampowered.com/app/1206120/BoardLand/\n\nDescription:\nA social turn-based board game for 2 to 4 players. Roll the dice, race around the board, and sabotage your opponents using various cards and tricks to reach the end first.\n\nMetadata:\nSteam AppID: 2735620\nSteam URL: https://store.steampowered.com/app/2735620/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Boardland/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Boardland"
+    },
+    {
+        "name": "Borderland 2",
+        "description": "Store: 2K Games Official Page (Also on Steam, Epic, etc.): https://borderlands.2k.com/borderlands-2/\n\nDescription:\nA first-person co-op looter-shooter where you face off against the evil mastermind, Handsome Jack, as one of four new Vault Hunters. Make new friends, arm them, and take on endless hordes of bandits and soulless corporate goons.\n\nMetadata:\nSteam AppID: 2592160\nSteam URL: https://store.steampowered.com/app/2592160/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Borderland 2/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Borderland+2"
     },
     {
         "name": "Buckshot Roulette",
-        "description": "Buckshot Roulette is a tabletop horror game that attempts to re-design the infamous game of Russian Roulette, replacing the traditional revolver with a proper 12-gauge pump-action shotgun. This extra firepower, and more importantly the different mechanics in handling a shotgun compared to a revolver, offers a fresh take on the classic and deadly game of chance.",
+        "description": "Store: Steam (Also on itch.io): https://store.steampowered.com/app/2835700/Buckshot_Roulette/\n\nDescription:\nA short, brutal roguelite tabletop horror game that re-imagines the infamous game of Russian Roulette. Face off against the Dealer in three rounds using a 12-gauge pump action shotgun.\n\nMetadata:\nSteam AppID: 2835570\nSteam URL: https://store.steampowered.com/app/2835570/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
         "image": "/asset/Game/Buckshot Roulette/download.jpg",
-        "link": "https://store.steampowered.com/app/2835570/Buckshot_Roulette/"
+        "link": "https://store.steampowered.com/search/?term=Buckshot+Roulette"
+    },
+    {
+        "name": "Call of Duty(2022)",
+        "description": "Store: Xbox Store (Call of Duty: Modern Warfare II): https://www.xbox.com/en-US/games/call-of-duty-modern-warfare-ii\n\nDescription:\nCall of Duty\u00c2\u00ae: Modern Warfare\u00c2\u00ae II drops players into an unprecedented global conflict that features the iconic Operators of Task Force 141. Includes a globe-trotting single-player campaign, immersive multiplayer combat, and an evolved Special Ops game mode.\n\nMetadata:\nSteam AppID: 2885870\nSteam URL: https://store.steampowered.com/app/2885870/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Call of Duty(2022)/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Call+of+Duty(2022)"
+    },
+    {
+        "name": "Call of War",
+        "description": "Store: Steam Community (Also available on other platforms): https://steamcommunity.com/games/callofwar\n\nDescription:\nTake over the control of one of the mighty nations during the times of World War 2 in this persisting long-term strategy game. Conquer provinces, forge alliances and build up your economy in real-time.\n\nMetadata:\nSteam AppID: 815351\nSteam URL: https://store.steampowered.com/app/815351/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Call of War/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Call+of+War"
+    },
+    {
+        "name": "Cast & spell",
+        "description": "Store: Steam: https://store.steampowered.com/app/3032020/Cast__Spell/\n\nDescription:\nAn action-packed multiplayer game where wizards battle using elemental magic. Fight in PvP duels or team up with friends in co-op modes to defeat monsters. Master different elements and enjoy intense, strategic combat.\n\nMetadata:\nSteam AppID: 3032020\nSteam URL: https://store.steampowered.com/app/3032020/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Cast & spell/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Cast+&+spell"
+    },
+    {
+        "name": "chamber the outlaw",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'chamber the outlaw' with a primary store link was not found. This may be a smaller or fan-made title.\n\nMetadata:\nSteam AppID: 1372690\nSteam URL: https://store.steampowered.com/app/1372690/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/chamber the outlaw/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=chamber+the+outlaw"
+    },
+    {
+        "name": "CoD(2022)",
+        "description": "\u00ef\u00bb\u00bfName: CoD(2022)\nSteam match: None found\nHas header.jpg: False\nSteam AppID: 2885870\nSteam URL: https://store.steampowered.com/app/2885870/\nImage: header.jpg",
+        "image": "/asset/Game/CoD(2022)/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=CoD(2022)"
+    },
+    {
+        "name": "content warning",
+        "description": "Store: Steam: https://store.steampowered.com/app/2881470/Content_Warning/\n\nDescription:\nA co-op horror game where you and your friends film spooky things to try and go viral. Descend into the Old World, record something scary, and try to survive to upload your footage to Sp\u00c3\u00b6\u00c3\u00b6kTube.\n\nMetadata:\nSteam AppID: 2881650\nSteam URL: https://store.steampowered.com/app/2881650/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/content warning/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=content+warning"
+    },
+    {
+        "name": "cookard",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'cookard' with a primary store link was not found. This may be a smaller or fan-made title.\n\nMetadata:\nSteam AppID: 2919650\nSteam URL: https://store.steampowered.com/app/2919650/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/cookard/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=cookard"
+    },
+    {
+        "name": "craterbound",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'craterbound' with a primary store link was not found. This may be a smaller or fan-made title.\n\nMetadata:\nSteam AppID: 1715750\nSteam URL: https://store.steampowered.com/app/1715750/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/craterbound/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=craterbound"
+    },
+    {
+        "name": "crossout",
+        "description": "Store: Steam: https://store.steampowered.com/app/386180/Crossout/\n\nDescription:\nThe post-apocalyptic MMO action game. Craft unique battle machines from a multitude of interchangeable parts, ride them into combat, and destroy your enemies in explosive PvP and PvE battles.\n\nMetadata:\nSteam AppID: 386180\nSteam URL: https://store.steampowered.com/app/386180/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/crossout/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=crossout"
+    },
+    {
+        "name": "crusader king II",
+        "description": "Store: Steam: https://store.steampowered.com/app/203770/Crusader_Kings_II/\n\nDescription:\nA grand strategy game where you explore one of the defining periods in world history in an experience crafted by the masters of Grand Strategy. Rule your dynasty through the Middle Ages, from 1066 to 1453, in this deep feudal RPG.\n\nMetadata:\nSteam AppID: 3024040\nSteam URL: https://store.steampowered.com/app/3024040/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/crusader king II/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=crusader+king+II"
+    },
+    {
+        "name": "CS2",
+        "description": "Store: Official Website (Steam): https://www.counter-strike.net/cs2\n\nDescription:\nThe next era of Counter-Strike. A free upgrade to CS:GO, featuring new features and updates built on the Source 2 engine, including dynamic smoke grenades, sub-tick updates, and visual fidelity upgrades to classic maps.\n\nMetadata:\nSteam AppID: 730\nSteam URL: https://store.steampowered.com/app/730/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/CS2/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=CS2"
+    },
+    {
+        "name": "Cureocity",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'Cureocity' with a primary store link was not found. The search results were non-definitive.\n\nMetadata:\nSteam AppID: 2612680\nSteam URL: https://store.steampowered.com/app/2612680/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Cureocity/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Cureocity"
+    },
+    {
+        "name": "Dark and Darker",
+        "description": "Store: Blacksmith (Official Launcher) / Epic Games Store (Early Access): https://www.darkanddarker.com/\n\nDescription:\nA hardcore fantasy FPS dungeon PvPvE adventure. Team up with friends and use your courage, wits, and cunning to uncover mythical treasures, defeat gruesome monsters, and stay one step ahead of the other greedy adventurers.\n\nMetadata:\nSteam AppID: 2016590\nSteam URL: https://store.steampowered.com/app/2016590/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Dark and Darker/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Dark+and+Darker"
+    },
+    {
+        "name": "Dark lord",
+        "description": "Store: Steam: https://store.steampowered.com/app/2515030/Dark_Lord/\n\nDescription:\nUnleash your power in Dark Lord, a roguelike RPG filled with strategy, adventure, and sardonic wit. Rule your growing realm with an iron fist, managing advisors and navigating political intrigue.\n\nMetadata:\nSteam AppID: 3464630\nSteam URL: https://store.steampowered.com/app/3464630/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Dark lord/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Dark+lord"
+    },
+    {
+        "name": "DCS",
+        "description": "Store: Steam (DCS World Free-to-Play): https://store.steampowered.com/app/223750/DCS_World_Steam_Edition/\n\nDescription:\nDCS World is a Digital Combat Simulator, a truly free-to-play digital battlefield focused on the simulation of military aircraft, ground units, and naval vessels. The base game is a realistic combat simulator sandbox.\n\nMetadata:\nSteam AppID: 223750\nSteam URL: https://store.steampowered.com/app/223750/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/DCS/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=DCS"
+    },
+    {
+        "name": "Deepest sword",
+        "description": "Store: itch.io: https://cosmicadventuresquad.itch.io/deepest-sword\n\nDescription:\nA humorous physics-based puzzle/platformer game made for Ludum Dare 48. Venture deep into the Cavern of Longing and plunge your continuously-growing sword into the dragon's heart. How deep is your resolve?\n\nMetadata:\nSteam AppID: 1647160\nSteam URL: https://store.steampowered.com/app/1647160/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Deepest sword/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Deepest+sword"
+    },
+    {
+        "name": "Desserted Island",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'Desserted Island' with a primary store link was not found. The spelling may be a variation of a different game.\n\nMetadata:\nSteam AppID: 1597580\nSteam URL: https://store.steampowered.com/app/1597580/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Desserted Island/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Desserted+Island"
+    },
+    {
+        "name": "Disfigure",
+        "description": "Store: Steam: https://store.steampowered.com/app/2059340/Disfigure/\n\nDescription:\nA rogue-lite bullet hell where you fight against the darkness in a randomly generated map. Level up, choose new upgrades, and fight the endless void.\n\nMetadata:\nSteam AppID: 2083160\nSteam URL: https://store.steampowered.com/app/2083160/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Disfigure/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Disfigure"
+    },
+    {
+        "name": "DnD online",
+        "description": "\u00ef\u00bb\u00bfName: DnD online\nTitle: Worlds of Aria on Steam\nAppID: 1866980\nSteam URL: https://store.steampowered.com/app/1866980/\nRelease Date: 24 Sep, 2024\nDeveloper: Ludogram\nPublisher: Ishtar Games\nTags: Co-op, Local Multiplayer, Singleplayer, Magic, Comedy, Party-Based RPG\nHas header.jpg: True\n\nDescription:\nLead your own DnD-like adventuring party on an epic adventure narrated by Laura Bailey. Invite your friends for free to the group with the Friends Pass, or strike out on your own. Cooperation, betrayal, and the luck of the dice\u00e2\u20ac\u00a6 what wild escapades will you and your teammates get up to?\nSteam AppID: 1866980\nImage: header.jpg",
+        "image": "/asset/Game/DnD online/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=DnD+online"
+    },
+    {
+        "name": "Dominion",
+        "description": "Store: Steam (Dominion of Darkness): https://store.steampowered.com/app/2464730/Dominion_of_Darkness/\n\nDescription:\nIf referring to 'Dominion of Darkness' - a free RPG/strategy text game where the player takes on the role of a Sauron-style Lord of Darkness with the goal of conquering the world.\n\nMetadata:\nSteam AppID: 1131620\nSteam URL: https://store.steampowered.com/app/1131620/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Dominion/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Dominion"
+    },
+    {
+        "name": "Don't starve together",
+        "description": "Store: Steam: https://store.steampowered.com/app/322330/Dont_Starve_Together/\n\nDescription:\nA standalone multiplayer expansion to the wilderness survival game Don't Starve. Enter a strange and unexplored world full of strange creatures, dangers, and surprises. Gather resources to craft items and structures that match your survival style.\n\nMetadata:\nSteam AppID: 322330\nSteam URL: https://store.steampowered.com/app/322330/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Don't starve together/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Don't+starve+together"
+    },
+    {
+        "name": "Doom (1 +2)",
+        "description": "\u00ef\u00bb\u00bfName: Doom (1 +2)\nTitle: Save 75% on DOOM Eternal on Steam\nAppID: 782330\nSteam URL: https://store.steampowered.com/app/782330/\nHas header.jpg: True\n\nDescription:\nHell\u00e2\u20ac\u2122s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.\nSteam AppID: 782330\nImage: header.jpg",
+        "image": "/asset/Game/Doom (1 +2)/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Doom+(1++2)"
+    },
+    {
+        "name": "Doom 1",
+        "description": "Store: Steam (DOOM Classic): https://store.steampowered.com/app/9060/DOOM_Classic/\n\nDescription:\nThe grandfather of the first-person shooter genre. You are the last hope for humanity as you face hordes of demons from Hell across two interdimensional gateways.\n\nMetadata:\nSteam AppID: 782330\nSteam URL: https://store.steampowered.com/app/782330/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Doom 1/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Doom+1"
+    },
+    {
+        "name": "Doom 2",
+        "description": "Store: Steam (DOOM II Classic): https://store.steampowered.com/app/9070/DOOM_II_Classic/\n\nDescription:\nThe sequel to the legendary DOOM. The demons have overrun Earth, and you must fight through twelve all-new levels of carnage, a double-barreled shotgun, and the nastiest monsters ever conceived.\n\nMetadata:\nSteam AppID: 2280\nSteam URL: https://store.steampowered.com/app/2280/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Doom 2/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Doom+2"
+    },
+    {
+        "name": "Doronko wanko",
+        "description": "Store: Steam: https://store.steampowered.com/app/2512840/DORONKO_WANKO/\n\nDescription:\nA 'DORONKO Action Game' where you become a cute, innocent Pomeranian dog whose mission is to make your master's home messy and dirty by splashing mud everywhere and causing as much damage as possible.\n\nMetadata:\nSteam AppID: 2512840\nSteam URL: https://store.steampowered.com/app/2512840/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Doronko wanko/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Doronko+wanko"
+    },
+    {
+        "name": "dreadmoon",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'dreadmoon' with a primary store link was not found. This may be a smaller or fan-made title.\n\nMetadata:\nSteam AppID: 1881040\nSteam URL: https://store.steampowered.com/app/1881040/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/dreadmoon/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=dreadmoon"
+    },
+    {
+        "name": "Dream BBQ",
+        "description": "Store: itch.io (YIIK I.V - Dream BBQ): https://ackkstudios.itch.io/yiik-iv-dream-bbq\n\nDescription:\nThe prequel to YIIK: A Post-Modern RPG. A surreal RPG adventure that takes place in a metaphysical supermarket filled with strange characters, exploring themes of reality and self.\n\nMetadata:\nSteam AppID: 2134320\nSteam URL: https://store.steampowered.com/app/2134320/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Dream BBQ/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Dream+BBQ"
+    },
+    {
+        "name": "Dungeon and Dragon online",
+        "description": "Store: Steam (Dungeons & Dragons Online): https://store.steampowered.com/app/20640/Dungeons__Dragons_Online/\n\nDescription:\nA free-to-play massively multiplayer online roleplaying game (MMORPG) set in the world of Eberron and the Forgotten Realms. Adventure through dangerous dungeons, discover new magic, and slay legendary monsters.\n\nMetadata:\nSteam AppID: 1086940\nSteam URL: https://store.steampowered.com/app/1086940/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Dungeon and Dragon online/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Dungeon+and+Dragon+online"
+    },
+    {
+        "name": "Eden Crafter",
+        "description": "Store: Steam (Eden Crafters): https://store.steampowered.com/app/2570210/Eden_Crafters/\n\nDescription:\nA solo and co-op open-world survival, crafting, and automation game. Your mission is to terraform a hostile planet into a habitable haven for humanity by creating a breathable atmosphere and temperate climate.\n\nMetadata:\nSteam AppID: 2570210\nSteam URL: https://store.steampowered.com/app/2570210/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Eden Crafter/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Eden+Crafter"
+    },
+    {
+        "name": "endless sky",
+        "description": "Store: Steam: https://store.steampowered.com/app/404410/Endless_Sky/\n\nDescription:\nA 2D space exploration, trading, and combat game. Earn money to buy a better spaceship and upgrade its weaponry and engines. Choose to be a merchant, a bounty hunter, a pirate, or a variety of other roles.\n\nMetadata:\nSteam AppID: 404410\nSteam URL: https://store.steampowered.com/app/404410/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/endless sky/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=endless+sky"
+    },
+    {
+        "name": "enlisted",
+        "description": "Store: Official Website (Gaijin/Enlisted): https://enlisted.net/\n\nDescription:\nA squad-based massively multiplayer online (MMO) shooter that recreates key battles of World War II. Players command a squad of soldiers, with the ability to switch between them after one is killed.\n\nMetadata:\nSteam AppID: 2051620\nSteam URL: https://store.steampowered.com/app/2051620/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/enlisted/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=enlisted"
+    },
+    {
+        "name": "fallout shelter",
+        "description": "Store: Steam (Also on mobile app stores): https://store.steampowered.com/app/588430/Fallout_Shelter/\n\nDescription:\nA free-to-play simulation game set in the Fallout universe. Oversee a state-of-the-art underground Vault, keep your Dwellers happy, and protect them from the dangers of the Wasteland.\n\nMetadata:\nSteam AppID: 588430\nSteam URL: https://store.steampowered.com/app/588430/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/fallout shelter/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=fallout+shelter"
+    },
+    {
+        "name": "FANF Ultimate Custom Night",
+        "description": "Store: Steam (Ultimate Custom Night): https://store.steampowered.com/app/871720/Ultimate_Custom_Night/\n\nDescription:\nThe ultimate Five Nights at Freddy's mashup. Players choose from 50 animatronic characters spanning seven FNaF games, setting their difficulty from 0 to 20 to create a nightmare challenge.\n\nMetadata:\nSteam AppID: 2073620\nSteam URL: https://store.steampowered.com/app/2073620/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/FANF Ultimate Custom Night/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=FANF+Ultimate+Custom+Night"
+    },
+    {
+        "name": "fantasy general II",
+        "description": "Store: Steam: https://store.steampowered.com/app/1025440/Fantasy_General_II_Invasion/\n\nDescription:\nA turn-based strategy game set in the high fantasy world of Kroll. Command mighty armies, recruit powerful heroes, and lead your forces in epic battles.\n\nMetadata:\nSteam AppID: 1025440\nSteam URL: https://store.steampowered.com/app/1025440/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/fantasy general II/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=fantasy+general+II"
+    },
+    {
+        "name": "Field of glory II",
+        "description": "Store: Steam: https://store.steampowered.com/app/660160/Field_of_Glory_II/\n\nDescription:\nA turn-based tactical game that allows you to fight the battles of the Ancient world. Based on the successful Field of Glory table-top rules, it features hundreds of historical units and battle scenarios.\n\nMetadata:\nSteam AppID: 660160\nSteam URL: https://store.steampowered.com/app/660160/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Field of glory II/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Field+of+glory+II"
+    },
+    {
+        "name": "Fishing online",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'Fishing online' with a primary store link was not found, as the term is too generic.\n\nMetadata:\nSteam AppID: 2131550\nSteam URL: https://store.steampowered.com/app/2131550/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Fishing online/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Fishing+online"
+    },
+    {
+        "name": "fishing planet",
+        "description": "Store: Steam: https://store.steampowered.com/app/380710/Fishing_Planet/\n\nDescription:\nA free-to-play realistic online first-person multiplayer fishing simulator. Explore breathtaking fishing spots, acquire and master new tackle, and improve your real angling skills.\n\nMetadata:\nSteam AppID: 380600\nSteam URL: https://store.steampowered.com/app/380600/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/fishing planet/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=fishing+planet"
+    },
+    {
+        "name": "FNAF 6",
+        "description": "Store: Steam (Freddy Fazbear's Pizzeria Simulator): https://store.steampowered.com/app/738060/Freddy_Fazbears_Pizzeria_Simulator/\n\nDescription:\nA free-to-play business simulation game with horror elements, serving as the sixth installment in the Five Nights at Freddy's series. Manage your pizzeria by day and survive the animatronics at night.\n\nMetadata:\nSteam AppID: 319510\nSteam URL: https://store.steampowered.com/app/319510/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/FNAF 6/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=FNAF+6"
+    },
+    {
+        "name": "FPS Chess",
+        "description": "Store: Steam: https://store.steampowered.com/app/1959770/FPS_Chess/\n\nDescription:\nThe popular board game of chess meets the world of first-person shooters. When one piece attempts to take another, a miniature FPS duel begins to determine the victor.\n\nMetadata:\nSteam AppID: 2021910\nSteam URL: https://store.steampowered.com/app/2021910/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/FPS Chess/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=FPS+Chess"
+    },
+    {
+        "name": "Franzen",
+        "description": "Store: itch.io: https://frozencubes.itch.io/franzen\n\nDescription:\nA short, narrative-focused adventure game where you explore the small town of Franzen and interact with its eccentric inhabitants.\n\nMetadata:\nSteam AppID: 2572340\nSteam URL: https://store.steampowered.com/app/2572340/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Franzen/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Franzen"
+    },
+    {
+        "name": "gate keeper infinity",
+        "description": "Store: Steam (Gate Keeper: Infinity): https://store.steampowered.com/app/2681560/Gate_Keeper_Infinity/\n\nDescription:\nA fast-paced, rogue-lite game where you must search for the stolen 'Heart of the Universe' and fight through waves of enemies and epic bosses, alone or with friends in co-op mode.\n\nMetadata:\nSteam AppID: \nSteam URL: \nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/gate keeper infinity/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=gate+keeper+infinity"
+    },
+    {
+        "name": "Goose Goose duck",
+        "description": "Store: Steam: https://store.steampowered.com/app/1568590/Goose_Goose_Duck/\n\nDescription:\nA social deduction game similar to Among Us, but with geese and ducks. Complete objectives, and work with your fellow Geese to root out the malicious Ducks and other fowl creatures.\n\nMetadata:\nSteam AppID: 1568590\nSteam URL: https://store.steampowered.com/app/1568590/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Goose Goose duck/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Goose+Goose+duck"
+    },
+    {
+        "name": "Helltaker",
+        "description": "Store: Steam: https://store.steampowered.com/app/1289310/Helltaker/\n\nDescription:\nA short game about a sharply dressed man who goes down to hell and collects a harem of demon girls. It is a puzzle-adventure game with a unique art style.\n\nMetadata:\nSteam AppID: 1289310\nSteam URL: https://store.steampowered.com/app/1289310/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Helltaker/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Helltaker"
+    },
+    {
+        "name": "Hitman world of assination",
+        "description": "Store: Steam (Hitman World of Assassination): https://store.steampowered.com/app/1659040/HITMAN_World_of_Assassination/\n\nDescription:\nThe definitive version of the modern Hitman trilogy, combining all content from Hitman 1, 2, and 3. Embark on a globe-trotting adventure across sandbox locations, eliminating high-profile targets as the master assassin, Agent 47.\n\nMetadata:\nSteam AppID: \nSteam URL: \nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Hitman world of assination/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Hitman+world+of+assination"
+    },
+    {
+        "name": "holocure",
+        "description": "Store: itch.io (Also available on Steam): https://kay-yu.itch.io/holocure\n\nDescription:\nA free fan-made, casual, rogue-lite game starring the talents of hololive. Collect weapons, skills, and powerful item combinations to defeat waves of enemies and bosses.\n\nMetadata:\nSteam AppID: 2420510\nSteam URL: https://store.steampowered.com/app/2420510/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/holocure/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=holocure"
+    },
+    {
+        "name": "idel cave miner",
+        "description": "Store: Steam (Idle Cave Miner): https://store.steampowered.com/app/2153500/Idle_Cave_Miner/\n\nDescription:\nAn idle, incremental game focused on mining and resource gathering. Hire workers, upgrade your equipment, and delve deeper into the mines to find precious ores and treasures.\n\nMetadata:\nSteam AppID: \nSteam URL: \nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/idel cave miner/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=idel+cave+miner"
+    },
+    {
+        "name": "Idol Showdown",
+        "description": "Store: Steam: https://store.steampowered.com/app/1993250/Idol_Showdown/\n\nDescription:\nA free-to-play 1v1 fighting game featuring a cast of Hololive talents. Simple controls, but deep fighting mechanics allow players to duke it out using their favorite V-tubers.\n\nMetadata:\nSteam AppID: 1742020\nSteam URL: https://store.steampowered.com/app/1742020/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Idol Showdown/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Idol+Showdown"
+    },
+    {
+        "name": "Infinitode 2",
+        "description": "Store: Steam (Also on mobile app stores): https://store.steampowered.com/app/1223120/Infinitode_2__Infinite_Tower_Defense/\n\nDescription:\nAn infinite Tower Defense strategy game where you build towers and walls to defend against endless waves of enemies. Features a map editor, a massive skill tree, and global leaderboards.\n\nMetadata:\nSteam AppID: 937310\nSteam URL: https://store.steampowered.com/app/937310/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Infinitode 2/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Infinitode+2"
+    },
+    {
+        "name": "Influxis",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'Influxis' with a primary store link was not found. This may be a smaller or fan-made title.\n\nMetadata:\nSteam AppID: 1393830\nSteam URL: https://store.steampowered.com/app/1393830/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Influxis/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Influxis"
+    },
+    {
+        "name": "instruction",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'instruction' with a primary store link was not found, as this term is too generic.\n\nMetadata:\nSteam AppID: 2774240\nSteam URL: https://store.steampowered.com/app/2774240/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/instruction/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=instruction"
+    },
+    {
+        "name": "islander",
+        "description": "Store: Steam (Islander): https://store.steampowered.com/app/1018900/Islander/\n\nDescription:\nA beautiful, minimalist, and relaxing idle-building game where you place buildings on a procedurally generated island to increase its beauty and resource production.\n\nMetadata:\nSteam AppID: 715050\nSteam URL: https://store.steampowered.com/app/715050/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/islander/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=islander"
+    },
+    {
+        "name": "juice galaxy",
+        "description": "Store: itch.io: https://gogopogo.itch.io/juice-galaxy\n\nDescription:\nA bizarre open-world adventure game where you explore a strange, fruit-filled galaxy. Features unusual physics, combat, and exploration with a unique, colorful, and chaotic art style.\n\nMetadata:\nSteam AppID: 1708150\nSteam URL: https://store.steampowered.com/app/1708150/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/juice galaxy/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=juice+galaxy"
+    },
+    {
+        "name": "Kards",
+        "description": "Store: Steam: https://store.steampowered.com/app/544830/KARDS__The_WWII_Card_Game/\n\nDescription:\nA unique World War II collectible card game, blending traditional CCG mechanics with tactical battlefield strategy. Use your Kards to command troops, tanks, and aircraft to seize the battlefield initiative.\n\nMetadata:\nSteam AppID: 1471390\nSteam URL: https://store.steampowered.com/app/1471390/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Kards/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Kards"
+    },
+    {
+        "name": "Kerbal Space Program",
+        "description": "Store: Steam: https://store.steampowered.com/app/220200/Kerbal_Space_Program/\n\nDescription:\nA space flight simulation game where you take charge of the space program for the alien race known as the Kerbals. Build rockets, aircraft, and rovers, and attempt to launch them into orbit and beyond.\n\nMetadata:\nSteam AppID: 220200\nSteam URL: https://store.steampowered.com/app/220200/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Kerbal Space Program/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Kerbal+Space+Program"
+    },
+    {
+        "name": "KSP",
+        "description": "\u00ef\u00bb\u00bfName: KSP\nTitle: Kerbal Space Program: Breaking Ground Expansion on Steam\nAppID: 982970\nSteam URL: https://store.steampowered.com/app/982970/\nRelease Date: 30 May, 2019\nDeveloper: Squad\nPublisher: Private Division\nTags: Simulation, Indie, Space, Sandbox, Space Sim, Building\nHas header.jpg: True\n\nDescription:\nKerbal Space Program: Breaking Ground Expansion is the second expansion for the PC version of the critically acclaimed space flight simulator, Kerbal Space Program. This feature-rich expansion is focused on increasing the objective possibilities once celestial bodies have been reached by adding more interesting scientific endeavors and...\nSteam AppID: 982970\nImage: header.jpg",
+        "image": "/asset/Game/KSP/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=KSP"
+    },
+    {
+        "name": "Learn to fly 3",
+        "description": "Store: Chrome Web Store (Official Extension): https://chromewebstore.google.com/detail/learn-to-fly-3-official/mnlpnkfjhgfcjljjbighkcifheggnlfg\n\nDescription:\nA flight distance game where you master the art of penguin-powered flight. Soar to new heights, unlock upgrades, and conquer the skies in this endless airborne adventure.\n\nMetadata:\nSteam AppID: 589870\nSteam URL: https://store.steampowered.com/app/589870/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Learn to fly 3/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Learn+to+fly+3"
+    },
+    {
+        "name": "Limbus company",
+        "description": "Store: Google Play (Also on Steam): https://play.google.com/store/apps/details?id=com.ProjectMoon.LimbusCompany\n\nDescription:\nA combination of turn-based RPG and real-time brawl from the creators of Lobotomy Corporation. As the manager, you lead 12 Sinners into the buried facilities of Lobotomy Corporation to claim the Golden Boughs.\n\nMetadata:\nSteam AppID: 1973530\nSteam URL: https://store.steampowered.com/app/1973530/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Limbus company/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Limbus+company"
+    },
+    {
+        "name": "Lycanthorn II",
+        "description": "Store: Steam (Lycanthorn II - Rain of Beasts): https://store.steampowered.com/app/1546440/Lycanthorn_II__Rain_of_Beasts/\n\nDescription:\nA 3D homage to retro classics. You play as Rain, a Vampire Hunter, exploring an open world, using first-person melee combat to dash, dodge, and dice around demons and beasts from legend.\n\nMetadata:\nSteam AppID: 1546440\nSteam URL: https://store.steampowered.com/app/1546440/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Lycanthorn II/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Lycanthorn+II"
+    },
+    {
+        "name": "metal waltz",
+        "description": "Store: Google Play (Metal Waltz): https://play.google.com/pc-store/games/details?id=com.astrogame.shermange\n\nDescription:\nA card-like mobile game where various tanks are anthropomorphized into 'Metal Maidens.' Players compile, breed, and strengthen them to form an invincible joint tank team.\n\nMetadata:\nSteam AppID: 581130\nSteam URL: https://store.steampowered.com/app/581130/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/metal waltz/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=metal+waltz"
+    },
+    {
+        "name": "meteor 60 second",
+        "description": "Store: App Store (Meteor 60 seconds!): https://apps.apple.com/us/app/meteor-60-seconds/id1331351781\n\nDescription:\nA simple, fun, comic-like action game that simulates your life if there were a meteor heading towards Earth and you had 60 seconds to live. Do anything you want to do with your last 60 seconds!\n\nMetadata:\nSteam AppID: 788770\nSteam URL: https://store.steampowered.com/app/788770/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/meteor 60 second/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=meteor+60+second"
+    },
+    {
+        "name": "metro 2033",
+        "description": "Store: Steam (Metro 2033 Redux): https://store.steampowered.com/app/286690/Metro_2033_Redux/\n\nDescription:\nA first-person shooter survival horror game based on Dmitry Glukhovsky's novel. Survivors of a nuclear war take refuge in the Moscow Metro tunnels, where you must fight human and mutant enemies as the protagonist Artyom.\n\nMetadata:\nSteam AppID: 286690\nSteam URL: https://store.steampowered.com/app/286690/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/metro 2033/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=metro+2033"
+    },
+    {
+        "name": "Moonring",
+        "description": "Store: Steam: https://store.steampowered.com/app/2373630/Moonring/\n\nDescription:\nA free, dark-fantasy, open-world, turn-based, tile RPG. Explore a hand-designed overworld and procedurally generated dungeons in the style of classic Ultima games, featuring a unique neon aesthetic.\n\nMetadata:\nSteam AppID: 2373630\nSteam URL: https://store.steampowered.com/app/2373630/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Moonring/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Moonring"
+    },
+    {
+        "name": "Muck",
+        "description": "Store: Steam: https://store.steampowered.com/app/1625450/Muck/\n\nDescription:\nA free survival-roguelike. Collect resources, find items, and build a base to survive as long as you can on a procedurally generated island. Fight mysterious enemies that appear when night falls.\n\nMetadata:\nSteam AppID: 1625450\nSteam URL: https://store.steampowered.com/app/1625450/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Muck/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Muck"
+    },
+    {
+        "name": "Nethack",
+        "description": "Store: Official Website / Various Platforms (Free Software): http://www.nethack.org/common/info.html\n\nDescription:\nA single-player dungeon exploration game and one of the most famous roguelikes. The emphasis is on discovering the detail of the randomly generated dungeon and its denizens.\n\nMetadata:\nSteam AppID: 837200\nSteam URL: https://store.steampowered.com/app/837200/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Nethack/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Nethack"
+    },
+    {
+        "name": "Night is coming",
+        "description": "Store: Steam: https://store.steampowered.com/app/1011590/Night_is_Coming/\n\nDescription:\nA survival strategy game set in a world inspired by Slavic mythology. Build your settlement, manage settlers, and prepare your defenses for the relentless approach of the eternal Darkness.\n\nMetadata:\nSteam AppID: 1011590\nSteam URL: https://store.steampowered.com/app/1011590/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Night is coming/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Night+is+coming"
+    },
+    {
+        "name": "NUBS",
+        "description": "Store: Official Website (Nubs): https://playnubs.com/\n\nDescription:\nTiny, unpredictable warriors locked in a relentless arena battle. A fast-paced, top-down PvP combat game for up to 20 players, featuring extensive character customization and roguelite buffs.\n\nMetadata:\nSteam AppID: 2337860\nSteam URL: https://store.steampowered.com/app/2337860/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/NUBS/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=NUBS"
+    },
+    {
+        "name": "once human",
+        "description": "Store: Steam: https://store.steampowered.com/app/2139460/Once_Human/\n\nDescription:\nA multiplayer open-world survival game set in a strange, post-apocalyptic future. Fight monstrous enemies, uncover secret plots, and build your own territory in a world affected by the alien Stardust.\n\nMetadata:\nSteam AppID: 2139460\nSteam URL: https://store.steampowered.com/app/2139460/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/once human/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=once+human"
+    },
+    {
+        "name": "one arm cook",
+        "description": "Store: Steam (One-armed cook): https://store.steampowered.com/app/1977530/Onearmed_cook/\n\nDescription:\nA free, chaotic co-op cooking game for up to 4 people. Work as a team or solo to take orders and prepare food, dealing with goofy physics and the stress of a full restaurant with only one usable arm.\n\nMetadata:\nSteam AppID: 413150\nSteam URL: https://store.steampowered.com/app/413150/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/one arm cook/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=one+arm+cook"
+    },
+    {
+        "name": "one arm robber",
+        "description": "Store: Steam (One-armed robber): https://store.steampowered.com/app/2481970/Onearmed_robber/\n\nDescription:\nA co-op heist game where you and your friends take on the role of robbers with a slight problem: you only have one usable arm. Plan your way in, secure the loot, and escape the long arm of the law.\n\nMetadata:\nSteam AppID: 2551020\nSteam URL: https://store.steampowered.com/app/2551020/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/one arm robber/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=one+arm+robber"
+    },
+    {
+        "name": "One milion fatal gun",
+        "description": "Store: Steam (OMFG: One Million Fatal Guns): https://store.steampowered.com/app/1555710/OMFG_One_Million_Fatal_Guns/\n\nDescription:\nA fast-paced, over-the-top, roguelike, first-person shooter. Shoot your way through a robot-hijacked space station, collecting ever more powerful guns from the 30 million differently named possibilities.\n\nMetadata:\nSteam AppID: 8870\nSteam URL: https://store.steampowered.com/app/8870/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/One milion fatal gun/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=One+milion+fatal+gun"
+    },
+    {
+        "name": "onebit adventure",
+        "description": "Store: Google Play (OneBit Adventure): https://play.google.com/store/apps/details?id=com.tinytorch.onebit&hl=en_US\n\nDescription:\nA casual turn-based roguelike RPG where you ascend through a tower, fighting monsters and leveling up. The game is known for its simple pixel art and deep progression system.\n\nMetadata:\nSteam AppID: 1688320\nSteam URL: https://store.steampowered.com/app/1688320/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/onebit adventure/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=onebit+adventure"
+    },
+    {
+        "name": "palia",
+        "description": "Store: Official Website (Downloadable Launcher/Nintendo Switch): https://palia.com/\n\nDescription:\nA cozy, free-to-play MMO life-sim game. Explore a vibrant world, farm, fish, cook, make friends, and uncover the mysteries of the ancient human civilization.\n\nMetadata:\nSteam AppID: 2707930\nSteam URL: https://store.steampowered.com/app/2707930/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/palia/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=palia"
+    },
+    {
+        "name": "path master",
+        "description": "Store: Steam (Pathmaker): https://store.steampowered.com/app/2069690/Pathmaker/\n\nDescription:\nA puzzle game where you must guide the main character 'K' through intricate labyrinths by building and manipulating the pathways.\n\nMetadata:\nSteam AppID: 2017580\nSteam URL: https://store.steampowered.com/app/2017580/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/path master/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=path+master"
+    },
+    {
+        "name": "path of exile secret of atlas",
+        "description": "Store: Steam (Path of Exile): https://store.steampowered.com/app/238960/Path_of_Exile/\n\nDescription:\nAn action RPG set in the dark fantasy world of Wraeclast. The 'Secret of the Atlas' refers to a major expansion of the game's end-game mapping system, where players fight through endless randomized dungeons.\n\nMetadata:\nSteam AppID: 238960\nSteam URL: https://store.steampowered.com/app/238960/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/path of exile secret of atlas/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=path+of+exile+secret+of+atlas"
+    },
+    {
+        "name": "payday 2",
+        "description": "Store: Steam: https://store.steampowered.com/app/218620/PAYDAY_2/\n\nDescription:\nA co-op shooter where you and your crew of heisters take on epic, explosive heists across Washington D.C. Choose your crew, customize your gear, and execute the perfect crime.\n\nMetadata:\nSteam AppID: 254260\nSteam URL: https://store.steampowered.com/app/254260/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/payday 2/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=payday+2"
+    },
+    {
+        "name": "people playground",
+        "description": "Store: Steam: https://store.steampowered.com/app/1118200/People_Playground/\n\nDescription:\nA violence sandbox game. Unleash your creativity by experimenting with different objects, weapons, and tools on ragdoll people. It's a physics-based testing ground with no set goals.\n\nMetadata:\nSteam AppID: 1118200\nSteam URL: https://store.steampowered.com/app/1118200/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/people playground/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=people+playground"
+    },
+    {
+        "name": "pico park 2",
+        "description": "Store: Steam (PICO PARK): https://store.steampowered.com/app/1509960/PICO_PARK/\n\nDescription:\nA local and online co-op action puzzle game for 2-8 players. The goal is simple: get all the keys and reach the goal, but the 12 levels all have special cooperative gimmicks.\n\nMetadata:\nSteam AppID: 2644470\nSteam URL: https://store.steampowered.com/app/2644470/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/pico park 2/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=pico+park+2"
+    },
+    {
+        "name": "Planet Mort",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific video game titled 'Planet Mort' with a primary store link was not found. The term is associated with the SLA Industries tabletop RPG.\n\nMetadata:\nSteam AppID: 2738710\nSteam URL: https://store.steampowered.com/app/2738710/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Planet Mort/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Planet+Mort"
+    },
+    {
+        "name": "Planet S",
+        "description": "Store: Steam: https://store.steampowered.com/app/1948430/Planet_S/\n\nDescription:\nA real-time strategy game where you colonize multiple planets in a solar system to advance your civilization. Build cities, manage resources, and choose between peaceful expansion or military dominance.\n\nMetadata:\nSteam AppID: 1948430\nSteam URL: https://store.steampowered.com/app/1948430/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Planet S/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Planet+S"
+    },
+    {
+        "name": "point forty five",
+        "description": "Store: Steam (.45 Caliber): https://store.steampowered.com/app/2813150/45_Caliber/\n\nDescription:\nA 2D top-down shooter where you control a sheriff trying to survive against an endless horde of demons in a post-apocalyptic world. Features classic arcade action and an upgrade system.\n\nMetadata:\nSteam AppID: 1509450\nSteam URL: https://store.steampowered.com/app/1509450/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/point forty five/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=point+forty+five"
+    },
+    {
+        "name": "Quake II",
+        "description": "Store: Steam (Quake II Enhanced): https://store.steampowered.com/app/2320/Quake_II/\n\nDescription:\nThe critically acclaimed military sci-fi FPS developed by id Software. Experience the authentic, enhanced and complete version of the original, including the base campaign, mission packs, and crossplay multiplayer.\n\nMetadata:\nSteam AppID: 2320\nSteam URL: https://store.steampowered.com/app/2320/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Quake II/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Quake+II"
+    },
+    {
+        "name": "Reverse 1999",
+        "description": "Store: Steam (Also on mobile app stores): https://store.steampowered.com/app/3092660/Reverse_1999/\n\nDescription:\nA 20th Century Time-Travel Strategic RPG. As the Timekeeper, you travel across eras from the Roaring '20s to the turn of the millennium, uncovering the truth about the mysterious 'Storm'.\n\nMetadata:\nSteam AppID: 3092660\nSteam URL: https://store.steampowered.com/app/3092660/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Reverse 1999/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Reverse+1999"
+    },
+    {
+        "name": "Rleam of mad god Exalt",
+        "description": "Store: Steam (Realm of the Mad God Exalt): https://store.steampowered.com/app/1178660/Realm_of_the_Mad_God_Exalt/\n\nDescription:\nA free-to-play, permadeath, bullet-hell massively multiplayer online RPG (MMORPG). Adventure with other players through dungeons and fight powerful bosses.\n\nMetadata:\nSteam AppID: 928960\nSteam URL: https://store.steampowered.com/app/928960/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Rleam of mad god Exalt/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Rleam+of+mad+god+Exalt"
+    },
+    {
+        "name": "Ruinscape",
+        "description": "Store: App Store (RuneScape): https://apps.apple.com/us/app/runescape/id1332022656\n\nDescription:\nA high fantasy open world MMORPG (Massively Multiplayer Online Role-Playing Game). Explore the ever-changing world of Gielinor, master 29 skills, and complete quests with unprecedented player freedom. Available for free.\n\nMetadata:\nSteam AppID: 3423720\nSteam URL: https://store.steampowered.com/app/3423720/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Ruinscape/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Ruinscape"
+    },
+    {
+        "name": "SCP Secret Lab",
+        "description": "Store: Steam (SCP: Secret Laboratory): https://store.steampowered.com/app/700330/SCP_Secret_Laboratory/\n\nDescription:\nA free-to-play multiplayer horror game based on the SCP - Containment Breach universe. Take on the role of Class-D personnel, Foundation staff, or one of the hostile SCP entities in a breach scenario.\n\nMetadata:\nSteam AppID: 2707670\nSteam URL: https://store.steampowered.com/app/2707670/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/SCP Secret Lab/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=SCP+Secret+Lab"
+    },
+    {
+        "name": "Shrine 1",
+        "description": "Store: itch.io (Shrine): https://scumhead.itch.io/shrine-2016-jam-edition\n\nDescription:\nA first-person shooter made in the Doom engine. Battle a nightmarish eldritch horde across multiple challenging levels in a retro Gothic Lovecraftian world.\n\nMetadata:\nSteam AppID: 1584090\nSteam URL: https://store.steampowered.com/app/1584090/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Shrine 1/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Shrine+1"
+    },
+    {
+        "name": "Shrine 2",
+        "description": "Store: itch.io: https://scumhead.itch.io/shrine-ii\n\nDescription:\nA first-person shooter sequel made in the Doom engine. Play as Tusk, the skinless monstrosity, and annihilate horrific eldritch enemies with over 20 unique and strange weapons across 32 levels.\n\nMetadata:\nSteam AppID: 1417010\nSteam URL: https://store.steampowered.com/app/1417010/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Shrine 2/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Shrine+2"
+    },
+    {
+        "name": "Shrine(1 and 2)",
+        "description": "\u00ef\u00bb\u00bfName: Shrine(1 and 2)\nTitle: Hunt: Showdown 1896 - Shrine Maiden's Hell on Steam\nAppID: 2304500\nSteam URL: https://store.steampowered.com/app/2304500/\nTags: Gore, Violent\nHas header.jpg: True\n\nDescription:\nThis DLC contains one Hunter, two Weapons, and one Tool: - The Miko (Hunter) - Ochita Mozu (Hunting Bow) - Shinbatsu (Throwing Knives) - Utsusemi (Katana)...\nSteam AppID: 2304500\nImage: header.jpg",
+        "image": "/asset/Game/Shrine(1 and 2)/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Shrine(1+and+2)"
+    },
+    {
+        "name": "Sim 4",
+        "description": "\u00ef\u00bb\u00bfName: Sim 4\nTitle: sim4D ATC on Steam\nAppID: 2209440\nSteam URL: https://store.steampowered.com/app/2209440/\nRelease Date: 31 Mar, 2023\nDeveloper: Shanghai MT Networks Co.,Ltd.\nPublisher: Shanghai MT Networks Co.,Ltd.\nTags: Simulation, RPG, Sandbox, Strategy RPG, Immersive Sim, CRPG\nHas header.jpg: True\n\nDescription:\nYou will act as the apron/tower controller and command the inbound/outbound operations by issuing voice commands in the virtual radio channel. The AI captain will interact with synthetic voice. Current version needs to have basic ATC knowledge, and the tutorial will be released in a later version.\nSteam AppID: 2209440\nImage: header.jpg",
+        "image": "/asset/Game/Sim 4/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Sim+4"
+    },
+    {
+        "name": "Star birds",
+        "description": "Store: Steam: https://store.steampowered.com/app/2719750/Star_Birds/\n\nDescription:\nA relaxing asteroid base-building and resource management game. Discover and mine countless asteroids, create production networks, and guide your flock of spacefaring birds to new interstellar horizons.\n\nMetadata:\nSteam AppID: 2719750\nSteam URL: https://store.steampowered.com/app/2719750/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Star birds/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Star+birds"
+    },
+    {
+        "name": "sub morse",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'sub morse' with a primary store link was not found. This may be a smaller or fan-made title.\n\nMetadata:\nSteam AppID: 912380\nSteam URL: https://store.steampowered.com/app/912380/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/sub morse/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=sub+morse"
+    },
+    {
+        "name": "Such art",
+        "description": "Store: Steam (SuchArt: Genius Artist Simulator): https://store.steampowered.com/app/1293180/SuchArt_Genius_Artist_Simulator/\n\nDescription:\nA unique artist simulator game with realistic paint mixing, physics, and tools. Upgrade your studio, complete commissions, sell your art, and become a famous genius artist.\n\nMetadata:\nSteam AppID: 1469280\nSteam URL: https://store.steampowered.com/app/1469280/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Such art/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Such+art"
+    },
+    {
+        "name": "Supermarket together",
+        "description": "Store: Steam: https://store.steampowered.com/app/2709570/Supermarket_Together/\n\nDescription:\nA free-to-play, chaotic co-op simulation game for up to 16 players. Stock your shop, unlock franchises, hire employees, and chase shoplifters in a bustling supermarket environment.\n\nMetadata:\nSteam AppID: 2709570\nSteam URL: https://store.steampowered.com/app/2709570/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Supermarket together/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Supermarket+together"
+    },
+    {
+        "name": "supervive",
+        "description": "Store: Steam: https://store.steampowered.com/app/2376990/Supervive/\n\nDescription:\nA 10-player Battle Royale where you scavenge for resources, craft unique items, and fight monsters to survive. Features an innovative take on the genre with crafting and resource management.\n\nMetadata:\nSteam AppID: 1283700\nSteam URL: https://store.steampowered.com/app/1283700/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/supervive/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=supervive"
+    },
+    {
+        "name": "supremacy 1914",
+        "description": "Store: Steam (Also available in browser): https://store.steampowered.com/app/428450/Supremacy_1914/\n\nDescription:\nA grand strategy MMO based on World War I. Take control of one of the competing nations, forge alliances, and lead your economy and military to victory across historical maps.\n\nMetadata:\nSteam AppID: 979920\nSteam URL: https://store.steampowered.com/app/979920/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/supremacy 1914/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=supremacy+1914"
+    },
+    {
+        "name": "teku",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'teku' with a primary store link was not found. This may be a smaller or fan-made title.\n\nMetadata:\nSteam AppID: 2660750\nSteam URL: https://store.steampowered.com/app/2660750/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/teku/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=teku"
+    },
+    {
+        "name": "the hunter clasic",
+        "description": "Store: Steam (theHunter Classic): https://store.steampowered.com/app/253710/theHunter_Classic/\n\nDescription:\nA free-to-play, highly realistic hunting simulation game. Track, spot, and strategically hunt various species of animals across vast, detailed open-world environments.\n\nMetadata:\nSteam AppID: 1507640\nSteam URL: https://store.steampowered.com/app/1507640/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/the hunter clasic/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=the+hunter+clasic"
+    },
+    {
+        "name": "the night shift",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'the night shift' with a primary store link was not found. This may be a smaller or fan-made title.\n\nMetadata:\nSteam AppID: 2468610\nSteam URL: https://store.steampowered.com/app/2468610/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/the night shift/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=the+night+shift"
+    },
+    {
+        "name": "the Sim 4",
+        "description": "Store: EA App / Steam (The Sims 4): https://store.steampowered.com/app/1222670/The_Sims_4/\n\nDescription:\nA life simulation game where you create unique Sims, build their homes, and manage their lives as they pursue careers, develop relationships, and explore vibrant worlds.\n\nMetadata:\nSteam AppID: 1235734\nSteam URL: https://store.steampowered.com/app/1235734/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/the Sim 4/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=the+Sim+4"
+    },
+    {
+        "name": "the were cleaner",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'the were cleaner' with a primary store link was not found. This may be a smaller or fan-made title.\n\nMetadata:\nSteam AppID: 2795000\nSteam URL: https://store.steampowered.com/app/2795000/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/the were cleaner/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=the+were+cleaner"
+    },
+    {
+        "name": "through the wood",
+        "description": "Store: Steam (Through the Woods): https://store.steampowered.com/app/368430/Through_the_Woods/\n\nDescription:\nA third-person horror adventure set in a Norwegian forest. Experience the story of a mother searching for her missing son, blending psychological horror with Norwegian folklore.\n\nMetadata:\nSteam AppID: 3008130\nSteam URL: https://store.steampowered.com/app/3008130/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/through the wood/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=through+the+wood"
+    },
+    {
+        "name": "Trackmania",
+        "description": "Store: Epic Games Store (Trackmania): https://store.epicgames.com/en-US/p/trackmania\n\nDescription:\nA free-to-play arcade racing game that pits you against players worldwide on player-made tracks. Features a massive track editor and daily competitive challenges.\n\nMetadata:\nSteam AppID: 2225070\nSteam URL: https://store.steampowered.com/app/2225070/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Trackmania/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Trackmania"
+    },
+    {
+        "name": "Trackmania (and TM Nation forever)",
+        "description": "Steam AppID: 11020\nSteam URL: https://store.steampowered.com/app/11020/\nImage: header.jpg",
+        "image": "/asset/Game/Trackmania (and TM Nation forever)/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Trackmania+(and+TM+Nation+forever)"
+    },
+    {
+        "name": "Trackmania Nation forever",
+        "description": "Store: Steam (TrackMania Nations Forever): https://store.steampowered.com/app/11200/TrackMania_Nations_Forever/\n\nDescription:\nA free, full-featured version of the TrackMania game series. It offers a new environment, 'Stadium,' solo campaigns, and competitive online multiplayer racing.\n\nMetadata:\nSteam AppID: 11020\nSteam URL: https://store.steampowered.com/app/11020/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Trackmania Nation forever/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Trackmania+Nation+forever"
+    },
+    {
+        "name": "Underminer",
+        "description": "Store: Info Not Found\n\nDescription:\nInformation for a specific game titled 'Underminer' with a primary store link was not found. The name is also associated with a character from *The Incredibles* video game.\n\nMetadata:\nSteam AppID: 2735870\nSteam URL: https://store.steampowered.com/app/2735870/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Underminer/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Underminer"
+    },
+    {
+        "name": "Unturned",
+        "description": "Store: Steam: https://store.steampowered.com/app/304930/Unturned/\n\nDescription:\nA free-to-play survival sandbox game where you must survive the zombie-infested ruins of civilization. Scavenge, build, and cooperate with other players to stay alive.\n\nMetadata:\nSteam AppID: 304930\nSteam URL: https://store.steampowered.com/app/304930/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/Unturned/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=Unturned"
+    },
+    {
+        "name": "URBO",
+        "description": "Store: Steam: https://store.steampowered.com/app/2172770/URBO/\n\nDescription:\nA peaceful and relaxing puzzle game. Build a city one tiny block at a time, watching it grow and evolve without the pressure of failure or resource management.\n\nMetadata:\nSteam AppID: 2141770\nSteam URL: https://store.steampowered.com/app/2141770/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/URBO/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=URBO"
     },
     {
         "name": "VRChat",
-        "description": "VRChat is an ever-expanding virtual universe powered by a passionate community who create and share virtual worlds, avatars, and interactive experiences.",
-        "image": "/asset/Game/VRChat/Landscape_CoverArt_Blue.png",
-        "link": "https://www.vrchat.com"
+        "description": "Store: Steam (Also on Meta Quest Store): https://store.steampowered.com/app/438100/VRChat/\n\nDescription:\nA free-to-play social VR platform where users can create, publish, and explore hundreds of thousands of virtual worlds and custom avatars. It offers a massive social sandbox experience.\n\nMetadata:\nSteam AppID: 438100\nSteam URL: https://store.steampowered.com/app/438100/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/VRChat/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=VRChat"
     },
     {
-        "name": "NetHack",
-        "description": "NetHack is a single-player roguelike video game, first released in 1987. It is one of the oldest games still in active development. In NetHack, the player takes the role of a hero who must descend into a dungeon to retrieve the Amulet of Yendor.",
-        "image": "/asset/Game/Nethack/scrn3b.gif",
-        "link": "https://www.nethack.org/"
+        "name": "War Thunder",
+        "description": "Store: Steam (Also on Xbox/PlayStation): https://store.steampowered.com/app/236390/War_Thunder/\n\nDescription:\nA free-to-play MMO military game dedicated to aviation, armored vehicles, and naval craft from World War II and the Cold War. Engage in massive historical battles on land, air, and sea.\n\nMetadata:\nSteam AppID: 236390\nSteam URL: https://store.steampowered.com/app/236390/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/War Thunder/1920x1080_aircraft_marathon_april_25_logo_b83e49bf78a28c329973c8cc20928584.jpg",
+        "link": "https://store.steampowered.com/search/?term=War+Thunder"
+    },
+    {
+        "name": "We become what we behold",
+        "description": "Store: itch.io (Original Web Game): https://ncase.itch.io/wbwwb\n\nDescription:\nA short, thought-provoking game about how media can fuel divisiveness. You control a camera and must capture 'news' to influence the circles and squares, showing how small differences can be magnified into conflict.\n\nMetadata:\nSteam AppID: 1103210\nSteam URL: https://store.steampowered.com/app/1103210/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/We become what we behold/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=We+become+what+we+behold"
+    },
+    {
+        "name": "World of Guns",
+        "description": "Store: Google Play (Also on Steam): https://play.google.com/pc-store/games/details?id=com.nobleempire.wog\n\nDescription:\nA free-to-play interactive encyclopedia and 3D simulator of firearms, tanks, and other machines. Learn how legendary weapons work by disassembling and reassembling them down to the smallest part.\n\nMetadata:\nSteam AppID: 304320\nSteam URL: https://store.steampowered.com/app/304320/\nTitle: \nRelease: \nDeveloper: \nPublisher: \nTags: \n\nImage: header.jpg",
+        "image": "/asset/Game/World of Guns/header.jpg",
+        "link": "https://store.steampowered.com/search/?term=World+of+Guns"
     }
 ]

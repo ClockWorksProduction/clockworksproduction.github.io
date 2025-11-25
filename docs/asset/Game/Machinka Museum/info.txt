@@ -1,0 +1,15 @@
+Store: Steam (Machinika: Museum): https://store.steampowered.com/app/1507190/Machinika_Museum/
+
+Description:
+A mystery game where you discover beautiful and mysterious machines of extra-terrestrial origins. Solve mind-bending 3D puzzles in an atmospheric, galaxy-spanning adventure.
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: None

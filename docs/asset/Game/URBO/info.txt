@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/2172770/URBO/
+
+Description:
+A peaceful and relaxing puzzle game. Build a city one tiny block at a time, watching it grow and evolve without the pressure of failure or resource management.
+
+Metadata:
+Steam AppID: 2141770
+Steam URL: https://store.steampowered.com/app/2141770/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

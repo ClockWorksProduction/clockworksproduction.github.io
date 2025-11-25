@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/380710/Fishing_Planet/
+
+Description:
+A free-to-play realistic online first-person multiplayer fishing simulator. Explore breathtaking fishing spots, acquire and master new tackle, and improve your real angling skills.
+
+Metadata:
+Steam AppID: 380600
+Steam URL: https://store.steampowered.com/app/380600/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

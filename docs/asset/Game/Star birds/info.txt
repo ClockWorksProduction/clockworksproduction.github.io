@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/2719750/Star_Birds/
+
+Description:
+A relaxing asteroid base-building and resource management game. Discover and mine countless asteroids, create production networks, and guide your flock of spacefaring birds to new interstellar horizons.
+
+Metadata:
+Steam AppID: 2719750
+Steam URL: https://store.steampowered.com/app/2719750/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

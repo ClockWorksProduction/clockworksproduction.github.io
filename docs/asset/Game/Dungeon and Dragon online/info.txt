@@ -1,0 +1,15 @@
+Store: Steam (Dungeons & Dragons Online): https://store.steampowered.com/app/20640/Dungeons__Dragons_Online/
+
+Description:
+A free-to-play massively multiplayer online roleplaying game (MMORPG) set in the world of Eberron and the Forgotten Realms. Adventure through dangerous dungeons, discover new magic, and slay legendary monsters.
+
+Metadata:
+Steam AppID: 1086940
+Steam URL: https://store.steampowered.com/app/1086940/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

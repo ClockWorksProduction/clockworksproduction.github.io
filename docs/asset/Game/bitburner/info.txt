@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/1812650/Bitburner/
+
+Description:
+An incremental RPG where the progression is done by writing scripts. Start as a novice hacker and work your way up to earning millions and automating your gameplay using JavaScript.
+
+Metadata:
+Steam AppID: 1812820
+Steam URL: https://store.steampowered.com/app/1812820/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

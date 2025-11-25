@@ -1,0 +1,15 @@
+Store: Steam (Islander): https://store.steampowered.com/app/1018900/Islander/
+
+Description:
+A beautiful, minimalist, and relaxing idle-building game where you place buildings on a procedurally generated island to increase its beauty and resource production.
+
+Metadata:
+Steam AppID: 715050
+Steam URL: https://store.steampowered.com/app/715050/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

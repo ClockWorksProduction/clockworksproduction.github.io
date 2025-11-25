@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/2881470/Content_Warning/
+
+Description:
+A co-op horror game where you and your friends film spooky things to try and go viral. Descend into the Old World, record something scary, and try to survive to upload your footage to SpöökTube.
+
+Metadata:
+Steam AppID: 2881650
+Steam URL: https://store.steampowered.com/app/2881650/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

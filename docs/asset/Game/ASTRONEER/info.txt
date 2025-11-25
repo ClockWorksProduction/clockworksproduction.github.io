@@ -1,1 +1,14 @@
-Explore and reshape distant worlds! Astroneer is set during the 25th century’s Intergalactic Age of Discovery, where Astroneers explore the frontiers of outer space, risking their lives in harsh environments to unearth rare discoveries and unlock the mysteries of the universe. Players can work together to build custom bases and vehicles and use terrain to create anything they can imagine. A player’s creativity and ingenuity is the key to seeking out and thriving on exciting planetary adventures!
+﻿Name: ASTRONEER
+Title: Save 70% on ASTRONEER on Steam
+AppID: 361420
+Steam URL: https://store.steampowered.com/app/361420/
+Release Date: 16 Dec, 2016
+Developer: System Era Softworks
+Publisher: System Era Softworks
+Tags: Multiplayer, Open World Survival Craft, Open World, Survival, Space, Exploration
+Has header.jpg: True
+
+Description:
+Interact with strange new worlds in a unique and tactile way, molding the environment itself as if it were clay in your hands. Build your base, master resource management, automate your production lines, and more as you unravel the mysteries of the universe, alone or with friends.
+Steam AppID: 361420
+Image: header.jpg

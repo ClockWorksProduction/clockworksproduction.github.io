@@ -1,0 +1,15 @@
+Store: Official Website (Nubs): https://playnubs.com/
+
+Description:
+Tiny, unpredictable warriors locked in a relentless arena battle. A fast-paced, top-down PvP combat game for up to 20 players, featuring extensive character customization and roguelite buffs.
+
+Metadata:
+Steam AppID: 2337860
+Steam URL: https://store.steampowered.com/app/2337860/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

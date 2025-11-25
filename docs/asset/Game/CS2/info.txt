@@ -1,0 +1,15 @@
+Store: Official Website (Steam): https://www.counter-strike.net/cs2
+
+Description:
+The next era of Counter-Strike. A free upgrade to CS:GO, featuring new features and updates built on the Source 2 engine, including dynamic smoke grenades, sub-tick updates, and visual fidelity upgrades to classic maps.
+
+Metadata:
+Steam AppID: 730
+Steam URL: https://store.steampowered.com/app/730/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

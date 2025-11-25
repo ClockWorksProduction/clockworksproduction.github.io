@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/2622000/Astral_Party/
+
+Description:
+A multiplayer party game populated by cute anime girls! Choose your favorite character, strategize skills & cards, and roll the dice to destroy friendships in this unique board game. Supports up to 4 players online or single play with AI.
+
+Metadata:
+Steam AppID: 2622000
+Steam URL: https://store.steampowered.com/app/2622000/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

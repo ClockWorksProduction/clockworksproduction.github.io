@@ -1,3 +1,15 @@
-Buckshot Roulette is a tabletop horror game that attempts to re-design the infamous game of Russian Roulette, replacing the traditional revolver with a proper 12-gauge pump-action shotgun. This extra firepower, and more importantly the different mechanics in handling a shotgun compared to a revolver, offers a fresh take on the classic and deadly game of chance.
+Store: Steam (Also on itch.io): https://store.steampowered.com/app/2835700/Buckshot_Roulette/
 
-The game takes place at the top of an underground nightclub, where the metal railings tremble to the pulse of long lost drum machines. A crooked AI dealer is waiting for you. Will you meet them?
+Description:
+A short, brutal roguelite tabletop horror game that re-imagines the infamous game of Russian Roulette. Face off against the Dealer in three rounds using a 12-gauge pump action shotgun.
+
+Metadata:
+Steam AppID: 2835570
+Steam URL: https://store.steampowered.com/app/2835570/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

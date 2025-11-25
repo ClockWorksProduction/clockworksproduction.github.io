@@ -1,0 +1,15 @@
+Store: Google Play (Metal Waltz): https://play.google.com/pc-store/games/details?id=com.astrogame.shermange
+
+Description:
+A card-like mobile game where various tanks are anthropomorphized into 'Metal Maidens.' Players compile, breed, and strengthen them to form an invincible joint tank team.
+
+Metadata:
+Steam AppID: 581130
+Steam URL: https://store.steampowered.com/app/581130/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

@@ -1,0 +1,15 @@
+Store: App Store (Meteor 60 seconds!): https://apps.apple.com/us/app/meteor-60-seconds/id1331351781
+
+Description:
+A simple, fun, comic-like action game that simulates your life if there were a meteor heading towards Earth and you had 60 seconds to live. Do anything you want to do with your last 60 seconds!
+
+Metadata:
+Steam AppID: 788770
+Steam URL: https://store.steampowered.com/app/788770/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

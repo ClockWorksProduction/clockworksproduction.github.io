@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/2373630/Moonring/
+
+Description:
+A free, dark-fantasy, open-world, turn-based, tile RPG. Explore a hand-designed overworld and procedurally generated dungeons in the style of classic Ultima games, featuring a unique neon aesthetic.
+
+Metadata:
+Steam AppID: 2373630
+Steam URL: https://store.steampowered.com/app/2373630/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

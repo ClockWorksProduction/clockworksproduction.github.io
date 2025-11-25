@@ -1,0 +1,15 @@
+Store: Steam (TrackMania Nations Forever): https://store.steampowered.com/app/11200/TrackMania_Nations_Forever/
+
+Description:
+A free, full-featured version of the TrackMania game series. It offers a new environment, 'Stadium,' solo campaigns, and competitive online multiplayer racing.
+
+Metadata:
+Steam AppID: 11020
+Steam URL: https://store.steampowered.com/app/11020/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

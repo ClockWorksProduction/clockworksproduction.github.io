@@ -1,1 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/2379780/Balatro/
+
+Description:
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.
+
+Metadata:
+Steam AppID: 2379780
+Steam URL: https://store.steampowered.com/app/2379780/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

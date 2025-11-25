@@ -1,0 +1,14 @@
+﻿Name: KSP
+Title: Kerbal Space Program: Breaking Ground Expansion on Steam
+AppID: 982970
+Steam URL: https://store.steampowered.com/app/982970/
+Release Date: 30 May, 2019
+Developer: Squad
+Publisher: Private Division
+Tags: Simulation, Indie, Space, Sandbox, Space Sim, Building
+Has header.jpg: True
+
+Description:
+Kerbal Space Program: Breaking Ground Expansion is the second expansion for the PC version of the critically acclaimed space flight simulator, Kerbal Space Program. This feature-rich expansion is focused on increasing the objective possibilities once celestial bodies have been reached by adding more interesting scientific endeavors and...
+Steam AppID: 982970
+Image: header.jpg

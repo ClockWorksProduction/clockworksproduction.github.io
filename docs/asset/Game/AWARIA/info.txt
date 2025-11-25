@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/3274300/Awaria/
+
+Description:
+Awaria is a short game about working in haunted maintenance tunnels. Check what's wrong, craft all the needed parts and deliver them. Features claustrophobic penal labor and dodging deadly projectiles.
+
+Metadata:
+Steam AppID: 3274300
+Steam URL: https://store.steampowered.com/app/3274300/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

@@ -1,0 +1,15 @@
+Store: Epic Games Store: https://store.epicgames.com/en-US/p/age-of-conquest-iv-c29987
+
+Description:
+Age of Conquest is a turn based grand strategy wargame. Wage colossal wars solo, against the AI, or take on your gaming friends in cross-platform multiplayer games. Form alliances and fight co-op style with the AI and other players for ultimate victory.
+
+Metadata:
+Steam AppID: 314970
+Steam URL: https://store.steampowered.com/app/314970/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

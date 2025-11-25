@@ -1,0 +1,15 @@
+Store: Steam (DOOM Classic): https://store.steampowered.com/app/9060/DOOM_Classic/
+
+Description:
+The grandfather of the first-person shooter genre. You are the last hope for humanity as you face hordes of demons from Hell across two interdimensional gateways.
+
+Metadata:
+Steam AppID: 782330
+Steam URL: https://store.steampowered.com/app/782330/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

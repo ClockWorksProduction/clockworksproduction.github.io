@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/1206120/BoardLand/
+
+Description:
+A social turn-based board game for 2 to 4 players. Roll the dice, race around the board, and sabotage your opponents using various cards and tricks to reach the end first.
+
+Metadata:
+Steam AppID: 2735620
+Steam URL: https://store.steampowered.com/app/2735620/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

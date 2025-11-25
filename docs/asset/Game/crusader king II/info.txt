@@ -1,0 +1,15 @@
+Store: Steam: https://store.steampowered.com/app/203770/Crusader_Kings_II/
+
+Description:
+A grand strategy game where you explore one of the defining periods in world history in an experience crafted by the masters of Grand Strategy. Rule your dynasty through the Middle Ages, from 1066 to 1453, in this deep feudal RPG.
+
+Metadata:
+Steam AppID: 3024040
+Steam URL: https://store.steampowered.com/app/3024040/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg

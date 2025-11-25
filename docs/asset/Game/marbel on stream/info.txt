@@ -1,0 +1,15 @@
+Store: Google Play (Marbles on Stream Mobile): https://play.google.com/store/apps/details?id=com.pixelbypixel.mosmobile
+
+Description:
+A companion app for the stream interactive marble race game. Viewers can customize their marble and compete for positions on the global leader board. Great for streamer community interaction.
+
+Metadata:
+Steam AppID: 
+Steam URL: 
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: None

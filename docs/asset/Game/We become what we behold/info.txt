@@ -1,0 +1,15 @@
+Store: itch.io (Original Web Game): https://ncase.itch.io/wbwwb
+
+Description:
+A short, thought-provoking game about how media can fuel divisiveness. You control a camera and must capture 'news' to influence the circles and squares, showing how small differences can be magnified into conflict.
+
+Metadata:
+Steam AppID: 1103210
+Steam URL: https://store.steampowered.com/app/1103210/
+Title: 
+Release: 
+Developer: 
+Publisher: 
+Tags: 
+
+Image: header.jpg
