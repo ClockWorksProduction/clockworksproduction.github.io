@@ -9,6 +9,20 @@
     <script src="https://kit.fontawesome.com/6b3a6b196a.js" crossorigin="anonymous"></script>
     <link href="/assets/css/deafult.css" rel="stylesheet" type="text/css"/>
     <link id="theme" rel="stylesheet" type="text/css" href="/assets/css/light-theme.css"/>
+    <style>
+        /* Game card tweaks */
+        .featured-card img{width:100%;height:160px;object-fit:cover;border-radius:6px}
+        .featured-card{padding:12px;background:var(--card-bg, #fff);border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+        .featured-card h3{margin:.6rem 0 .25rem}
+        .featured-card p{font-size:.95rem;color:var(--muted,#444)}
+
+        /* Storefront badges */
+        .storefronts{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;justify-content:center}
+        .storefront{display:inline-flex;align-items:center;gap:8px;padding:6px 8px;border-radius:999px;background:#f3f4f6;color:#111;text-decoration:none;font-size:.85rem;border:1px solid rgba(0,0,0,0.04)}
+        .storefront i{font-size:1rem}
+        .storefront:hover{background:#e6eef8;color:#06214a}
+        @media (min-width:1000px){ .storefronts{justify-content:flex-start} }
+    </style>
 </head>
 <body>
     <div id="nav-placeholder"></div>
@@ -35,21 +49,49 @@
         fetch('/partials/footer.html')
             .then(response => response.text())
             .then(data => { document.getElementById('footer-placeholder').innerHTML = data; });
-
-        fetch('/assets/data/abts_games.json')
+        fetch('/assets/data/games.json')
             .then(response => response.json())
             .then(games => {
                 const container = document.getElementById('game-cards-container');
+
+                const iconClassFor = (storeKey) => {
+                    if(!storeKey) return 'fas fa-link';
+                    switch(storeKey.toLowerCase()){
+                        case 'steam': return 'fab fa-steam';
+                        case 'epicgames': return 'fas fa-bolt';
+                        case 'itchio': return 'fas fa-ghost';
+                        case 'gog': return 'fas fa-compact-disc';
+                        case 'xbox': return 'fab fa-xbox';
+                        case 'playstation': return 'fab fa-playstation';
+                        case 'nintendo': return 'fas fa-gamepad';
+                        case 'newgrounds': return 'fas fa-star';
+                        case 'other': return 'fas fa-store';
+                        default: return 'fas fa-link';
+                    }
+                }
+
+                const placeholder = encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='600' height='300'><rect fill='%23ddd' width='100%' height='100%'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='%23666' font-size='20'>No image</text></svg>`)
+                const placeholderSrc = `data:image/svg+xml;utf8,${placeholder}`;
+
                 games.forEach(game => {
+                    const primaryLink = game.primary_link || '#';
+                    const imgSrc = game.image || placeholderSrc;
+
+                    const icons = (game.storefronts || []).map(s => {
+                        const cls = iconClassFor(s.store || s.store.toLowerCase());
+                        return `<a class="storefront" href="${s.url}" title="${s.store}" target="_blank" rel="noopener"><i class="${cls}" aria-hidden="true"></i><span class="store-label">${s.store}</span></a>`
+                    }).join(' ');
+
                     const card = `
                         <div class="w3-col l4 m6 s12 w3-margin-bottom">
-                            <a href="${game.link}" style="text-decoration: none;">
-                                <div class="featured-card">
-                                    <img src="${game.image}" alt="${game.name}">
-                                    <h3>${game.name}</h3>
-                                    <p>${game.description}</p>
-                                </div>
-                            </a>
+                            <div class="featured-card">
+                                <a href="${primaryLink}" style="text-decoration: none;" target="_blank" rel="noopener">
+                                    <img src="${imgSrc}" alt="${game.name}">
+                                </a>
+                                <h3><a href="${primaryLink}" style="text-decoration: none;" target="_blank" rel="noopener">${game.name}</a></h3>
+                                <p>${game.description || ''}</p>
+                                <div class="storefronts">${icons}</div>
+                            </div>
                         </div>
                     `;
                     container.innerHTML += card;

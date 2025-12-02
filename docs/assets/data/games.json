@@ -1,0 +1,682 @@
+[
+  {
+    "name": "ARC Raiders Playtest",
+    "description": "",
+    "image": "/asset/Game/ARC_Raiders_Playtest/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2427520/",
+    "storefronts": []
+  },
+  {
+    "name": "ASTRONEER",
+    "description": "",
+    "image": "/asset/Game/ASTRONEER/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/361420/",
+    "storefronts": []
+  },
+  {
+    "name": "ATLYSS",
+    "description": "",
+    "image": "/asset/Game/ATLYSS/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2768430/",
+    "storefronts": []
+  },
+  {
+    "name": "Aimlabs",
+    "description": "",
+    "image": "/asset/Game/Aimlabs/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/714010/",
+    "storefronts": []
+  },
+  {
+    "name": "Amnesia: The Bunker",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Ampersat",
+    "description": "",
+    "image": "/asset/Game/Ampersat/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1356040/",
+    "storefronts": []
+  },
+  {
+    "name": "AtmaSphere",
+    "description": "",
+    "image": "/asset/Game/AtmaSphere/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/753660/",
+    "storefronts": []
+  },
+  {
+    "name": "Backpack Hero",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Balatro",
+    "description": "",
+    "image": "/asset/Game/Balatro/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2379780/",
+    "storefronts": []
+  },
+  {
+    "name": "Battlestar Galactica Deadlock",
+    "description": "",
+    "image": "/asset/Game/Battlestar_Galactica_Deadlock/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/544610/",
+    "storefronts": []
+  },
+  {
+    "name": "Besiege",
+    "description": "",
+    "image": "/asset/Game/Besiege/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/346010/",
+    "storefronts": []
+  },
+  {
+    "name": "Black Desert",
+    "description": "",
+    "image": "/asset/Game/Black_Desert/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/582660/",
+    "storefronts": []
+  },
+  {
+    "name": "Black Skylands",
+    "description": "",
+    "image": "/asset/Game/Black_Skylands/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1143810/",
+    "storefronts": []
+  },
+  {
+    "name": "Borderlands 2",
+    "description": "",
+    "image": "/asset/Game/Borderlands_2/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/49520/",
+    "storefronts": []
+  },
+  {
+    "name": "Buckshot Roulette",
+    "description": "",
+    "image": "/asset/Game/Buckshot_Roulette/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2835570/",
+    "storefronts": []
+  },
+  {
+    "name": "Capcom Arcade Stadium",
+    "description": "",
+    "image": "/asset/Game/Capcom_Arcade_Stadium/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1515950/",
+    "storefronts": []
+  },
+  {
+    "name": "Cell to Singularity - Evolution Never Ends",
+    "description": "",
+    "image": "/asset/Game/Cell_to_Singularity_-_Evolution_Never_Ends/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/977400/",
+    "storefronts": []
+  },
+  {
+    "name": "Content Warning",
+    "description": "",
+    "image": "/asset/Game/Content_Warning/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2881650/",
+    "storefronts": []
+  },
+  {
+    "name": "Crush Crush",
+    "description": "",
+    "image": "/asset/Game/Crush_Crush/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/459820/",
+    "storefronts": []
+  },
+  {
+    "name": "DOOM II",
+    "description": "",
+    "image": "/asset/Game/DOOM_II/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2300/",
+    "storefronts": []
+  },
+  {
+    "name": "DOOM + DOOM II",
+    "description": "",
+    "image": "/asset/Game/DOOM__DOOM_II/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2280/",
+    "storefronts": []
+  },
+  {
+    "name": "Don't Starve Together",
+    "description": "",
+    "image": "/asset/Game/Dont_Starve_Together/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/322330/",
+    "storefronts": []
+  },
+  {
+    "name": "Enlisted",
+    "description": "",
+    "image": "/asset/Game/Enlisted/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2051620/",
+    "storefronts": []
+  },
+  {
+    "name": "Fall Guys",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Fallout 2: A Post Nuclear Role Playing Game",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Fallout: A Post Nuclear Role Playing Game",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Fallout Shelter",
+    "description": "",
+    "image": "/asset/Game/Fallout_Shelter/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/588430/",
+    "storefronts": []
+  },
+  {
+    "name": "Fallout Tactics: Brotherhood of Steel",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Fantasy General II",
+    "description": "",
+    "image": "/asset/Game/Fantasy_General_II/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1025440/",
+    "storefronts": []
+  },
+  {
+    "name": "Farmer Against Potatoes Idle",
+    "description": "",
+    "image": "/asset/Game/Farmer_Against_Potatoes_Idle/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1535560/",
+    "storefronts": []
+  },
+  {
+    "name": "Field of Glory II: Medieval",
+    "description": "",
+    "image": "/asset/Game/Field_of_Glory_II_Medieval/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1368870/",
+    "storefronts": []
+  },
+  {
+    "name": "Figment 2: Creed Valley",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Fortnite",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Frostpunk",
+    "description": "",
+    "image": "/asset/Game/Frostpunk/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/323190/",
+    "storefronts": []
+  },
+  {
+    "name": "Garden Story",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Generative Quest",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Ghostrunner",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Golf With Your Friends",
+    "description": "",
+    "image": "/asset/Game/Golf_With_Your_Friends/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/431240/",
+    "storefronts": []
+  },
+  {
+    "name": "Gravity Circuit",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "HITMAN World of Assassination",
+    "description": "",
+    "image": "/asset/Game/HITMAN_World_of_Assassination/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1659040/",
+    "storefronts": []
+  },
+  {
+    "name": "Helltaker",
+    "description": "",
+    "image": "/asset/Game/Helltaker/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1289310/",
+    "storefronts": []
+  },
+  {
+    "name": "ISLANDERS",
+    "description": "",
+    "image": "/asset/Game/ISLANDERS/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1046030/",
+    "storefronts": []
+  },
+  {
+    "name": "IdleOn",
+    "description": "",
+    "image": "/asset/Game/IdleOn/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1476970/",
+    "storefronts": []
+  },
+  {
+    "name": "Idle Champions of the Forgotten Realms",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Infinity Kingdom",
+    "description": "",
+    "image": "/asset/Game/Infinity_Kingdom/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1573360/",
+    "storefronts": []
+  },
+  {
+    "name": "Keep Talking and Nobody Explodes",
+    "description": "",
+    "image": "/asset/Game/Keep_Talking_and_Nobody_Explodes/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/341800/",
+    "storefronts": []
+  },
+  {
+    "name": "Kerbal Space Program",
+    "description": "",
+    "image": "/asset/Game/Kerbal_Space_Program/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/220200/",
+    "storefronts": []
+  },
+  {
+    "name": "Keylocker | Turn Based Cyberpunk Action",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "LEGO® Star Wars™: The Skywalker Saga",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Legion TD 2",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Limbo",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Lords and Villeins",
+    "description": "",
+    "image": "/asset/Game/Lords_and_Villeins/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1287530/",
+    "storefronts": []
+  },
+  {
+    "name": "Machinika Museum",
+    "description": "",
+    "image": "/asset/Game/Machinika_Museum/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1507190/",
+    "storefronts": []
+  },
+  {
+    "name": "Master Levels for DOOM II",
+    "description": "",
+    "image": "/asset/Game/Master_Levels_for_DOOM_II/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/9160/",
+    "storefronts": []
+  },
+  {
+    "name": "Metro 2033 Redux",
+    "description": "",
+    "image": "/asset/Game/Metro_2033_Redux/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/286690/",
+    "storefronts": []
+  },
+  {
+    "name": "Mini World: Block Art",
+    "description": "",
+    "image": "/asset/Game/Mini_World_Block_Art/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/814480/",
+    "storefronts": []
+  },
+  {
+    "name": "NetHack",
+    "description": "",
+    "image": "",
+    "primary_store": "other",
+    "primary_link": "https://www.nethack.org/",
+    "storefronts": []
+  },
+  {
+    "name": "Nubs!",
+    "description": "",
+    "image": "/asset/Game/Nubs/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2337860/",
+    "storefronts": []
+  },
+  {
+    "name": "Ogu and the Secret Forest",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Outpath: First Journey",
+    "description": "",
+    "image": "/asset/Game/Outpath_First_Journey/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2237980/",
+    "storefronts": []
+  },
+  {
+    "name": "PAYDAY 2",
+    "description": "",
+    "image": "/asset/Game/PAYDAY_2/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/218620/",
+    "storefronts": []
+  },
+  {
+    "name": "PEAK",
+    "description": "",
+    "image": "/asset/Game/PEAK/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/3527290/",
+    "storefronts": []
+  },
+  {
+    "name": "PICO PARK 2",
+    "description": "",
+    "image": "/asset/Game/PICO_PARK_2/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2644470/",
+    "storefronts": []
+  },
+  {
+    "name": "Pankapu",
+    "description": "",
+    "image": "/asset/Game/Pankapu/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/418670/",
+    "storefronts": []
+  },
+  {
+    "name": "People Playground",
+    "description": "",
+    "image": "/asset/Game/People_Playground/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1118200/",
+    "storefronts": []
+  },
+  {
+    "name": "Pilgrims",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "River City Girls",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Sable",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Sid Meier's Civilization VI",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "Slime Rancher",
+    "description": "",
+    "image": "/asset/Game/Slime_Rancher/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/433340/",
+    "storefronts": []
+  },
+  {
+    "name": "Space Crew: Legendary Edition",
+    "description": "",
+    "image": "/asset/Game/Space_Crew_Legendary_Edition/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1176710/",
+    "storefronts": []
+  },
+  {
+    "name": "Space Engineers",
+    "description": "",
+    "image": "/asset/Game/Space_Engineers/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/244850/",
+    "storefronts": []
+  },
+  {
+    "name": "Stardew Valley",
+    "description": "",
+    "image": "/asset/Game/Stardew_Valley/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/413150/",
+    "storefronts": []
+  },
+  {
+    "name": "System Shock",
+    "description": "",
+    "image": "/asset/Game/System_Shock/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/482400/",
+    "storefronts": []
+  },
+  {
+    "name": "The Sims™ 4",
+    "description": "",
+    "image": "/asset/Game/The_Sims_4/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1222670/",
+    "storefronts": []
+  },
+  {
+    "name": "Through the Woods",
+    "description": "",
+    "image": "/asset/Game/Through_the_Woods/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/368430/",
+    "storefronts": []
+  },
+  {
+    "name": "Tinkerlands: A Shipwrecked Adventure",
+    "description": "",
+    "image": "/asset/Game/Tinkerlands_A_Shipwrecked_Adventure/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2658710/",
+    "storefronts": []
+  },
+  {
+    "name": "Totally Accurate Battlegrounds",
+    "description": "",
+    "image": "/asset/Game/Totally_Accurate_Battlegrounds/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/823130/",
+    "storefronts": []
+  },
+  {
+    "name": "Ultimate Zombie Defense",
+    "description": "",
+    "image": "/asset/Game/Ultimate_Zombie_Defense/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1035510/",
+    "storefronts": []
+  },
+  {
+    "name": "Upload Labs",
+    "description": "",
+    "image": "/asset/Game/Upload_Labs/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/3606890/",
+    "storefronts": []
+  },
+  {
+    "name": "VRChat",
+    "description": "",
+    "image": "/asset/Game/VRChat/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/438100/",
+    "storefronts": []
+  },
+  {
+    "name": "War Thunder",
+    "description": "",
+    "image": "/asset/Game/War_Thunder/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/236390/",
+    "storefronts": []
+  },
+  {
+    "name": "Will To Live Online",
+    "description": "",
+    "image": "/asset/Game/Will_To_Live_Online/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/707010/",
+    "storefronts": []
+  },
+  {
+    "name": "World War Z",
+    "description": "",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
+    "name": "_game_Template",
+    "description": "",
+    "image": "/asset/Game/_game_Template/cover_img.png",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  }
+]

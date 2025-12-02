@@ -53,3 +53,12 @@ function setTheme(theme) {
 document.addEventListener('DOMContentLoaded', () => {
   setTheme(currentTheme); // Set the initial theme
 });
+
+fetch('/partials/nav.html')
+            .then(response => response.text())
+            .then(data => { document.getElementById('nav-placeholder').innerHTML = data; });
+        fetch('/partials/footer.html')
+            .then(response => response.text())
+            .then(data => { document.getElementById('footer-placeholder').innerHTML = data; });
+// End of JavaScript to toggle between themes
+
