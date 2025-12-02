@@ -1,7 +1,7 @@
 [
   {
     "name": "ARC Raiders Playtest",
-    "description": "",
+    "description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
     "image": "/asset/Game/ARC_Raiders_Playtest/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/2427520/",
@@ -14,7 +14,7 @@
   },
   {
     "name": "ASTRONEER",
-    "description": "",
+    "description": "Interact with strange new worlds in a unique and tactile way, molding the environment itself as if it were clay in your hands. Build your base, master resource management, automate your production lines, and more as you unravel the mysteries of the universe, alone or with friends.",
     "image": "/asset/Game/ASTRONEER/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/361420/",
@@ -27,7 +27,7 @@
   },
   {
     "name": "ATLYSS",
-    "description": "",
+    "description": "Enter the world of ATLYSS, a Singleplayer/Online RPG where you can fight with or against friends in a surreal world filled with creatures beyond comprehension. Customize and progress your character(s), complete quests, and discover strange locations.",
     "image": "/asset/Game/ATLYSS/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/2768430/",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Aimlabs",
-    "description": "",
+    "description": "Aimlabs is the aim trainer of choice for over 40 Million players, from beginners to esports pros. Our unique aim analysis optimizes your gameplay, targets your weaknesses &amp; builds key skills for any FPS game! Time to warm up with our unlimited scenarios &amp; rank up in-game!",
     "image": "/asset/Game/Aimlabs/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/714010/",
@@ -53,15 +53,15 @@
   },
   {
     "name": "Amnesia: The Bunker",
-    "description": "",
+    "description": "Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker. Face the oppressing terrors stalking in the dark. Search for and use the tools and weapons at your disposal. Keep the lights on at all costs and make your way out alive.",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/44950011e7b544fc82c0a2e464b1afcd",
     "storefronts": []
   },
   {
     "name": "Ampersat",
-    "description": "",
+    "description": "A shooty, slashy, RPG-y game mixing retro and modern sensibilities. A blend of influences from Gauntlet &amp; Smash TV to Zelda &amp; Angband, Ampersat is a handcrafted adventure but with appeal to Roguelite fans. Battle ASCII creatures in colorful areas &amp; free letters to return language to the village!",
     "image": "/asset/Game/Ampersat/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1356040/",
@@ -74,7 +74,7 @@
   },
   {
     "name": "AtmaSphere",
-    "description": "",
+    "description": "AtmaSphere is roll-a-ball game set in a medieval world which is full of dangerous traps and uncertain paths! Roll all you want, but don",
     "image": "/asset/Game/AtmaSphere/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/753660/",
@@ -87,15 +87,15 @@
   },
   {
     "name": "Backpack Hero",
-    "description": "",
+    "description": "The inventory management roguelike! Collect rare items, organize your backpack, and vanquish your foes!",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/c2568782280f414aa8476c9fba8bfd60",
     "storefronts": []
   },
   {
     "name": "Balatro",
-    "description": "",
+    "description": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
     "image": "/asset/Game/Balatro/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/2379780/",
@@ -108,7 +108,7 @@
   },
   {
     "name": "Battlestar Galactica Deadlock",
-    "description": "",
+    "description": "In Battlestar Galactica Deadlock™ you’ll take command of the Colonial Fleet in defense of the Twelve Colonies during the First Cylon War. Lead many different types of ships in this 3D tactical game. Every decision counts, your strategy will be vital – can you ensure mankind’s survival?",
     "image": "/asset/Game/Battlestar_Galactica_Deadlock/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/544610/",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Besiege",
-    "description": "",
+    "description": "Besiege is a physics building game about constructing mechanical machines to annihilate armies, obliterate castles and overcome challenging obstacles. Conquer the campaign or skirmish with friends in Multiplayer!",
     "image": "/asset/Game/Besiege/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/346010/",
@@ -134,7 +134,7 @@
   },
   {
     "name": "Black Desert",
-    "description": "",
+    "description": "Played by over 20 million Adventurers - Black Desert Online is an open-world, action MMORPG. Experience intense, action-packed combat, battle massive world bosses, fight alongside friends to siege and conquer castles, and train in professions such as fishing, trading, crafting, cooking, and more!",
     "image": "/asset/Game/Black_Desert/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/582660/",
@@ -147,7 +147,7 @@
   },
   {
     "name": "Black Skylands",
-    "description": "",
+    "description": "Become the captain of an airship and explore the world of the skies, gather resources and build powerful weapons, uncover ancient secrets and fight beneath your ship",
     "image": "/asset/Game/Black_Skylands/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1143810/",
@@ -160,7 +160,7 @@
   },
   {
     "name": "Borderlands 2",
-    "description": "",
+    "description": "Borderlands 4 is out now on PlayStation 5, Xbox Series X|S, and PC via Steam and the Epic Games Store!",
     "image": "/asset/Game/Borderlands_2/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://borderlands.com/en-US/",
@@ -173,7 +173,7 @@
   },
   {
     "name": "Buckshot Roulette",
-    "description": "",
+    "description": "Play Russian roulette with a 12-gauge shotgun. Four enter. One leaves. Roll the dice with your life. Good luck!",
     "image": "/asset/Game/Buckshot_Roulette/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/2835570/",
@@ -186,7 +186,7 @@
   },
   {
     "name": "Capcom Arcade Stadium",
-    "description": "",
+    "description": "Relive the Capcom classics! Get 1943 -The Battle of Midway- and game logo wallpapers free with your download!",
     "image": "/asset/Game/Capcom_Arcade_Stadium/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1515950/",
@@ -199,7 +199,7 @@
   },
   {
     "name": "Cell to Singularity - Evolution Never Ends",
-    "description": "",
+    "description": "The epic story of evolution, technology, humanity, and dinosaurs is yours to tap.",
     "image": "/asset/Game/Cell_to_Singularity_-_Evolution_Never_Ends/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/977400/",
@@ -212,7 +212,7 @@
   },
   {
     "name": "Content Warning",
-    "description": "",
+    "description": "Film your friends doing scary things to become SpöökTube famous! (strongly advised to not go alone)",
     "image": "/asset/Game/Content_Warning/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/2881650/",
@@ -225,7 +225,7 @@
   },
   {
     "name": "Crush Crush",
-    "description": "",
+    "description": "Welcome to Crush Crush - the Idle Dating Sim! Meet, flirt, and fall in love with a motley cast of girls in this heartfelt and hilarious game.",
     "image": "/asset/Game/Crush_Crush/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/459820/",
@@ -238,7 +238,7 @@
   },
   {
     "name": "DOOM II",
-    "description": "",
+    "description": "Hell has invaded Earth, and to save it, you must battle mightier demons with even more powerful weapons. This beloved sequel to the groundbreaking DOOM (1993) introduced players to the brutal Super Shotgun, the infamous Icon of Sin boss, and more intense FPS action.",
     "image": "/asset/Game/DOOM_II/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://bethesda.net/en/game/doomii",
@@ -251,7 +251,7 @@
   },
   {
     "name": "DOOM + DOOM II",
-    "description": "",
+    "description": "Developed by id Software, and originally released in 1993 and 1994, the definitive, newly enhanced versions of DOOM + DOOM II are available as a combined product.",
     "image": "/asset/Game/DOOM__DOOM_II/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://bethesda.net/en/game/doom",
@@ -264,7 +264,7 @@
   },
   {
     "name": "Don't Starve Together",
-    "description": "",
+    "description": "Newsletter Available On",
     "image": "/asset/Game/Dont_Starve_Together/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://www.kleientertainment.com/games/dont-starve-together",
@@ -277,7 +277,7 @@
   },
   {
     "name": "Enlisted",
-    "description": "",
+    "description": "In Enlisted, you are not only commanding a single soldier, but an entire squad! This MMO squad based shooter recreates the key battles of the bloodiest war of the 20th century, with hundreds of soldiers, tanks and aircraft taking part in each battle.",
     "image": "/asset/Game/Enlisted/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/2051620/",
@@ -290,31 +290,31 @@
   },
   {
     "name": "Fall Guys",
-    "description": "",
+    "description": "Fall Guys",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/0a2d9f6403244d12969e11da6713137b",
     "storefronts": []
   },
   {
     "name": "Fallout 2: A Post Nuclear Role Playing Game",
-    "description": "",
+    "description": "Fallout 2: A Post Nuclear Role Playing Game",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/74034e8449f2470d9f45115f3a49f9aa",
     "storefronts": []
   },
   {
     "name": "Fallout: A Post Nuclear Role Playing Game",
-    "description": "",
+    "description": "Fallout: A Post Nuclear Role Playing Game",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/f8ef168f3522419caad27d82878e0329",
     "storefronts": []
   },
   {
     "name": "Fallout Shelter",
-    "description": "",
+    "description": "Fallout Shelter puts you in control of a state-of-the-art underground Vault from Vault-Tec. Build the perfect Vault, keep your Dwellers happy, and protect them from the dangers of the Wasteland.",
     "image": "/asset/Game/Fallout_Shelter/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/588430/",
@@ -327,15 +327,15 @@
   },
   {
     "name": "Fallout Tactics: Brotherhood of Steel",
-    "description": "",
+    "description": "Fallout Tactics: Brotherhood of Steel",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/908f75e7f1624819a70c27f543741dcd",
     "storefronts": []
   },
   {
     "name": "Fantasy General II",
-    "description": "",
+    "description": "The fantasy wargaming classic is back! Lead powerful heroes and mighty armies into battle in this critically acclaimed turn-based strategy milestone. Level up and train your units and guide them through a gripping story campaign to decide the fate of a world on the brink of destruction.",
     "image": "/asset/Game/Fantasy_General_II/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1025440/",
@@ -348,7 +348,7 @@
   },
   {
     "name": "Farmer Against Potatoes Idle",
-    "description": "",
+    "description": "Pick up your sword and fight off waves of Potatoes by upgrading your stats constantly, use Equipment, choose between different Classes, put your many Talents to good use, and so much more designed to keep you entertained for a long time.",
     "image": "/asset/Game/Farmer_Against_Potatoes_Idle/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1535560/",
@@ -361,7 +361,7 @@
   },
   {
     "name": "Field of Glory II: Medieval",
-    "description": "",
+    "description": "Field of Glory II Medieval is a turn-based tactical game set in the High Middle Ages from 1040 AD to 1270 AD. Developed by legendary designer Richard Bodley Scott it brings the best from the tabletop world into the best digital framework.",
     "image": "/asset/Game/Field_of_Glory_II_Medieval/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1368870/",
@@ -374,23 +374,23 @@
   },
   {
     "name": "Figment 2: Creed Valley",
-    "description": "",
+    "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/37f5a526914b4eaaa86d32820e162aa0",
     "storefronts": []
   },
   {
     "name": "Fortnite",
-    "description": "",
+    "description": "Play Fortnite your way. Be the last player standing in Battle Royale, Zero Build, Reload, and Fortnite OG, explore LEGO Fortnite experiences, blast to the finish with Rocket Racing or headline a concert with Fortnite Festival. Play thousands of free creator made islands with friends including deathruns, tycoons, racing, zombie survival and more! Join the creator community and build your own island with Unreal Editor for Fortnite (UEFN) or Fortnite Creative tools. Each Fortnite island has an individual age rating so you can find the one that's right for you and your friends. Find it all in Fortnite!",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/Fortnite",
     "storefronts": []
   },
   {
     "name": "Frostpunk",
-    "description": "",
+    "description": "Frostpunk is the first society survival game. As the ruler of the last city on Earth, it is your duty to manage both its citizens and infrastructure. What decisions will you make to ensure your society",
     "image": "/asset/Game/Frostpunk/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/323190/",
@@ -403,31 +403,31 @@
   },
   {
     "name": "Garden Story",
-    "description": "",
+    "description": "Garden Story",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/61cc250618f94809a3ef6837c8d69445",
     "storefronts": []
   },
   {
     "name": "Generative Quest",
-    "description": "",
+    "description": "Generative Quest",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/8530c88a2cb54596a16ef0b4bd891569",
     "storefronts": []
   },
   {
     "name": "Ghostrunner",
-    "description": "",
+    "description": "Ghostrunner",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/ea8df71f923649a193ab1c1fded7e1b3",
     "storefronts": []
   },
   {
     "name": "Golf With Your Friends",
-    "description": "",
+    "description": "Why have friends if not to play Golf... With Your Friends! Nothing is out of bounds as you take on courses filled with fast paced, exciting, simultaneous mini golf for up to 12 players!",
     "image": "/asset/Game/Golf_With_Your_Friends/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/431240/",
@@ -440,15 +440,15 @@
   },
   {
     "name": "Gravity Circuit",
-    "description": "",
+    "description": "Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics. Follow Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit, on an adventure in a post-apocalyptic world inhabited by sentient robots.",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/78847ec04bb348ba83d00a44896b80a3",
     "storefronts": []
   },
   {
     "name": "HITMAN World of Assassination",
-    "description": "",
+    "description": "Enter the world of the ultimate assassin. HITMAN World of Assassination delivers the definitive stealth action experience, putting you in the shoes of Agent 47, a master assassin. Explore immersive locations, uncover hidden secrets, and eliminate targets with complete freedom of approach.",
     "image": "/asset/Game/HITMAN_World_of_Assassination/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1659040/",
@@ -461,7 +461,7 @@
   },
   {
     "name": "Helltaker",
-    "description": "",
+    "description": "Helltaker is a short game about sharply dressed demon girls.",
     "image": "/asset/Game/Helltaker/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1289310/",
@@ -474,7 +474,7 @@
   },
   {
     "name": "ISLANDERS",
-    "description": "",
+    "description": "ISLANDERS is a minimalist strategy game about building cities on colorful islands.",
     "image": "/asset/Game/ISLANDERS/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1046030/",
@@ -487,7 +487,7 @@
   },
   {
     "name": "IdleOn",
-    "description": "",
+    "description": "The management RPG where your heroes keep fighting even when you",
     "image": "/asset/Game/IdleOn/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1476970/",
@@ -500,15 +500,15 @@
   },
   {
     "name": "Idle Champions of the Forgotten Realms",
-    "description": "",
+    "description": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/40cb42e38c0b4a14a1bb133eb3291572",
     "storefronts": []
   },
   {
     "name": "Infinity Kingdom",
-    "description": "",
+    "description": "Conquer the city, discover the Infinity! Infinity Kingdom is a cartoon-style mmo strategy game. As a resourceful lord, you must defend the land of Norheim against the evil gnomes while protecting yourself from other invading players!",
     "image": "/asset/Game/Infinity_Kingdom/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1573360/",
@@ -521,7 +521,7 @@
   },
   {
     "name": "Keep Talking and Nobody Explodes",
-    "description": "",
+    "description": "Find yourself trapped alone in a room with a ticking time bomb. Your friends have the manual to defuse it, but they can",
     "image": "/asset/Game/Keep_Talking_and_Nobody_Explodes/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/341800/",
@@ -534,7 +534,7 @@
   },
   {
     "name": "Kerbal Space Program",
-    "description": "",
+    "description": "In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.",
     "image": "/asset/Game/Kerbal_Space_Program/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://www.kerbalspaceprogram.com/en/",
@@ -547,39 +547,39 @@
   },
   {
     "name": "Keylocker | Turn Based Cyberpunk Action",
-    "description": "",
+    "description": "Keylocker | Turn Based Cyberpunk Action",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/f976812fbda048fab62b072c44ff2521",
     "storefronts": []
   },
   {
     "name": "LEGO® Star Wars™: The Skywalker Saga",
-    "description": "",
+    "description": "LEGO® Star Wars™: The Skywalker Saga",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/c390e58246ea4a778acd26473a489b48",
     "storefronts": []
   },
   {
     "name": "Legion TD 2",
-    "description": "",
+    "description": "An infinitely replayable multiplayer and single-player tower defense. Defend against waves of enemies and destroy the enemy's king before they destroy yours. Legion TD 2 is a one-of-a-kind game of tactics, teamwork, and prediction. Party as 1-8 players.",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/d50bfa4d5a8c4b0885f846d826df16b8",
     "storefronts": []
   },
   {
     "name": "Limbo",
-    "description": "",
+    "description": "Limbo",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/Hazelnut",
     "storefronts": []
   },
   {
     "name": "Lords and Villeins",
-    "description": "",
+    "description": "Build a prosperous settlement in a unique simulation of a feudal economy - each family runs their shop, owns their goods, and trades with other villagers in a free market. You will manage the land, build houses, organise events, set taxes, and balance supply and demand while engaging in diplomacy!",
     "image": "/asset/Game/Lords_and_Villeins/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1287530/",
@@ -592,7 +592,7 @@
   },
   {
     "name": "Machinika Museum",
-    "description": "",
+    "description": "Welcome to the Museum! Machinika Museum is a mystery game where you discover beautiful and mysterious machines of extra-terrestrial origins in an atmospheric galaxy-spanning 3D puzzle game. Will you be able to understand their stories and discover what happened to their previous owner?",
     "image": "/asset/Game/Machinika_Museum/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1507190/",
@@ -605,7 +605,7 @@
   },
   {
     "name": "Master Levels for DOOM II",
-    "description": "",
+    "description": "Introducing the Master Levels for DOOM II. Twenty never-before-seen levels all with the same acid drenched, hell spawned horror of the originals. Each was created by independent designers and supervised by the demented minds of id Software. You might as well forget about seeing the light of day ever again.",
     "image": "/asset/Game/Master_Levels_for_DOOM_II/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://bethesda.net/en/game/doomii",
@@ -618,7 +618,7 @@
   },
   {
     "name": "Metro 2033 Redux",
-    "description": "",
+    "description": "Metro Exodus is an epic, story-driven first person shooter from 4A Games that blends deadly combat and stealth with exploration and survival horror in one of the most immersive game worlds ever created.",
     "image": "/asset/Game/Metro_2033_Redux/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://www.metrothegame.com/en/",
@@ -631,7 +631,7 @@
   },
   {
     "name": "Mini World: Block Art",
-    "description": "",
+    "description": "Mini World is a 3D free sandbox game about adventure, exploration, and creating your dream worlds. There is no grinding or leveling up. No IAP gate that locks features from free to play players. Everyone can enjoy the game’s full features with great freedom",
     "image": "/asset/Game/Mini_World_Block_Art/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/814480/",
@@ -652,7 +652,7 @@
   },
   {
     "name": "Nubs!",
-    "description": "",
+    "description": "As a true chaotic Nub warrior, your skills will be put to the ultimate test in a trap-filled arena. Arm yourself with a Can-o-Beanz, Burny-Hogz-Stick, or a Fish as you battle your way to the top in short fast-paced multiplayer brawls.",
     "image": "/asset/Game/Nubs/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/2337860/",
@@ -665,15 +665,15 @@
   },
   {
     "name": "Ogu and the Secret Forest",
-    "description": "",
+    "description": "Explore the wonderful world with baby Ogu! 'Ogu and the Secret Forest' is a 2D adventure game with hand-drawn characters and various types of puzzles. Befriend bouncy characters and defeat strange creatures to unravel the mystery of the charming world.",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/ad10e9b2f38d491499785412149cdc49",
     "storefronts": []
   },
   {
     "name": "Outpath: First Journey",
-    "description": "",
+    "description": "Outpath: First Journey is a prologue chapter of the main game, Outpath. An experimental clicker base building game. Craft, gather &amp; manage resources, build your base and buy more islands to exploit and expand!",
     "image": "/asset/Game/Outpath_First_Journey/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/2237980/",
@@ -686,7 +686,7 @@
   },
   {
     "name": "PAYDAY 2",
-    "description": "",
+    "description": "Step out of retirement back into the life of crime in the shoes of the Payday Gang. Buy Now on PC, Xbox Series X|S & PlayStation 5.",
     "image": "/asset/Game/PAYDAY_2/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://www.paydaythegame.com/",
@@ -699,7 +699,7 @@
   },
   {
     "name": "PEAK",
-    "description": "",
+    "description": "PEAK is a co-op climbing game where the slightest mistake can spell your doom. Either solo or as a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Do you have what it takes to reach the PEAK?",
     "image": "/asset/Game/PEAK/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/3527290/",
@@ -712,7 +712,7 @@
   },
   {
     "name": "PICO PARK 2",
-    "description": "",
+    "description": "PICO PARK is back with all new levels! Play with 2-8 players locally or online in this co-op action-puzzle game!",
     "image": "/asset/Game/PICO_PARK_2/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/2644470/",
@@ -725,7 +725,7 @@
   },
   {
     "name": "Pankapu",
-    "description": "",
+    "description": "Pankapu is a narrative action-platformer that takes place in the dreams of Djaha’rell, a child troubled by a tragic incident. Upgrade your skills, find new competencies, switch your Aegis in real time in order to get rid of Nightmare",
     "image": "/asset/Game/Pankapu/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/418670/",
@@ -738,7 +738,7 @@
   },
   {
     "name": "People Playground",
-    "description": "",
+    "description": "Shoot, stab, burn, poison, tear, vaporise, or crush ragdolls in a large open space.",
     "image": "/asset/Game/People_Playground/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1118200/",
@@ -751,39 +751,39 @@
   },
   {
     "name": "Pilgrims",
-    "description": "",
+    "description": "Roam the land as you please and make new friends, share a laugh with your fellow travelers and help them complete their little stories, your way. How many different solutions can you find?",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/956ee1dc4d5846648dc0666d7994284f",
     "storefronts": []
   },
   {
     "name": "River City Girls",
-    "description": "",
+    "description": "River City Girls",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/588cec64448242d8b61188205d97f887",
     "storefronts": []
   },
   {
     "name": "Sable",
-    "description": "",
+    "description": "Sable",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/9b48cbb1a0cf4a73b87ccbf4cde04b26",
     "storefronts": []
   },
   {
     "name": "Sid Meier's Civilization VI",
-    "description": "",
+    "description": "Sid Meier's Civilization VI",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/Kinglet",
     "storefronts": []
   },
   {
     "name": "Slime Rancher",
-    "description": "",
+    "description": "Slime Rancher is the tale of Beatrix LeBeau, a plucky, young rancher who sets out for a life a thousand light years away from Earth on the ‘Far, Far Range’ where she tries her hand at making a living wrangling slimes.",
     "image": "/asset/Game/Slime_Rancher/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/433340/",
@@ -796,7 +796,7 @@
   },
   {
     "name": "Space Crew: Legendary Edition",
-    "description": "",
+    "description": "Time for your toughest mission yet! Recruit and train your crew to tackle the growing threat from alien and android armies as you defend Earth to become a Galactic Legend in Space Crew: Legendary Edition. All new content free to existing owners of Space Crew!",
     "image": "/asset/Game/Space_Crew_Legendary_Edition/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1176710/",
@@ -809,7 +809,7 @@
   },
   {
     "name": "Space Engineers",
-    "description": "",
+    "description": "Unleash Your Need to Create",
     "image": "/asset/Game/Space_Engineers/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://www.spaceengineersgame.com/",
@@ -822,7 +822,7 @@
   },
   {
     "name": "Stardew Valley",
-    "description": "",
+    "description": "You",
     "image": "/asset/Game/Stardew_Valley/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/413150/",
@@ -835,7 +835,7 @@
   },
   {
     "name": "System Shock",
-    "description": "",
+    "description": "A first-person fight to the death in the depths of space!",
     "image": "/asset/Game/System_Shock/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/482400/",
@@ -848,7 +848,7 @@
   },
   {
     "name": "The Sims™ 4",
-    "description": "",
+    "description": "Play with life and discover the possibilities. Unleash your imagination and create a world of Sims that’s wholly unique. Explore and customize every detail from Sims to homes–and much more.",
     "image": "/asset/Game/The_Sims_4/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1222670/",
@@ -861,7 +861,7 @@
   },
   {
     "name": "Through the Woods",
-    "description": "",
+    "description": "Through the Woods is a third-person Norse horror adventure set in a forest on the western shores of Norway that tells the story of a mother and her missing son.",
     "image": "/asset/Game/Through_the_Woods/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/368430/",
@@ -874,7 +874,7 @@
   },
   {
     "name": "Tinkerlands: A Shipwrecked Adventure",
-    "description": "",
+    "description": "A Shipwrecked Adventure is a free prologue immersing you into the vast world of Tinkerlands. Uncover the story of the first survivors on these mystical islands. Explore the breathtaking archipelago, craft essential tools, build your settlement, and strive to survive!",
     "image": "/asset/Game/Tinkerlands_A_Shipwrecked_Adventure/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/2658710/",
@@ -887,7 +887,7 @@
   },
   {
     "name": "Totally Accurate Battlegrounds",
-    "description": "",
+    "description": "Grab your balloon crossbow and trusty inflatable hammer, because things are about to get wobbly! Be the last weirdo standing in the world-leading physics-based Battle Royale game.",
     "image": "/asset/Game/Totally_Accurate_Battlegrounds/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/823130/",
@@ -900,7 +900,7 @@
   },
   {
     "name": "Ultimate Zombie Defense",
-    "description": "",
+    "description": "Team up or face it alone in this top down zombie slaying defense adventure! Featuring up to 4 player online co-op, cleanse the infected wave by wave and upgrade your base with traps &amp; defenses to build the Ultimate Zombie Defense. Can YOU stop them?",
     "image": "/asset/Game/Ultimate_Zombie_Defense/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/1035510/",
@@ -912,8 +912,16 @@
     ]
   },
   {
+    "name": "Universe for Sale",
+    "description": "Universe for Sale",
+    "image": "",
+    "primary_store": "",
+    "primary_link": "",
+    "storefronts": []
+  },
+  {
     "name": "Upload Labs",
-    "description": "",
+    "description": "A sci-fi management game where you build and optimize your computer",
     "image": "/asset/Game/Upload_Labs/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/3606890/",
@@ -926,7 +934,7 @@
   },
   {
     "name": "VRChat",
-    "description": "",
+    "description": "Join our growing community as you explore, play, and help craft the future of social VR. Create worlds and custom avatars. Welcome to VRChat.",
     "image": "/asset/Game/VRChat/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/438100/",
@@ -939,7 +947,7 @@
   },
   {
     "name": "War Thunder",
-    "description": "",
+    "description": "Play for free with friends in the most realistic online game",
     "image": "/asset/Game/War_Thunder/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://warthunder.com/en/",
@@ -952,7 +960,7 @@
   },
   {
     "name": "Will To Live Online",
-    "description": "",
+    "description": "Will To Live is a MMORPG-shooter whose action takes place in a severe post-apocalyptic world. Explore the world, engage in fights with mutants and other survivors, join the clans in the struggle for existence and prove your right to Live.",
     "image": "/asset/Game/Will_To_Live_Online/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://store.steampowered.com/app/707010/",
@@ -965,10 +973,10 @@
   },
   {
     "name": "World War Z",
-    "description": "",
+    "description": "World War Z",
     "image": "",
-    "primary_store": "",
-    "primary_link": "",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/Wombat",
     "storefronts": []
   }
 ]
