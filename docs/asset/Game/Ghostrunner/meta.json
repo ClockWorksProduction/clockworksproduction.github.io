@@ -1,9 +1,10 @@
 {
   "name": "Ghostrunner",
+  "image": "https://cdn1.epicgames.com/95d0b9561be1464cb43bd029e94cf526/item/GR_Epic_Landscape_Offer2560x1440-2560x1440-08987c0c3e1701ea6a7217ed5616922d.jpg",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "1044c51716c4423e83da5818d289057e",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/ea8df71f923649a193ab1c1fded7e1b3",
+    "epicGames": "https://store.epicgames.com/en-US/p/ghostrunner",
     "gog": "",
     "xbox": "",
     "playstation": "",

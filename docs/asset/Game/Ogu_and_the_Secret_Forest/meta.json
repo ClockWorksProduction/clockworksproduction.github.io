@@ -1,9 +1,10 @@
 {
   "name": "Ogu and the Secret Forest",
+  "image": "https://cdn1.epicgames.com/spt-assets/ab32c6c664f340f0bb18afcb9b036dae/ogu-and-the-secret-forest-1uk56.png",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "f1c822a8c39f48fcb91c278dd183cb84",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/ad10e9b2f38d491499785412149cdc49",
+    "epicGames": "https://store.epicgames.com/en-US/p/ogu-and-the-secret-forest",
     "gog": "",
     "xbox": "",
     "playstation": "",

@@ -1,9 +1,10 @@
 {
   "name": "Legion TD 2",
+  "image": "https://cdn1.epicgames.com/spt-assets/29586d03c1c147569a1991a8616c1413/legion-td-2-12op3.png",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "ede00501bf0b4cc9ac10f3b578f1d074",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/d50bfa4d5a8c4b0885f846d826df16b8",
+    "epicGames": "https://store.epicgames.com/en-US/p/legion-td-2",
     "gog": "",
     "xbox": "",
     "playstation": "",

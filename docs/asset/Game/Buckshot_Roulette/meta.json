@@ -1,5 +1,6 @@
 {
   "name": "Buckshot Roulette",
+  "image": "",
   "appId": {
     "steam": 2835570,
     "itchIo": 0,
@@ -21,7 +22,9 @@
     "Simulation"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -35,6 +38,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/2835570/"
+    "other": ""
   }
 }

@@ -1,5 +1,6 @@
 {
   "name": "Enlisted",
+  "image": "",
   "appId": {
     "steam": 2051620,
     "itchIo": 0,
@@ -21,7 +22,9 @@
     "Free To Play"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -35,6 +38,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/2051620/"
+    "other": ""
   }
 }

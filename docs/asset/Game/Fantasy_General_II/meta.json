@@ -1,5 +1,6 @@
 {
   "name": "Fantasy General II",
+  "image": "",
   "appId": {
     "steam": 1025440,
     "itchIo": 0,
@@ -19,7 +20,9 @@
     "Strategy"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -33,6 +36,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/1025440/"
+    "other": ""
   }
 }

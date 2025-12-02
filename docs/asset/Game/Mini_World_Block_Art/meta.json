@@ -1,5 +1,6 @@
 {
   "name": "Mini World: Block Art",
+  "image": "",
   "appId": {
     "steam": 814480,
     "itchIo": 0,
@@ -23,7 +24,9 @@
     "Free To Play"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -37,6 +40,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/814480/"
+    "other": ""
   }
 }

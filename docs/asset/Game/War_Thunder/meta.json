@@ -1,5 +1,6 @@
 {
   "name": "War Thunder",
+  "image": "",
   "appId": {
     "steam": 236390,
     "itchIo": 0,
@@ -21,7 +22,9 @@
     "Vehicle simulation"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

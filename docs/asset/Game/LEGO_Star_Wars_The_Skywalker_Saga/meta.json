@@ -1,9 +1,10 @@
 {
   "name": "LEGO® Star Wars™: The Skywalker Saga",
+  "image": "https://cdn1.epicgames.com/item/9c59efaabb6a48f19b3485d5d9416032/EGS_LEGOStarWarsTheSkywalkerSaga_TTGames_S1_2560x1440_2560x1440-ae89e9c91aec1e461148f93f25b828ed",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "709536796ff5489a97c4574b9d6bda24",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/c390e58246ea4a778acd26473a489b48",
+    "epicGames": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga",
     "gog": "",
     "xbox": "",
     "playstation": "",

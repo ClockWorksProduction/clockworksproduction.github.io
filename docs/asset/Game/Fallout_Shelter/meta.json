@@ -1,5 +1,6 @@
 {
   "name": "Fallout Shelter",
+  "image": "",
   "appId": {
     "steam": 588430,
     "itchIo": 0,
@@ -21,7 +22,9 @@
     "Free To Play"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -35,6 +38,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/588430/"
+    "other": ""
   }
 }

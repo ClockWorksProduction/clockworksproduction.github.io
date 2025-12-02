@@ -39,7 +39,11 @@ def slug(name):
 
 
 def fetch_url_bytes(url, timeout=15):
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    req = urllib.request.Request(url, headers={
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                      'Chrome/120.0.0.0 Safari/537.36',
+        'Accept-Language': 'en-US,en;q=0.9'
+    })
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
 
@@ -148,7 +152,16 @@ def find_og_image(html):
 
 
 def find_description_from_html(html, url=None):
-    # try common meta tags first
+    # Try JSON-LD description blocks first
+    for m in re.finditer(r"<script[^>]+type=[\"']application/ld\+json[\"'][^>]*>(.*?)</script>", html, re.I | re.S):
+        try:
+            data = json.loads(m.group(1))
+            if isinstance(data, dict) and data.get('description'):
+                return strip_tags(data.get('description'))
+        except Exception:
+            pass
+
+    # try common meta tags next
     m = re.search(r'''<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)["']''', html, re.I)
     if not m:
         m = re.search(r'''<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["']''', html, re.I)
@@ -157,12 +170,15 @@ def find_description_from_html(html, url=None):
     if m:
         return strip_tags(m.group(1))
 
-    # steam-specific: try description snippets
+    # steam-specific: try description blocks (id or class) and snippets
     if url and 'store.steampowered.com' in (url or '').lower():
-        m = re.search(r"<div[^>]+id=[\"']game_area_description[\"'][^>]*>(.*?)</div>", html, re.I | re.S)
-        if m:
-            return strip_tags(m.group(1))
-        m = re.search(r"<div[^>]+class=[\"']game_description_snippet[\"'][^>]*>(.*?)</div>", html, re.I | re.S)
+        # id-based block
+        m = re.search(r"<div[^>]+id=[\"']game_area_description[\"'][^>]*>([\s\S]*?)</div>", html, re.I)
+        if not m:
+            # class-based variants
+            m = re.search(r"<div[^>]+class=[\"']game_area_description[\"'][^>]*>([\s\S]*?)</div>", html, re.I)
+        if not m:
+            m = re.search(r"<div[^>]+class=[\"']game_description_snippet[\"'][^>]*>([\s\S]*?)</div>", html, re.I)
         if m:
             return strip_tags(m.group(1))
 
@@ -241,11 +257,24 @@ def find_metadata_from_html(html, url=None):
     return out
 
 
-def download_cover_for_game(name, primary_store_link, store_urls=None, appids=None):
+def download_cover_for_game(name, primary_store_link, store_urls=None, appids=None, info_image=None):
     # returns local filename or empty string
     dest_dir = os.path.join(GAME_DIR, slug(name))
     os.makedirs(dest_dir, exist_ok=True)
     cover_path = os.path.join(dest_dir, 'cover.jpg')
+
+    # Try explicit image URL discovered from source metadata first (Epic keyImages etc.)
+    if info_image:
+        try:
+            img = info_image
+            if primary_store_link:
+                img = urllib.parse.urljoin(primary_store_link, img)
+            data = fetch_url_bytes(img)
+            with open(cover_path, 'wb') as f:
+                f.write(data)
+            return 'cover.jpg'
+        except Exception:
+            pass
 
     # Steam CDN is easiest
     if appids and appids.get('steam'):
@@ -332,7 +361,7 @@ def main():
                 }
 
             # find a URL in common fields (sources have inconsistent keys)
-            possible_url_fields = ['store_link', 'storeUrl', 'store_url', 'link', 'url', 'game_url', 'website', 'page', 'storepage', 'store_page', 'permalink', 'epic_link']
+            possible_url_fields = ['store_link', 'storeUrl', 'store_url', 'link', 'url', 'game_url', 'website', 'page', 'storepage', 'store_page', 'permalink', 'epic_link', 'primary_link']
             url = ''
             for fld in possible_url_fields:
                 val = e.get(fld)
@@ -350,6 +379,17 @@ def main():
                     val = (e.get('metadata') or {}).get(fld)
                     if isinstance(val, str) and val:
                         url = val
+                        break
+
+            # If the source explicitly provides a primary_link, prefer it
+            if not url and isinstance(e.get('primary_link'), str) and e.get('primary_link'):
+                url = e.get('primary_link')
+
+            # Some exports include a storefronts array with {store, url}
+            if not url and isinstance(e.get('storefronts'), list):
+                for sf in e.get('storefronts'):
+                    if isinstance(sf, dict) and sf.get('url'):
+                        url = sf.get('url')
                         break
 
             # If no url but we have a steam appid, construct a steam store url
@@ -371,11 +411,41 @@ def main():
                 elif offer_id:
                     # store the offer id in appids for later processing
                     games[name]['appids']['epic'] = offer_id
+                    # also keep canonical epicGames key
+                    games[name]['appids']['epicGames'] = games[name]['appids'].get('epicGames') or offer_id
 
             # If still no url but we have an epic metadata id in metadata.id, capture it
             if not url and (e.get('metadata') or {}).get('id') and store_key.lower().startswith('epic'):
                 possible_id = (e.get('metadata') or {}).get('id')
+                # store under both keys for compatibility
                 games[name]['appids']['epic'] = games[name]['appids'].get('epic') or possible_id
+                games[name]['appids']['epicGames'] = games[name]['appids'].get('epicGames') or possible_id
+
+            # Epic: extract metadata.keyImages and description where available
+            if store_key.lower().startswith('epic') and isinstance(e.get('metadata'), dict):
+                meta = e.get('metadata') or {}
+                # prefer long/clean description from Epic metadata
+                if not games[name].get('description'):
+                    desc = meta.get('description') or meta.get('longDescription') or meta.get('shortDescription')
+                    if isinstance(desc, str) and desc:
+                        games[name]['description'] = strip_tags(desc)
+                # keyImages: prefer DieselGameBox, fallback to first image
+                key_images = meta.get('keyImages') or meta.get('key_images') or []
+                image_url = ''
+                if isinstance(key_images, list) and key_images:
+                    for img in key_images:
+                        if isinstance(img, dict) and img.get('type') == 'DieselGameBox':
+                            image_url = img.get('url') or img.get('image') or ''
+                            break
+                    if not image_url:
+                        first = key_images[0]
+                        if isinstance(first, dict):
+                            image_url = first.get('url') or first.get('image') or ''
+                if image_url:
+                    games[name]['image'] = image_url
+            # top-level image field (some exports include a direct image URL)
+            if not games[name].get('image') and isinstance(e.get('image'), str) and e.get('image'):
+                games[name]['image'] = e.get('image')
 
             if url:
                 sk = store_key.lower()
@@ -478,10 +548,11 @@ def main():
 
         base_meta = {
             'name': info['name'],
+            'image': info.get('image') or '',
             'appId': {
                 'steam': int((info.get('appids') or {}).get('steam') or 0),
                 'itchIo': (info.get('appids') or {}).get('itch') or 0,
-                'epicGames': (info.get('appids') or {}).get('epic') or 0,
+                'epicGames': (info.get('appids') or {}).get('epic') or (info.get('appids') or {}).get('epicGames') or 0,
                 'gog': (info.get('appids') or {}).get('gog') or 0,
                 'xbox': (info.get('appids') or {}).get('xbox') or 0,
                 'playstation': (info.get('appids') or {}).get('playstation') or 0,
@@ -532,6 +603,9 @@ def main():
             # ensure platforms: if empty, try to detect from steam
             if not merged.get('platforms'):
                 merged['platforms'] = []
+            # ensure image: if existing meta lacks an image, take base image
+            if (not merged.get('image') or merged.get('image') == '') and base_meta.get('image'):
+                merged['image'] = base_meta.get('image')
             meta = merged
         else:
             meta = base_meta
@@ -574,7 +648,7 @@ def main():
         # attempt to download cover (saved as cover.jpg in the game's folder) if enabled
         cover = ''
         if args.download_covers:
-            cover = download_cover_for_game(info['name'], store_link, store_urls, info.get('appids'))
+            cover = download_cover_for_game(info['name'], store_link, store_urls, info.get('appids'), info.get('image'))
 
         # fetch descriptions from store pages if requested and description is empty
         if args.fetch_descriptions:

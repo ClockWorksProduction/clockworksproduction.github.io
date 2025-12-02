@@ -1,5 +1,6 @@
 {
   "name": "Capcom Arcade Stadium",
+  "image": "",
   "appId": {
     "steam": 1515950,
     "itchIo": 0,
@@ -20,7 +21,9 @@
     "Free To Play"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -34,6 +37,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/1515950/"
+    "other": ""
   }
 }

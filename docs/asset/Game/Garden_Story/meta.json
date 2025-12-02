@@ -1,9 +1,10 @@
 {
   "name": "Garden Story",
+  "image": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_GardenStory_Picogram_S1_2560x1440-b1549cf6645f51ab0bacf6d73aa1631d",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "6538249d5bc84eb69715c5ab78ca712d",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/61cc250618f94809a3ef6837c8d69445",
+    "epicGames": "https://store.epicgames.com/en-US/p/garden-story",
     "gog": "",
     "xbox": "",
     "playstation": "",

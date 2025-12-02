@@ -1,9 +1,10 @@
 {
   "name": "Amnesia: The Bunker",
+  "image": "https://cdn1.epicgames.com/spt-assets/671aee4c8fb64a1c967d97f31f093e7a/amnesia-the-bunker-lyyfp.png",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "492c84173fe34b009af51e739caba636",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/44950011e7b544fc82c0a2e464b1afcd",
+    "epicGames": "https://store.epicgames.com/en-US/p/amnesia-the-bunker",
     "gog": "",
     "xbox": "",
     "playstation": "",

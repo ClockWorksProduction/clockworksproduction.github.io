@@ -1,9 +1,10 @@
 {
   "name": "River City Girls",
+  "image": "https://cdn1.epicgames.com/spt-assets/a6eec1ad46bc4515be5731b22f274ef7/river-city-girls-1g4nd.jpg",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "ff3441646daa4bb9aac0ae01beca6275",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/588cec64448242d8b61188205d97f887",
+    "epicGames": "https://store.epicgames.com/en-US/p/river-city-girls",
     "gog": "",
     "xbox": "",
     "playstation": "",

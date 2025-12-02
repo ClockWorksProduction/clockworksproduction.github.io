@@ -1,5 +1,6 @@
 {
   "name": "Content Warning",
+  "image": "",
   "appId": {
     "steam": 2881650,
     "itchIo": 0,
@@ -21,7 +22,9 @@
     "Indie"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -35,6 +38,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/2881650/"
+    "other": ""
   }
 }

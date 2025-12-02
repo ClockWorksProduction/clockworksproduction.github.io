@@ -1,9 +1,10 @@
 {
   "name": "Idle Champions of the Forgotten Realms",
+  "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1vo5e.png",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "48353a502e72433298f25827e03dbff0",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/40cb42e38c0b4a14a1bb133eb3291572",
+    "epicGames": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms",
     "gog": "",
     "xbox": "",
     "playstation": "",

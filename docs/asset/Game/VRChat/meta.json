@@ -1,5 +1,6 @@
 {
   "name": "VRChat",
+  "image": "",
   "appId": {
     "steam": 438100,
     "itchIo": 0,
@@ -25,7 +26,9 @@
     "Early Access"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -39,6 +42,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/438100/"
+    "other": ""
   }
 }

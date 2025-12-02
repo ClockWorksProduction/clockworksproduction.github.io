@@ -1,5 +1,6 @@
 {
   "name": "DOOM II",
+  "image": "",
   "appId": {
     "steam": 2300,
     "itchIo": 0,
@@ -19,7 +20,9 @@
     "Action"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

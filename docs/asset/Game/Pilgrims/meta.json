@@ -1,9 +1,10 @@
 {
   "name": "Pilgrims",
+  "image": "https://cdn1.epicgames.com/spt-assets/bfb773acd06f4d4090b82bd18f4b7744/pilgrims-1pqa1.png",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "759cbe84099f4227bc53e61ec2f6380a",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/956ee1dc4d5846648dc0666d7994284f",
+    "epicGames": "https://store.epicgames.com/en-US/p/pilgrims",
     "gog": "",
     "xbox": "",
     "playstation": "",

@@ -1,9 +1,10 @@
 {
   "name": "Fallout: A Post Nuclear Role Playing Game",
+  "image": "https://cdn1.epicgames.com/item/2e412cfcbd954e7180930e9784a47e18/EGS_FalloutAPostNuclearRolePlayingGame_BethesdaGameStudios_S1_2560x1440-548598863fb854e957d7706a24c6d381",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "ad210330aa424a0f843d501ca26f8488",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/f8ef168f3522419caad27d82878e0329",
+    "epicGames": "https://store.epicgames.com/en-US/p/fallout-a-post-nuclear-role-playing-game",
     "gog": "",
     "xbox": "",
     "playstation": "",

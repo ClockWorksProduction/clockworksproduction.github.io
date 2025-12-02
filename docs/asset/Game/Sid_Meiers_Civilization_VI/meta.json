@@ -1,9 +1,10 @@
 {
   "name": "Sid Meier's Civilization VI",
+  "image": "https://cdn1.epicgames.com/cd14dcaa4f3443f19f7169a980559c62/item/EGS_SidMeiersCivilizationVI_FiraxisGames_S5-1360x766-43ec615712394b3c4acbe77bce54975c.jpg",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "42ac1ee840304cb1807172a9b47dc8e3",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/Kinglet",
+    "epicGames": "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi",
     "gog": "",
     "xbox": "",
     "playstation": "",

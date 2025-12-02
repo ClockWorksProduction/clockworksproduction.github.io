@@ -1,9 +1,10 @@
 {
   "name": "World War Z",
+  "image": "https://cdn1.epicgames.com/item/wombat/landscapewwz-aftermath-1248x702_1248x702-43415cb8226261eba181a914f0bc85bc",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "ec6ed5344a904ea78729113d80818d18",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/Wombat",
+    "epicGames": "https://store.epicgames.com/en-US/p/world-war-z",
     "gog": "",
     "xbox": "",
     "playstation": "",

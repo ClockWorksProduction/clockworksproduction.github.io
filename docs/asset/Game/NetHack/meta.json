@@ -1,5 +1,6 @@
 {
   "name": "NetHack",
+  "image": "",
   "appId": {
     "steam": 0,
     "itchIo": 0,
@@ -19,7 +20,9 @@
     ""
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

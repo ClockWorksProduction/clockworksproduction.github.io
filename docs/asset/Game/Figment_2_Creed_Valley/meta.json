@@ -1,9 +1,10 @@
 {
   "name": "Figment 2: Creed Valley",
+  "image": "https://cdn1.epicgames.com/item/109a4631336a475ca4e4a8a51cc6fe69/figment2_wide_2560x1440-c799fc78fe47bda5cf8a1bb205ca134f",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "527156be25ad44289bc3b30e98ef9e7d",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/37f5a526914b4eaaa86d32820e162aa0",
+    "epicGames": "https://store.epicgames.com/en-US/p/figment-2-creed-valley",
     "gog": "",
     "xbox": "",
     "playstation": "",

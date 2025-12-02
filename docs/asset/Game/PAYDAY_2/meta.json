@@ -1,5 +1,6 @@
 {
   "name": "PAYDAY 2",
+  "image": "",
   "appId": {
     "steam": 218620,
     "itchIo": 0,
@@ -19,7 +20,9 @@
     ""
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

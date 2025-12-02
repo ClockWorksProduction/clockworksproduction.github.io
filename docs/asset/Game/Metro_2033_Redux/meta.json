@@ -1,5 +1,6 @@
 {
   "name": "Metro 2033 Redux",
+  "image": "",
   "appId": {
     "steam": 286690,
     "itchIo": 0,
@@ -19,7 +20,9 @@
     ""
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

@@ -1,5 +1,6 @@
 {
   "name": "PICO PARK 2",
+  "image": "",
   "appId": {
     "steam": 2644470,
     "itchIo": 0,
@@ -20,7 +21,9 @@
     "Casual"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -34,6 +37,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/2644470/"
+    "other": ""
   }
 }

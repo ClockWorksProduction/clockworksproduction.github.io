@@ -1,5 +1,6 @@
 {
   "name": "Field of Glory II: Medieval",
+  "image": "",
   "appId": {
     "steam": 1368870,
     "itchIo": 0,
@@ -20,7 +21,9 @@
     "Strategy"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -34,6 +37,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/1368870/"
+    "other": ""
   }
 }

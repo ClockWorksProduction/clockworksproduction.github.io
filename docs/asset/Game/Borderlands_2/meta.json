@@ -1,5 +1,6 @@
 {
   "name": "Borderlands 2",
+  "image": "",
   "appId": {
     "steam": 49520,
     "itchIo": 0,
@@ -19,7 +20,9 @@
     ""
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

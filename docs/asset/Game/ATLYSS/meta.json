@@ -1,5 +1,6 @@
 {
   "name": "ATLYSS",
+  "image": "",
   "appId": {
     "steam": 2768430,
     "itchIo": 0,
@@ -24,7 +25,9 @@
     "Early Access"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -38,6 +41,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/2768430/"
+    "other": ""
   }
 }

@@ -1,9 +1,10 @@
 {
   "name": "Fortnite",
+  "image": "https://cdn1.epicgames.com/item/fn/FNBR_39-00_C7S1_EGS_Launcher_DarkVoyager_FN_Blade_2560x1440_2560x1440-f240b7a1027b6897a9b505afdd35c122",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "4fe75bbc5a674f4f9b356b5c90567da5",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/Fortnite",
+    "epicGames": "https://store.epicgames.com/en-US/p/fortnite",
     "gog": "",
     "xbox": "",
     "playstation": "",

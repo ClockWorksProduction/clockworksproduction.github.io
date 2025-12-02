@@ -1,5 +1,6 @@
 {
   "name": "Master Levels for DOOM II",
+  "image": "",
   "appId": {
     "steam": 9160,
     "itchIo": 0,
@@ -19,7 +20,9 @@
     "Action"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

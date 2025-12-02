@@ -1,5 +1,6 @@
 {
   "name": "IdleOn",
+  "image": "",
   "appId": {
     "steam": 1476970,
     "itchIo": 0,
@@ -24,7 +25,9 @@
     "Free To Play"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
@@ -38,6 +41,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://store.steampowered.com/app/1476970/"
+    "other": ""
   }
 }

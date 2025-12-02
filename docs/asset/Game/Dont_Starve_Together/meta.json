@@ -1,5 +1,6 @@
 {
   "name": "Don't Starve Together",
+  "image": "",
   "appId": {
     "steam": 322330,
     "itchIo": 0,
@@ -19,7 +20,9 @@
     ""
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

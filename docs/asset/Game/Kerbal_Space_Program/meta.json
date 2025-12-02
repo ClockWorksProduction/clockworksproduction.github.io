@@ -1,5 +1,6 @@
 {
   "name": "Kerbal Space Program",
+  "image": "",
   "appId": {
     "steam": 220200,
     "itchIo": 0,
@@ -20,7 +21,9 @@
     "Simulation"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

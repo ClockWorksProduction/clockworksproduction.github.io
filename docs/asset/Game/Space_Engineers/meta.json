@@ -1,5 +1,6 @@
 {
   "name": "Space Engineers",
+  "image": "",
   "appId": {
     "steam": 244850,
     "itchIo": 0,
@@ -19,7 +20,9 @@
     ""
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

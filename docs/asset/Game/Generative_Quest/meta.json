@@ -1,9 +1,10 @@
 {
   "name": "Generative Quest",
+  "image": "https://cdn1.epicgames.com/spt-assets/e23f4f60fb5a4e278e3499da7381804c/generative-quest-1pd3g.jpg",
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": "aab8a6482c42464d9291730b17deb708",
+    "epicGames": 0,
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -27,7 +28,7 @@
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "https://store.epicgames.com/en-US/p/8530c88a2cb54596a16ef0b4bd891569",
+    "epicGames": "https://store.epicgames.com/en-US/p/generative-quest",
     "gog": "",
     "xbox": "",
     "playstation": "",
