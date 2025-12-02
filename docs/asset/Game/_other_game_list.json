@@ -1,74 +1,74 @@
 [
-    {
-        "name": "War Thunder",
-        "storeUrl": "https://warthunder.com/en/"
-    },
-    {
-        "name": "Kerbal Space Program",
-        "storeUrl": "https://www.kerbalspaceprogram.com/en/"
-    },
-    {
-        "name": "Don't Starve Together",
-        "storeUrl": "https://www.kleientertainment.com/games/dont-starve-together"
-    },
-    {
-        "name": "Metro 2033 Redux",
-        "storeUrl": "https://www.metrothegame.com/en/"
-    },
-    {
-        "name": "Space Engineers",
-        "storeUrl": "https://www.spaceengineersgame.com/"
-    },
-    {
-        "name": "PAYDAY 2",
-        "storeUrl": "https://www.paydaythegame.com/"
-    },
-    {
-        "name": "Borderlands 2",
-        "storeUrl": "https://borderlands.com/en-US/"
-    },
-    {
-        "name": "DOOM II",
-        "storeUrl": "https://bethesda.net/en/game/doomii"
-    },
-    {
-        "name": "DOOM + DOOM II",
-        "storeUrl": "https://bethesda.net/en/game/doom"
-    },
-    {
-        "name": "Master Levels for DOOM II",
-        "storeUrl": "https://bethesda.net/en/game/doomii"
-    },
-    {
-        "name": "NetHack",
-        "storeUrl": "https://www.nethack.org/"
-    },
-    {
-        "name": "VRChat",
-        "storeUrl": "https://hello.vrchat.com/"
-    },
-    {
-        "name": "Fall Guys",
-        "storeUrl": "https://fallguys.com/"
-    },
-    {
-        "name": "Enlisted",
-        "storeUrl": "https://enlisted.net/en/"
-    },
-    {
-        "name": "Totally Accurate Battlegrounds",
-        "storeUrl": "https://landfall.se/totally-accurate-battlegrounds/"
-    },
-    {
-        "name": "Content Warning",
-        "storeUrl": "https://landfall.se/content-warning/"
-    },
-    {
-        "name": "Balatro",
-        "storeUrl": "https://www.playbalatro.com/"
-    },
-    {
-        "name": "Aimlabs",
-        "storeUrl": "https://aimlabs.com/"
-    }
+  {
+    "name": "War Thunder",
+    "storeUrl": "https://warthunder.com/en/"
+  },
+  {
+    "name": "Kerbal Space Program",
+    "storeUrl": "https://www.kerbalspaceprogram.com/en/"
+  },
+  {
+    "name": "Don't Starve Together",
+    "storeUrl": "https://www.kleientertainment.com/games/dont-starve-together"
+  },
+  {
+    "name": "Metro 2033 Redux",
+    "storeUrl": "https://www.metrothegame.com/en/"
+  },
+  {
+    "name": "Space Engineers",
+    "storeUrl": "https://www.spaceengineersgame.com/"
+  },
+  {
+    "name": "PAYDAY 2",
+    "storeUrl": "https://www.paydaythegame.com/"
+  },
+  {
+    "name": "Borderlands 2",
+    "storeUrl": "https://borderlands.com/en-US/"
+  },
+  {
+    "name": "DOOM II",
+    "storeUrl": "https://bethesda.net/en/game/doomii"
+  },
+  {
+    "name": "DOOM + DOOM II",
+    "storeUrl": "https://bethesda.net/en/game/doom"
+  },
+  {
+    "name": "Master Levels for DOOM II",
+    "storeUrl": "https://bethesda.net/en/game/doomii"
+  },
+  {
+    "name": "NetHack",
+    "storeUrl": "https://www.nethack.org/"
+  },
+  {
+    "name": "VRChat",
+    "storeUrl": "https://hello.vrchat.com/"
+  },
+  {
+    "name": "Fall Guys",
+    "storeUrl": "https://fallguys.com/"
+  },
+  {
+    "name": "Enlisted",
+    "storeUrl": "https://enlisted.net/en/"
+  },
+  {
+    "name": "Totally Accurate Battlegrounds",
+    "storeUrl": "https://landfall.se/totally-accurate-battlegrounds/"
+  },
+  {
+    "name": "Content Warning",
+    "storeUrl": "https://landfall.se/content-warning/"
+  },
+  {
+    "name": "Balatro",
+    "storeUrl": "https://www.playbalatro.com/"
+  },
+  {
+    "name": "Aimlabs",
+    "storeUrl": "https://aimlabs.com/"
+  }
 ]
