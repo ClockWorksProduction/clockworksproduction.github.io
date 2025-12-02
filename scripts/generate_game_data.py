@@ -91,7 +91,7 @@ def generate_game_data():
 
     out_dir = os.path.join('docs', 'assets', 'data')
     os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, 'games.json')
+    out_path = os.path.join(out_dir, 'abts_games.json')
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(games, f, indent=2, ensure_ascii=False)
 

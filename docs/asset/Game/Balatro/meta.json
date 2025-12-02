@@ -12,7 +12,7 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "Balatro stands out as an innovative deck-building roguelike that seamlessly merges the mechanics of poker with strategic gameplay elements.",
+  "description": "Balatro is a deck-building roguelite where you must play poker hands and earn chips to defeat enemy blinds.",
   "developer": "",
   "publisher": "",
   "releaseDate": "",
@@ -20,9 +20,7 @@
     ""
   ],
   "platforms": [
-    "Windows",
-    "macOS",
-    "Linux"
+    "macOS"
   ],
   "tags": [
     ""
@@ -36,6 +34,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": "https://www.balatrogame.com/"
+    "other": "https://www.playbalatro.com/"
   }
 }

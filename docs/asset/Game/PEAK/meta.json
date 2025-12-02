@@ -12,15 +12,19 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "PEAK is a co-op climbing game where the slightest mistake can spell your doom. Either solo or as a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Do you have what it takes to reach the PEAK?",
+  "developer": "Team PEAK",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Action",
+    "Adventure",
+    "Indie"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

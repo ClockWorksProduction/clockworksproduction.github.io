@@ -1,7 +1,7 @@
 [
   {
     "name": "ARC Raiders Playtest",
-    "description": "",
+    "description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
     "image": "/asset/Game/ARC_Raiders_Playtest/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2427520/",
@@ -27,7 +27,7 @@
   },
   {
     "name": "ATLYSS",
-    "description": "",
+    "description": "Enter the world of ATLYSS, a Singleplayer/Online RPG where you can fight with or against friends in a surreal world filled with creatures beyond comprehension. Customize and progress your character(s), complete quests, and discover strange locations.",
     "image": "/asset/Game/ATLYSS/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2768430/",
@@ -73,7 +73,7 @@
   },
   {
     "name": "AtmaSphere",
-    "description": "AtmaSphere is roll-a-ball game set in a medieval world which is full of dangerous traps and uncertain paths! Roll all you want, but don",
+    "description": "",
     "image": "/asset/Game/AtmaSphere/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/753660/",
@@ -89,10 +89,10 @@
   },
   {
     "name": "Balatro",
-    "description": "Balatro stands out as an innovative deck-building roguelike that seamlessly merges the mechanics of poker with strategic gameplay elements.",
+    "description": "Balatro is a deck-building roguelite where you must play poker hands and earn chips to defeat enemy blinds.",
     "image": "/asset/Game/Balatro/cover.jpg",
     "primary_store": "other",
-    "primary_link": "https://www.balatrogame.com/",
+    "primary_link": "https://www.playbalatro.com/",
     "storefronts": [
       {
         "store": "steam",
@@ -141,7 +141,7 @@
   },
   {
     "name": "Black Skylands",
-    "description": "",
+    "description": "Become the captain of an airship and explore the world of the skies, gather resources and build powerful weapons, uncover ancient secrets and fight beneath your ship",
     "image": "/asset/Game/Black_Skylands/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1143810/",
@@ -171,7 +171,7 @@
   },
   {
     "name": "Buckshot Roulette",
-    "description": "",
+    "description": "Play Russian roulette with a 12-gauge shotgun. Four enter. One leaves. Roll the dice with your life. Good luck!",
     "image": "/asset/Game/Buckshot_Roulette/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2835570/",
@@ -179,7 +179,7 @@
   },
   {
     "name": "Capcom Arcade Stadium",
-    "description": "Relive the Capcom classics! Get 1943 -The Battle of Midway- and game logo wallpapers free with your download!",
+    "description": "",
     "image": "/asset/Game/Capcom_Arcade_Stadium/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1515950/",
@@ -213,7 +213,7 @@
   },
   {
     "name": "Crush Crush",
-    "description": "Welcome to Crush Crush - the Idle Dating Sim! Meet, flirt, and fall in love with a motley cast of girls in this heartfelt and hilarious game.",
+    "description": "",
     "image": "/asset/Game/Crush_Crush/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/459820/",
@@ -304,7 +304,7 @@
     "storefronts": [
       {
         "store": "epicGames",
-        "url": "https://store.epicgames.com/en-US/p/fall-guys"
+        "url": "https://www.epicgames.com/help/en-US/fall-guys-c-202300000001638) (Free to Play"
       }
     ]
   },
@@ -387,7 +387,7 @@
   },
   {
     "name": "Farmer Against Potatoes Idle",
-    "description": "Pick up your sword and fight off waves of Potatoes by upgrading your stats constantly, use Equipment, choose between different Classes, put your many Talents to good use, and so much more designed to keep you entertained for a long time.",
+    "description": "",
     "image": "/asset/Game/Farmer_Against_Potatoes_Idle/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1535560/",
@@ -411,7 +411,7 @@
     "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
     "image": "/asset/Game/Figment_2_Creed_Valley/cover.jpg",
     "primary_store": "epicGames",
-    "primary_link": "https://store.epicgames.com/en-US/p/figment-2-creed-valley",
+    "primary_link": "https://store.epicgames.com/en-US/p/figment2-creed-valley",
     "storefronts": []
   },
   {
@@ -420,12 +420,7 @@
     "image": "/asset/Game/Fortnite/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://www.fortnite.com/download) (Free to Play",
-    "storefronts": [
-      {
-        "store": "epicGames",
-        "url": "https://store.epicgames.com/en-US/p/fortnite"
-      }
-    ]
+    "storefronts": []
   },
   {
     "name": "Frostpunk",
@@ -513,7 +508,7 @@
   },
   {
     "name": "ISLANDERS",
-    "description": "",
+    "description": "ISLANDERS is a minimalist strategy game about building cities on colorful islands.",
     "image": "/asset/Game/ISLANDERS/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1046030/",
@@ -617,7 +612,7 @@
     "description": "An infinitely replayable multiplayer and single-player tower defense. Defend against waves of enemies and destroy the enemy's king before they destroy yours. Legion TD 2 is a one-of-a-kind game of tactics, teamwork, and prediction. Party as 1-8 players.",
     "image": "/asset/Game/Legion_TD_2/cover.jpg",
     "primary_store": "epicGames",
-    "primary_link": "https://store.epicgames.com/en-US/p/legion-td-2",
+    "primary_link": "https://store.epicgames.com/en-US/p/legion-td-2-632b72",
     "storefronts": []
   },
   {
@@ -639,7 +634,7 @@
   },
   {
     "name": "Lords and Villeins",
-    "description": "",
+    "description": "Build a prosperous settlement in a unique simulation of a feudal economy - each family runs their shop, owns their goods, and trades with other villagers in a free market. You will manage the land, build houses, organise events, set taxes, and balance supply and demand while engaging in diplomacy!",
     "image": "/asset/Game/Lords_and_Villeins/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1287530/",
@@ -720,7 +715,7 @@
   },
   {
     "name": "NetHack",
-    "description": "",
+    "description": "Download the best classic and new games on Windows, Mac & Linux. A vast selection of titles, DRM-free, with free goodies and 30-day money-back guarantee.",
     "image": "",
     "primary_store": "other",
     "primary_link": "https://www.nethack.org/",
@@ -733,16 +728,11 @@
   },
   {
     "name": "Nubs!",
-    "description": "As a true chaotic Nub warrior, your skills will be put to the ultimate test in a trap-filled arena. Arm yourself with a Can-o-Beanz, Burny-Hogz-Stick, or a Fish as you battle your way to the top in short fast-paced multiplayer brawls.",
+    "description": "",
     "image": "/asset/Game/Nubs/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2337860/",
-    "storefronts": [
-      {
-        "store": "epicGames",
-        "url": "https://store.epicgames.com/en-US/p/nubs"
-      }
-    ]
+    "storefronts": []
   },
   {
     "name": "Ogu and the Secret Forest",
@@ -784,7 +774,7 @@
   },
   {
     "name": "PEAK",
-    "description": "",
+    "description": "PEAK is a co-op climbing game where the slightest mistake can spell your doom. Either solo or as a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Do you have what it takes to reach the PEAK?",
     "image": "/asset/Game/PEAK/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/3527290/",
@@ -792,7 +782,7 @@
   },
   {
     "name": "PICO PARK 2",
-    "description": "",
+    "description": "PICO PARK is back with all new levels! Play with 2-8 players locally or online in this co-op action-puzzle game!",
     "image": "/asset/Game/PICO_PARK_2/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2644470/",
@@ -813,7 +803,7 @@
   },
   {
     "name": "People Playground",
-    "description": "",
+    "description": "Shoot, stab, burn, poison, tear, vaporise, or crush ragdolls in a large open space.",
     "image": "/asset/Game/People_Playground/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1118200/",
@@ -837,7 +827,7 @@
     "description": "River City Girls",
     "image": "/asset/Game/River_City_Girls/cover.jpg",
     "primary_store": "epicGames",
-    "primary_link": "https://store.epicgames.com/en-US/p/river-city-girls",
+    "primary_link": "https://store.epicgames.com/en-US/p/river-city-girls-90c239",
     "storefronts": []
   },
   {
@@ -845,7 +835,7 @@
     "description": "Sable",
     "image": "/asset/Game/Sable/cover.jpg",
     "primary_store": "epicGames",
-    "primary_link": "https://store.epicgames.com/en-US/p/sable",
+    "primary_link": "https://store.epicgames.com/en-US/p/sable-a46a78",
     "storefronts": []
   },
   {
@@ -871,7 +861,7 @@
   },
   {
     "name": "Space Crew: Legendary Edition",
-    "description": "",
+    "description": "Time for your toughest mission yet! Recruit and train your crew to tackle the growing threat from alien and android armies as you defend Earth to become a Galactic Legend in Space Crew: Legendary Edition. All new content free to existing owners of Space Crew!",
     "image": "/asset/Game/Space_Crew_Legendary_Edition/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1176710/",
@@ -935,7 +925,7 @@
   },
   {
     "name": "The Sims™ 4",
-    "description": "",
+    "description": "Play with life and discover the possibilities. Unleash your imagination and create a world of Sims that’s wholly unique. Explore and customize every detail from Sims to homes–and much more.",
     "image": "/asset/Game/The_Sims_4/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1222670/",
@@ -961,7 +951,7 @@
   },
   {
     "name": "Tinkerlands: A Shipwrecked Adventure",
-    "description": "",
+    "description": "A Shipwrecked Adventure is a free prologue immersing you into the vast world of Tinkerlands. Uncover the story of the first survivors on these mystical islands. Explore the breathtaking archipelago, craft essential tools, build your settlement, and strive to survive!",
     "image": "/asset/Game/Tinkerlands_A_Shipwrecked_Adventure/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2658710/",
@@ -1007,7 +997,7 @@
   },
   {
     "name": "Upload Labs",
-    "description": "",
+    "description": "A sci-fi management game where you build and optimize your computer",
     "image": "/asset/Game/Upload_Labs/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/3606890/",
@@ -1053,7 +1043,7 @@
   },
   {
     "name": "Will To Live Online",
-    "description": "Will To Live is a MMORPG-shooter whose action takes place in a severe post-apocalyptic world. Explore the world, engage in fights with mutants and other survivors, join the clans in the struggle for existence and prove your right to Live.",
+    "description": "",
     "image": "/asset/Game/Will_To_Live_Online/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/707010/",

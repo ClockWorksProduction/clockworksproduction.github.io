@@ -12,15 +12,21 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "A Shipwrecked Adventure is a free prologue immersing you into the vast world of Tinkerlands. Uncover the story of the first survivors on these mystical islands. Explore the breathtaking archipelago, craft essential tools, build your settlement, and strive to survive!",
+  "developer": "CodeManu",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Adventure",
+    "Casual",
+    "Indie",
+    "Simulation",
+    "Strategy"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""

@@ -12,15 +12,20 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Shoot, stab, burn, poison, tear, vaporise, or crush ragdolls in a large open space.",
+  "developer": "mestiez",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Action",
+    "Casual",
+    "Indie",
+    "Simulation"
   ],
   "platforms": [
-    "Windows"
+    "Windows",
+    "macOS",
+    "Linux"
   ],
   "tags": [
     ""
