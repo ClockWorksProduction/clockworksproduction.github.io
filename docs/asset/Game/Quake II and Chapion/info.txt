@@ -1,3 +1,0 @@
-﻿Name: Quake II and Chapion
-Steam match: None found
-Has header.jpg: False
