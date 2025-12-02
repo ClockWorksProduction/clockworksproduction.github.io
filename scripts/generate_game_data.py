@@ -71,12 +71,10 @@ def generate_game_data():
         store_urls = meta.get('storeUrl') or {}
         primary_store, primary_link = choose_primary(store_urls)
 
-        # build storefronts list of remaining links
+        # build storefronts list of all links
         storefronts = []
         for k, v in store_urls.items():
             if not v:
-                continue
-            if k == primary_store:
                 continue
             storefronts.append({'store': k, 'url': v})
 
@@ -91,7 +89,7 @@ def generate_game_data():
 
     out_dir = os.path.join('docs', 'assets', 'data')
     os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, 'abts_games.json')
+    out_path = os.path.join(out_dir, 'games.json')
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(games, f, indent=2, ensure_ascii=False)
 

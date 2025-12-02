@@ -7,6 +7,10 @@
     "primary_link": "https://store.steampowered.com/app/2427520/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2427520/"
+      },
+      {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/arc-raiders"
       }
@@ -20,6 +24,10 @@
     "primary_link": "https://store.steampowered.com/app/361420/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/361420/"
+      },
+      {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/astroneer"
       }
@@ -31,7 +39,12 @@
     "image": "/asset/Game/ATLYSS/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2768430/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2768430/"
+      }
+    ]
   },
   {
     "name": "Aimlabs",
@@ -47,6 +60,10 @@
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/aimlabs"
+      },
+      {
+        "store": "other",
+        "url": "https://aimlabs.com/"
       }
     ]
   },
@@ -56,7 +73,12 @@
     "image": "/asset/Game/Amnesia_The_Bunker/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/amnesia-the-bunker",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/amnesia-the-bunker"
+      }
+    ]
   },
   {
     "name": "Ampersat",
@@ -65,6 +87,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1356040/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1356040/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/ampersat"
@@ -77,7 +103,12 @@
     "image": "/asset/Game/AtmaSphere/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/753660/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/753660/"
+      }
+    ]
   },
   {
     "name": "Backpack Hero",
@@ -85,7 +116,12 @@
     "image": "/asset/Game/Backpack_Hero/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/backpack-hero",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/backpack-hero"
+      }
+    ]
   },
   {
     "name": "Balatro",
@@ -97,6 +133,10 @@
       {
         "store": "steam",
         "url": "https://store.steampowered.com/app/2379780/"
+      },
+      {
+        "store": "other",
+        "url": "https://www.playbalatro.com/"
       }
     ]
   },
@@ -107,6 +147,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/544610/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/544610/"
+      },
       {
         "store": "gog",
         "url": "https://www.gog.com/game/battlestar_galactica_deadlock"
@@ -121,6 +165,10 @@
     "primary_link": "https://store.steampowered.com/app/346010/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/346010/"
+      },
+      {
         "store": "gog",
         "url": "https://www.gog.com/game/besiege"
       }
@@ -134,6 +182,10 @@
     "primary_link": "https://store.steampowered.com/app/582660/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/582660/"
+      },
+      {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/black-desert"
       }
@@ -146,6 +198,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1143810/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1143810/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/black-skylands"
@@ -166,6 +222,10 @@
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/borderlands-2"
+      },
+      {
+        "store": "other",
+        "url": "https://borderlands.com/en-US/"
       }
     ]
   },
@@ -175,7 +235,12 @@
     "image": "/asset/Game/Buckshot_Roulette/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2835570/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2835570/"
+      }
+    ]
   },
   {
     "name": "Capcom Arcade Stadium",
@@ -183,7 +248,12 @@
     "image": "/asset/Game/Capcom_Arcade_Stadium/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1515950/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1515950/"
+      }
+    ]
   },
   {
     "name": "Cell to Singularity - Evolution Never Ends",
@@ -192,6 +262,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/977400/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/977400/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/cell-to-singularity-evolution-never-ends"
@@ -208,6 +282,10 @@
       {
         "store": "steam",
         "url": "https://store.steampowered.com/app/2881650/"
+      },
+      {
+        "store": "other",
+        "url": "https://landfall.se/content-warning/"
       }
     ]
   },
@@ -217,7 +295,12 @@
     "image": "/asset/Game/Crush_Crush/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/459820/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/459820/"
+      }
+    ]
   },
   {
     "name": "DOOM II",
@@ -233,6 +316,10 @@
       {
         "store": "gog",
         "url": "https://www.gog.com/game/doom_2"
+      },
+      {
+        "store": "other",
+        "url": "https://bethesda.net/en/game/doomii"
       }
     ]
   },
@@ -250,6 +337,10 @@
       {
         "store": "gog",
         "url": "https://www.gog.com/game/doom_doom_ii"
+      },
+      {
+        "store": "other",
+        "url": "https://bethesda.net/en/game/doom"
       }
     ]
   },
@@ -275,6 +366,10 @@
       {
         "store": "playstation",
         "url": "https://store.playstation.com/en-us/product/UP2107-CUSA06183_00-DONTSTARVETOGETH"
+      },
+      {
+        "store": "other",
+        "url": "https://www.kleientertainment.com/games/dont-starve-together"
       }
     ]
   },
@@ -292,6 +387,10 @@
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/enlisted"
+      },
+      {
+        "store": "other",
+        "url": "https://enlisted.net/en/"
       }
     ]
   },
@@ -305,6 +404,10 @@
       {
         "store": "epicGames",
         "url": "https://www.epicgames.com/help/en-US/fall-guys-c-202300000001638) (Free to Play"
+      },
+      {
+        "store": "other",
+        "url": "https://fallguys.com/"
       }
     ]
   },
@@ -315,6 +418,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/38410/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/38410/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/fallout-2-a-post-nuclear-role-playing-game"
@@ -333,6 +440,10 @@
     "primary_link": "https://store.steampowered.com/app/38400/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/38400/"
+      },
+      {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/fallout-a-post-nuclear-role-playing-game"
       },
@@ -350,6 +461,10 @@
     "primary_link": "https://store.steampowered.com/app/588430/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/588430/"
+      },
+      {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/fallout-shelter"
       }
@@ -362,6 +477,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/38420/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/38420/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/fallout-tactics-brotherhood-of-steel"
@@ -380,6 +499,10 @@
     "primary_link": "https://store.steampowered.com/app/1025440/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1025440/"
+      },
+      {
         "store": "gog",
         "url": "https://www.gog.com/game/fantasy_general_ii"
       }
@@ -391,7 +514,12 @@
     "image": "/asset/Game/Farmer_Against_Potatoes_Idle/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1535560/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1535560/"
+      }
+    ]
   },
   {
     "name": "Field of Glory II: Medieval",
@@ -400,6 +528,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1368870/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1368870/"
+      },
       {
         "store": "gog",
         "url": "https://www.gog.com/game/field_of_glory_ii_medieval"
@@ -412,7 +544,12 @@
     "image": "/asset/Game/Figment_2_Creed_Valley/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/figment2-creed-valley",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/figment2-creed-valley"
+      }
+    ]
   },
   {
     "name": "Fortnite",
@@ -420,7 +557,12 @@
     "image": "/asset/Game/Fortnite/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://www.fortnite.com/download) (Free to Play",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "other",
+        "url": "https://www.fortnite.com/download) (Free to Play"
+      }
+    ]
   },
   {
     "name": "Frostpunk",
@@ -429,6 +571,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/323190/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/323190/"
+      },
       {
         "store": "gog",
         "url": "https://www.gog.com/game/frostpunk"
@@ -441,7 +587,12 @@
     "image": "/asset/Game/Garden_Story/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/garden-story",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/garden-story"
+      }
+    ]
   },
   {
     "name": "Generative Quest",
@@ -449,7 +600,12 @@
     "image": "/asset/Game/Generative_Quest/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/generative-quest",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/generative-quest"
+      }
+    ]
   },
   {
     "name": "Ghostrunner",
@@ -457,7 +613,12 @@
     "image": "/asset/Game/Ghostrunner/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/ghostrunner",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/ghostrunner"
+      }
+    ]
   },
   {
     "name": "Golf With Your Friends",
@@ -466,6 +627,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/431240/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/431240/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/golf-with-your-friends"
@@ -478,7 +643,12 @@
     "image": "/asset/Game/Gravity_Circuit/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/gravity-circuit",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/gravity-circuit"
+      }
+    ]
   },
   {
     "name": "HITMAN World of Assassination",
@@ -487,6 +657,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1659040/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1659040/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/hitman-3"
@@ -501,6 +675,10 @@
     "primary_link": "https://store.steampowered.com/app/1289310/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1289310/"
+      },
+      {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/helltaker"
       }
@@ -513,6 +691,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1046030/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1046030/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/islanders"
@@ -527,6 +709,10 @@
     "primary_link": "https://store.steampowered.com/app/1476970/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1476970/"
+      },
+      {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/idleon"
       }
@@ -538,7 +724,12 @@
     "image": "/asset/Game/Idle_Champions_of_the_Forgotten_Realms/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms"
+      }
+    ]
   },
   {
     "name": "Infinity Kingdom",
@@ -547,6 +738,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1573360/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1573360/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/infinity-kingdom-478a59"
@@ -560,6 +755,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/341800/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/341800/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/keep-talking-and-nobody-explodes"
@@ -588,6 +787,10 @@
       {
         "store": "playstation",
         "url": "https://store.playstation.com/en-us/product/UP1126-CUSA02724_00-KERBAL01USPS4000"
+      },
+      {
+        "store": "other",
+        "url": "https://www.kerbalspaceprogram.com/en/"
       }
     ]
   },
@@ -597,7 +800,12 @@
     "image": "/asset/Game/Keylocker__Turn_Based_Cyberpunk_Action/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/keylocker--turn-based-cyberpunk-action",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/keylocker--turn-based-cyberpunk-action"
+      }
+    ]
   },
   {
     "name": "LEGO® Star Wars™: The Skywalker Saga",
@@ -605,7 +813,12 @@
     "image": "/asset/Game/LEGO_Star_Wars_The_Skywalker_Saga/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga"
+      }
+    ]
   },
   {
     "name": "Legion TD 2",
@@ -613,7 +826,12 @@
     "image": "/asset/Game/Legion_TD_2/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/legion-td-2-632b72",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/legion-td-2-632b72"
+      }
+    ]
   },
   {
     "name": "Limbo",
@@ -622,6 +840,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/48000/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/48000/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/limbo"
@@ -640,6 +862,10 @@
     "primary_link": "https://store.steampowered.com/app/1287530/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1287530/"
+      },
+      {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/lords-and-villeins"
       }
@@ -652,6 +878,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1507190/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1507190/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/machinika-museum"
@@ -672,6 +902,10 @@
       {
         "store": "gog",
         "url": "https://www.gog.com/game/master_levels_for_doom_ii"
+      },
+      {
+        "store": "other",
+        "url": "https://bethesda.net/en/game/doomii"
       }
     ]
   },
@@ -697,6 +931,10 @@
       {
         "store": "playstation",
         "url": "https://store.playstation.com/en-us/product/UP2047-CUSA00623_00-M33REDUXDIGITAL1"
+      },
+      {
+        "store": "other",
+        "url": "https://www.metrothegame.com/en/"
       }
     ]
   },
@@ -707,6 +945,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/814480/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/814480/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/mini-world-block-art"
@@ -723,6 +965,10 @@
       {
         "store": "gog",
         "url": "https://www.gog.com/game/nethack"
+      },
+      {
+        "store": "other",
+        "url": "https://www.nethack.org/"
       }
     ]
   },
@@ -732,7 +978,12 @@
     "image": "/asset/Game/Nubs/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2337860/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2337860/"
+      }
+    ]
   },
   {
     "name": "Ogu and the Secret Forest",
@@ -740,7 +991,12 @@
     "image": "/asset/Game/Ogu_and_the_Secret_Forest/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/ogu-and-the-secret-forest",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/ogu-and-the-secret-forest"
+      }
+    ]
   },
   {
     "name": "Outpath: First Journey",
@@ -749,6 +1005,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2237980/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2237980/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/outpath-first-journey"
@@ -769,6 +1029,10 @@
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/payday-2"
+      },
+      {
+        "store": "other",
+        "url": "https://www.paydaythegame.com/"
       }
     ]
   },
@@ -778,7 +1042,12 @@
     "image": "/asset/Game/PEAK/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/3527290/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3527290/"
+      }
+    ]
   },
   {
     "name": "PICO PARK 2",
@@ -786,7 +1055,12 @@
     "image": "/asset/Game/PICO_PARK_2/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2644470/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2644470/"
+      }
+    ]
   },
   {
     "name": "Pankapu",
@@ -795,6 +1069,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/418670/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/418670/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/pankapu"
@@ -809,6 +1087,10 @@
     "primary_link": "https://store.steampowered.com/app/1118200/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1118200/"
+      },
+      {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/people-playground"
       }
@@ -820,7 +1102,12 @@
     "image": "/asset/Game/Pilgrims/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/pilgrims",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/pilgrims"
+      }
+    ]
   },
   {
     "name": "River City Girls",
@@ -828,7 +1115,12 @@
     "image": "/asset/Game/River_City_Girls/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/river-city-girls-90c239",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/river-city-girls-90c239"
+      }
+    ]
   },
   {
     "name": "Sable",
@@ -836,7 +1128,12 @@
     "image": "/asset/Game/Sable/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/sable-a46a78",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/sable-a46a78"
+      }
+    ]
   },
   {
     "name": "Sid Meier's Civilization VI",
@@ -844,7 +1141,12 @@
     "image": "/asset/Game/Sid_Meiers_Civilization_VI/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi"
+      }
+    ]
   },
   {
     "name": "Slime Rancher",
@@ -853,6 +1155,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/433340/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/433340/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/slime-rancher"
@@ -866,6 +1172,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1176710/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1176710/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/space-crew"
@@ -894,6 +1204,10 @@
       {
         "store": "playstation",
         "url": "https://store.playstation.com/en-us/product/UP4363-PPSA05235_00-SPACEENGINEERS01"
+      },
+      {
+        "store": "other",
+        "url": "https://www.spaceengineersgame.com/"
       }
     ]
   },
@@ -904,6 +1218,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/413150/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/413150/"
+      },
       {
         "store": "gog",
         "url": "https://www.gog.com/game/stardew_valley"
@@ -918,6 +1236,10 @@
     "primary_link": "https://store.steampowered.com/app/482400/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/482400/"
+      },
+      {
         "store": "gog",
         "url": "https://www.gog.com/game/system_shock"
       }
@@ -930,6 +1252,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1222670/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1222670/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/the-sims-4"
@@ -944,6 +1270,10 @@
     "primary_link": "https://store.steampowered.com/app/368430/",
     "storefronts": [
       {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/368430/"
+      },
+      {
         "store": "gog",
         "url": "https://www.gog.com/game/through_the_woods"
       }
@@ -955,7 +1285,12 @@
     "image": "/asset/Game/Tinkerlands_A_Shipwrecked_Adventure/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2658710/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2658710/"
+      }
+    ]
   },
   {
     "name": "Totally Accurate Battlegrounds",
@@ -971,6 +1306,10 @@
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/totally-accurate-battlegrounds"
+      },
+      {
+        "store": "other",
+        "url": "https://landfall.se/totally-accurate-battlegrounds/"
       }
     ]
   },
@@ -981,6 +1320,10 @@
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1035510/",
     "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1035510/"
+      },
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/ultimate-zombie-defense"
@@ -993,7 +1336,12 @@
     "image": "/asset/Game/Universe_for_Sale/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/universe-for-sale",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/universe-for-sale"
+      }
+    ]
   },
   {
     "name": "Upload Labs",
@@ -1001,7 +1349,12 @@
     "image": "/asset/Game/Upload_Labs/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/3606890/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/3606890/"
+      }
+    ]
   },
   {
     "name": "VRChat",
@@ -1017,6 +1370,10 @@
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/vrchat"
+      },
+      {
+        "store": "other",
+        "url": "https://hello.vrchat.com/"
       }
     ]
   },
@@ -1038,6 +1395,10 @@
       {
         "store": "xbox",
         "url": "https://www.xbox.com/en-US/games/store/war-thunder/bx10flpbt010"
+      },
+      {
+        "store": "other",
+        "url": "https://warthunder.com/en/"
       }
     ]
   },
@@ -1047,7 +1408,12 @@
     "image": "/asset/Game/Will_To_Live_Online/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/707010/",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/707010/"
+      }
+    ]
   },
   {
     "name": "World War Z",
@@ -1055,6 +1421,11 @@
     "image": "/asset/Game/World_War_Z/cover.jpg",
     "primary_store": "epicGames",
     "primary_link": "https://store.epicgames.com/en-US/p/world-war-z",
-    "storefronts": []
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/world-war-z"
+      }
+    ]
   }
 ]
