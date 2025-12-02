@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet The Founder — Pixel Pals</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="https://kit.fontawesome.com/6b3a6b196a.js" crossorigin="anonymous"></script>
+    <link href="/assets/css/deafult.css" rel="stylesheet" type="text/css" />
+    <link id="theme" rel="stylesheet" type="text/css" href="/assets/css/light-theme.css" />
+    <style>
+        /* Page clean-up and card styles */
+        .page-header{padding:36px 20px}
+        .founder-top{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+        .founder-top img{width:110px;height:auto;border-radius:6px}
+        .founder-top h3{margin:0}
+        .founder-top sub{display:block;color:#f1f6f9}
+
+        .featured-card{padding:12px;background:var(--card-bg,#fff);border-radius:8px;box-shadow:0 1px 6px rgba(0,0,0,.08);text-align:left}
+        .featured-card img{width:100%;height:160px;object-fit:cover;border-radius:6px}
+        .featured-card h3{margin:.6rem 0 .25rem}
+        .featured-card p{font-size:.95rem;color:var(--muted,#444)}
+
+        .storefronts{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+        .storefront{display:inline-flex;align-items:center;gap:8px;padding:6px 8px;border-radius:999px;background:#f3f4f6;color:#111;text-decoration:none;font-size:.85rem;border:1px solid rgba(0,0,0,0.04)}
+        .storefront i{font-size:1rem}
+
+        /* make embedded iframes responsive */
+        .responsive-embed{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden}
+        .responsive-embed iframe{position:absolute;left:0;top:0;width:100%;height:100%;border:0}
+
+        @media (min-width:900px){
+            .featured-card img{height:180px}
+            .founder-top img{width:125px}
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav-placeholder"></div>
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="mtc">
+        <div class="w3-display-left" style="padding:48px">
+            <span class="w3-small">MEET THE</span><br>
+            <span class="w3-jumbo w3-hide-small">FOUNDER</span>
+            <span class="w3-xxlarge w3-hide-large w3-hide-medium">FOUNDER</span><br>
+            <span class="w3-large">Hi y'all :3c</span>
+        </div>
+    </header>
+    <main>
+        <div class="w3-container w3-teal">
+            <div class="founder-top">
+                <a href="/pages/pixelpals/founder.html" target="_self"><img src="/asset/ABTS.png" alt="ABTS Logo"></a>
+                <div>
+                    <h3>Mangafa The variety streamer</h3>
+                    <sub>Silly little goober stream :3c</sub>
+                    <p style="margin:.25rem 0 0">Hi :3c — ClockWork, 5/2025</p>
+                </div>
+            </div>
+            <h3 class="w3-center">ABTS Twitch Stream</h3>
+            <hr>
+            <div id="abts-twitch-embed" class="w3-margin-bottom"></div>
+            <h3 class="w3-center">MLBT Video</h3>
+            <hr>
+            <div class="responsive-embed w3-margin-bottom">
+                <iframe src="https://widgets.sociablekit.com/twitch-channel-videos/iframe/25553660" allowfullscreen></iframe>
+            </div>
+            <h3 class="w3-center">ABTS VOD</h3>
+            <hr>
+            <div class="responsive-embed w3-margin-bottom">
+                <iframe src="https://widgets.sociablekit.com/youtube-channel-videos/iframe/25553661" allowfullscreen></iframe>
+            </div>
+            <hr>
+            <h2 class="w3-center">Games I Own</h2>
+            <!-- Game I own -->
+            <div class="w3-container w3-padding-64" id="projects">
+                <div class="w3-row-padding" id="game-cards-container">
+                    <!-- Game cards will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('/partials/nav.html')
+            .then(response => response.text())
+            .then(data => { document.getElementById('nav-placeholder').innerHTML = data; });
+        fetch('/partials/footer.html')
+            .then(response => response.text())
+            .then(data => { document.getElementById('footer-placeholder').innerHTML = data; });
+        fetch('/assets/data/mangafs_games.json')
+            .then(response => response.json())
+            .then(games => {
+                const container = document.getElementById('game-cards-container');
+
+                const iconClassFor = (storeKey) => {
+                    if (!storeKey) return 'fas fa-link';
+                    switch (storeKey.toLowerCase()) {
+                        case 'steam': return 'fab fa-steam';
+                        case 'epicgames': return 'fas fa-bolt';
+                        case 'itchio': return 'fas fa-ghost';
+                        case 'gog': return 'fas fa-compact-disc';
+                        case 'xbox': return 'fab fa-xbox';
+                        case 'playstation': return 'fab fa-playstation';
+                        case 'nintendo': return 'fas fa-gamepad';
+                        case 'newgrounds': return 'fas fa-star';
+                        case 'other': return 'fas fa-store';
+                        default: return 'fas fa-link';
+                    }
+                }
+
+                const placeholder = encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='600' height='300'><rect fill='%23ddd' width='100%' height='100%'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='%23666' font-size='20'>No image</text></svg>`)
+                const placeholderSrc = `data:image/svg+xml;utf8,${placeholder}`;
+
+                games.forEach(game => {
+                    const primaryLink = game.primary_link || '#';
+                    const imgSrc = game.image || placeholderSrc;
+
+                    const icons = (game.storefronts || []).map(s => {
+                        const cls = iconClassFor(s.store || s.store.toLowerCase());
+                        return `<a class="storefront" href="${s.url}" title="${s.store}" target="_blank" rel="noopener"><i class="${cls}" aria-hidden="true"></i><span class="store-label">${s.store}</span></a>`
+                    }).join(' ');
+
+                    const card = `
+                        <div class="w3-col l4 m6 s12 w3-margin-bottom">
+                            <div class="featured-card">
+                                <a href="${primaryLink}" style="text-decoration: none;" target="_blank" rel="noopener">
+                                    <img src="${imgSrc}" alt="${game.name}">
+                                </a>
+                                <h3><a href="${primaryLink}" style="text-decoration: none;" target="_blank" rel="noopener">${game.name}</a></h3>
+                                <p>${game.description || ''}</p>
+                                <div class="storefronts">${icons}</div>
+                            </div>
+                        </div>
+                    `;
+                    container.innerHTML += card;
+                });
+            });
+    </script>
+    <script src="/assets/js/javascript.js" type="text/javascript"></script>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+        new Twitch.Embed("abts-twitch-embed", { width: '100%', height: 480, channel: "agentblacktigerstreams" });
+    </script>
+</body>
+
+</html>

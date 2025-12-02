@@ -1,52 +1,5 @@
 [
   {
-    "name": "ARC Raiders Playtest",
-    "description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
-    "image": "/asset/Game/ARC_Raiders_Playtest/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/2427520/",
-    "storefronts": [
-      {
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2427520/"
-      },
-      {
-        "store": "epicGames",
-        "url": "https://store.epicgames.com/en-US/p/arc-raiders"
-      }
-    ]
-  },
-  {
-    "name": "ASTRONEER",
-    "description": "Interact with strange new worlds in a unique and tactile way, molding the environment itself as if it were clay in your hands. Build your base, master resource management, automate your production lines, and more as you unravel the mysteries of the universe, alone or with friends.",
-    "image": "/asset/Game/ASTRONEER/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/361420/",
-    "storefronts": [
-      {
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/361420/"
-      },
-      {
-        "store": "epicGames",
-        "url": "https://store.epicgames.com/en-US/p/astroneer"
-      }
-    ]
-  },
-  {
-    "name": "ATLYSS",
-    "description": "Enter the world of ATLYSS, a Singleplayer/Online RPG where you can fight with or against friends in a surreal world filled with creatures beyond comprehension. Customize and progress your character(s), complete quests, and discover strange locations.",
-    "image": "/asset/Game/ATLYSS/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/2768430/",
-    "storefronts": [
-      {
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2768430/"
-      }
-    ]
-  },
-  {
     "name": "Aimlabs",
     "description": "Aimlabs is the aim trainer of choice for over 40 Million players, from beginners to esports pros. Our unique aim analysis optimizes your gameplay, targets your weaknesses & builds key skills for any FPS/TPS game, all for free!",
     "image": "/asset/Game/Aimlabs/cover.jpg",
@@ -94,6 +47,53 @@
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/ampersat"
+      }
+    ]
+  },
+  {
+    "name": "ARC Raiders Playtest",
+    "description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
+    "image": "/asset/Game/ARC_Raiders_Playtest/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2427520/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2427520/"
+      },
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/arc-raiders"
+      }
+    ]
+  },
+  {
+    "name": "ASTRONEER",
+    "description": "Interact with strange new worlds in a unique and tactile way, molding the environment itself as if it were clay in your hands. Build your base, master resource management, automate your production lines, and more as you unravel the mysteries of the universe, alone or with friends.",
+    "image": "/asset/Game/ASTRONEER/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/361420/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/361420/"
+      },
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/astroneer"
+      }
+    ]
+  },
+  {
+    "name": "ATLYSS",
+    "description": "Enter the world of ATLYSS, a Singleplayer/Online RPG where you can fight with or against friends in a surreal world filled with creatures beyond comprehension. Customize and progress your character(s), complete quests, and discover strange locations.",
+    "image": "/asset/Game/ATLYSS/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2768430/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2768430/"
       }
     ]
   },
@@ -303,48 +303,6 @@
     ]
   },
   {
-    "name": "DOOM II",
-    "description": "Hell has invaded Earth, and to save it, you must battle mightier demons with even more powerful weapons. This beloved sequel to the groundbreaking DOOM (1993) introduced players to the brutal Super Shotgun, the infamous Icon of Sin boss, and more intense FPS action.",
-    "image": "/asset/Game/DOOM_II/cover.jpg",
-    "primary_store": "other",
-    "primary_link": "https://bethesda.net/en/game/doomii",
-    "storefronts": [
-      {
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2300/"
-      },
-      {
-        "store": "gog",
-        "url": "https://www.gog.com/game/doom_2"
-      },
-      {
-        "store": "other",
-        "url": "https://bethesda.net/en/game/doomii"
-      }
-    ]
-  },
-  {
-    "name": "DOOM + DOOM II",
-    "description": "Developed by id Software, and originally released in 1993 and 1994, the definitive, newly enhanced versions of DOOM + DOOM II are available as a combined product.",
-    "image": "/asset/Game/DOOM__DOOM_II/cover.jpg",
-    "primary_store": "other",
-    "primary_link": "https://bethesda.net/en/game/doom",
-    "storefronts": [
-      {
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2280/"
-      },
-      {
-        "store": "gog",
-        "url": "https://www.gog.com/game/doom_doom_ii"
-      },
-      {
-        "store": "other",
-        "url": "https://bethesda.net/en/game/doom"
-      }
-    ]
-  },
-  {
     "name": "Don't Starve Together",
     "description": "Newsletter Available On",
     "image": "/asset/Game/Dont_Starve_Together/cover.jpg",
@@ -370,6 +328,48 @@
       {
         "store": "other",
         "url": "https://www.kleientertainment.com/games/dont-starve-together"
+      }
+    ]
+  },
+  {
+    "name": "DOOM + DOOM II",
+    "description": "Developed by id Software, and originally released in 1993 and 1994, the definitive, newly enhanced versions of DOOM + DOOM II are available as a combined product.",
+    "image": "/asset/Game/DOOM__DOOM_II/cover.jpg",
+    "primary_store": "other",
+    "primary_link": "https://bethesda.net/en/game/doom",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2280/"
+      },
+      {
+        "store": "gog",
+        "url": "https://www.gog.com/game/doom_doom_ii"
+      },
+      {
+        "store": "other",
+        "url": "https://bethesda.net/en/game/doom"
+      }
+    ]
+  },
+  {
+    "name": "DOOM II",
+    "description": "Hell has invaded Earth, and to save it, you must battle mightier demons with even more powerful weapons. This beloved sequel to the groundbreaking DOOM (1993) introduced players to the brutal Super Shotgun, the infamous Icon of Sin boss, and more intense FPS action.",
+    "image": "/asset/Game/DOOM_II/cover.jpg",
+    "primary_store": "other",
+    "primary_link": "https://bethesda.net/en/game/doomii",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2300/"
+      },
+      {
+        "store": "gog",
+        "url": "https://www.gog.com/game/doom_2"
+      },
+      {
+        "store": "other",
+        "url": "https://bethesda.net/en/game/doomii"
       }
     ]
   },
@@ -651,23 +651,6 @@
     ]
   },
   {
-    "name": "HITMAN World of Assassination",
-    "description": "Enter the world of the ultimate assassin. HITMAN World of Assassination delivers the definitive stealth action experience, putting you in the shoes of Agent 47, a master assassin. Explore immersive locations, uncover hidden secrets, and eliminate targets with complete freedom of approach.",
-    "image": "/asset/Game/HITMAN_World_of_Assassination/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/1659040/",
-    "storefronts": [
-      {
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/1659040/"
-      },
-      {
-        "store": "epicGames",
-        "url": "https://store.epicgames.com/en-US/p/hitman-3"
-      }
-    ]
-  },
-  {
     "name": "Helltaker",
     "description": "Helltaker is a short game about sharply dressed demon girls.",
     "image": "/asset/Game/Helltaker/cover.jpg",
@@ -685,19 +668,32 @@
     ]
   },
   {
-    "name": "ISLANDERS",
-    "description": "ISLANDERS is a minimalist strategy game about building cities on colorful islands.",
-    "image": "/asset/Game/ISLANDERS/cover.jpg",
+    "name": "HITMAN World of Assassination",
+    "description": "Enter the world of the ultimate assassin. HITMAN World of Assassination delivers the definitive stealth action experience, putting you in the shoes of Agent 47, a master assassin. Explore immersive locations, uncover hidden secrets, and eliminate targets with complete freedom of approach.",
+    "image": "/asset/Game/HITMAN_World_of_Assassination/cover.jpg",
     "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/1046030/",
+    "primary_link": "https://store.steampowered.com/app/1659040/",
     "storefronts": [
       {
         "store": "steam",
-        "url": "https://store.steampowered.com/app/1046030/"
+        "url": "https://store.steampowered.com/app/1659040/"
       },
       {
         "store": "epicGames",
-        "url": "https://store.epicgames.com/en-US/p/islanders"
+        "url": "https://store.epicgames.com/en-US/p/hitman-3"
+      }
+    ]
+  },
+  {
+    "name": "Idle Champions of the Forgotten Realms",
+    "description": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
+    "image": "/asset/Game/Idle_Champions_of_the_Forgotten_Realms/cover.jpg",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms",
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms"
       }
     ]
   },
@@ -719,19 +715,6 @@
     ]
   },
   {
-    "name": "Idle Champions of the Forgotten Realms",
-    "description": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
-    "image": "/asset/Game/Idle_Champions_of_the_Forgotten_Realms/cover.jpg",
-    "primary_store": "epicGames",
-    "primary_link": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms",
-    "storefronts": [
-      {
-        "store": "epicGames",
-        "url": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms"
-      }
-    ]
-  },
-  {
     "name": "Infinity Kingdom",
     "description": "Conquer the city, discover the Infinity! Infinity Kingdom is a cartoon-style mmo strategy game. As a resourceful lord, you must defend the land of Norheim against the evil gnomes while protecting yourself from other invading players!",
     "image": "/asset/Game/Infinity_Kingdom/cover.jpg",
@@ -745,6 +728,23 @@
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/infinity-kingdom-478a59"
+      }
+    ]
+  },
+  {
+    "name": "ISLANDERS",
+    "description": "ISLANDERS is a minimalist strategy game about building cities on colorful islands.",
+    "image": "/asset/Game/ISLANDERS/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/1046030/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/1046030/"
+      },
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/islanders"
       }
     ]
   },
@@ -808,19 +808,6 @@
     ]
   },
   {
-    "name": "LEGO® Star Wars™: The Skywalker Saga",
-    "description": "LEGO® Star Wars™: The Skywalker Saga",
-    "image": "/asset/Game/LEGO_Star_Wars_The_Skywalker_Saga/cover.jpg",
-    "primary_store": "epicGames",
-    "primary_link": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga",
-    "storefronts": [
-      {
-        "store": "epicGames",
-        "url": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga"
-      }
-    ]
-  },
-  {
     "name": "Legion TD 2",
     "description": "An infinitely replayable multiplayer and single-player tower defense. Defend against waves of enemies and destroy the enemy's king before they destroy yours. Legion TD 2 is a one-of-a-kind game of tactics, teamwork, and prediction. Party as 1-8 players.",
     "image": "/asset/Game/Legion_TD_2/cover.jpg",
@@ -830,6 +817,19 @@
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/legion-td-2-632b72"
+      }
+    ]
+  },
+  {
+    "name": "LEGO® Star Wars™: The Skywalker Saga",
+    "description": "LEGO® Star Wars™: The Skywalker Saga",
+    "image": "/asset/Game/LEGO_Star_Wars_The_Skywalker_Saga/cover.jpg",
+    "primary_store": "epicGames",
+    "primary_link": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga",
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga"
       }
     ]
   },
@@ -1016,6 +1016,23 @@
     ]
   },
   {
+    "name": "Pankapu",
+    "description": "Pankapu is a narrative action-platformer that takes place in the dreams of Djaha’rell, a child troubled by a tragic incident. Upgrade your skills, find new competencies, switch your Aegis in real time in order to get rid of Nightmare",
+    "image": "/asset/Game/Pankapu/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/418670/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/418670/"
+      },
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/pankapu"
+      }
+    ]
+  },
+  {
     "name": "PAYDAY 2",
     "description": "Step out of retirement back into the life of crime in the shoes of the Payday Gang. Buy Now on PC, Xbox Series X|S & PlayStation 5.",
     "image": "/asset/Game/PAYDAY_2/cover.jpg",
@@ -1050,36 +1067,6 @@
     ]
   },
   {
-    "name": "PICO PARK 2",
-    "description": "PICO PARK is back with all new levels! Play with 2-8 players locally or online in this co-op action-puzzle game!",
-    "image": "/asset/Game/PICO_PARK_2/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/2644470/",
-    "storefronts": [
-      {
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/2644470/"
-      }
-    ]
-  },
-  {
-    "name": "Pankapu",
-    "description": "Pankapu is a narrative action-platformer that takes place in the dreams of Djaha’rell, a child troubled by a tragic incident. Upgrade your skills, find new competencies, switch your Aegis in real time in order to get rid of Nightmare",
-    "image": "/asset/Game/Pankapu/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/418670/",
-    "storefronts": [
-      {
-        "store": "steam",
-        "url": "https://store.steampowered.com/app/418670/"
-      },
-      {
-        "store": "epicGames",
-        "url": "https://store.epicgames.com/en-US/p/pankapu"
-      }
-    ]
-  },
-  {
     "name": "People Playground",
     "description": "Shoot, stab, burn, poison, tear, vaporise, or crush ragdolls in a large open space.",
     "image": "/asset/Game/People_Playground/cover.jpg",
@@ -1093,6 +1080,19 @@
       {
         "store": "epicGames",
         "url": "https://store.epicgames.com/en-US/p/people-playground"
+      }
+    ]
+  },
+  {
+    "name": "PICO PARK 2",
+    "description": "PICO PARK is back with all new levels! Play with 2-8 players locally or online in this co-op action-puzzle game!",
+    "image": "/asset/Game/PICO_PARK_2/cover.jpg",
+    "primary_store": "steam",
+    "primary_link": "https://store.steampowered.com/app/2644470/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2644470/"
       }
     ]
   },

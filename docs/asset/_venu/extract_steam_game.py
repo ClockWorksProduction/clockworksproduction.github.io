@@ -2,7 +2,7 @@ import json
 import urllib.request
 
 API_KEY = "69DEE71CF152089BD5B6C405731190C4"
-STEAMID = "76561199261780206"
+STEAMID = "76561198098109174"
 
 url = (
     "https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/"
