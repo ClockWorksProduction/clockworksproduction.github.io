@@ -12,18 +12,12 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "Join our growing community as you explore, play, and help craft the future of social VR. Create worlds and custom avatars. Welcome to VRChat.",
-  "developer": "VRChat Inc.",
+  "description": "",
+  "developer": "",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    "Adventure",
-    "Casual",
-    "Massively Multiplayer",
-    "Simulation",
-    "Sports",
-    "Free To Play",
-    "Early Access"
+    ""
   ],
   "platforms": [
     "Windows",
@@ -42,6 +36,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": ""
+    "other": "https://hello.vrchat.com/"
   }
 }

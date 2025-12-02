@@ -12,14 +12,12 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "Grab your balloon crossbow and trusty inflatable hammer, because things are about to get wobbly! Be the last weirdo standing in the world-leading physics-based Battle Royale game.",
-  "developer": "Landfall",
+  "description": "",
+  "developer": "",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    "Action",
-    "Indie",
-    "Free To Play"
+    ""
   ],
   "platforms": [
     "Windows",
@@ -38,6 +36,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": ""
+    "other": "https://landfall.se/totally-accurate-battlegrounds/"
   }
 }

@@ -42,5 +42,33 @@
     {
         "name": "NetHack",
         "storeUrl": "https://www.nethack.org/"
+    },
+    {
+        "name": "VRChat",
+        "storeUrl": "https://hello.vrchat.com/"
+    },
+    {
+        "name": "Fall Guys",
+        "storeUrl": "https://fallguys.com/"
+    },
+    {
+        "name": "Enlisted",
+        "storeUrl": "https://enlisted.net/en/"
+    },
+    {
+        "name": "Totally Accurate Battlegrounds",
+        "storeUrl": "https://landfall.se/totally-accurate-battlegrounds/"
+    },
+    {
+        "name": "Content Warning",
+        "storeUrl": "https://landfall.se/content-warning/"
+    },
+    {
+        "name": "Balatro",
+        "storeUrl": "https://www.balatrogame.com/"
+    },
+    {
+        "name": "Aimlabs",
+        "storeUrl": "https://aimlabs.com/"
     }
 ]

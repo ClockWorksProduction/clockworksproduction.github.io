@@ -12,14 +12,12 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "In Enlisted, you are not only commanding a single soldier, but an entire squad! This MMO squad based shooter recreates the key battles of the bloodiest war of the 20th century, with hundreds of soldiers, tanks and aircraft taking part in each battle.",
-  "developer": "Darkflow Software",
+  "description": "",
+  "developer": "",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    "Action",
-    "Massively Multiplayer",
-    "Free To Play"
+    ""
   ],
   "platforms": [
     "Windows",
@@ -38,6 +36,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": ""
+    "other": "https://enlisted.net/en/"
   }
 }

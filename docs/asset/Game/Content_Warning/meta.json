@@ -12,14 +12,12 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "Film your friends doing scary things to become SpöökTube famous! (strongly advised to not go alone)",
-  "developer": "Wilnyl",
+  "description": "",
+  "developer": "",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    "Action",
-    "Adventure",
-    "Indie"
+    ""
   ],
   "platforms": [
     "Windows",
@@ -38,6 +36,6 @@
     "playstation": "",
     "nintendo": "",
     "newgrounds": "",
-    "other": ""
+    "other": "https://landfall.se/content-warning/"
   }
 }
