@@ -11,12 +11,14 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Why have friends if not to play Golf... With Your Friends! Nothing is out of bounds as you take on courses filled with fast paced, exciting, simultaneous mini golf for up to 12 players!",
+  "developer": "Blacklight Interactive",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Casual",
+    "Indie",
+    "Sports"
   ],
   "platforms": [
     "Windows"

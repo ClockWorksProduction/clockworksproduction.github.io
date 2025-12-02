@@ -11,12 +11,14 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+  "developer": "LocalThunk",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Casual",
+    "Indie",
+    "Strategy"
   ],
   "platforms": [
     "Windows"

@@ -11,12 +11,15 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Conquer the city, discover the Infinity! Infinity Kingdom is a cartoon-style mmo strategy game. As a resourceful lord, you must defend the land of Norheim against the evil gnomes while protecting yourself from other invading players!",
+  "developer": "YOUZU (SINGAPORE) PTE. LTD.",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Adventure",
+    "Free To Play",
+    "Massively Multiplayer",
+    "Strategy"
   ],
   "platforms": [
     "Windows"

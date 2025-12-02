@@ -3,7 +3,7 @@
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": 0,
+    "epicGames": "48353a502e72433298f25827e03dbff0",
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -11,21 +11,23 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
+  "description": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
   "developer": "",
   "publisher": "",
   "releaseDate": "",
   "genre": [
     ""
   ],
-  "platforms": [],
+  "platforms": [
+    "Windows"
+  ],
   "tags": [
     ""
   ],
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/40cb42e38c0b4a14a1bb133eb3291572",
     "gog": "",
     "xbox": "",
     "playstation": "",

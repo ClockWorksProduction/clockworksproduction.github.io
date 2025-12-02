@@ -3,7 +3,7 @@
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": 0,
+    "epicGames": "527156be25ad44289bc3b30e98ef9e7d",
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -11,21 +11,23 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
+  "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
   "developer": "",
   "publisher": "",
   "releaseDate": "",
   "genre": [
     ""
   ],
-  "platforms": [],
+  "platforms": [
+    "Windows"
+  ],
   "tags": [
     ""
   ],
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/37f5a526914b4eaaa86d32820e162aa0",
     "gog": "",
     "xbox": "",
     "playstation": "",

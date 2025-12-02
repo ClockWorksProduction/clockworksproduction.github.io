@@ -3,7 +3,7 @@
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": 0,
+    "epicGames": "38ec4849ea4f4de6aa7b6fb0f2d278e1",
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -11,21 +11,23 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
+  "description": "Fall Guys",
   "developer": "",
   "publisher": "",
   "releaseDate": "",
   "genre": [
     ""
   ],
-  "platforms": [],
+  "platforms": [
+    "Windows"
+  ],
   "tags": [
     ""
   ],
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/0a2d9f6403244d12969e11da6713137b",
     "gog": "",
     "xbox": "",
     "playstation": "",

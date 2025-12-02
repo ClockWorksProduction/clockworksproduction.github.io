@@ -3,7 +3,7 @@
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": 0,
+    "epicGames": "ff3441646daa4bb9aac0ae01beca6275",
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -11,21 +11,23 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
+  "description": "River City Girls",
   "developer": "",
   "publisher": "",
   "releaseDate": "",
   "genre": [
     ""
   ],
-  "platforms": [],
+  "platforms": [
+    "Windows"
+  ],
   "tags": [
     ""
   ],
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/588cec64448242d8b61188205d97f887",
     "gog": "",
     "xbox": "",
     "playstation": "",

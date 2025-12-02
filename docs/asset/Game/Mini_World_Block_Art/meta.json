@@ -11,12 +11,16 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Mini World is a 3D free sandbox game about adventure, exploration, and creating your dream worlds. There is no grinding or leveling up. No IAP gate that locks features from free to play players. Everyone can enjoy the game’s full features with great freedom",
+  "developer": "MINOVATE HONG KONG LIMITED",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Adventure",
+    "Casual",
+    "Massively Multiplayer",
+    "Simulation",
+    "Free To Play"
   ],
   "platforms": [
     "Windows"

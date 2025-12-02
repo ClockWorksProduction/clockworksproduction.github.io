@@ -3,7 +3,7 @@
   "appId": {
     "steam": 0,
     "itchIo": 0,
-    "epicGames": 0,
+    "epicGames": "709536796ff5489a97c4574b9d6bda24",
     "gog": 0,
     "xbox": 0,
     "playstation": 0,
@@ -11,21 +11,23 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
+  "description": "LEGO® Star Wars™: The Skywalker Saga",
   "developer": "",
   "publisher": "",
   "releaseDate": "",
   "genre": [
     ""
   ],
-  "platforms": [],
+  "platforms": [
+    "Windows"
+  ],
   "tags": [
     ""
   ],
   "storeUrl": {
     "steam": "",
     "itchIo": "",
-    "epicGames": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/c390e58246ea4a778acd26473a489b48",
     "gog": "",
     "xbox": "",
     "playstation": "",

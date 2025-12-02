@@ -11,12 +11,15 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "ISLANDERS is a minimalist strategy game about building cities on colorful islands.",
+  "developer": "Coatsink",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Casual",
+    "Indie",
+    "Strategy",
+    "Stage Clear Studios"
   ],
   "platforms": [
     "Windows"

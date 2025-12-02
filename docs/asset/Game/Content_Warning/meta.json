@@ -11,12 +11,14 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Film your friends doing scary things to become SpöökTube famous! (strongly advised to not go alone)",
+  "developer": "Wilnyl",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Action",
+    "Adventure",
+    "Indie"
   ],
   "platforms": [
     "Windows"

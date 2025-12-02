@@ -11,12 +11,17 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "The management RPG where your heroes keep fighting even when you",
+  "developer": "Lavaflame2",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Casual",
+    "Indie",
+    "Massively Multiplayer",
+    "RPG",
+    "Simulation",
+    "Free To Play"
   ],
   "platforms": [
     "Windows"

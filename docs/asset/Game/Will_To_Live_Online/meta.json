@@ -11,12 +11,17 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Will To Live is a MMORPG-shooter whose action takes place in a severe post-apocalyptic world. Explore the world, engage in fights with mutants and other survivors, join the clans in the struggle for existence and prove your right to Live.",
+  "developer": "AlphaSoft LLC",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Action",
+    "Indie",
+    "Massively Multiplayer",
+    "RPG",
+    "Free To Play",
+    "Early Access"
   ],
   "platforms": [
     "Windows"

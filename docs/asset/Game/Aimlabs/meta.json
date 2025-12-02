@@ -11,12 +11,17 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Aimlabs is the aim trainer of choice for over 40 Million players, from beginners to esports pros. Our unique aim analysis optimizes your gameplay, targets your weaknesses &amp; builds key skills for any FPS game! Time to warm up with our unlimited scenarios &amp; rank up in-game!",
+  "developer": "Statespace",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Action",
+    "Adventure",
+    "Casual",
+    "Indie",
+    "Simulation",
+    "Free To Play"
   ],
   "platforms": [
     "Windows"

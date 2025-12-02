@@ -11,12 +11,14 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Outpath: First Journey is a prologue chapter of the main game, Outpath. An experimental clicker base building game. Craft, gather &amp; manage resources, build your base and buy more islands to exploit and expand!",
+  "developer": "David Moralejo Sánchez",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Adventure",
+    "Casual",
+    "Indie"
   ],
   "platforms": [
     "Windows"

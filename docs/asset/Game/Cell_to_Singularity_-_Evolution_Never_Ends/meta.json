@@ -11,12 +11,14 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "The epic story of evolution, technology, humanity, and dinosaurs is yours to tap.",
+  "developer": "Computer Lunch",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Casual",
+    "Simulation",
+    "Free To Play"
   ],
   "platforms": [
     "Windows"

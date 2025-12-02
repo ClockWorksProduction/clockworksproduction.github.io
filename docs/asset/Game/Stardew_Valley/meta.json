@@ -11,12 +11,14 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "You",
+  "developer": "ConcernedApe",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Indie",
+    "RPG",
+    "Simulation"
   ],
   "platforms": [
     "Windows"

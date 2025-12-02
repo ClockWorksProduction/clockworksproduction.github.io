@@ -11,12 +11,13 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "A sci-fi management game where you build and optimize your computer",
+  "developer": "EnigmaDev Studios",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Simulation",
+    "Free To Play"
   ],
   "platforms": [
     "Windows"

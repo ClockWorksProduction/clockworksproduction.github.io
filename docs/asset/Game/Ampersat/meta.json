@@ -11,12 +11,14 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "A shooty, slashy, RPG-y game mixing retro and modern sensibilities. A blend of influences from Gauntlet &amp; Smash TV to Zelda &amp; Angband, Ampersat is a handcrafted adventure but with appeal to Roguelite fans. Battle ASCII creatures in colorful areas &amp; free letters to return language to the village!",
+  "developer": "Gaterooze, Ink",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Action",
+    "Adventure",
+    "RPG"
   ],
   "platforms": [
     "Windows"
