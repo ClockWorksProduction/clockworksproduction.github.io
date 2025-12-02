@@ -30,10 +30,10 @@
   "storeUrl": {
     "steam": "https://store.steampowered.com/app/244850/",
     "itchIo": "",
-    "epicGames": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/space-engineers",
     "gog": "",
-    "xbox": "",
-    "playstation": "",
+    "xbox": "https://www.xbox.com/en-us/games/store/space-engineers/bzv519n2wsd6",
+    "playstation": "https://store.playstation.com/en-us/product/UP4363-PPSA05235_00-SPACEENGINEERS01",
     "nintendo": "",
     "newgrounds": "",
     "other": "https://www.spaceengineersgame.com/"

@@ -10,7 +10,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/amnesia-the-bunker"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/amnesia-the-bunker"
   },
   {
     "name": "Backpack Hero",
@@ -23,7 +24,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/backpack-hero"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/backpack-hero"
   },
   {
     "name": "Fall Guys",
@@ -36,7 +38,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/fall-guys"
       }
-    ]
+    ],
+    "storeUrl": "https://www.epicgames.com/help/en-US/fall-guys-c-202300000001638) (Free to Play"
   },
   {
     "name": "Fallout 2: A Post Nuclear Role Playing Game",
@@ -79,7 +82,7 @@
   },
   {
     "name": "Figment 2: Creed Valley",
-    "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
+    "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind\u2019s courage, as you make your way through puzzles, musical boss fights and unique environments.",
     "image": "https://cdn1.epicgames.com/item/109a4631336a475ca4e4a8a51cc6fe69/figment2_wide_2560x1440-c799fc78fe47bda5cf8a1bb205ca134f",
     "primary_store": "epic",
     "primary_link": "https://store.epicgames.com/en-US/p/figment-2-creed-valley",
@@ -88,7 +91,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/figment-2-creed-valley"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/figment2-creed-valley"
   },
   {
     "name": "Fortnite",
@@ -101,7 +105,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/fortnite"
       }
-    ]
+    ],
+    "storeUrl": "https://www.fortnite.com/download) (Free to Play"
   },
   {
     "name": "Garden Story",
@@ -114,7 +119,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/garden-story"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/garden-story"
   },
   {
     "name": "Generative Quest",
@@ -140,7 +146,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/ghostrunner"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/ghostrunner"
   },
   {
     "name": "Gravity Circuit",
@@ -153,7 +160,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/gravity-circuit"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/gravity-circuit"
   },
   {
     "name": "Idle Champions of the Forgotten Realms",
@@ -166,7 +174,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms"
   },
   {
     "name": "Keylocker | Turn Based Cyberpunk Action",
@@ -192,11 +201,12 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/legion-td-2"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/legion-td-2-632b72"
   },
   {
-    "name": "LEGO® Star Wars™: The Skywalker Saga",
-    "description": "LEGO® Star Wars™: The Skywalker Saga",
+    "name": "LEGO\u00ae Star Wars\u2122: The Skywalker Saga",
+    "description": "LEGO\u00ae Star Wars\u2122: The Skywalker Saga",
     "image": "https://cdn1.epicgames.com/item/9c59efaabb6a48f19b3485d5d9416032/EGS_LEGOStarWarsTheSkywalkerSaga_TTGames_S1_2560x1440_2560x1440-ae89e9c91aec1e461148f93f25b828ed",
     "primary_store": "epic",
     "primary_link": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga",
@@ -205,7 +215,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga"
   },
   {
     "name": "Limbo",
@@ -231,7 +242,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/ogu-and-the-secret-forest"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/ogu-and-the-secret-forest"
   },
   {
     "name": "Pilgrims",
@@ -244,7 +256,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/pilgrims"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/pilgrims"
   },
   {
     "name": "River City Girls",
@@ -257,7 +270,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/river-city-girls"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/river-city-girls-90c239"
   },
   {
     "name": "Sable",
@@ -270,7 +284,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/sable"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/sable-a46a78"
   },
   {
     "name": "Sid Meier's Civilization VI",
@@ -283,7 +298,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi"
   },
   {
     "name": "Universe for Sale",
@@ -296,7 +312,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/universe-for-sale"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/universe-for-sale"
   },
   {
     "name": "World War Z",
@@ -309,7 +326,8 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/world-war-z"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/world-war-z"
   },
   {
     "name": "Aimlabs",
@@ -322,6 +340,143 @@
         "store": "epic",
         "url": "https://store.epicgames.com/en-US/p/aimlabs"
       }
-    ]
+    ],
+    "storeUrl": "https://store.epicgames.com/en-US/p/aimlabs"
+  },
+  {
+    "name": "Borderlands 2",
+    "storeUrl": "https://store.epicgames.com/en-US/p/borderlands-2"
+  },
+  {
+    "name": "PAYDAY 2",
+    "storeUrl": "https://store.epicgames.com/en-US/p/payday-2"
+  },
+  {
+    "name": "Kerbal Space Program",
+    "storeUrl": "https://store.epicgames.com/en-US/p/kerbal-space-program"
+  },
+  {
+    "name": "War Thunder",
+    "storeUrl": "https://store.epicgames.com/en-US/p/war-thunder"
+  },
+  {
+    "name": "Space Engineers",
+    "storeUrl": "https://store.epicgames.com/en-US/p/space-engineers"
+  },
+  {
+    "name": "Don't Starve Together",
+    "storeUrl": "https://store.epicgames.com/en-US/p/dont-starve-together"
+  },
+  {
+    "name": "Keep Talking and Nobody Explodes",
+    "storeUrl": "https://store.epicgames.com/en-US/p/keep-talking-and-nobody-explodes"
+  },
+  {
+    "name": "ASTRONEER",
+    "storeUrl": "https://store.epicgames.com/en-US/p/astroneer"
+  },
+  {
+    "name": "Pankapu",
+    "storeUrl": "https://store.epicgames.com/en-US/p/pankapu"
+  },
+  {
+    "name": "Golf With Your Friends",
+    "storeUrl": "https://store.epicgames.com/en-US/p/golf-with-your-friends"
+  },
+  {
+    "name": "Slime Rancher",
+    "storeUrl": "https://store.epicgames.com/en-US/p/slime-rancher"
+  },
+  {
+    "name": "VRChat",
+    "storeUrl": "https://store.epicgames.com/en-US/p/vrchat"
+  },
+  {
+    "name": "Black Desert",
+    "storeUrl": "https://store.epicgames.com/en-US/p/black-desert"
+  },
+  {
+    "name": "Fallout Shelter",
+    "storeUrl": "https://store.epicgames.com/en-US/p/fallout-shelter"
+  },
+  {
+    "name": "Mini World: Block Art",
+    "storeUrl": "https://store.epicgames.com/en-US/p/mini-world-block-art"
+  },
+  {
+    "name": "Totally Accurate Battlegrounds",
+    "storeUrl": "https://store.epicgames.com/en-US/p/totally-accurate-battlegrounds"
+  },
+  {
+    "name": "Cell to Singularity - Evolution Never Ends",
+    "storeUrl": "https://store.epicgames.com/en-US/p/cell-to-singularity-evolution-never-ends"
+  },
+  {
+    "name": "Ultimate Zombie Defense",
+    "storeUrl": "https://store.epicgames.com/en-US/p/ultimate-zombie-defense"
+  },
+  {
+    "name": "ISLANDERS",
+    "storeUrl": "https://store.epicgames.com/en-US/p/islanders"
+  },
+  {
+    "name": "People Playground",
+    "storeUrl": "https://store.epicgames.com/en-US/p/people-playground"
+  },
+  {
+    "name": "Black Skylands",
+    "storeUrl": "https://store.epicgames.com/en-US/p/black-skylands"
+  },
+  {
+    "name": "Space Crew: Legendary Edition",
+    "storeUrl": "https://store.epicgames.com/en-US/p/space-crew"
+  },
+  {
+    "name": "The Sims\u2122 4",
+    "storeUrl": "https://store.epicgames.com/en-US/p/the-sims-4"
+  },
+  {
+    "name": "Lords and Villeins",
+    "storeUrl": "https://store.epicgames.com/en-US/p/lords-and-villeins"
+  },
+  {
+    "name": "Helltaker",
+    "storeUrl": "https://store.epicgames.com/en-US/p/helltaker"
+  },
+  {
+    "name": "Ampersat",
+    "storeUrl": "https://store.epicgames.com/en-US/p/ampersat"
+  },
+  {
+    "name": "IdleOn",
+    "storeUrl": "https://store.epicgames.com/en-US/p/idleon"
+  },
+  {
+    "name": "Machinika Museum",
+    "storeUrl": "https://store.epicgames.com/en-US/p/machinika-museum"
+  },
+  {
+    "name": "Infinity Kingdom",
+    "storeUrl": "https://store.epicgames.com/en-US/p/infinity-kingdom-478a59"
+  },
+  {
+    "name": "HITMAN World of Assassination",
+    "storeUrl": "https://store.epicgames.com/en-US/p/hitman-3"
+  },
+  {
+    "name": "Enlisted",
+    "storeUrl": "https://store.epicgames.com/en-US/p/enlisted"
+  },
+  {
+    "name": "Outpath: First Journey",
+    "storeUrl": "https://store.epicgames.com/en-US/p/outpath-first-journey"
+  },
+  {
+    "name": "Nubs\\!",
+    "storeUrl": "https://store.epicgames.com/en-US/p/nubs"
+  },
+  {
+    "name": "ARC Raiders Playtest",
+    "storeUrl": "https://store.epicgames.com/en-US/p/arc-raiders"
   }
 ]

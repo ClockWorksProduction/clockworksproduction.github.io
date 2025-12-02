@@ -30,10 +30,10 @@
   "storeUrl": {
     "steam": "https://store.steampowered.com/app/322330/",
     "itchIo": "",
-    "epicGames": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/dont-starve-together",
     "gog": "",
-    "xbox": "",
-    "playstation": "",
+    "xbox": "https://www.xbox.com/en-us/games/store/dont-starve-together-console-edition/bwd41869s2xk",
+    "playstation": "https://store.playstation.com/en-us/product/UP2107-CUSA06183_00-DONTSTARVETOGETH",
     "nintendo": "",
     "newgrounds": "",
     "other": "https://www.kleientertainment.com/games/dont-starve-together"

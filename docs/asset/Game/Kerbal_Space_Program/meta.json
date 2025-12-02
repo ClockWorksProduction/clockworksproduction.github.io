@@ -31,10 +31,10 @@
   "storeUrl": {
     "steam": "https://store.steampowered.com/app/220200/",
     "itchIo": "",
-    "epicGames": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/kerbal-space-program",
     "gog": "",
-    "xbox": "",
-    "playstation": "",
+    "xbox": "https://www.xbox.com/en-us/games/store/kerbal-space-program-enhanced-edition/9p4r2q2r2r3p",
+    "playstation": "https://store.playstation.com/en-us/product/UP1126-CUSA02724_00-KERBAL01USPS4000",
     "nintendo": "",
     "newgrounds": "",
     "other": "https://www.kerbalspaceprogram.com/en/"
