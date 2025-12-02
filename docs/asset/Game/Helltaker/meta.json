@@ -12,12 +12,14 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Helltaker is a short game about sharply dressed demon girls.",
+  "developer": "vanripper",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Adventure",
+    "Free To Play",
+    "Indie"
   ],
   "platforms": [
     "Windows",

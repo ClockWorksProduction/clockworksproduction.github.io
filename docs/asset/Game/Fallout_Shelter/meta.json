@@ -12,12 +12,14 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Fallout Shelter puts you in control of a state-of-the-art underground Vault from Vault-Tec. Build the perfect Vault, keep your Dwellers happy, and protect them from the dangers of the Wasteland.",
+  "developer": "Bethesda Game Studios",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "RPG",
+    "Simulation",
+    "Free To Play"
   ],
   "platforms": [
     "Windows",

@@ -12,12 +12,15 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "AtmaSphere is roll-a-ball game set in a medieval world which is full of dangerous traps and uncertain paths! Roll all you want, but don",
+  "developer": "Mazen Games",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Action",
+    "Adventure",
+    "Casual",
+    "Indie"
   ],
   "platforms": [
     "Windows",

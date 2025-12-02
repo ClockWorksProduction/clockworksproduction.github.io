@@ -12,12 +12,13 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "A first-person fight to the death in the depths of space!",
+  "developer": "Nightdive Studios",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Action",
+    "Adventure"
   ],
   "platforms": [
     "Windows",

@@ -1,7 +1,7 @@
 [
   {
     "name": "ARC Raiders Playtest",
-    "description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
+    "description": "",
     "image": "/asset/Game/ARC_Raiders_Playtest/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2427520/",
@@ -17,7 +17,7 @@
   },
   {
     "name": "ATLYSS",
-    "description": "Enter the world of ATLYSS, a Singleplayer/Online RPG where you can fight with or against friends in a surreal world filled with creatures beyond comprehension. Customize and progress your character(s), complete quests, and discover strange locations.",
+    "description": "",
     "image": "/asset/Game/ATLYSS/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2768430/",
@@ -25,11 +25,20 @@
   },
   {
     "name": "Aimlabs",
-    "description": "Aimlabs is the aim trainer of choice for over 40 Million players, from beginners to esports pros. Our unique aim analysis optimizes your gameplay, targets your weaknesses &amp; builds key skills for any FPS game! Time to warm up with our unlimited scenarios &amp; rank up in-game!",
+    "description": "Aimlabs is the aim trainer of choice for over 40 Million players, from beginners to esports pros. Our unique aim analysis optimizes your gameplay, targets your weaknesses & builds key skills for any FPS/TPS game, all for free!",
     "image": "/asset/Game/Aimlabs/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/714010/",
-    "storefronts": []
+    "primary_store": "other",
+    "primary_link": "https://aimlabs.com/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/714010/"
+      },
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/aimlabs"
+      }
+    ]
   },
   {
     "name": "Amnesia: The Bunker",
@@ -65,11 +74,16 @@
   },
   {
     "name": "Balatro",
-    "description": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+    "description": "Balatro stands out as an innovative deck-building roguelike that seamlessly merges the mechanics of poker with strategic gameplay elements.",
     "image": "/asset/Game/Balatro/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/2379780/",
-    "storefronts": []
+    "primary_store": "other",
+    "primary_link": "https://www.balatrogame.com/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2379780/"
+      }
+    ]
   },
   {
     "name": "Battlestar Galactica Deadlock",
@@ -97,7 +111,7 @@
   },
   {
     "name": "Black Skylands",
-    "description": "Become the captain of an airship and explore the world of the skies, gather resources and build powerful weapons, uncover ancient secrets and fight beneath your ship",
+    "description": "",
     "image": "/asset/Game/Black_Skylands/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1143810/",
@@ -105,7 +119,7 @@
   },
   {
     "name": "Borderlands 2",
-    "description": "Borderlands 4 is out now on PlayStation 5, Xbox Series X|S, and PC via Steam and the Epic Games Store!",
+    "description": "The Ultimate Vault Hunter’s Upgrade lets you get the most out of the Borderlands 2 experience.",
     "image": "/asset/Game/Borderlands_2/cover.jpg",
     "primary_store": "other",
     "primary_link": "https://borderlands.com/en-US/",
@@ -118,7 +132,7 @@
   },
   {
     "name": "Buckshot Roulette",
-    "description": "Play Russian roulette with a 12-gauge shotgun. Four enter. One leaves. Roll the dice with your life. Good luck!",
+    "description": "",
     "image": "/asset/Game/Buckshot_Roulette/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2835570/",
@@ -142,11 +156,16 @@
   },
   {
     "name": "Content Warning",
-    "description": "Film your friends doing scary things to become SpöökTube famous! (strongly advised to not go alone)",
+    "description": "We focus on gameplay above all else",
     "image": "/asset/Game/Content_Warning/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/2881650/",
-    "storefronts": []
+    "primary_store": "other",
+    "primary_link": "https://landfall.se/content-warning/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2881650/"
+      }
+    ]
   },
   {
     "name": "Crush Crush",
@@ -197,19 +216,29 @@
   },
   {
     "name": "Enlisted",
-    "description": "In Enlisted, you are not only commanding a single soldier, but an entire squad! This MMO squad based shooter recreates the key battles of the bloodiest war of the 20th century, with hundreds of soldiers, tanks and aircraft taking part in each battle.",
+    "description": "Enlisted is an MMO squad based shooter for PC, Xbox One, Xbox Series X|S, PlayStation 4 and PlayStation 5 in World War II where you act as an infantry squad leader, tank crew or an aircraft pilot. The weaponry, soldier",
     "image": "/asset/Game/Enlisted/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/2051620/",
-    "storefronts": []
+    "primary_store": "other",
+    "primary_link": "https://enlisted.net/en/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/2051620/"
+      }
+    ]
   },
   {
     "name": "Fall Guys",
     "description": "Fall Guys",
     "image": "/asset/Game/Fall_Guys/cover.jpg",
-    "primary_store": "epicGames",
-    "primary_link": "https://store.epicgames.com/en-US/p/fall-guys",
-    "storefronts": []
+    "primary_store": "other",
+    "primary_link": "https://fallguys.com/",
+    "storefronts": [
+      {
+        "store": "epicGames",
+        "url": "https://store.epicgames.com/en-US/p/fall-guys"
+      }
+    ]
   },
   {
     "name": "Fallout 2: A Post Nuclear Role Playing Game",
@@ -349,7 +378,7 @@
   },
   {
     "name": "ISLANDERS",
-    "description": "ISLANDERS is a minimalist strategy game about building cities on colorful islands.",
+    "description": "",
     "image": "/asset/Game/ISLANDERS/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1046030/",
@@ -434,7 +463,7 @@
   },
   {
     "name": "Lords and Villeins",
-    "description": "Build a prosperous settlement in a unique simulation of a feudal economy - each family runs their shop, owns their goods, and trades with other villagers in a free market. You will manage the land, build houses, organise events, set taxes, and balance supply and demand while engaging in diplomacy!",
+    "description": "",
     "image": "/asset/Game/Lords_and_Villeins/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1287530/",
@@ -529,7 +558,7 @@
   },
   {
     "name": "PEAK",
-    "description": "PEAK is a co-op climbing game where the slightest mistake can spell your doom. Either solo or as a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Do you have what it takes to reach the PEAK?",
+    "description": "",
     "image": "/asset/Game/PEAK/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/3527290/",
@@ -537,7 +566,7 @@
   },
   {
     "name": "PICO PARK 2",
-    "description": "PICO PARK is back with all new levels! Play with 2-8 players locally or online in this co-op action-puzzle game!",
+    "description": "",
     "image": "/asset/Game/PICO_PARK_2/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2644470/",
@@ -553,7 +582,7 @@
   },
   {
     "name": "People Playground",
-    "description": "Shoot, stab, burn, poison, tear, vaporise, or crush ragdolls in a large open space.",
+    "description": "",
     "image": "/asset/Game/People_Playground/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1118200/",
@@ -601,7 +630,7 @@
   },
   {
     "name": "Space Crew: Legendary Edition",
-    "description": "Time for your toughest mission yet! Recruit and train your crew to tackle the growing threat from alien and android armies as you defend Earth to become a Galactic Legend in Space Crew: Legendary Edition. All new content free to existing owners of Space Crew!",
+    "description": "",
     "image": "/asset/Game/Space_Crew_Legendary_Edition/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1176710/",
@@ -638,7 +667,7 @@
   },
   {
     "name": "The Sims™ 4",
-    "description": "Play with life and discover the possibilities. Unleash your imagination and create a world of Sims that’s wholly unique. Explore and customize every detail from Sims to homes–and much more.",
+    "description": "",
     "image": "/asset/Game/The_Sims_4/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/1222670/",
@@ -654,7 +683,7 @@
   },
   {
     "name": "Tinkerlands: A Shipwrecked Adventure",
-    "description": "A Shipwrecked Adventure is a free prologue immersing you into the vast world of Tinkerlands. Uncover the story of the first survivors on these mystical islands. Explore the breathtaking archipelago, craft essential tools, build your settlement, and strive to survive!",
+    "description": "",
     "image": "/asset/Game/Tinkerlands_A_Shipwrecked_Adventure/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/2658710/",
@@ -662,11 +691,16 @@
   },
   {
     "name": "Totally Accurate Battlegrounds",
-    "description": "Grab your balloon crossbow and trusty inflatable hammer, because things are about to get wobbly! Be the last weirdo standing in the world-leading physics-based Battle Royale game.",
+    "description": "We focus on gameplay above all else",
     "image": "/asset/Game/Totally_Accurate_Battlegrounds/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/823130/",
-    "storefronts": []
+    "primary_store": "other",
+    "primary_link": "https://landfall.se/totally-accurate-battlegrounds/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/823130/"
+      }
+    ]
   },
   {
     "name": "Ultimate Zombie Defense",
@@ -686,7 +720,7 @@
   },
   {
     "name": "Upload Labs",
-    "description": "A sci-fi management game where you build and optimize your computer",
+    "description": "",
     "image": "/asset/Game/Upload_Labs/cover.jpg",
     "primary_store": "steam",
     "primary_link": "https://store.steampowered.com/app/3606890/",
@@ -696,9 +730,14 @@
     "name": "VRChat",
     "description": "Join our growing community as you explore, play, and help craft the future of social VR. Create worlds and custom avatars. Welcome to VRChat.",
     "image": "/asset/Game/VRChat/cover.jpg",
-    "primary_store": "steam",
-    "primary_link": "https://store.steampowered.com/app/438100/",
-    "storefronts": []
+    "primary_store": "other",
+    "primary_link": "https://hello.vrchat.com/",
+    "storefronts": [
+      {
+        "store": "steam",
+        "url": "https://store.steampowered.com/app/438100/"
+      }
+    ]
   },
   {
     "name": "War Thunder",

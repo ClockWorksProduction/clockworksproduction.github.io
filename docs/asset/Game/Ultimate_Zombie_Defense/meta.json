@@ -12,12 +12,15 @@
     "newgrounds": 0,
     "other": 0
   },
-  "description": "",
-  "developer": "",
+  "description": "Team up or face it alone in this top down zombie slaying defense adventure! Featuring up to 4 player online co-op, cleanse the infected wave by wave and upgrade your base with traps &amp; defenses to build the Ultimate Zombie Defense. Can YOU stop them?",
+  "developer": "Terror Dog Studio",
   "publisher": "",
   "releaseDate": "",
   "genre": [
-    ""
+    "Action",
+    "Adventure",
+    "Casual",
+    "Strategy"
   ],
   "platforms": [
     "Windows",
