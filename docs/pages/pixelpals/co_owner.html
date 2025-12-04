@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet The Co-Owner — Pixel Pals</title>
+    <!-- ==== STYLESHEETS ==== -->
+    <link rel="stylesheet" href="/assets/css/deafult.css">
+    <link id="theme" rel="stylesheet" href="/assets/css/light-theme.css">
+
+    <!-- ==== SCRIPTS ==== -->
+    <script defer src="/assets/js/javascript.js"></script>
+
+    <!-- ==== FAVICON & MISC ==== -->
+    <link rel="icon" href="/asset/CWP_logo_static_edited.png">
+    <script src="https://kit.fontawesome.com/6b3a6b196a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- =======================================
+          NAVBAR
+         ======================================= -->
+    <div id="nav-placeholder"></div>
+    <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+    <!-- =======================================
+         HERO SECTION
+         ======================================= -->
+    <header class="hero bg-img-1 pad-64">
+        <div class="hero-content">
+            <h1 class="heading-1 jumbo">Mangafa The Variety Streamer</h1>
+            <p class="large">The co-owner of the Digital Conclave.</p>
+        </div>
+    </header>
+
+    <!-- =======================================
+         MAIN CONTENT
+         ======================================= -->
+    <main>
+        <section class="row pad-64">
+            <div class="col-4 pad-lg">
+                <div class="card pad-lg center-text">
+                    <a href="/pages/pixelpals/co_owner.html" target="_self"><img src="/asset/Mangafa.png" alt="Mangafa Logo" class="round" style="width: 100%;"></a>
+                    <h3 class="heading-3">Mangafa The variety streamer</h3>
+                    <p>Silly little goober stream :3c</p>
+                    <p>Hi :3c — Mangafa, 5/2025</p>
+                </div>
+            </div>
+            <div class="col-8 pad-lg">
+                <div class="card pad-lg">
+                    <h3 class="heading-3">Mangafa's Twitch Stream</h3>
+                    <div id="mangafa-twitch-embed" class="mg-bottom"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="row pad-64">
+            <div class="col-6 mg-bottom">
+                <div class="card pad-lg">
+                    <h3 class="heading-3">Mangafa's Video</h3>
+                    <div class="responsive-embed mg-bottom">
+                        <iframe src="https://widgets.sociablekit.com/twitch-channel-videos/iframe/25553660" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 mg-bottom">
+                <div class="card pad-lg">
+                    <h3 class="heading-3">Mangafa's VOD</h3>
+                    <div class="responsive-embed mg-bottom">
+                        <iframe src="https://widgets.sociablekit.com/youtube-channel-videos/iframe/25553661" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pad-64">
+            <h2 class="center-text heading-2">Games I Own</h2>
+            <div class="row" id="game-cards-container">
+                <!-- Game cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- =======================================
+         FOOTER
+         ======================================= -->
+    <div id="footer-placeholder"></div>
+
+    <!-- =======================================
+         SCRIPTS
+         ======================================= -->
+
+    <!-- Partial Loader Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('/partials/nav.html')
+                .then(response => response.text())
+                .then(data => { document.getElementById('nav-placeholder').innerHTML = data; });
+            fetch('/partials/footer.html')
+                .then(response => response.text())
+                .then(data => { document.getElementById('footer-placeholder').innerHTML = data; });
+        });
+    </script>
+
+    <!-- Game Library Loader -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('/assets/data/mangafs_games.json')
+                .then(response => response.json())
+                .then(games => {
+                    const container = document.getElementById('game-cards-container');
+
+                    const iconClassFor = (storeKey) => {
+                        if (!storeKey) return 'fas fa-link';
+                        switch (storeKey.toLowerCase()) {
+                            case 'steam': return 'fab fa-steam';
+                            case 'epicgames': return 'fas fa-bolt';
+                            case 'itchio': return 'fas fa-ghost';
+                            case 'gog': return 'fas fa-compact-disc';
+                            case 'xbox': return 'fab fa-xbox';
+                            case 'playstation': return 'fab fa-playstation';
+                            case 'nintendo': return 'fas fa-gamepad';
+                            case 'newgrounds': return 'fas fa-star';
+                            case 'other': return 'fas fa-store';
+                            default: return 'fas fa-link';
+                        }
+                    }
+
+                    const placeholder = encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='600' height='300'><rect fill='var(--bg-alt-color)' width='100%' height='100%'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='var(--text-color)' font-size='20'>No image</text></svg>`)
+                    const placeholderSrc = `data:image/svg+xml;utf8,${placeholder}`;
+
+                    games.forEach(game => {
+                        const primaryLink = game.primary_link || '#';
+                        const imgSrc = game.image || placeholderSrc;
+
+                        const icons = (game.storefronts || []).map(s => {
+                            const cls = iconClassFor(s.store || s.store.toLowerCase());
+                            return `<a class="storefront" href="${s.url}" title="${s.store}" target="_blank" rel="noopener"><i class="${cls}" aria-hidden="true"></i><span class="store-label">${s.store}</span></a>`
+                        }).join(' ');
+
+                        const card = `
+                            <div class="col-4 mg-bottom">
+                                <div class="card">
+                                    <a href="${primaryLink}" style="text-decoration: none;" target="_blank" rel="noopener">
+                                        <img src="${imgSrc}" alt="${game.name}" class="card-img">
+                                    </a>
+                                    <div class="pad center-text">
+                                        <h3 class="card-title"><a href="${primaryLink}" class="link" target="_blank" rel="noopener">${game.name}</a></h3>
+                                        <p>${game.description || ''}</p>
+                                        <div class="storefronts">${icons}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        container.innerHTML += card;
+                    });
+                });
+        });
+    </script>
+
+    <!-- Twitch Embed -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+         document.addEventListener('DOMContentLoaded', function() {
+            new Twitch.Embed("mangafa-twitch-embed", { 
+                width: '100%', 
+                height: 480, 
+                channel: "mangafa",
+                theme: (document.documentElement.getAttribute('data-theme') === 'dark') ? 'dark' : 'light'
+            });
+         });
+    </script>
+</body>
+
+</html>

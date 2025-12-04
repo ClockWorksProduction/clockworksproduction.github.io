@@ -1,45 +1,94 @@
 /* ============================================================
-   LIGHT THEME — Industrial Steampunk
+   LIGHT THEME — INDUSTRIAL STEAMPUNK FORWARD
    ============================================================ */
 
-:root {
-    /* --- FONTS --- */
-    --font-heading: 'Old London', serif; /* Classic, sharp, historical */
-    --font-subheading: 'Uncial Antiqua', cursive; /* A more decorative, slightly arcane touch */
-    --font-body: 'Roboto', sans-serif; /* Clean, modern, and readable */
+   .theme-light {
+    /* ---- Core Palette ---- */
+    --bg: #f5f3ef;
+    --bg-alt: #ebe7e2;
 
-    /* --- COLORS & BACKGROUNDS --- */
-    --bg-color: #f5efe6; /* Aged paper / parchment */
-    --bg-texture: url("https://www.transparenttextures.com/patterns/brushed-alum.png"); /* A subtle metallic sheen */
-    --text-color: #3e3b35; /* Dark sepia/brown for high readability */
+    --surface: #ffffff;
+    --surface-alt: #f0ece6;
 
-    /* --- HEADINGS & LINKS --- */
-    --heading-color: #6a4f2a; /* Dark, antiqued brass */
-    --heading-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    --link-color: #a87842; /* Coppery-brass */
-    --link-hover-color: #c89e64; /* Brighter, polished brass */
-    --link-hover-shadow: 0 0 6px rgba(200, 158, 100, 0.5);
+    --text: #2a2a2a;
+    --text-dim: #5c5c5c;
 
-    /* --- CARDS --- */
-    --card-bg: rgba(255, 250, 240, 0.85); /* Semi-transparent ivory */
-    --card-border: #bfa675; /* Detailed brass trim */
-    --card-shadow: 0 4px 10px rgba(0,0,0,0.15), inset 0 0 8px rgba(191, 166, 117, 0.2);
-    --card-hover-shadow: 0 6px 16px rgba(0,0,0,0.25), inset 0 0 12px rgba(220, 180, 120, 0.4);
-    --card-heading-color: #7f5d27; /* Matching the main headings */
-    --card-heading-shadow: none;
+    /* ---- Industrial Metals ---- */
+    --metal-brass: #c89f43;
+    --metal-copper: #b06c3a;
+    --metal-iron: #424242;
 
-    /* --- NAVIGATION & FOOTER --- */
-    --nav-bg: rgba(250, 245, 235, 0.92); /* Slightly opaque parchment */
-    --nav-border: #bfa675;
-    --nav-text: #4d463b;
-    --nav-hover-text: #7f5d27;
-    --nav-hover-bg: rgba(200, 176, 115, 0.1);
-    --footer-bg: rgba(240, 235, 225, 0.98);
-    --footer-border: #bfa675;
-    --footer-text: #4d463b;
-    --footer-heading-color: #7f5d27;
+    /* ---- Accents ---- */
+    --accent: var(--metal-brass);
+    --accent-alt: var(--metal-copper);
 
-    /* --- HEADER --- */
-    --header-blend-mode: multiply;
-    --header-overlay-color: #d6c2a4; /* Dusty, aged parchment overlay */
+    /* ---- Shared Sakura/Eco Link Between Themes ---- */
+    --eco-sakura: #ff83a8;
+    --eco-soft-glow: rgba(255, 131, 168, 0.35);
+}
+
+/* ============================================================
+   COMPONENT STYLING FOR LIGHT THEME
+   ============================================================ */
+
+/* ---------------- Navbar ---------------- */
+.theme-light .nav {
+    background: var(--surface);
+    border-bottom: 3px solid var(--metal-brass);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
+
+.theme-light .nav a {
+    color: var(--text);
+}
+
+.theme-light .nav a:hover {
+    color: var(--accent-alt);
+}
+
+/* ---------------- Sidebar ---------------- */
+.theme-light .sidebar {
+    background: var(--surface-alt);
+    border-right: 4px solid var(--metal-brass);
+}
+
+.theme-light .sidebar-toggle {
+    background: var(--metal-brass);
+    color: #fff;
+}
+
+.theme-light .sidebar a {
+    color: var(--text);
+}
+
+.theme-light .sidebar a:hover {
+    background: rgba(200, 159, 67, 0.15);
+    color: var(--metal-copper);
+}
+
+/* ---------------- Footer ---------------- */
+.theme-light .footer {
+    background: var(--surface);
+    border-top: 3px solid var(--metal-brass);
+}
+
+/* ---------------- Cards ---------------- */
+.theme-light .card {
+    background: var(--surface);
+    border: 2px solid var(--metal-brass);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+/* ---------------- Buttons ---------------- */
+.theme-light .btn {
+    background: var(--metal-brass);
+    color: #fff;
+}
+.theme-light .btn:hover {
+    background: var(--metal-copper);
+}
+
+/* ---------------- Sakura Ambient Glow ---------------- */
+.theme-light .sakura-glow {
+    box-shadow: 0 0 12px var(--eco-soft-glow);
 }

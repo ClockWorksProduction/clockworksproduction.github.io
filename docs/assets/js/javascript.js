@@ -1,57 +1,59 @@
-/* Moved to /assets/js -- paths updated to root-relative */
-// this one is just to wait for the page to load
-function openNav() {
-  document.getElementById("mySidebar").style.display = "block";
+/* ============================================================
+   CLEAN JAVASCRIPT SYSTEM
+   - Theme Toggle (class-based only)
+   - Collapsible Sidebar
+   ============================================================ */
+
+/* ----------------------------------------
+   SIDEBAR COLLAPSE / EXPAND
+---------------------------------------- */
+const sidebar = document.getElementById("mySidebar");
+
+function toggleSidebar() {
+    if (sidebar) {
+        sidebar.classList.toggle("sidebar-closed");
+    }
 }
 
-function closeNav() {
-  document.getElementById("mySidebar").style.display = "none";
-  
-}
+/* ----------------------------------------
+   THEME TOGGLING (CLASS-BASED)
+---------------------------------------- */
+const body = document.body;
+const themeStylesheet = document.getElementById("theme");
+const themeToggleButtons = document.querySelectorAll("#theme-toggle-nav, #theme-toggle-side");
 
-// JavaScript to toggle between themes
-const themeStylesheet = document.getElementById('theme');
-let currentTheme = 'light'; // Default to light theme
+function applyTheme(theme) {
+    const isDark = theme === "dark";
+
+    // Toggle root class
+    body.classList.toggle("theme-dark", isDark);
+    body.classList.toggle("theme-light", !isDark);
+
+    // Swap stylesheet file
+    themeStylesheet.href = isDark 
+        ? "/assets/css/dark-theme.css" 
+        : "/assets/css/light-theme.css";
+
+    // Update text on all toggle buttons
+    themeToggleButtons.forEach(btn => {
+        btn.textContent = isDark ? "LIGHT" : "DARK";
+    });
+}
 
 function toggleTheme() {
-  const body = document.body;
-  const themeToggleButtons = document.querySelectorAll('#theme-toggle-nav, #theme-toggle-side');
-  
-    if (currentTheme === 'dark') {
-      themeStylesheet.href = '/assets/css/light-theme.css';
-      body.style.backgroundColor = '#ffffff';
-      body.style.color = '#1e1e1e'; // Light mode background
-      currentTheme = 'light';
-    } else {
-      themeStylesheet.href = '/assets/css/dark-theme.css';
-      body.style.backgroundColor = '#1e1e1e';
-      body.style.color = '#ffffff'; // Dark mode background
-      currentTheme = 'dark';
-    }
-    themeToggleButtons.forEach(button => {
-      button.textContent = currentTheme === 'dark' ? 'LIGHT' : 'DARK'; // Update button text
-    });
-  }
+    const newTheme = body.classList.contains("theme-dark") ? "light" : "dark";
+    applyTheme(newTheme);
 
-// Function to set the theme
-function setTheme(theme) {
-  const body = document.body;
-  if (theme === 'dark') {
-    themeStylesheet.href = '/assets/css/dark-theme.css';
-    body.style.backgroundColor = '#1e1e1e';
-    body.style.color = '#ffffff' // Dark mode background
-    currentTheme = 'dark';
-  } else {
-    themeStylesheet.href = '/assets/css/light-theme.css';
-    body.style.backgroundColor = '#ffffff';
-    body.style.color = '#1e1e1e' // Light mode background
-    currentTheme = 'light';
-  }
+    // Optional: remember theme
+    localStorage.setItem("cwp-theme", newTheme);
 }
 
-// Set the initial theme on page load
-document.addEventListener('DOMContentLoaded', () => {
-  setTheme(currentTheme); // Set the initial theme
-});
-// End of JavaScript to toggle between themes
+/* ----------------------------------------
+   INITIAL PAGE LOAD
+---------------------------------------- */
+document.addEventListener("DOMContentLoaded", () => {
+    // Optional memory system
+    const savedTheme = localStorage.getItem("cwp-theme") || "light";
 
+    applyTheme(savedTheme);
+});
