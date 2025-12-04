@@ -1,212 +1,124 @@
-/* --- default.css - Arcane Clockwork Version --- */
+/* --- default.css - Steampunk-Arcane-Sakura Fusion --- */
 
-/* Keeping the classic Steampunk fonts but adding a Mystic one for titles */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Uncial+Antiqua&family=Cinzel:wght@400;700&display=swap');
+/* Fonts blending Steampunk, Arcane, and a touch of elegance */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Uncial+Antiqua&family=Roboto:wght@400;700&display=swap');
 
-/* Base Theme - Steampunk structure with Arcane colors */
+/* --- Base Theme --- */
+/* Steampunk foundation with Arcane and Natural elements */
 body {
-    /* Keeping the original lined paper texture */
-    background-image: url('https://www.transparenttextures.com/patterns/lined-paper.png');
-    background-color: #362F4B; /* Dark, sooty base (Deep Indigo/Brown) */
-    color: #E6E6FA; /* Light Lavender/Silver Text (Ethereal) */
-}
-
-body.dark {
-    /* Keeping the dark paths texture */
-    background-image: url('https://www.transparenttextures.com/patterns/dark-paths.png');
-    background-color: #1A1A2E; /* Very Deep Indigo/Void */
-    color: #F0F8FF; /* Ghostly White Text */
-}
-
-/* Keeping Steampunk body font, but using Uncial/Cinzel for titles/accents */
-body,h1,h2,h3,h4,h5,h6,p {
-    font-family: "IM Fell English SC", serif;
-}
-
-body, html {
-    height: 100%;
-    line-height: 1.8;
-}
-
-section{
-    padding:48px;
-}
-
-/* Full height image header */
-.bgimg-1 {
-    background-position: center;
-    background-size: cover;
-    background-image: url("/asset/BTW1.jpg"); 
-    min-height: 50%;
-    color: #FFD700; /* Antique Gold */
-    text-shadow: 2px 2px #000;
-    height: fit-content;
-    /* Darker, mystical border, replacing the bright brown */
-    border-bottom: 5px solid #4B0082; /* Deep Violet */
-}
-
-.crew-tag {
-    width: 100%;
-    height: auto;
-}
-
-.logo{
-    width: 25px;
-    height: auto;
-}
-
-/* Nav Link - Combining Brass/Wood structure with Arcane colors */
-.nav-link {
-    display: block;
-    padding: 8px 16px;
-    text-decoration: none;
-    /* Keeping the original wood border */
-    border: 1px solid #4B0082; /* Deep Violet/Indigo */
-    background-color: #2F174D; /* Darker, saturated purple/blue */
-    color:#FFD700; /* Antique Gold Text */
-    font-weight: bold;
-    text-shadow: 1px 1px #000;
-
-}
-
-/* Media query for small and medium screens */
-@media (max-width: 992px) {
-    .nav-links {
-        display: none;
-    }
-}
-
-/* Footer Styling */
-.footer {
-    background-color: #4B0082; /* Deep Violet/Indigo base */
-    padding: 20px;
-    flex-direction: column;
-    /* Retaining the original dark border */
-    border-top: 5px solid #000;
-}
-
-.footer .footer-section {
-    margin: 10px;
-    width: 100%;
-    text-align: center;
-}
-
-.footer .social-icons a {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-.footer h3, .footer h4, .footer h6 {
-    color: #FFD700; /* Antique Gold Headings */
-    text-align: center;
-    font-family: "Uncial Antiqua", cursive;
-}
-
-.footer a {
-    color: #F0F8FF; /* Ghostly White Links */
-    text-decoration: none;
-    display: block;
-    margin-bottom: 5px;
-}
-
-/* Adjust links for horizontal display within social icon groups */
-.footer .social-icons a {
-    display: inline-block;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
-}
-
-/* Media query for wider screens (PC layout) */
-@media (min-width: 768px) {
-   
-    .footer .footer-section {
-        width: auto;
-        margin: 0;
-    }
-
-    .footer h3, .footer h4, .footer h6 {
-        text-align: left;
-    }
-
-    .footer a {
-        display: inline;
-        margin-bottom: 0;
-        margin-right: 10px;
-    }
-}
-
-/* Featured Card Styling */
-.featured-card img {
-    width: 100%;
-    transition: 0.3s;
-    border-radius: 8px;
-    /* Border: Darker, deeper 'brass' look */
-    border: 3px solid #8A2BE2; /* Amethyst border */
-}
-
-.featured-card:hover img {
-    transform: scale(1.05);
-}
-
-.featured-card {
-    border-radius: 8px;
-    padding: 12px;
-    /* Shadow for a subtle arcane glow */
-    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.5); 
-    transition: 0.3s;
-    background-color: #2F174D; /* Darker, saturated purple/blue (Deep Leather) */
-    border: 2px solid #000;
-}
-
-.featured-card:hover {
-    box-shadow: 0 6px 20px rgba(138, 43, 226, 0.7);
-}
-
-/* Navbar - Keeping the Wood texture but making it look enchanted */
-.w3-top {
+    /* 40% Steampunk: wood texture and brown tones */
+    background-color: #5d4037; /* A warm, dark wood color */
     background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
-    border-bottom: 2px solid #4B0082; /* Deep Violet */
+    color: #f5e8d9; /* Parchment-like text color */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* 30% Arcanepunk: Magical, ancient-looking font */
+    font-family: 'IM Fell English SC', serif;
+    /* A mix of arcane purple and steampunk brass */
+    color: #bca6da; /* Muted arcane purple */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+a {
+    /* Steampunk brass for links */
+    color: #cd7f32;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+    /* 20% Sakura: Cherry blossom pink for hover */
+    color: #ffb7c5;
+    text-shadow: 0 0 6px #ffb7c5;
+}
+
+/* --- Card Style: The Alchemist's Chest --- */
+.steampunk-card, .featured-card {
+    background-color: rgba(46, 34, 29, 0.85); /* Darker, semi-transparent wood */
+    border: 1px solid #a88d6c; /* Aged brass border */
+    /* 10% Cyberpunk: A very subtle inner glow, not overtly neon */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5), inset 0 0 5px rgba(255, 183, 197, 0.3); /* Soft pink inner glow */
+    padding: 24px;
+    border-radius: 4px;
+    backdrop-filter: blur(4px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.steampunk-card:hover, .featured-card:hover {
+     box-shadow: 0 6px 12px rgba(0,0,0,0.6), inset 0 0 10px rgba(255, 183, 197, 0.5);
+     transform: translateY(-2px);
+}
+
+.steampunk-card h3, .featured-card h3 {
+    /* Arcanepunk font for card titles */
+    font-family: 'Uncial Antiqua', cursive;
+    color: #e6d8ad; /* Golden-parchment color */
+    text-shadow: 0 0 4px #e6d8ad;
+}
+
+/* --- Navigation Bar --- */
+.w3-top {
+    background-color: rgba(30, 22, 18, 0.9); /* Very dark wood color */
+    backdrop-filter: blur(10px);
 }
 
 #myNavbar {
     background-color: transparent;
-    box-shadow: none;
+    border-bottom: 1px solid #a88d6c; /* Aged brass */
+    font-family: 'IM Fell English SC', serif;
 }
 
-.nav-link {
-    font-family: 'Uncial Antiqua', cursive;
-    color: #FFD700 !important; /* Antique Gold */
-    text-shadow: 1px 1px #000;
+/* Fix for the logo image in the navbar */
+#myNavbar .logo {
+    height: 40px;
+    width: auto;
+    padding: 2px 0;
 }
 
-.nav-link:hover {
-    color: #fff !important;
-    background-color: #2F174D !important; /* Dark purple/blue on hover */
+#myNavbar .nav-link, #myNavbar .w3-button {
+    color: #f5e8d9; /* Parchment text color */
+    transition: background-color 0.3s, color 0.3s;
 }
 
-/* Footer - Keeping the Wood texture but making it look enchanted */
-footer {
-    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
-    border-top: 2px solid #4B0082;
-    color: #FFD700; /* Antique Gold */
+#myNavbar .nav-link:hover, #myNavbar .w3-button:hover {
+    color: #ffb7c5; /* Sakura pink hover */
+    background-color: rgba(255, 183, 197, 0.1);
 }
 
-footer a {
-    color: #E6E6FA;
+/* --- Footer --- */
+.footer {
+    background-color: rgba(30, 22, 18, 0.95);
+    border-top: 1px solid #a88d6c;
+    color: #c5bba8; /* Muted parchment */
+    padding: 32px 0;
+    font-size: 0.9em;
+}
+.footer h4 {
+    font-family: 'IM Fell English SC', serif;
+    color: #cd7f32; /* Brass headers in footer */
+    text-shadow: none;
+}
+.footer a {
+    color: #c5bba8;
+}
+.footer a:hover {
+    color: #ffb7c5;
+}
+.footer .social-icons a {
+    display: inline-block;
+    text-decoration: none;
 }
 
-footer a:hover {
-    color: #fff;
-}
 
-/* Card - Deepened the color to look like enchanted leather/metal */
-.steampunk-card {
-    background-color: #2F174D;
-    border: 2px solid #8A2BE2; /* Amethyst border */
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(138, 43, 226, 0.5);
-    padding: 12px;
+/* --- Header Image --- */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/asset/CWP_banner_5_TEXTLESS.png");
+    min-height: 100%;
+    /* Blend the image with a natural/arcane color */
+    background-blend-mode: luminosity;
+    background-color: #6d5b4f; /* Earthy brown to blend with */
 }

@@ -1,14 +1,39 @@
-/* --- light-theme.css - Arcane Clockwork Version (Spectral/Lunar) --- */
+/* --- light-theme.css - Daylight Garden Version --- */
+
 body {
- /* Retaining a patterned background */
- background-image: url('https://www.transparenttextures.com/patterns/crissxcross.png');
- background-color: #9370DB; /* Medium Purple / Amethyst */
- color: #1A1A2E; /* Deep Indigo Text */
- text-shadow: none;
- transition: 0.3s;
+    /* Sakura/Natural theme: light, airy, and floral */
+    background-color: #fdf6f6; /* Very light pink, almost white */
+    background-image: url('https://www.transparenttextures.com/patterns/subtle-zebra-3d.png'); /* Soft, almost floral texture */
+    color: #3e3e3e; /* Dark, earthy grey for text */
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.featured-card {
-    background-color: #E6E6FA; /* Light Lavender/Silver card */
-    transition: 0.3s;
+h1, h2, h3, h4, h5, h6 {
+    color: #8B4513; /* SaddleBrown, like rich earth or aged wood */
+}
+
+a {
+    color: #d17a87; /* Muted cherry blossom pink */
+}
+
+a:hover {
+    color: #8a2be2; /* Arcane purple for a touch of magic */
+}
+
+.steampunk-card, .featured-card {
+    background-color: rgba(255, 240, 245, 0.9); /* LavenderBlush, semi-transparent */
+    border: 1px solid #d1a3a3; /* Dusty rose border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1), inset 0 0 5px rgba(139, 69, 19, 0.2); /* Soft shadow, subtle wood inner glow */
+}
+
+.steampunk-card h3, .featured-card h3 {
+    color: #8B4513; /* SaddleBrown, matching headers */
+}
+
+#myNavbar, .w3-top {
+    background-color: rgba(253, 246, 246, 0.9); /* Lighter version of body bg */
+}
+
+.footer {
+    background-color: rgba(240, 230, 230, 0.95);
 }

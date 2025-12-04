@@ -1,16 +1,41 @@
-/* --- dark-theme.css - Arcane Clockwork Version (Cosmic/Void) --- */
-@media (prefers-color-scheme: dark) {
-    body {
-    /* Retaining a patterned background */
-    background-image: url('https://www.transparenttextures.com/patterns/diagmonds.png');
-    background-color: #1A1A2E; /* Deep Indigo/Void */
-    color: #F0F8FF; /* Ghostly White Text */
-    text-shadow: 1px 1px #8A2BE2; /* Violet glow */
-    transition: 0.3s;
-    }
+/* --- dark-theme.css - Midnight Forge Version --- */
+
+body {
+    /* Steampunk/Arcane focus: dark, mysterious, and powerful */
+    background-color: #2a2024; /* Deep, dark purple-brown */
+    background-image: url('https://www.transparenttextures.com/patterns/dark-geometric.png'); /* More complex, arcane geometry */
+    color: #e0d8cc; /* Aged paper color */
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.featured-card {
-    background-color: #4B0082; /* Deep Violet card */
-    transition: 0.3s;
+h1, h2, h3, h4, h5, h6 {
+    color: #ffb7c5; /* Sakura pink, but brighter in the dark */
+    text-shadow: 0 0 7px #ffb7c5, 0 0 3px #ff0000; /* Pink and a hint of red for a cyber/arcane glow */
+}
+
+a {
+    color: #e6d8ad; /* Golden-parchment, stands out in the dark */
+}
+
+a:hover {
+    color: #00ffff; /* Cyberpunk cyan, a flash of the future */
+    text-shadow: 0 0 8px #00ffff;
+}
+
+.steampunk-card, .featured-card {
+    background-color: rgba(18, 14, 16, 0.85); /* Nearly black, deep purple tint */
+    border: 1px solid #785d4a; /* Dark, worn brass */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.7), inset 0 0 8px rgba(138, 43, 226, 0.4); /* Arcane purple inner glow */
+}
+
+.steampunk-card h3, .featured-card h3 {
+    color: #ffb7c5; /* Sakura pink, matching headers */
+}
+
+#myNavbar, .w3-top {
+    background-color: rgba(18, 14, 16, 0.9); /* Matching dark card background */
+}
+
+.footer {
+    background-color: rgba(10, 8, 9, 0.95);
 }

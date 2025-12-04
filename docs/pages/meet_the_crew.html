@@ -15,71 +15,6 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <script src="https://kit.fontawesome.com/6b3a6b196a.js" crossorigin="anonymous"></script>
-    <style>
-        /* --- STEAMPUNK + MYSTICPUNK CARD THEME --- */
-
-        .crew-card {
-            background: #0d0f11;
-            border: 2px solid #CFA46A;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.6), 0 0 10px #004d4d55;
-            overflow: hidden;
-        }
-
-        .crew-header {
-            background: linear-gradient(135deg, #4A3522, #7E5109, #004D4D);
-            border-bottom: 2px solid #CFA46A;
-        }
-
-        .crew-header img {
-            filter: sepia(20%) contrast(110%);
-            transition: 0.3s;
-        }
-
-        .crew-header img:hover {
-            filter: sepia(80%) contrast(130%) brightness(1.1);
-        }
-
-        .crew-name {
-            color: #E3DFD2;
-            font-family: "Cinzel", serif;
-            font-weight: 700;
-        }
-
-        .crew-desc {
-            color: #CFA46A;
-            font-family: "EB Garamond", serif;
-        }
-
-        .crew-support p {
-            color: #E3DFD2;
-        }
-
-        .crew-btn {
-            background: #4A3522 !important;
-            color: #E3DFD2 !important;
-            border: 1px solid #CFA46A !important;
-        }
-
-        .crew-btn:hover {
-            background: #7E5109 !important;
-            color: #ffffff !important;
-        }
-
-        .crew-footer {
-            background: #2B1B10;
-            border-top: 2px solid #CFA46A;
-            color: #E3DFD2;
-        }
-
-        .crew-icon {
-            color: #E3DFD2 !important;
-        }
-
-        .crew-icon:hover {
-            color: #CFA46A !important;
-        }
-    </style>
     <link href="/assets/css/deafult.css" rel="stylesheet" type="text/css"/>
     <link id="theme" rel="stylesheet" type="text/css" href="/assets/css/light-theme.css"/>
 </head>
@@ -92,37 +27,32 @@
     <div id="nav-placeholder"></div>
     <header class="bgimg-1 w3-display-container w3-grayscale-min" id="mtc">
             <div class="w3-display-left" style="padding:48px">
-                <span class="w3-small">MEET THE</span><br>
-                <span class="w3-jumbo w3-hide-small">CREW</span><br>
-                <span class="w3-xxlarge w3-hide-large w3-hide-medium">CREW</span><br>
-                <span class="w3-large">Totaly not inspired by "Meet The Team"</span>
+                <span class="w3-jumbo w3-hide-small">Meet the Crew</span><br>
+                <span class="w3-large">The minds behind the machine.</span>
             </div>
     </header>
     <!-- Main Content Area -->
     <main>
-        <div class="w3-container w3-light-grey w3-padding-32">
+        <div class="w3-container w3-padding-32">
             <h2 class="w3-center">CWP Structure</h2>
-            <p class="w3-center w3-large">Good to have i guess :3c - ClockWorks 4.12.2025</p>
             <div  class="mermaid">
 ---
 config:
   theme: base
   themeVariables:
-    primaryColor: '#004d4d'          
-    primaryTextColor: '#E3DFD2'      
-    primaryBorderColor: '#CFA46A'    
-    secondaryColor: '#4A3522'        
-    secondaryTextColor: '#E3DFD2'
-    secondaryBorderColor: '#CFA46A'
-    tertiaryColor: '#7E5109'         
-    tertiaryTextColor: '#F7EEDB'
-    lineColor: '#CFA46A'             
-    nodeBorder: '#CFA46A'            
-    edgeLabelBackground: '#1A1F23'   
+    primaryColor: '#1a1a1a'          
+    primaryTextColor: '#e0e0e0'      
+    primaryBorderColor: '#cd7f32'    
+    secondaryColor: '#00ffff'        
+    secondaryTextColor: '#1a1a1a'
+    secondaryBorderColor: '#cd7f32'
+    tertiaryColor: '#8a2be2'         
+    tertiaryTextColor: '#e0e0e0'
+    lineColor: '#cd7f32'             
+    nodeBorder: '#cd7f32'            
+    edgeLabelBackground: '#1a1a1a'   
     fontSize: 16px
-    fontFamily: "Cinzel, serif"      
-    background: '#0d0f11'            
-  layout: dagre
+    fontFamily: "Orbitron, sans-serif"
 ---
 
 flowchart TB
@@ -130,9 +60,9 @@ flowchart TB
 %% ---------------------------------------------------------
 %% TOP-LEVEL ORGANIZATION
 %% ---------------------------------------------------------
-subgraph sg_Corp["☽ ClockWorksProduction ☾"]
-    O2["◇ Current Owner ◇"]
-    O3["✦ Council of Administrators ✦"]
+subgraph sg_Corp["ClockWorksProduction"]
+    O2["Current Owner"]
+    O3["Council of Administrators"]
     sg_CWP["CWPStudio"]
     sg_FrameForge["FrameForge"]
     sg_PixelPulse["PixelPulse"]
@@ -143,8 +73,8 @@ end
 %% FOUNDERS
 %% ---------------------------------------------------------
 subgraph sg_Founders["Founding Members"]
-    fB["Co-Founder: AbyssalWhiteTiger ✧"]
-    fA["Founder: ClockWorks / BlackTiger ✦"]
+    fB["Co-Founder: AbyssalWhiteTiger"]
+    fA["Founder: ClockWorks / BlackTiger"]
 end
 
 
@@ -256,161 +186,79 @@ tkziA --> getk
         <div class="w3-grid" style="grid-template-columns: repeat(auto-fit,minmax(500px, 1fr))">
 
             <!-- Founder -->
-            <div class="w3-padding w3-card-4 crew-card">
-                <header class="w3-container crew-header">
-                    <a href="/pages/pixelpals/founder.html">
-                    <img src="/asset/Meet The Founder.png" class="w3-round crew-tag">
-                    </a>
-                </header>
-
-                <div class="w3-container">
-                    <h3 class="crew-name">Meet The Founder — ClockWork / BlackTiger</h3>
-                    <p class="crew-desc">Hi :3c</p>
-
-                    <div class="w3-row crew-support">
-                        <p>Support this member</p>
-                        <a href="https://ko-fi.com/E1E111ARI6" class="w3-half w3-button crew-btn">
-                            <i class="fa-solid fa-mug-hot"></i> Buy me a coffee
+            <div class="w3-padding">
+                <div class="steampunk-card">
+                    <header class="w3-container">
+                        <a href="/pages/pixelpals/founder.html">
+                        <img src="/asset/Meet The Founder.png" class="w3-round" style="width:100%">
                         </a>
-                        <a href="https://throne.com/blacktiger" class="w3-half w3-button crew-btn">
-                            <i class="fa-brands fa-web-awesome"></i> My wishlist :3c
-                        </a>
+                    </header>
+
+                    <div class="w3-container">
+                        <h3>Meet The Founder — ClockWork / BlackTiger</h3>
+                        <p>Hi :3c</p>
+
+                        <div class="w3-row">
+                            <p>Support this member</p>
+                            <a href="https://ko-fi.com/E1E111ARI6" class="w3-half w3-button"><i class="fa-solid fa-mug-hot"></i> Buy me a coffee</a>
+                            <a href="https://throne.com/blacktiger" class="w3-half w3-button"><i class="fa-brands fa-web-awesome"></i> My wishlist :3c</a>
+                        </div>
                     </div>
-                </div>
 
-                <footer class="w3-bar w3-container crew-footer">
-                    <a href="https://www.furaffinity.net/user/cyberclockworks" class="w3-bar-item w3-button crew-icon"><i class="fa fa-paw"></i></a>
-                    <a href="https://bsky.app/profile/clockworkmlbt.bsky.social" class="w3-bar-item w3-button crew-icon"><i class="fa-brands fa-bluesky"></i></a>
-                    <a href="https://www.twitch.tv/agentblacktigerstreams" class="w3-bar-item w3-button crew-icon"><i class="fa fa-twitch"></i></a>
-                    <a href="https://github.com/MissionLogBlackTiger" class="w3-bar-item w3-button crew-icon"><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/the-knowledge-zone-international-75a0a2362/" class="w3-bar-item w3-button crew-icon"><i class="fa-brands fa-linkedin"></i></a>
-                </footer>
+                    <footer class="w3-bar w3-container">
+                        <a href="https://www.furaffinity.net/user/cyberclockworks" class="w3-bar-item w3-button"><i class="fa fa-paw"></i></a>
+                        <a href="https://bsky.app/profile/clockworkmlbt.bsky.social" class="w3-bar-item w3-button"><i class="fa-brands fa-bluesky"></i></a>
+                        <a href="https://www.twitch.tv/agentblacktigerstreams" class="w3-bar-item w3-button"><i class="fa fa-twitch"></i></a>
+                        <a href="https://github.com/MissionLogBlackTiger" class="w3-bar-item w3-button"><i class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/the-knowledge-zone-international-75a0a2362/" class="w3-bar-item w3-button"><i class="fa-brands fa-linkedin"></i></a>
+                    </footer>
+                </div>
             </div>
 
             <!-- Co-Founder -->
-            <div class="w3-padding w3-card-4 crew-card">
-                <header class="w3-container crew-header">
-                    <img src="/asset/Meet The Co-Founder.png" class="w3-round crew-tag">
-                </header>
+            <div class="w3-padding">
+                <div class="steampunk-card">
+                    <header class="w3-container">
+                        <img src="/asset/Meet The Co-Founder.png" class="w3-round" style="width:100%">
+                    </header>
 
-                <div class="w3-container">
-                    <h3 class="crew-name">Meet The Co-Founder — AbyssalWhiteTiger</h3>
-                    <p class="crew-desc">Lorem ipsum...</p>
+                    <div class="w3-container">
+                        <h3>Meet The Co-Founder — AbyssalWhiteTiger</h3>
+                        <p>Lorem ipsum...</p>
 
-                    <div class="w3-row crew-support">
-                        <p>Support this member</p>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-solid fa-mug-hot"></i> Buy me a coffee</a>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-brands fa-web-awesome"></i> My wishlist :3c</a>
+                        <div class="w3-row">
+                            <p>Support this member</p>
+                            <a class="w3-half w3-button"><i class="fa-solid fa-mug-hot"></i> Buy me a coffee</a>
+                            <a class="w3-half w3-button"><i class="fa-brands fa-web-awesome"></i> My wishlist :3c</a>
+                        </div>
                     </div>
-                </div>
 
-                <footer class="w3-bar w3-container crew-footer"></footer>
+                    <footer class="w3-bar w3-container"></footer>
+                </div>
             </div>
 
             <!-- Co-Owner -->
-            <div class="w3-padding w3-card-4 crew-card">
-                <header class="w3-container crew-header">
-                    <a href="/pages/pixelpals/co_ownner.html">
-                        <img src="/asset/Meet The Co-Owner.png" class="w3-round crew-tag">
-                    </a>
-                </header>
+            <div class="w3-padding">
+                <div class="steampunk-card">
+                    <header class="w3-container">
+                        <a href="/pages/pixelpals/co_ownner.html">
+                            <img src="/asset/Meet The Co-Owner.png" class="w3-round" style="width:100%">
+                        </a>
+                    </header>
 
-                <div class="w3-container">
-                    <h3 class="crew-name">Meet The Co-Owner — Mangafa</h3>
-                    <p class="crew-desc">Mangafa The variety streamer</p>
+                    <div class="w3-container">
+                        <h3>Meet The Co-Owner — Mangafa</h3>
+                        <p>Mangafa The variety streamer</p>
 
-                    <div class="w3-row crew-support">
-                        <p>Support this member</p>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-solid fa-mug-hot"></i> Buy me a coffee</a>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-brands fa-web-awesome"></i> My wishlist :3c</a>
+                        <div class="w3-row">
+                            <p>Support this member</p>
+                            <a class="w3-half w3-button"><i class="fa-solid fa-mug-hot"></i> Buy me a coffee</a>
+                            <a class="w3-half w3-button"><i class="fa-brands fa-web-awesome"></i> My wishlist :3c</a>
+                        </div>
                     </div>
+
+                    <footer class="w3-bar w3-container"></footer>
                 </div>
-
-                <footer class="w3-bar w3-container crew-footer"></footer>
-            </div>
-
-            <!-- Programmer -->
-            <div class="w3-padding w3-card-4 crew-card">
-                <header class="w3-container crew-header">
-                    <img src="/asset/Meet The Crew.png" class="w3-round crew-tag">
-                </header>
-
-                <div class="w3-container">
-                    <h3 class="crew-name">Meet The Programmer — [Position Open]</h3>
-                    <p class="crew-desc">Lorem ipsum...</p>
-
-                    <div class="w3-row crew-support">
-                        <p>Support this member</p>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-solid fa-mug-hot"></i> Buy me a coffee</a>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-brands fa-web-awesome"></i> My wishlist :3c</a>
-                    </div>
-                </div>
-
-                <footer class="w3-bar w3-container crew-footer"></footer>
-            </div>
-
-            <!-- Art Designer -->
-            <div class="w3-padding w3-card-4 crew-card">
-                <header class="w3-container crew-header">
-                    <img src="/asset/Meet The Crew.png" class="w3-round crew-tag">
-                </header>
-
-                <div class="w3-container">
-                    <h3 class="crew-name">Meet The Art Designer — [Position Open]</h3>
-                    <p class="crew-desc">Lorem ipsum...</p>
-
-                    <div class="w3-row crew-support">
-                        <p>Support this member</p>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-solid fa-mug-hot"></i> Buy me a coffee</a>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-brands fa-web-awesome"></i> My wishlist :3c</a>
-                    </div>
-                </div>
-
-                <footer class="w3-bar w3-container crew-footer"></footer>
-            </div>
-
-            <!-- Streamer -->
-            <div class="w3-padding w3-card-4 crew-card">
-                <header class="w3-container crew-header">
-                    <img src="/asset/Meet The Fur.png" class="w3-round crew-tag">
-                </header>
-
-                <div class="w3-container">
-                    <h3 class="crew-name">Meet The Streamer — BlackTiger & ClockWorks</h3>
-                    <p class="crew-desc">Hiya :3c</p>
-
-                    <div class="w3-row crew-support">
-                        <p>Support this member</p>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-solid fa-mug-hot"></i> Buy me a coffee</a>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-brands fa-web-awesome"></i> My wishlist :3c</a>
-                    </div>
-                </div>
-
-                <footer class="w3-bar w3-container crew-footer">
-                    <p>Lool at my card above :3c</p>
-                </footer>
-            </div>
-
-            <!-- Finance -->
-            <div class="w3-padding w3-card-4 crew-card">
-                <header class="w3-container crew-header">
-                    <img src="/asset/Meet The Finance Priest.png" class="w3-round crew-tag">
-                </header>
-
-                <div class="w3-container">
-                    <h3 class="crew-name">Meet The Finance Managers — BlackTiger & ClockWorks</h3>
-                    <p class="crew-desc">Hulo :3</p>
-
-                    <div class="w3-row crew-support">
-                        <p>Support this member</p>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-solid fa-mug-hot"></i> Buy me a coffee</a>
-                        <a class="w3-half w3-button crew-btn"><i class="fa-brands fa-web-awesome"></i> My wishlist :3c</a>
-                    </div>
-                </div>
-
-                <footer class="w3-bar w3-container crew-footer">
-                    <p>Lool at my card above :3c</p>
-                </footer>
             </div>
         </div>
     </main>
