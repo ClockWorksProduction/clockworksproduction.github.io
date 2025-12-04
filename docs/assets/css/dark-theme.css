@@ -1,59 +1,44 @@
-/* --- dark-theme.css - EcoSteampunk + Mysticpunk: Midnight Grove Version --- */
+/* ============================================================
+   DARK THEME — Etherpunk / Arcanepunk
+   ============================================================ */
 
-/* Deep eco-arcane midnight palette */
-body {
-    background-color: #1f1b18; /* Dark soil + metal-black fusion */
-    background-image: 
-        url('https://www.transparenttextures.com/patterns/asfalt-light.png'), /* Industrial texture */
-        url('https://www.transparenttextures.com/patterns/natural-paper.png'); /* Natural fiber */
-    background-blend-mode: overlay;
-    color: #d7e7d1; /* Soft herbal parchment */
-    transition: background-color 0.3s, color 0.3s;
-}
+:root {
+    /* --- FONTS --- */
+    --font-heading: 'Uncial Antiqua', cursive; /* More magical, runic feel */
+    --font-subheading: 'IM Fell English SC', serif; /* A sharp, classic counterpoint */
 
-/* Mysticpunk headers: arcane teal + forest spirit glow */
-h1, h2, h3, h4, h5, h6 {
-    color: #9bf3d3; /* Bio-luminescent aqua green */
-    text-shadow:
-        0 0 10px rgba(155, 243, 211, 0.6),
-        0 0 4px rgba(64, 255, 208, 0.4);
-    font-weight: 500;
-}
+    /* --- COLORS & BACKGROUNDS --- */
+    --bg-color: #1a141e; /* Deep, dark amethyst */
+    --bg-texture: url("https://www.transparenttextures.com/patterns/dark-matter.png"); /* Cosmic, ethereal */
+    --text-color: #d8cce8; /* Faded parchment, readable on dark bg */
 
-/* EcoBrass links */
-a {
-    color: #c6d98f; /* Verdant brass (brass + moss) */
-}
+    /* --- HEADINGS & LINKS --- */
+    --heading-color: #a894d4; /* Glowing arcane purple */
+    --heading-shadow: 0 0 8px rgba(168, 148, 212, 0.6), 0 0 3px rgba(220, 200, 255, 0.4);
+    --link-color: #c0a8ff; /* A brighter, more energetic purple */
+    --link-hover-color: #e8d8ff; /* Almost pure, white-hot magic */
+    --link-hover-shadow: 0 0 12px rgba(232, 216, 255, 0.8);
 
-a:hover {
-    color: #affff2; /* Mystic mint glow */
-    text-shadow: 0 0 10px #affff2;
-}
+    /* --- CARDS --- */
+    --card-bg: rgba(22, 18, 28, 0.85); /* Dark, semi-transparent obsidian */
+    --card-border: #584878; /* Ornate, dark enchanted metal */
+    --card-shadow: 0 4px 12px rgba(0,0,0,0.5), inset 0 0 10px rgba(168, 148, 212, 0.2);
+    --card-hover-shadow: 0 6px 18px rgba(0,0,0,0.7), inset 0 0 16px rgba(192, 168, 240, 0.4);
+    --card-heading-color: #c0a8ff; /* Matching the energetic link color */
+    --card-heading-shadow: 0 0 5px rgba(192, 168, 240, 0.5);
 
-/* Eco-Steampunk + Arcane Bio-Glow Cards */
-.steampunk-card, .featured-card {
-    background-color: rgba(14, 12, 11, 0.85); /* Deep bark-metal black */
-    border: 1px solid #6f7a56; /* Patina brass-green */
-    box-shadow:
-        0 4px 10px rgba(0,0,0,0.8),
-        inset 0 0 10px rgba(101, 207, 164, 0.35); /* Inner mystic green aura */;
-    backdrop-filter: blur(4px);
-}
+    /* --- NAVIGATION & FOOTER --- */
+    --nav-bg: rgba(26, 20, 34, 0.92); /* Dark, magical glass */
+    --nav-border: #483868;
+    --nav-text: #d8cce8;
+    --nav-hover-text: #e8d8ff;
+    --nav-hover-bg: rgba(192, 168, 240, 0.1);
+    --footer-bg: rgba(18, 14, 24, 0.98);
+    --footer-border: #483868;
+    --footer-text: #b8a8d8;
+    --footer-heading-color: #a894d4;
 
-.steampunk-card h3, .featured-card h3 {
-    color: #c9ffe8; /* Sacred mint-parchment highlight */
-    text-shadow: 0 0 6px rgba(201, 255, 232, 0.5);
-}
-
-/* Navigation: Night-forged eco metal */
-#myNavbar, .w3-top {
-    background-color: rgba(14, 12, 11, 0.9); /* Metal-bark black */
-    border-bottom: 1px solid #6f7a56; /* Patina line */
-}
-
-/* Footer: The Grove Underforge */
-.footer {
-    background-color: rgba(8, 7, 6, 0.95);
-    border-top: 1px solid #6f7a56;
-    color: #c8d4c0; /* Soft moss parchment */
+    /* --- HEADER --- */
+    --header-blend-mode: screen; /* Brighter, more ethereal effect */
+    --header-overlay-color: #3a2f4a; /* A deep, mystical purple overlay */
 }

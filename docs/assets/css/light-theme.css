@@ -1,58 +1,44 @@
-/* --- light-theme.css - EcoSteampunk + Mysticpunk: Daylight Grove Version --- */
+/* ============================================================
+   LIGHT THEME — Industrial Steampunk
+   ============================================================ */
 
-/* Nature + brass daylight harmony */
-body {
-    background-color: #f7f5ef; /* Soft natural parchment white */
-    background-image:
-        url('https://www.transparenttextures.com/patterns/paper-fibers.png'), /* Organic fiber texture */
-        url('https://www.transparenttextures.com/patterns/cream-dust.png');  /* Dusty eco-industrial tint */
-    background-blend-mode: soft-light;
-    color: #454138; /* Earth-brown graphite */
-    transition: background-color 0.3s, color 0.3s;
-}
+:root {
+    /* --- FONTS --- */
+    --font-heading: 'IM Fell English SC', serif; /* Classic, sharp, historical */
+    --font-subheading: 'Uncial Antiqua', cursive; /* A more decorative, slightly arcane touch */
 
-/* Mystic daylight headers */
-h1, h2, h3, h4, h5, h6 {
-    color: #507a5a; /* Moss-teal arcane green */
-    text-shadow:
-        0 0 4px rgba(176, 255, 218, 0.4),
-        0 0 2px rgba(80, 122, 90, 0.25); /* Soft bioluminescent shimmer */
-}
+    /* --- COLORS & BACKGROUNDS --- */
+    --bg-color: #f5efe6; /* Aged paper / parchment */
+    --bg-texture: url("https://www.transparenttextures.com/patterns/brushed-alum.png"); /* A subtle metallic sheen */
+    --text-color: #3e3b35; /* Dark sepia/brown for high readability */
 
-/* EcoBrass links */
-a {
-    color: #a38b5f; /* Warm patina-brass light */
-}
+    /* --- HEADINGS & LINKS --- */
+    --heading-color: #6a4f2a; /* Dark, antiqued brass */
+    --heading-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    --link-color: #a87842; /* Coppery-brass */
+    --link-hover-color: #c89e64; /* Brighter, polished brass */
+    --link-hover-shadow: 0 0 6px rgba(200, 158, 100, 0.5);
 
-a:hover {
-    color: #4cc7b2; /* Mystic teal pulse */
-    text-shadow: 0 0 6px rgba(76, 199, 178, 0.45);
-}
+    /* --- CARDS --- */
+    --card-bg: rgba(255, 250, 240, 0.85); /* Semi-transparent ivory */
+    --card-border: #bfa675; /* Detailed brass trim */
+    --card-shadow: 0 4px 10px rgba(0,0,0,0.15), inset 0 0 8px rgba(191, 166, 117, 0.2);
+    --card-hover-shadow: 0 6px 16px rgba(0,0,0,0.25), inset 0 0 12px rgba(220, 180, 120, 0.4);
+    --card-heading-color: #7f5d27; /* Matching the main headings */
+    --card-heading-shadow: none;
 
-/* Eco-Steampunk Arcane Bloom Cards */
-.steampunk-card, .featured-card {
-    background-color: rgba(255, 253, 248, 0.9); /* Sunlit parchment */
-    border: 1px solid #b7c9a4; /* Mossed brass border */
-    box-shadow:
-        0 4px 10px rgba(0, 0, 0, 0.08),
-        inset 0 0 8px rgba(78, 143, 105, 0.25); /* Inner green arcane flora glow */;
-    backdrop-filter: blur(3px);
-}
+    /* --- NAVIGATION & FOOTER --- */
+    --nav-bg: rgba(250, 245, 235, 0.92); /* Slightly opaque parchment */
+    --nav-border: #bfa675;
+    --nav-text: #4d463b;
+    --nav-hover-text: #7f5d27;
+    --nav-hover-bg: rgba(200, 176, 115, 0.1);
+    --footer-bg: rgba(240, 235, 225, 0.98);
+    --footer-border: #bfa675;
+    --footer-text: #4d463b;
+    --footer-heading-color: #7f5d27;
 
-.steampunk-card h3, .featured-card h3 {
-    color: #507a5a; /* Mossy arcane green */
-    text-shadow: 0 0 3px rgba(176, 255, 218, 0.4);
-}
-
-/* Navbar: Clean eco-metal daylight */
-#myNavbar, .w3-top {
-    background-color: rgba(247, 245, 239, 0.92);
-    border-bottom: 1px solid #b7c9a4; /* Patina brass line */
-}
-
-/* Footer: Daybreak Underforge */
-.footer {
-    background-color: rgba(236, 232, 223, 0.96);
-    border-top: 1px solid #b7c9a4;
-    color: #4f4b43; /* Earth charcoal */
+    /* --- HEADER --- */
+    --header-blend-mode: multiply;
+    --header-overlay-color: #d6c2a4; /* Dusty, aged parchment overlay */
 }

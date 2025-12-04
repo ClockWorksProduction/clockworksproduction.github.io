@@ -1,132 +1,108 @@
-/* --- default.css - EcoSteampunk + Mysticpunk Fusion --- */
+/* ============================================================
+   COMMON.CSS — Shared Structural Base
+   ============================================================ */
 
-/* Fonts combining mysticism, natural elegance, and steampunk grit */
+/* Font Imports - Bringing in all necessary typefaces */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Uncial+Antiqua&family=Roboto:wght@300;500;700&display=swap');
 
-/* --- Base Theme --- */
-/* Eco-steampunk earth + mystical bio-luminescent energy */
+/* ============================================================
+   BASE STYLES (neutral, no theme-specific styling)
+   ============================================================ */
+
 body {
-    /* Recycled brass + mossy natural undertones */
-    background-color: #3b342b; /* Rich soil-brown */
-    background-image: 
-        url('https://www.transparenttextures.com/patterns/natural-paper.png'),
-        url('https://www.transparenttextures.com/patterns/dark-wood.png');
-    background-blend-mode: overlay;
-    color: #e7f2e1; /* Pale herbal parchment */
+    background-color: var(--bg-color);
+    background-image: var(--bg-texture);
+    color: var(--text-color);
     font-family: 'Roboto', sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-/* Mysticpunk headers: arcane glyph vibes + nature-infused elegance */
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'IM Fell English SC', serif;
-    color: #9ad1c3; /* Soft aqua bio-luminescent rune blue */
-    text-shadow: 0 0 6px rgba(154, 209, 195, 0.5),
-                 1px 1px 2px rgba(0,0,0,0.4);
+    font-family: var(--font-heading);
+    color: var(--heading-color);
+    text-shadow: var(--heading-shadow);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
-/* EcoSteampunk links */
+/* Links */
 a {
-    color: #b6c85b; /* Verdant brass (oxidized brass + moss) */
+    color: var(--link-color);
     text-decoration: none;
     transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.2s ease;
 }
 
 a:hover {
-    color: #c7ffdd; /* Mystic mint glow */
-    text-shadow: 0 0 8px #c7ffdd;
-    transform: scale(1.03);
+    color: var(--link-hover-color);
+    text-shadow: var(--link-hover-shadow);
 }
 
-/* --- Card Style: The Bio-Arcane Engine Core --- */
+/* Cards */
 .steampunk-card, .featured-card {
-    background-color: rgba(28, 24, 20, 0.85); /* Dark bark + metal */
-    border: 1px solid #7f8a5a; /* Moss-patina brass */
-    box-shadow:
-        0 4px 10px rgba(0,0,0,0.6),
-        inset 0 0 12px rgba(124, 195, 167, 0.25); /* Soft mystic-green glow */
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    box-shadow: var(--card-shadow);
     padding: 24px;
     border-radius: 6px;
     backdrop-filter: blur(6px);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
 }
 
 .steampunk-card:hover, .featured-card:hover {
-     box-shadow:
-        0 6px 16px rgba(0,0,0,0.75),
-        inset 0 0 18px rgba(154, 240, 210, 0.45);
-     transform: translateY(-3px);
+    box-shadow: var(--card-hover-shadow);
+    transform: translateY(-3px);
 }
 
-/* Mysticpunk inscriptions for card titles */
 .steampunk-card h3, .featured-card h3 {
-    font-family: 'Uncial Antiqua', cursive;
-    color: #d9e8c2; /* Herbal sacred-pale tone */
-    text-shadow: 0 0 6px #d9e8c2;
+    font-family: var(--font-subheading);
+    color: var(--card-heading-color);
+    text-shadow: var(--card-heading-shadow);
 }
 
-/* --- Navigation Bar: Eco-Arcane Conduit --- */
+/* Navigation */
 .w3-top {
-    background-color: rgba(20, 18, 15, 0.9); /* Deep forest + machine oil */
+    background-color: var(--nav-bg);
     backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--nav-border);
 }
 
-#myNavbar {
-    background-color: transparent;
-    border-bottom: 1px solid #7f8a5a; /* Patina brass */
-    font-family: 'IM Fell English SC', serif;
-}
-
-/* Navbar logo */
 #myNavbar .logo {
     height: 40px;
     width: auto;
-    padding: 2px 0;
 }
 
-/* Nav links */
-#myNavbar .nav-link, #myNavbar .w3-button {
-    color: #e7f2e1;
+#myNavbar .nav-link,
+#myNavbar .w3-button {
+    color: var(--nav-text);
     transition: background-color 0.3s, color 0.3s;
 }
 
-#myNavbar .nav-link:hover, #myNavbar .w3-button:hover {
-    color: #c7ffdd; /* Mystic mint */
-    background-color: rgba(199, 255, 221, 0.1);
+#myNavbar .nav-link:hover,
+#myNavbar .w3-button:hover {
+    color: var(--nav-hover-text);
+    background-color: var(--nav-hover-bg);
 }
 
-/* --- Footer: The Verdant Mechanism --- */
+/* Footer */
 .footer {
-    background-color: rgba(20, 18, 15, 0.95);
-    border-top: 1px solid #7f8a5a; /* Eco brass */
-    color: #d4d9cb;
+    background-color: var(--footer-bg);
+    border-top: 1px solid var(--footer-border);
+    color: var(--footer-text);
     padding: 32px 0;
     font-size: 0.9em;
 }
 
 .footer h4 {
-    font-family: 'IM Fell English SC', serif;
-    color: #b6c85b; /* Verdant brass */
+    font-family: var(--font-heading);
+    color: var(--footer-heading-color);
 }
 
-.footer a {
-    color: #d4d9cb;
-}
-
-.footer a:hover {
-    color: #c7ffdd; /* Mystic glow */
-}
-
-.footer .social-icons a {
-    display: inline-block;
-    text-decoration: none;
-}
-
-/* --- Header Image: The Elder-Bio Arcane Tree --- */
+/* Header Image */
 .bgimg-1 {
     background-position: center;
     background-size: cover;
     background-image: url("/asset/CWP_banner_5_TEXTLESS.png");
     min-height: 100%;
-    background-blend-mode: multiply;
-    background-color: #4b5b4c; /* Mossy forest green */
+    background-blend-mode: var(--header-blend-mode);
+    background-color: var(--header-overlay-color);
 }
