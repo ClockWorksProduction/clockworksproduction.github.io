@@ -1,14 +1,16 @@
+/* --- dark-theme.css - Arcane Clockwork Version (Cosmic/Void) --- */
 @media (prefers-color-scheme: dark) {
     body {
+    /* Retaining a patterned background */
     background-image: url('https://www.transparenttextures.com/patterns/diagmonds.png');
-    background-color: #2E2B4F;
-    color: #E6E6FA;
-    text-shadow: 1px 1px #000;
+    background-color: #1A1A2E; /* Deep Indigo/Void */
+    color: #F0F8FF; /* Ghostly White Text */
+    text-shadow: 1px 1px #8A2BE2; /* Violet glow */
     transition: 0.3s;
     }
 }
 
 .featured-card {
-    background-color: #483D8B;
+    background-color: #4B0082; /* Deep Violet card */
     transition: 0.3s;
 }

@@ -1,12 +1,14 @@
+/* --- light-theme.css - Arcane Clockwork Version (Spectral/Lunar) --- */
 body {
+ /* Retaining a patterned background */
  background-image: url('https://www.transparenttextures.com/patterns/crissxcross.png');
- background-color: #8B4513;
- color: #F0E68C;
- text-shadow: 1px 1px #000;
+ background-color: #9370DB; /* Medium Purple / Amethyst */
+ color: #1A1A2E; /* Deep Indigo Text */
+ text-shadow: none;
  transition: 0.3s;
 }
 
 .featured-card {
-    background-color: #A0522D;
+    background-color: #E6E6FA; /* Light Lavender/Silver card */
     transition: 0.3s;
 }
