@@ -1,13 +1,14 @@
 @media (prefers-color-scheme: dark) {
     body {
-    background-color: #1e1e1e;
-    color: #ffffff;
-    text-shadow: 1px 1px darkgray;
+    background-image: url('https://www.transparenttextures.com/patterns/diagmonds.png');
+    background-color: #2E2B4F;
+    color: #E6E6FA;
+    text-shadow: 1px 1px #000;
     transition: 0.3s;
     }
 }
 
 .featured-card {
-    background-color: darkgray;
+    background-color: #483D8B;
     transition: 0.3s;
 }

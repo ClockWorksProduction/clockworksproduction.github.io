@@ -1,11 +1,12 @@
 body {
- background-color: #fff;
- color: #000;
- text-shadow: 1px 1px lightgray;
+ background-image: url('https://www.transparenttextures.com/patterns/crissxcross.png');
+ background-color: #8B4513;
+ color: #F0E68C;
+ text-shadow: 1px 1px #000;
  transition: 0.3s;
 }
 
 .featured-card {
-    background-color: lightgray;
+    background-color: #A0522D;
     transition: 0.3s;
 }

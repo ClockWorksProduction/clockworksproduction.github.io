@@ -1,17 +1,21 @@
 /* Copied into assets/css/ for clearer structure */
 
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Uncial+Antiqua&display=swap');
+
 body {
-    background-color: #fff;
-    color: #000;
+    background-image: url('https://www.transparenttextures.com/patterns/lined-paper.png');
+    background-color: #CDB7B5;
+    color: #4A4A4A;
 }
 
 body.dark {
-    background-color: #000;
-    color: #fff;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-paths.png');
+    background-color: #362F4B;
+    color: #D3D3D3;
 }
 
 body,h1,h2,h3,h4,h5,h6,p {
-    font-family: "Raleway", sans-serif;
+    font-family: "IM Fell English SC", serif;
 }
 
 body, html {
@@ -29,9 +33,10 @@ section{
     background-size: cover;
     background-image: url("/asset/BTW1.jpg");
     min-height: 50%;
-    color: aliceblue;
-    text-shadow: 2px 2px black;
+    color: #F0E68C;
+    text-shadow: 2px 2px #000;
     height: fit-content;
+    border-bottom: 5px solid #8B4513;
 }
 
 .crew-tag {
@@ -48,12 +53,11 @@ section{
     display: block;
     padding: 8px 16px;
     text-decoration: none;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    color:black;
+    border: 1px solid #8B4513;
+    background-color: #A0522D;
+    color:#F0E68C;
     font-weight: bold;
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px #000;
 
 }
 
@@ -66,9 +70,10 @@ section{
 
 /* Footer Styling */
 .footer {
-    background-color: #f1f1f1;
+    background-color: #8B4513;
     padding: 20px;
     flex-direction: column; /* Stack items vertically by default */
+    border-top: 5px solid #000;
 }
 
 .footer .footer-section {
@@ -83,12 +88,13 @@ section{
 }
 
 .footer h3, .footer h4, .footer h6 {
-    color: #555; /* Default dark grey for headings */
+    color: #F0E68C; /* Default dark grey for headings */
     text-align: center; /* Center headings for mobile */
+    font-family: "Uncial Antiqua", cursive;
 }
 
 .footer a {
-    color: #007bff; /* Default link color */
+    color: #E6E6FA; /* Default link color */
     text-decoration: none;
     display: block; /* Make links block level to stack vertically in mobile sections */
     margin-bottom: 5px; /* Add space between stacked links */
@@ -127,6 +133,7 @@ section{
     width: 100%;
     transition: 0.3s;
     border-radius: 8px;
+    border: 3px solid #8B4513;
 }
 
 .featured-card:hover img {
@@ -138,8 +145,56 @@ section{
     padding: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     transition: 0.3s;
+    background-color: #A0522D;
+    border: 2px solid #000;
 }
 
 .featured-card:hover {
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Steampunk Navbar */
+.w3-top {
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+    border-bottom: 2px solid #8B4513;
+}
+
+#myNavbar {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.nav-link {
+    font-family: 'Uncial Antiqua', cursive;
+    color: #F0E68C !important;
+    text-shadow: 1px 1px #000;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    background-color: #A0522D !important;
+}
+
+/* Steampunk Footer */
+footer {
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+    border-top: 2px solid #8B4513;
+    color: #F0E68C;
+}
+
+footer a {
+    color: #E6E6FA;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Steampunk Card */
+.steampunk-card {
+    background-color: #A0522D;
+    border: 2px solid #8B4513;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    padding: 12px;
 }
