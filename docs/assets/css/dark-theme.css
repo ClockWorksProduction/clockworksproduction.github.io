@@ -1,41 +1,59 @@
-/* --- dark-theme.css - Midnight Forge Version --- */
+/* --- dark-theme.css - EcoSteampunk + Mysticpunk: Midnight Grove Version --- */
 
+/* Deep eco-arcane midnight palette */
 body {
-    /* Steampunk/Arcane focus: dark, mysterious, and powerful */
-    background-color: #2a2024; /* Deep, dark purple-brown */
-    background-image: url('https://www.transparenttextures.com/patterns/dark-geometric.png'); /* More complex, arcane geometry */
-    color: #e0d8cc; /* Aged paper color */
+    background-color: #1f1b18; /* Dark soil + metal-black fusion */
+    background-image: 
+        url('https://www.transparenttextures.com/patterns/asfalt-light.png'), /* Industrial texture */
+        url('https://www.transparenttextures.com/patterns/natural-paper.png'); /* Natural fiber */
+    background-blend-mode: overlay;
+    color: #d7e7d1; /* Soft herbal parchment */
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Mysticpunk headers: arcane teal + forest spirit glow */
 h1, h2, h3, h4, h5, h6 {
-    color: #ffb7c5; /* Sakura pink, but brighter in the dark */
-    text-shadow: 0 0 7px #ffb7c5, 0 0 3px #ff0000; /* Pink and a hint of red for a cyber/arcane glow */
+    color: #9bf3d3; /* Bio-luminescent aqua green */
+    text-shadow:
+        0 0 10px rgba(155, 243, 211, 0.6),
+        0 0 4px rgba(64, 255, 208, 0.4);
+    font-weight: 500;
 }
 
+/* EcoBrass links */
 a {
-    color: #e6d8ad; /* Golden-parchment, stands out in the dark */
+    color: #c6d98f; /* Verdant brass (brass + moss) */
 }
 
 a:hover {
-    color: #00ffff; /* Cyberpunk cyan, a flash of the future */
-    text-shadow: 0 0 8px #00ffff;
+    color: #affff2; /* Mystic mint glow */
+    text-shadow: 0 0 10px #affff2;
 }
 
+/* Eco-Steampunk + Arcane Bio-Glow Cards */
 .steampunk-card, .featured-card {
-    background-color: rgba(18, 14, 16, 0.85); /* Nearly black, deep purple tint */
-    border: 1px solid #785d4a; /* Dark, worn brass */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.7), inset 0 0 8px rgba(138, 43, 226, 0.4); /* Arcane purple inner glow */
+    background-color: rgba(14, 12, 11, 0.85); /* Deep bark-metal black */
+    border: 1px solid #6f7a56; /* Patina brass-green */
+    box-shadow:
+        0 4px 10px rgba(0,0,0,0.8),
+        inset 0 0 10px rgba(101, 207, 164, 0.35); /* Inner mystic green aura */;
+    backdrop-filter: blur(4px);
 }
 
 .steampunk-card h3, .featured-card h3 {
-    color: #ffb7c5; /* Sakura pink, matching headers */
+    color: #c9ffe8; /* Sacred mint-parchment highlight */
+    text-shadow: 0 0 6px rgba(201, 255, 232, 0.5);
 }
 
+/* Navigation: Night-forged eco metal */
 #myNavbar, .w3-top {
-    background-color: rgba(18, 14, 16, 0.9); /* Matching dark card background */
+    background-color: rgba(14, 12, 11, 0.9); /* Metal-bark black */
+    border-bottom: 1px solid #6f7a56; /* Patina line */
 }
 
+/* Footer: The Grove Underforge */
 .footer {
-    background-color: rgba(10, 8, 9, 0.95);
+    background-color: rgba(8, 7, 6, 0.95);
+    border-top: 1px solid #6f7a56;
+    color: #c8d4c0; /* Soft moss parchment */
 }

@@ -1,124 +1,132 @@
-/* --- default.css - Steampunk-Arcane-Sakura Fusion --- */
+/* --- default.css - EcoSteampunk + Mysticpunk Fusion --- */
 
-/* Fonts blending Steampunk, Arcane, and a touch of elegance */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Uncial+Antiqua&family=Roboto:wght@400;700&display=swap');
+/* Fonts combining mysticism, natural elegance, and steampunk grit */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Uncial+Antiqua&family=Roboto:wght@300;500;700&display=swap');
 
 /* --- Base Theme --- */
-/* Steampunk foundation with Arcane and Natural elements */
+/* Eco-steampunk earth + mystical bio-luminescent energy */
 body {
-    /* 40% Steampunk: wood texture and brown tones */
-    background-color: #5d4037; /* A warm, dark wood color */
-    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
-    color: #f5e8d9; /* Parchment-like text color */
+    /* Recycled brass + mossy natural undertones */
+    background-color: #3b342b; /* Rich soil-brown */
+    background-image: 
+        url('https://www.transparenttextures.com/patterns/natural-paper.png'),
+        url('https://www.transparenttextures.com/patterns/dark-wood.png');
+    background-blend-mode: overlay;
+    color: #e7f2e1; /* Pale herbal parchment */
     font-family: 'Roboto', sans-serif;
 }
 
+/* Mysticpunk headers: arcane glyph vibes + nature-infused elegance */
 h1, h2, h3, h4, h5, h6 {
-    /* 30% Arcanepunk: Magical, ancient-looking font */
     font-family: 'IM Fell English SC', serif;
-    /* A mix of arcane purple and steampunk brass */
-    color: #bca6da; /* Muted arcane purple */
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    color: #9ad1c3; /* Soft aqua bio-luminescent rune blue */
+    text-shadow: 0 0 6px rgba(154, 209, 195, 0.5),
+                 1px 1px 2px rgba(0,0,0,0.4);
 }
 
+/* EcoSteampunk links */
 a {
-    /* Steampunk brass for links */
-    color: #cd7f32;
+    color: #b6c85b; /* Verdant brass (oxidized brass + moss) */
     text-decoration: none;
-    transition: color 0.3s ease, text-shadow 0.3s ease;
+    transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.2s ease;
 }
 
 a:hover {
-    /* 20% Sakura: Cherry blossom pink for hover */
-    color: #ffb7c5;
-    text-shadow: 0 0 6px #ffb7c5;
+    color: #c7ffdd; /* Mystic mint glow */
+    text-shadow: 0 0 8px #c7ffdd;
+    transform: scale(1.03);
 }
 
-/* --- Card Style: The Alchemist's Chest --- */
+/* --- Card Style: The Bio-Arcane Engine Core --- */
 .steampunk-card, .featured-card {
-    background-color: rgba(46, 34, 29, 0.85); /* Darker, semi-transparent wood */
-    border: 1px solid #a88d6c; /* Aged brass border */
-    /* 10% Cyberpunk: A very subtle inner glow, not overtly neon */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5), inset 0 0 5px rgba(255, 183, 197, 0.3); /* Soft pink inner glow */
+    background-color: rgba(28, 24, 20, 0.85); /* Dark bark + metal */
+    border: 1px solid #7f8a5a; /* Moss-patina brass */
+    box-shadow:
+        0 4px 10px rgba(0,0,0,0.6),
+        inset 0 0 12px rgba(124, 195, 167, 0.25); /* Soft mystic-green glow */
     padding: 24px;
-    border-radius: 4px;
-    backdrop-filter: blur(4px);
+    border-radius: 6px;
+    backdrop-filter: blur(6px);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .steampunk-card:hover, .featured-card:hover {
-     box-shadow: 0 6px 12px rgba(0,0,0,0.6), inset 0 0 10px rgba(255, 183, 197, 0.5);
-     transform: translateY(-2px);
+     box-shadow:
+        0 6px 16px rgba(0,0,0,0.75),
+        inset 0 0 18px rgba(154, 240, 210, 0.45);
+     transform: translateY(-3px);
 }
 
+/* Mysticpunk inscriptions for card titles */
 .steampunk-card h3, .featured-card h3 {
-    /* Arcanepunk font for card titles */
     font-family: 'Uncial Antiqua', cursive;
-    color: #e6d8ad; /* Golden-parchment color */
-    text-shadow: 0 0 4px #e6d8ad;
+    color: #d9e8c2; /* Herbal sacred-pale tone */
+    text-shadow: 0 0 6px #d9e8c2;
 }
 
-/* --- Navigation Bar --- */
+/* --- Navigation Bar: Eco-Arcane Conduit --- */
 .w3-top {
-    background-color: rgba(30, 22, 18, 0.9); /* Very dark wood color */
-    backdrop-filter: blur(10px);
+    background-color: rgba(20, 18, 15, 0.9); /* Deep forest + machine oil */
+    backdrop-filter: blur(12px);
 }
 
 #myNavbar {
     background-color: transparent;
-    border-bottom: 1px solid #a88d6c; /* Aged brass */
+    border-bottom: 1px solid #7f8a5a; /* Patina brass */
     font-family: 'IM Fell English SC', serif;
 }
 
-/* Fix for the logo image in the navbar */
+/* Navbar logo */
 #myNavbar .logo {
     height: 40px;
     width: auto;
     padding: 2px 0;
 }
 
+/* Nav links */
 #myNavbar .nav-link, #myNavbar .w3-button {
-    color: #f5e8d9; /* Parchment text color */
+    color: #e7f2e1;
     transition: background-color 0.3s, color 0.3s;
 }
 
 #myNavbar .nav-link:hover, #myNavbar .w3-button:hover {
-    color: #ffb7c5; /* Sakura pink hover */
-    background-color: rgba(255, 183, 197, 0.1);
+    color: #c7ffdd; /* Mystic mint */
+    background-color: rgba(199, 255, 221, 0.1);
 }
 
-/* --- Footer --- */
+/* --- Footer: The Verdant Mechanism --- */
 .footer {
-    background-color: rgba(30, 22, 18, 0.95);
-    border-top: 1px solid #a88d6c;
-    color: #c5bba8; /* Muted parchment */
+    background-color: rgba(20, 18, 15, 0.95);
+    border-top: 1px solid #7f8a5a; /* Eco brass */
+    color: #d4d9cb;
     padding: 32px 0;
     font-size: 0.9em;
 }
+
 .footer h4 {
     font-family: 'IM Fell English SC', serif;
-    color: #cd7f32; /* Brass headers in footer */
-    text-shadow: none;
+    color: #b6c85b; /* Verdant brass */
 }
+
 .footer a {
-    color: #c5bba8;
+    color: #d4d9cb;
 }
+
 .footer a:hover {
-    color: #ffb7c5;
+    color: #c7ffdd; /* Mystic glow */
 }
+
 .footer .social-icons a {
     display: inline-block;
     text-decoration: none;
 }
 
-
-/* --- Header Image --- */
+/* --- Header Image: The Elder-Bio Arcane Tree --- */
 .bgimg-1 {
     background-position: center;
     background-size: cover;
     background-image: url("/asset/CWP_banner_5_TEXTLESS.png");
     min-height: 100%;
-    /* Blend the image with a natural/arcane color */
-    background-blend-mode: luminosity;
-    background-color: #6d5b4f; /* Earthy brown to blend with */
+    background-blend-mode: multiply;
+    background-color: #4b5b4c; /* Mossy forest green */
 }

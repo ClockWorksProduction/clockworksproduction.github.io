@@ -1,39 +1,58 @@
-/* --- light-theme.css - Daylight Garden Version --- */
+/* --- light-theme.css - EcoSteampunk + Mysticpunk: Daylight Grove Version --- */
 
+/* Nature + brass daylight harmony */
 body {
-    /* Sakura/Natural theme: light, airy, and floral */
-    background-color: #fdf6f6; /* Very light pink, almost white */
-    background-image: url('https://www.transparenttextures.com/patterns/subtle-zebra-3d.png'); /* Soft, almost floral texture */
-    color: #3e3e3e; /* Dark, earthy grey for text */
+    background-color: #f7f5ef; /* Soft natural parchment white */
+    background-image:
+        url('https://www.transparenttextures.com/patterns/paper-fibers.png'), /* Organic fiber texture */
+        url('https://www.transparenttextures.com/patterns/cream-dust.png');  /* Dusty eco-industrial tint */
+    background-blend-mode: soft-light;
+    color: #454138; /* Earth-brown graphite */
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Mystic daylight headers */
 h1, h2, h3, h4, h5, h6 {
-    color: #8B4513; /* SaddleBrown, like rich earth or aged wood */
+    color: #507a5a; /* Moss-teal arcane green */
+    text-shadow:
+        0 0 4px rgba(176, 255, 218, 0.4),
+        0 0 2px rgba(80, 122, 90, 0.25); /* Soft bioluminescent shimmer */
 }
 
+/* EcoBrass links */
 a {
-    color: #d17a87; /* Muted cherry blossom pink */
+    color: #a38b5f; /* Warm patina-brass light */
 }
 
 a:hover {
-    color: #8a2be2; /* Arcane purple for a touch of magic */
+    color: #4cc7b2; /* Mystic teal pulse */
+    text-shadow: 0 0 6px rgba(76, 199, 178, 0.45);
 }
 
+/* Eco-Steampunk Arcane Bloom Cards */
 .steampunk-card, .featured-card {
-    background-color: rgba(255, 240, 245, 0.9); /* LavenderBlush, semi-transparent */
-    border: 1px solid #d1a3a3; /* Dusty rose border */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1), inset 0 0 5px rgba(139, 69, 19, 0.2); /* Soft shadow, subtle wood inner glow */
+    background-color: rgba(255, 253, 248, 0.9); /* Sunlit parchment */
+    border: 1px solid #b7c9a4; /* Mossed brass border */
+    box-shadow:
+        0 4px 10px rgba(0, 0, 0, 0.08),
+        inset 0 0 8px rgba(78, 143, 105, 0.25); /* Inner green arcane flora glow */;
+    backdrop-filter: blur(3px);
 }
 
 .steampunk-card h3, .featured-card h3 {
-    color: #8B4513; /* SaddleBrown, matching headers */
+    color: #507a5a; /* Mossy arcane green */
+    text-shadow: 0 0 3px rgba(176, 255, 218, 0.4);
 }
 
+/* Navbar: Clean eco-metal daylight */
 #myNavbar, .w3-top {
-    background-color: rgba(253, 246, 246, 0.9); /* Lighter version of body bg */
+    background-color: rgba(247, 245, 239, 0.92);
+    border-bottom: 1px solid #b7c9a4; /* Patina brass line */
 }
 
+/* Footer: Daybreak Underforge */
 .footer {
-    background-color: rgba(240, 230, 230, 0.95);
+    background-color: rgba(236, 232, 223, 0.96);
+    border-top: 1px solid #b7c9a4;
+    color: #4f4b43; /* Earth charcoal */
 }
