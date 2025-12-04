@@ -4,8 +4,9 @@
 
 :root {
     /* --- FONTS --- */
-    --font-heading: 'Uncial Antiqua', cursive; /* More magical, runic feel */
-    --font-subheading: 'IM Fell English SC', serif; /* A sharp, classic counterpoint */
+    --font-heading: 'Astloch', cursive; /* Runic, magical, mysterious */
+    --font-subheading: 'Uncial Antiqua', cursive; /* A more traditional fantasy script */
+    --font-body: 'IM Fell English SC', serif; /* Classic, readable, and slightly arcane */
 
     /* --- COLORS & BACKGROUNDS --- */
     --bg-color: #1a141e; /* Deep, dark amethyst */

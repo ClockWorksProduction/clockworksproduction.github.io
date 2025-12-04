@@ -10,52 +10,52 @@
 </head>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-    <div class="w3-bar" id="myNavbar">
-        <a href="/index.html" class="w3-bar-item w3-button w3-wide">
+<div class="nav-top">
+    <div class="nav-bar" id="myNavbar">
+        <a href="/index.html" class="nav-item button nav-wide">
             <img src="/asset/CWP_logo_static_edited_Transparant.png" alt="logo for CWP" class="logo"/>
         </a>
         <!-- Right-sided navbar links -->
         <div class="nav-links">
-            <a href="/pages/about_us.html" class="nav-link w3-bar-item">ABOUT</a>
-            <div class="nav-links w3-bar-item w3-dropdown-hover" style="padding: 0px 0px 0px 0px">
-                <button class="nav-link w3-botton">OUR CREATIONS</button>
-                <div class="w3-dropdown-content w3-bar-block w3-border">
-                    <a href="/pages/pixelpals/" class="nav-link w3-bar-item w3-button">LIVING PORTRAITS</a>
-                    <a href="/pages/frameforge/" class="nav-link w3-bar-item w3-button">ANIMATED HOMUNCULI</a>
-                    <a href="/pages/cwp-studio/" class="nav-link w3-bar-item w3-button">INTERACTIVE CONTRAPTIONS</a>
+            <a href="/pages/about_us.html" class="nav-link nav-item">ABOUT</a>
+            <div class="nav-links nav-item dropdown">
+                <button class="nav-link button">OUR CREATIONS</button>
+                <div class="dropdown-content bar-block border">
+                    <a href="/pages/pixelpals/" class="nav-link bar-item button">LIVING PORTRAITS</a>
+                    <a href="/pages/frameforge/" class="nav-link bar-item button">ANIMATED HOMUNCULI</a>
+                    <a href="/pages/cwp-studio/" class="nav-link bar-item button">INTERACTIVE CONTRAPTIONS</a>
                 </div>
             </div>
-            <a href="/pages/meet_the_crew.html" class="nav-link w3-bar-item">THE ARTISANS</a>
-            <a href="/pages/contact.html" class="nav-link w3-bar-item">CONTACT</a>
-            <a href="/pages/community.html" class="nav-link w3-bar-item">THE GUILD</a>
-            <a href="/pages/the_aetherium.html" class="nav-link w3-bar-item">THE AETHERIUM</a>
-            <button id="theme-toggle-nav" class="nav-link w3-bar-item w3-botton" onclick="toggleTheme()">THEME</button>
+            <a href="/pages/meet_the_crew.html" class="nav-link nav-item">THE ARTISANS</a>
+            <a href="/pages/contact.html" class="nav-link nav-item">CONTACT</a>
+            <a href="/pages/community.html" class="nav-link nav-item">THE GUILD</a>
+            <a href="/pages/the_aetherium.html" class="nav-link nav-item">THE AETHERIUM</a>
+            <button id="theme-toggle-nav" class="nav-link nav-item button" onclick="toggleTheme()">THEME</button>
         </div>
 
         <!-- Hide right-floated links on medium and large screens and replace them with a menu icon -->
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()">
-            <img src="/assets/svgs/solid/bars.svg" alt="Menu icon" width="20">
+        <a href="javascript:void(0)" class="nav-item button nav-right hide-large" onclick="openNav()">
+            <i class="fa fa-bars"></i>
         </a>
     </div>
 </div>
 
 <!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    <button id="theme-toggle-side" class="nav-link w3-bar-item" onclick="toggleTheme()">THEME</button>
-    <a href="/index.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">HOME</a>
-    <a href="/pages/about_us.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">ABOUT</a>
-    <div class="nav-links w3-bar-item w3-dropdown-hover" style="padding: 0px 0px 0px 0px">
-        <button class="nav-link w3-botton">OUR CREATIONS <i class="fa fa-caret-down"></i></button>
-        <div class="w3-dropdown-content w3-bar-block w3-border">
-            <a href="/pages/pixelpals/" class="nav-link w3-bar-item w3-button">LIVING PORTRAITS</a>
-            <a href="/pages/frameforge/" class="nav-link w3-bar-item w3-button">ANIMATED HOMUNCULI</a>
-            <a href="/pages/cwp-studio/" class="nav-link w3-bar-item w3-button">INTERACTIVE CONTRAPTIONS</a>
+<nav class="sidebar bar-block nav-black card animate-left hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="bar-item button large padding-16">Close ×</a>
+    <button id="theme-toggle-side" class="nav-link bar-item" onclick="toggleTheme()">THEME</button>
+    <a href="/index.html" onclick="closeNav()" class="nav-link bar-item button">HOME</a>
+    <a href="/pages/about_us.html" onclick="closeNav()" class="nav-link bar-item button">ABOUT</a>
+    <div class="nav-links nav-item dropdown">
+        <button class="nav-link button">OUR CREATIONS <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content bar-block border">
+            <a href="/pages/pixelpals/" class="nav-link bar-item button">LIVING PORTRAITS</a>
+            <a href="/pages/frameforge/" class="nav-link bar-item button">ANIMATED HOMUNCULI</a>
+            <a href="/pages/cwp-studio/" class="nav-link bar-item button">INTERACTIVE CONTRAPTIONS</a>
         </div>
     </div>
-    <a href="/pages/meet_the_crew.html" class="nav-link w3-bar-item">THE ARTISANS</a>
-    <a href="/pages/community.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">THE GUILD</a>
-    <a href="/pages/contact.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">CONTACT</a>
-    <a href="/pages/the_aetherium.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">THE AETHERIUM</a>
+    <a href="/pages/meet_the_crew.html" class="nav-link nav-item">THE ARTISANS</a>
+    <a href="/pages/community.html" onclick="closeNav()" class="nav-link bar-item button">THE GUILD</a>
+    <a href="/pages/contact.html" onclick="closeNav()" class="nav-link bar-item button">CONTACT</a>
+    <a href="/pages/the_aetherium.html" onclick="closeNav()" class="nav-link bar-item button">THE AETHERIUM</a>
 </nav>

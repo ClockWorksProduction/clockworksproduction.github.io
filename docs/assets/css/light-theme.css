@@ -4,8 +4,9 @@
 
 :root {
     /* --- FONTS --- */
-    --font-heading: 'IM Fell English SC', serif; /* Classic, sharp, historical */
+    --font-heading: 'Old London', serif; /* Classic, sharp, historical */
     --font-subheading: 'Uncial Antiqua', cursive; /* A more decorative, slightly arcane touch */
+    --font-body: 'Roboto', sans-serif; /* Clean, modern, and readable */
 
     /* --- COLORS & BACKGROUNDS --- */
     --bg-color: #f5efe6; /* Aged paper / parchment */

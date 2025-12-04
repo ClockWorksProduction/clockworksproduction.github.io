@@ -3,7 +3,172 @@
    ============================================================ */
 
 /* Font Imports - Bringing in all necessary typefaces */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Uncial+Antiqua&family=Roboto:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Uncial+Antiqua&family=Roboto:wght@300;500;700&family=Astloch:wght@400;700&family=Old+London&display=swap');
+
+
+.container {
+    padding: 0.01em 16px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-s12 {
+    width: 100%;
+}
+
+.col-m12 {
+    width: 100%;
+}
+
+.col-l6 {
+    width: 50%;
+}
+
+.col-l4 {
+    width: 33.33333%;
+}
+
+.padding-large {
+    padding: 12px 24px;
+}
+
+.padding-64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.padding-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.padding {
+    padding: 8px 16px;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
+
+.margin-top {
+    margin-top: 16px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.display-container {
+    position: relative;
+}
+
+.display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+}
+
+.jumbo {
+    font-size: 64px;
+}
+
+.xxlarge {
+    font-size: 36px;
+}
+
+.large {
+    font-size: 18px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.grayscale-min {
+    filter: grayscale(50%);
+}
+
+.form-section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.form-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.theme-button {
+    background-color: var(--theme-color);
+    color: var(--theme-text-color);
+}
+
+.grid {
+    display: grid;
+}
+
+.text-theme {
+    color: var(--theme-color);
+}
+
+.text-grey {
+    color: #757575;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+.hoverable:hover {
+    background-color: #ccc;
+}
+
+@media (max-width: 600px) {
+    .hide-small { display: none; }
+}
+
+@media (min-width: 993px) {
+    .hide-large { display: none !important; }
+}
+
+@media (max-width: 992px) and (min-width: 601px) {
+    .hide-medium { display: none; }
+}
+
+
+
 
 /* ============================================================
    BASE STYLES (neutral, no theme-specific styling)
@@ -13,7 +178,7 @@ body {
     background-color: var(--bg-color);
     background-image: var(--bg-texture);
     color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-body);
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
@@ -38,7 +203,7 @@ a:hover {
 }
 
 /* Cards */
-.steampunk-card, .featured-card {
+.card, .steampunk-card, .featured-card {
     background-color: var(--card-bg);
     border: 1px solid var(--card-border);
     box-shadow: var(--card-shadow);
@@ -48,39 +213,156 @@ a:hover {
     transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
 }
 
-.steampunk-card:hover, .featured-card:hover {
+.card:hover, .steampunk-card:hover, .featured-card:hover {
     box-shadow: var(--card-hover-shadow);
     transform: translateY(-3px);
 }
 
-.steampunk-card h3, .featured-card h3 {
+.card h3, .steampunk-card h3, .featured-card h3 {
     font-family: var(--font-subheading);
     color: var(--card-heading-color);
     text-shadow: var(--card-heading-shadow);
 }
 
-/* Navigation */
-.w3-top {
-    background-color: var(--nav-bg);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--nav-border);
+.card-img {
+    width: 100%;
+    height: auto;
 }
 
-#myNavbar .logo {
+/* ============================================================
+   NAVIGATION STYLES
+   ============================================================ */
+
+.nav-top {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--nav-bg);
+    box-shadow: var(--nav-shadow);
+    backdrop-filter: blur(10px);
+}
+
+.nav-item {
+    padding: 8px 16px;
+    display: block;
+    border: none;
+    outline: 0;
+}
+
+.nav-link {
+    color: var(--nav-text);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--nav-hover-text);
+    background-color: var(--nav-hover-bg);
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-wide {
+    letter-spacing: 4px;
+}
+
+.logo {
     height: 40px;
     width: auto;
 }
 
-#myNavbar .nav-link,
-#myNavbar .w3-button {
-    color: var(--nav-text);
-    transition: background-color 0.3s, color 0.3s;
+.nav-right {
+    float: right;
 }
 
-#myNavbar .nav-link:hover,
-#myNavbar .w3-button:hover {
-    color: var(--nav-hover-text);
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--card-bg);
+    min-width: 160px;
+    box-shadow: var(--card-shadow);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: var(--nav-text);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
     background-color: var(--nav-hover-bg);
+    color: var(--nav-hover-text);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Sidebar */
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: var(--nav-bg);
+    position: fixed;
+    z-index: 10;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    box-shadow: var(--nav-shadow);
+}
+
+.bar-block .bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+.animate-left {
+    position: relative;
+    animation: animateleft 0.4s;
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .nav-links {
+        display: none;
+    }
+    .nav-right {
+        display: block;
+    }
 }
 
 /* Footer */
@@ -101,7 +383,7 @@ a:hover {
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image: url("/asset/CWP_banner_5_TEXTLESS.png");
+    background-image: url("/asset/BTW1.jpg");
     min-height: 100%;
     background-blend-mode: var(--header-blend-mode);
     background-color: var(--header-overlay-color);

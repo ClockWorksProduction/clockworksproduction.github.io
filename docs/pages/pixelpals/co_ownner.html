@@ -5,61 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meet The Co-Owner — Pixel Pals</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <script src="https://kit.fontawesome.com/6b3a6b196a.js" crossorigin="anonymous"></script>
     <link href="/assets/css/deafult.css" rel="stylesheet" type="text/css" />
     <link id="theme" rel="stylesheet" type="text/css" href="/assets/css/light-theme.css" />
 </head>
 
-<body>
+<body class="has-full-header">
     <div id="nav-placeholder"></div>
-    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="mtc">
-        <div class="w3-display-left" style="padding:48px">
-            <span class="w3-jumbo w3-hide-small">Mangafa The Variety Streamer</span>
-            <span class="w3-large">The co-owner of the Digital Conclave.</span>
+    <header class="bgimg-1 display-container grayscale-min" id="mtc">
+        <div class="display-left padding-large">
+            <span class="jumbo hide-small">Mangafa The Variety Streamer</span>
+            <span class="large">The co-owner of the Digital Conclave.</span>
         </div>
     </header>
     <main>
-        <div class="w3-row w3-padding-64">
-            <div class="w3-col l4 m5 s12 w3-padding-large">
-                <div class="steampunk-card w3-padding-large w3-center">
+        <div class="row padding-64">
+            <div class="col-l4 col-m5 col-s12 padding-large">
+                <div class="steampunk-card padding-large center-text">
                     <a href="/pages/pixelpals/co_ownner.html" target="_self"><img src="/asset/Mangafa.png" alt="Mangafa Logo"></a>
                     <h3>Mangafa The variety streamer</h3>
                     <sub>Silly little goober stream :3c</sub>
                     <p>Hi :3c — Mangafa, 5/2025</p>
                 </div>
             </div>
-            <div class="w3-col l8 m7 s12 w3-padding-large">
-                <div class="steampunk-card w3-padding-large">
+            <div class="col-l8 col-m7 col-s12 padding-large">
+                <div class="steampunk-card padding-large">
                     <h3>Mangafa's Twitch Stream</h3>
-                    <div id="mangafa-twitch-embed" class="w3-margin-bottom"></div>
+                    <div id="mangafa-twitch-embed" class="margin-bottom"></div>
                 </div>
             </div>
         </div>
 
-        <div class="w3-row-padding w3-padding-64">
-            <div class="w3-col l6 m12 s12 w3-margin-bottom">
-                <div class="steampunk-card w3-padding-large">
+        <div class="row padding-64">
+            <div class="col-l6 col-m12 col-s12 margin-bottom">
+                <div class="steampunk-card padding-large">
                     <h3>Mangafa's Video</h3>
-                    <div class="responsive-embed w3-margin-bottom">
+                    <div class="responsive-embed margin-bottom">
                         <iframe src="https://widgets.sociablekit.com/twitch-channel-videos/iframe/25553660" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-            <div class="w3-col l6 m12 s12 w3-margin-bottom">
-                <div class="steampunk-card w3-padding-large">
+            <div class="col-l6 col-m12 col-s12 margin-bottom">
+                <div class="steampunk-card padding-large">
                     <h3>Mangafa's VOD</h3>
-                    <div class="responsive-embed w3-margin-bottom">
+                    <div class="responsive-embed margin-bottom">
                         <iframe src="https://widgets.sociablekit.com/youtube-channel-videos/iframe/25553661" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="w3-container w3-padding-64">
-            <h2 class="w3-center">Games I Own</h2>
-            <div class="w3-row-padding" id="game-cards-container">
+        <div class="container padding-64">
+            <h2 class="center-text">Games I Own</h2>
+            <div class="row" id="game-cards-container">
                 <!-- Game cards will be inserted here by JavaScript -->
             </div>
         </div>
@@ -106,12 +104,12 @@
                     }).join(' ');
 
                     const card = `
-                        <div class="w3-col l4 m6 s12 w3-margin-bottom">
+                        <div class="col-l4 col-m6 col-s12 margin-bottom">
                             <div class="steampunk-card">
                                 <a href="${primaryLink}" style="text-decoration: none;" target="_blank" rel="noopener">
                                     <img src="${imgSrc}" alt="${game.name}" style="width:100%">
                                 </a>
-                                <div class="w3-container w3-center">
+                                <div class="container center-text">
                                     <h3><a href="${primaryLink}" style="text-decoration: none;" target="_blank" rel="noopener">${game.name}</a></h3>
                                     <p>${game.description || ''}</p>
                                     <div class="storefronts">${icons}</div>
