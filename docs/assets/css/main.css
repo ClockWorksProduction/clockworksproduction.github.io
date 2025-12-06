@@ -1,6 +1,6 @@
 /* ============================================================================
    BASE RESET & TYPOGRAPHY — W3.CSS + Custom Overrides
-   ============================================================================ */
+============================================================================ */
 html {
     box-sizing: border-box;
     font-family: Verdana, sans-serif;
@@ -9,26 +9,18 @@ html {
     overflow-x: hidden;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
-}
+*, *::before, *::after { box-sizing: inherit; }
 
-body {
-    margin: 0;
-}
+body { margin: 0; }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
     display: block;
 }
 
-audio, canvas, progress, video {
-    display: inline-block;
-}
-
+audio, canvas, progress, video { display: inline-block; }
 [hidden], template { display: none; }
 
 a { color: inherit; text-decoration: none; background-color: transparent; }
-
 a:hover, a:active { outline: 0; }
 
 h1 { font-size: 36px; }
@@ -38,7 +30,7 @@ h4 { font-size: 20px; }
 h5 { font-size: 18px; }
 h6 { font-size: 16px; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6 {
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0;
@@ -46,9 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ============================================================================
    THEME VARIABLES
-   ============================================================================ */
+============================================================================ */
 :root {
-    /* Colors */
     --cw-bg: #0e0e0f;
     --cw-bg-alt: #141214;
     --cw-surface: #1a1b1d;
@@ -57,13 +48,9 @@ h1, h2, h3, h4, h5, h6 {
     --cw-text-dim: #bdb8c7;
     --cw-accent: #d99343;
     --cw-accent-2: #f0b56a;
-
-    /* Sizing */
     --cw-radius: 12px;
     --cw-gap: 12px;
     --cw-transition: 0.28s ease;
-
-    /* Shadows */
     --cw-shadow-1: 0 4px 18px rgba(0, 0, 0, 0.45);
     --cw-shadow-2: 0 8px 36px rgba(0, 0, 0, 0.55);
 }
@@ -92,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ============================================================================
    UTILITIES — Spacing, Flex/Grid
-   ============================================================================ */
+============================================================================ */
 .row { display: flex; flex-wrap: wrap; }
 .col-1 { width: 8.333%; } .col-2 { width: 16.666%; } .col-3 { width: 25%; }
 .col-4 { width: 33.333%; } .col-6 { width: 50%; } .col-12 { width: 100%; }
@@ -113,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ============================================================================
    COMPONENTS — Buttons, Inputs, Tags
-   ============================================================================ */
+============================================================================ */
 .w3-button {
     background-color: var(--cw-accent);
     color: var(--cw-text);
@@ -126,15 +113,7 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
 }
 
-.w3-button:hover {
-    background-color: var(--cw-accent-2);
-    box-shadow: var(--cw-shadow-1);
-    color: #000;
-}
-
-[data-theme="dark"] .w3-button:hover {
-    color: var(--cw-text);
-}
+.w3-button:hover { background-color: var(--cw-accent-2); box-shadow: var(--cw-shadow-1); }
 
 .w3-input, .w3-select {
     border: none;
@@ -146,9 +125,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.3s ease;
 }
 
-.w3-input:focus, .w3-select:focus {
-    border-bottom: 2px solid var(--cw-accent);
-}
+.w3-input:focus, .w3-select:focus { border-bottom: 2px solid var(--cw-accent); }
 
 .w3-tag, .w3-badge {
     background-color: var(--cw-accent-2);
@@ -161,8 +138,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ============================================================================
    NAVBAR
-   ============================================================================ */
-.nav {
+============================================================================ */
+.nav, .w3-top {
     position: sticky;
     top: 0;
     z-index: 20;
@@ -171,12 +148,12 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     padding: 12px 24px;
     background-color: var(--cw-surface);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    border-bottom: 1px solid rgba(255,255,255,0.04);
     box-shadow: var(--cw-shadow-1);
     transition: all 0.3s ease;
 }
 
-.nav-links a {
+.nav-links a, .w3-bar-item {
     color: var(--cw-text);
     padding: 8px 12px;
     margin-left: 10px;
@@ -185,22 +162,22 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.3s ease;
 }
 
-.nav-links a:hover {
-    background-color: rgba(217, 147, 67, 0.08);
-    color: #000;
+.nav-links a:hover, .w3-bar-item:hover {
+    background-color: rgba(217,147,67,0.08);
+}
+
+[data-theme="dark"] .nav-links a:hover,
+[data-theme="dark"] .w3-bar-item:hover {
+    background-color: rgba(159,92,255,0.14);
 }
 
 [data-theme="light"] .nav-links a:hover {
-    background-color: rgba(200, 159, 67, 0.12);
-}
-
-[data-theme="dark"] .nav-links a:hover {
-    background-color: rgba(159, 92, 255, 0.14);
+    background-color: rgba(200,159,67,0.12);
 }
 
 /* ============================================================================
    CARDS
-   ============================================================================ */
+============================================================================ */
 .card {
     background-color: var(--cw-surface);
     border: 1px solid var(--cw-bg-alt);
@@ -211,27 +188,24 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.3s ease;
 }
 
-.card:hover {
-    box-shadow: var(--cw-shadow-2);
-    transform: translateY(-2px);
-}
+.card:hover { box-shadow: var(--cw-shadow-2); transform: translateY(-2px); }
 
 /* ============================================================================
    HERO SECTION
-   ============================================================================ */
+============================================================================ */
 .hero-section {
     position: relative;
     height: 60vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    color: white;
+    color: var(--cw-text);
     background: url('/assets/img/BTW1.jpg') center/cover no-repeat;
 }
 
 /* ============================================================================
    PROGRESS BAR
-   ============================================================================ */
+============================================================================ */
 .progress-container {
     width: 100%;
     background-color: var(--cw-surface-alt);
@@ -252,145 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============================================================================
-   DISPLAY UTILITIES
-   ============================================================================ */
-.w3-display-container .overlay {
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0,0,0,0.4);
-    z-index: 10;
-}
-
-.w3-display-topleft { position: absolute; top: 0; left: 0; }
-.w3-display-topright { position: absolute; top: 0; right: 0; }
-.w3-display-bottomleft { position: absolute; bottom: 0; left: 0; }
-.w3-display-bottomright { position: absolute; bottom: 0; right: 0; }
-.w3-display-middle { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
-
-/* ============================================================================
-   ANIMATIONS
-   ============================================================================ */
-.w3-animate-fading { animation: fading 10s infinite; }
-@keyframes fading { 0%, 100% { opacity:0 } 50% { opacity:1 } }
-
-.w3-animate-opacity { animation: opac 0.8s; }
-@keyframes opac { from {opacity:0} to {opacity:1} }
-
-.w3-animate-top { position: relative; animation: animatetop 0.4s; }
-@keyframes animatetop { from {top:-300px;opacity:0} to {top:0;opacity:1} }
-
-.w3-animate-left { position: relative; animation: animateleft 0.4s; }
-@keyframes animateleft { from {left:-300px;opacity:0} to {left:0;opacity:1} }
-
-.w3-animate-right { position: relative; animation: animateright 0.4s; }
-@keyframes animateright { from {right:-300px;opacity:0} to {right:0;opacity:1} }
-
-.w3-animate-bottom { position: relative; animation: animatebottom 0.4s; }
-@keyframes animatebottom { from {bottom:-300px;opacity:0} to {bottom:0;opacity:1} }
-
-.w3-animate-zoom { animation: animatezoom 0.6s; }
-@keyframes animatezoom { from {transform: scale(0)} to {transform: scale(1)} }
-
-/* ============================================================================
-   W3.CSS OVERRIDES (Optional / Retained)
-   ============================================================================ */
-.w3-panel { border-left: 5px solid var(--cw-accent-2); }
-.w3-opacity { opacity: 0.6; }
-.w3-hover-opacity:hover { opacity: 0.6; }
-
-/* ============================================================================
-   OVERLAY EFFECT — Steampunk / Sakura Accent (10%) with Parallax + Glow
-   ============================================================================ */
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    z-index: 5;
-    background-repeat: repeat;
-    background-size: contain;
-    opacity: 0.1; /* 10% intensity */
-    transition: background-image 0.5s ease;
-}
-
-/* Dark mode — Steampunk particles with subtle glow */
-[data-theme="dark"] body::before {
-    background-image: url('/assets/overlay/steampunk-particles.png');
-    animation: darkParticleParallax 180s linear infinite, glowDark 4s ease-in-out infinite alternate;
-}
-
-@keyframes darkParticleParallax {
-    0% { transform: translate(0,0) rotate(0deg); }
-    25% { transform: translate(5px,-2px) rotate(15deg); }
-    50% { transform: translate(10px,4px) rotate(30deg); }
-    75% { transform: translate(5px,2px) rotate(45deg); }
-    100% { transform: translate(0,0) rotate(60deg); }
-}
-
-@keyframes glowDark {
-    0% { opacity: 0.08; filter: drop-shadow(0 0 2px #9f5cff); }
-    50% { opacity: 0.12; filter: drop-shadow(0 0 6px #9f5cff); }
-    100% { opacity: 0.08; filter: drop-shadow(0 0 2px #9f5cff); }
-}
-
-/* Light mode — Sakura / nature particles with gentle shimmer */
-[data-theme="light"] body::before {
-    background-image: url('/assets/overlay/sakura-particles.png');
-    animation: lightParticleParallax 120s linear infinite, glowLight 3s ease-in-out infinite alternate;
-}
-
-@keyframes lightParticleParallax {
-    0% { transform: translate(0,0) rotate(0deg); }
-    25% { transform: translate(10px,-5px) rotate(30deg); }
-    50% { transform: translate(20px,10px) rotate(60deg); }
-    75% { transform: translate(10px,5px) rotate(90deg); }
-    100% { transform: translate(0,0) rotate(120deg); }
-}
-
-@keyframes glowLight {
-    0% { opacity: 0.08; filter: drop-shadow(0 0 2px #f0b56a); }
-    50% { opacity: 0.12; filter: drop-shadow(0 0 6px #f0b56a); }
-    100% { opacity: 0.08; filter: drop-shadow(0 0 2px #f0b56a); }
-}
-
-/* ============================================================================ 
-   NAVBAR — W3 + Custom Theme System
-============================================================================ */
-.w3-top {
-    position: sticky;
-    top: 0;
-    z-index: 20;
-    width: 100%;
-    background-color: var(--cw-surface);
-    box-shadow: var(--cw-shadow-1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.w3-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 24px;
-}
-
-.w3-bar-item {
-    color: var(--cw-text);
-    padding: 8px 12px;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-}
-
-.w3-bar-item:hover {
-    background-color: rgba(217,147,67,0.08);
-}
-
-[data-theme="dark"] .w3-bar-item:hover {
-    background-color: rgba(159,92,255,0.14);
-}
-
-/* ============================================================================ 
-   SIDEBAR — Smooth Slide
+   SIDEBAR
 ============================================================================ */
 #w3-sidebar, #mySidebar {
     position: fixed;
@@ -405,11 +241,8 @@ body::before {
     transition: transform 0.35s ease;
 }
 
-#w3-sidebar.open, #mySidebar.open {
-    transform: translateX(0);
-}
+#w3-sidebar.open, #mySidebar.open { transform: translateX(0); }
 
-/* Sidebar links */
 #w3-sidebar a, #mySidebar a, #mySidebar button {
     display: block;
     color: var(--cw-text);
@@ -423,7 +256,7 @@ body::before {
     background-color: rgba(217,147,67,0.1);
 }
 
-/* ============================================================================ 
+/* ============================================================================
    THEME TOGGLE BUTTON
 ============================================================================ */
 #theme-toggle-nav, #theme-toggle-side, #themeToggle {
@@ -440,8 +273,8 @@ body::before {
     background-color: var(--cw-accent-2);
 }
 
-/* ============================================================================ 
-   OVERLAY EFFECT — Steampunk / Sakura Accent (10%) 
+/* ============================================================================
+   OVERLAY EFFECT — Steampunk / Sakura Accent
 ============================================================================ */
 body::before {
     content: "";
