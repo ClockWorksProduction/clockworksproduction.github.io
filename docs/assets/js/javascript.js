@@ -2,13 +2,39 @@
    GLOBAL THEME INITIALIZATION
 -----------------------------*/
 document.addEventListener("DOMContentLoaded", () => {
+  /**
+   * Loads the Font Awesome kit and falls back to Material Symbols if it fails.
+   */
+  async function loadIconFonts() {
+    const loadFontAwesome = new Promise((resolve) => {
+      const script = document.createElement("script");
+      script.src = "https://kit.fontawesome.com/6b3a6b196a.js";
+      script.crossOrigin = "anonymous";
+      script.onload = () => resolve(true);
+      script.onerror = () => resolve(false);
+      document.head.appendChild(script);
+    });
+
+    const faLoaded = await loadFontAwesome;
+
+    if (!faLoaded) {
+      console.warn("FontAwesome kit failed to load. Falling back to Material Symbols.");
+      const fallback = document.createElement("link");
+      fallback.rel = "stylesheet";
+      fallback.href = "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded";
+      document.head.appendChild(fallback);
+    }
+  }
+
   const savedTheme = localStorage.getItem("cw-theme") || "light";
   document.documentElement.setAttribute("data-theme", savedTheme);
 
-  loadMaterialSymbols();
-  loadNavAndFooter().then(() => {
-    initThemeToggle();
-    initSidebar();
+  // Load fonts, then the rest of the UI.
+  loadIconFonts().then(() => {
+    loadNavAndFooter().then(() => {
+      initThemeToggle();
+      initSidebar();
+    });
   });
 });
 
@@ -22,22 +48,6 @@ function loadNavAndFooter() {
       .then(r => r.text())
       .then(html => { document.getElementById("footer-placeholder").innerHTML = html; })
   ]);
-}
-
-/* Material Symbols loader */
-function loadMaterialSymbols() {
-  const link = document.createElement("link");
-  link.rel = "stylesheet";
-  link.href = "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded";
-
-  link.onerror = () => {
-    const fallback = document.createElement("link");
-    fallback.rel = "stylesheet";
-    fallback.href = "/assets/css/material-fallback.css";
-    document.head.appendChild(fallback);
-  };
-
-  document.head.appendChild(link);
 }
 
 /* THEME TOGGLE */

@@ -13,8 +13,7 @@
     <title>Community - ClockWorksProduction</title>
     <!-- Add any common stylesheets or scripts here -->
     <script src="https://kit.fontawesome.com/6b3a6b196a.js" crossorigin="anonymous"></script>
-    <link href="/assets/css/deafult.css" rel="stylesheet" type="text/css"/>
-    <link id="theme" rel="stylesheet" type="text/css" href="/assets/css/light-theme.css"/>
+    <link rel="stylesheet" href="/assets/css/main.css" />
 </head>
 <body class="has-full-header">
     <!-- Google Tag Manager (noscript) -->
@@ -23,46 +22,45 @@
     <!-- End Google Tag Manager (noscript) -->
     <!-- Navigation Bar Placeholder -->
     <div id="nav-placeholder"></div>
-    <header class="bgimg-1 display-container grayscale-min" id="abts">
-            <div class="display-left" style="padding:48px">
-                <span class="jumbo hide-small">Community</span><br>
-                <span class="xxlarge hide-large hide-medium">Community</span><br>
-                <span class="large">:3c</span>
-            </div>
+    <header class="hero-section" id="abts">
+        <div class="hero-content">
+            <h1 class="hero-title">Community</h1>
+            <p class="hero-subtitle">:3c</p>
+        </div>
     </header>
 
     <!-- Main Content Area -->
     <main>
-        <div class="container padding-64">
+        <div class="w3-container w3-padding-64">
             <!-- Spotify Playlist -->
-            <section class="container padding-32 card featured-card margin-bottom">
-              <h3 class="large text-theme"><i class="fa fa-music"></i> Collaborative Spotify Playlist</h3>
+            <section class="w3-container w3-padding-32 w3-card w3-margin-bottom">
+              <h3 class="w3-large"><i class="fa fa-music"></i> Collaborative Spotify Playlist</h3>
               <p>Share your favorite tracks and discover new ones! Add songs to our collaborative Spotify playlist:</p>
-              <div class="center-text padding">
+              <div class="w3-center w3-padding">
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2z8Tj9n5CP1xffffpmXWHS?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
               </div>
             </section>
           
             <!-- Discord Section -->
-            <section class="container padding-32 card featured-card margin-bottom">
-              <h3 class="large text-theme"><i class="fa-brands fa-discord"></i> Join Our Discord</h3>
+            <section class="w3-container w3-padding-32 w3-card w3-margin-bottom">
+              <h3 class="w3-large"><i class="fa-brands fa-discord"></i> Join Our Discord</h3>
               <div id="custom-discord-widget">
-                <h4 id="server-name" class="text-theme large">Loading server...</h4>
+                <h4 id="server-name" class="w3-large">Loading server...</h4>
                 <p><strong>Online Members:</strong> <span id="online-members">-</span></p>
                 <p><strong>Popular Channels:</strong></p>
-                <ul id="interesting-channels" class="ul border hoverable">
+                <ul id="interesting-channels" class="w3-ul w3-border w3-hoverable">
                   <!-- Populated by JS -->
                 </ul>
-                <button id="join-button" class="button theme-button round margin-top"><i class="fa fa-sign-in-alt"></i> Join Server</button>
+                <button id="join-button" class="w3-button w3-round w3-margin-top"><i class="fa fa-sign-in-alt"></i> Join Server</button>
               </div>
-              <p id="discord-info" class="small text-grey"></p>
+              <p id="discord-info" class="w3-small w3-text-grey"></p>
             </section>
           
             <!-- Release Schedule -->
-            <section class="container padding-32 card featured-card">
-              <h3 class="large text-theme"><i class="fa fa-calendar-alt"></i> Release Schedule</h3>
+            <section class="w3-container w3-padding-32 w3-card">
+              <h3 class="w3-large"><i class="fa fa-calendar-alt"></i> Release Schedule</h3>
               <p>Stay up-to-date with our upcoming events and announcements!</p>
-              <div class="center-text padding">
+              <div class="w3-center w3-padding">
                 <!-- Replace the placeholder with your actual embed URL when ready -->
                 <iframe src="https://calendar.google.com/calendar/embed?src=yourcalendarid%40group.calendar.google.com&ctz=UTC" style="border: 0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
               </div>
@@ -75,18 +73,6 @@
     <div id="footer-placeholder"></div>
 
     <!-- Common Scripts -->
-    <script>
-        fetch('/partials/nav.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('nav-placeholder').innerHTML = data;
-            });
-        fetch('/partials/footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer-placeholder').innerHTML = data;
-            });
-    </script>
     <script src="/assets/js/javascript.js" type="text/javascript"></script>
     <script>
         const serverNameElement = document.getElementById('server-name');

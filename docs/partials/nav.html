@@ -1,55 +1,48 @@
-<header class="nav w3-top">
-  <div class="nav-inner">
+<header class="w3-bar w3-top">
+  <!-- Brand -->
+  <a href="/" class="w3-bar-item w3-button">
+    <img src="/assets/img/logo.png" alt="CWP Logo" style="height: 40px; width: 40px;">
+    <span class="logo-title">Clockwork Production Studio</span>
+  </a>
 
-    <!-- Brand -->
-    <a href="/" class="brand">
-      <img src="/assets/img/logo.png" alt="CWP Logo">
-      <span class="logo-title">Clockwork Production Studio</span>
-    </a>
+  <!-- Desktop Links -->
+  <div class="w3-right w3-hide-small">
+    <a href="/pages/about_us.html" class="w3-bar-item w3-button">About</a>
+    <a href="/pages/community.html" class="w3-bar-item w3-button">Community</a>
+    <a href="/pages/meet_the_crew.html" class="w3-bar-item w3-button">Team :3</a>
+    <a href="/pages/contact.html" class="w3-bar-item w3-button">Contact</a>
 
-    <!-- Desktop Links -->
-    <div class="nav-links">
-      <a href="/pages/about_us.html" class="nav-link">About</a>
-      <a href="/pages/community.html" class="nav-link">Community</a>
-      <a href="/pages/contact.html" class="nav-link">Contact</a>
-
-      <div class="w3-dropdown-hover">
-        <button class="nav-link w3-button">Divisions ▾</button>
-        <div class="w3-dropdown-content w3-card dropdown-panel">
-          <a href="/pages/frameforge" class="dropdown-item">FrameForge</a>
-          <a href="/pages/pixelpals" class="dropdown-item">PixelPals</a>
-          <a href="/pages/cwp-studio" class="dropdown-item">CWP Studio</a>
-        </div>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Divisions ▾</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="/pages/frameforge" class="w3-bar-item w3-button">FrameForge</a>
+        <a href="/pages/pixelpals" class="w3-bar-item w3-button">PixelPals</a>
+        <a href="/pages/cwp-studio" class="w3-bar-item w3-button">CWP Studio</a>
       </div>
-
-      <!-- THEME BUTTON -->
-      <button id="themeToggle" class="theme-toggle-btn w3-button" aria-label="Toggle Theme">
-        <span class="material-symbols-rounded sun-icon">light_mode</span>
-        <span class="material-symbols-rounded moon-icon">dark_mode</span>
-      </button>
     </div>
 
-    <!-- Mobile Hamburger -->
-    <div id="hamburger-menu" class="nav-toggle">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-
+    <!-- THEME BUTTON -->
+    <button id="themeToggle" class="w3-button w3-round-xxlarge" aria-label="Toggle Theme">
+      <span class="sun-icon"><i class="fa-solid fa-sun"></i></span>
+      <span class="moon-icon"><i class="fa-solid fa-moon"></i></span>
+    </button>
   </div>
+
+  <!-- Mobile Hamburger -->
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+    <i class="fa fa-bars"></i>
+  </a>
 </header>
 
 <!-- SIDEBAR -->
-<aside id="mySidebar" class="sidebar sidebar-closed">
-  <button id="close-sidebar" class="bar-item">✕ Close</button>
-
-  <a href="/" class="bar-item">Home</a>
-  <a href="/pages/about_us.html" class="bar-item">About</a>
-  <a href="/pages/community.html" class="bar-item">Community</a>
-  <a href="/pages/contact.html" class="bar-item">Contact</a>
-
-  <div class="bar-item" style="opacity:.6; margin-top:12px;">Divisions</div>
-  <a href="/pages/frameforge" class="bar-item">FrameForge</a>
-  <a href="/pages/pixelpals" class="bar-item">PixelPals</a>
-  <a href="/pages/cwp-studio" class="bar-item">CWP Studio</a>
-</aside>
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-large w3-hide-medium" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close &times;</a>
+  <a href="/" class="w3-bar-item w3-button">Home</a>
+  <a href="/pages/about_us.html" class="w3-bar-item w3-button">About</a>
+  <a href="/pages/community.html" class="w3-bar-item w3-button">Community</a>
+  <a href="/pages/meet_the_crew.html" class="w3-bar-item w3-button">Team :3</a>
+  <a href="/pages/contact.html" class="w3-bar-item w3-button">Contact</a>
+  <a href="/pages/frameforge" class="w3-bar-item w3-button">FrameForge</a>
+  <a href="/pages/pixelpals" class="w3-bar-item w3-button">PixelPals</a>
+  <a href="/pages/cwp-studio" class="w3-bar-item w3-button">CWP Studio</a>
+</nav>
