@@ -1,0 +1,379 @@
+/* ALL IMPORT */
+@import url('https://www.w3schools.com/w3css/5/w3.css');
+
+/* -----------------------------------------
+   DESIGN TOKENS — Global theme variables
+   ----------------------------------------- */
+:root {
+    /* Global palette */
+    --cw-bg: #0e0e0f;
+    --cw-bg-alt: #141214;
+    --cw-surface: #1a1b1d;
+    --cw-surface-alt: #232325;
+    --cw-text: #f5f5f5;
+    --cw-text-dim: #bdb8c7;
+
+    /* Accents */
+    --cw-accent: #d99343;
+    --cw-accent-2: #f0b56a;
+
+    /* Sizing */
+    --cw-radius: 12px;
+    --cw-gap: 12px;
+    --cw-transition: 0.28s ease;
+
+    /* Shadows */
+    --cw-shadow-1: 0 4px 18px rgba(0, 0, 0, 0.45);
+    --cw-shadow-2: 0 8px 36px rgba(0, 0, 0, 0.55);
+
+    /* Nav / footer */
+    --nav-bg: var(--cw-surface);
+    --nav-text: var(--cw-text);
+    --nav-border: rgba(255, 255, 255, 0.04);
+    --nav-hover-bg: rgba(217, 147, 67, 0.08);
+    --nav-hover-text: #000;
+
+    --footer-bg: var(--cw-surface);
+    --footer-text: var(--cw-text-dim);
+
+    /* Sidebar */
+    --sidebar-width: 260px;
+
+    /* Material Symbols */
+    --ms-family: 'Material Symbols Rounded';
+    --ms-opsz: 24;
+    --ms-wght: 400;
+    --ms-fill: 0;
+    --ms-grad: 0;
+
+    --icon-size: 20px;
+
+    /* Misc */
+    --eco-sakura: #ff83a8;
+    --eco-soft-glow: rgba(255, 131, 168, 0.18);
+}
+
+/* -----------------------------------------
+   THEME VARIANTS (light / dark)
+   ----------------------------------------- */
+[data-theme="light"] {
+    --cw-bg: #f5f3ef;
+    --cw-bg-alt: #ebe7e2;
+    --cw-surface: #ffffff;
+    --cw-surface-alt: #f0ece6;
+
+    --cw-text: #2a2a2a;
+    --cw-text-dim: #5c5c5c;
+
+    --cw-accent: #c89f43;
+    --cw-accent-2: #b06c3a;
+
+    --nav-hover-bg: rgba(200, 159, 67, 0.12);
+
+    --ms-fill: 0;
+}
+
+[data-theme="dark"] {
+    --cw-bg: #0d0b12;
+    --cw-bg-alt: #16141d;
+    --cw-surface: #191721;
+    --cw-surface-alt: #221f2c;
+
+    --cw-text: #e3def7;
+    --cw-text-dim: #b8b4d4;
+
+    --cw-accent: #9f5cff;
+    --cw-accent-2: #53ffe6;
+
+    --nav-hover-bg: rgba(159, 92, 255, 0.14);
+
+    --ms-fill: 1;
+}
+
+/* -----------------------------------------
+   BASE RESET
+   ----------------------------------------- */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background: var(--cw-bg);
+    color: var(--cw-text);
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, 'Helvetica Neue', Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background var(--cw-transition), color var(--cw-transition);
+}
+
+
+/* -----------------------------------------
+     MATERIAL SYMBOLS
+     ----------------------------------------- */
+.material-symbols-rounded {
+    font-family: var(--ms-family);
+    font-variation-settings:
+        "FILL" var(--ms-fill),
+        "wght" var(--ms-wght),
+        "GRAD" var(--ms-grad),
+        "opsz" var(--ms-opsz);
+    font-size: var(--icon-size);
+    line-height: 1;
+    vertical-align: middle;
+    display: inline-block;
+    text-rendering: optimizeLegibility;
+    transition:
+        font-variation-settings .22s ease,
+        transform .22s ease,
+        opacity .22s ease;
+}
+
+/* -----------------------------------------
+   CARDS & BUTTONS
+   ----------------------------------------- */
+.cw-card,
+.w3-card,
+.card {
+    padding: 18px;
+    border-radius: calc(var(--cw-radius) - 2px);
+    background: var(--card-bg, var(--cw-surface));
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    box-shadow: var(--cw-shadow-1);
+    transition: transform var(--cw-transition), box-shadow var(--cw-transition);
+}
+
+.cw-card:hover,
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--cw-shadow-2);
+}
+
+.btn,
+.w3-button {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    background: var(--cw-accent);
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background var(--cw-transition), transform var(--cw-transition);
+}
+
+.btn:hover {
+    background: var(--cw-accent-2);
+    transform: translateY(-2px);
+}
+
+/* -----------------------------------------
+   FOOTER
+   ----------------------------------------- */
+.footer,
+.cw-footer {
+    padding: 28px 20px;
+    background: var(--footer-bg);
+    border-top: 1px solid var(--footer-text);
+    color: var(--footer-text);
+}
+
+.footer .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-logo {
+    height: 56px;
+    width: auto;
+}
+
+/* -----------------------------------------
+   NAVIGATION / TOP BAR
+   ----------------------------------------- */
+.nav,
+.navbar,
+.w3-bar.cw-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--cw-gap);
+    padding: 12px 18px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent), var(--nav-bg);
+    border-bottom: 1px solid var(--nav-border);
+    box-shadow: var(--cw-shadow-1);
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav .brand img {
+    height: 40px !important;
+    width: 40px !important;
+    display: block;
+}
+
+.nav-links {
+    display: none;
+    gap: 8px;
+    align-items: center;
+}
+
+.nav a.nav-link {
+    padding: 8px 10px;
+    border-radius: 8px;
+    color: var(--nav-text);
+    text-decoration: none;
+    transition: color .2s ease, background .2s ease;
+}
+
+.nav a.nav-link:hover {
+    background: var(--nav-hover-bg);
+    color: var(--nav-hover-text);
+}
+
+
+/* Hamburger (mobile) */
+.nav .nav-toggle {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.nav .nav-toggle .line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--cw-text);
+}
+
+/* -----------------------------------------
+   SIDEBAR
+   ----------------------------------------- */
+.sidebar,
+.cw-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: var(--sidebar-width);
+    background: var(--nav-bg);
+    padding-top: 72px;
+    box-shadow: var(--cw-shadow-1);
+    transition: transform var(--cw-transition);
+    z-index: 190;
+    display: none;
+}
+
+.sidebar-closed {
+    transform: translateX(calc(var(--sidebar-width) * -1));
+}
+
+.sidebar-open {
+    transform: translateX(0);
+}
+
+.sidebar .bar-item {
+    display: block;
+    width: 100%;
+    padding: 12px 18px;
+    color: var(--nav-text);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.sidebar .bar-item:hover {
+    background: var(--nav-hover-bg);
+    color: var(--nav-hover-text);
+}
+
+/* -----------------------------------------
+   THEME TOGGLE BUTTON
+   ----------------------------------------- */
+.theme-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: background .2s ease, box-shadow .2s ease, transform .12s ease;
+}
+
+.theme-toggle-btn:focus {
+    outline: 3px solid rgba(0, 0, 0, 0.08);
+    outline-offset: 2px;
+}
+
+.theme-toggle-btn:active {
+    transform: scale(.98);
+}
+
+.theme-toggle-btn .material-symbols-rounded {
+    font-size: 20px;
+    transition: transform .24s ease, opacity .24s ease;
+}
+
+/* Animation class */
+.theme-anim {
+    transition: background var(--transition), color var(--transition);
+}
+
+/* -----------------------------------------
+   RESPONSIVE
+   ----------------------------------------- */
+@media (max-width: 900px) {
+    .nav .nav-toggle {
+        display: flex;
+    }
+
+    .sidebar-open {
+        transform: translateX(0);
+    }
+
+    .sidebar {
+        display: block;
+    }
+}
+
+@media (min-width: 901px) {
+    .nav-links {
+        display: flex;
+    }
+
+    .nav .nav-toggle {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+/* -----------------------------------------
+    UTILITIES
+    ----------------------------------------- */
+.hidden {
+    display: none !important;
+}
+
+.center-text {
+    text-align: center;
+}
