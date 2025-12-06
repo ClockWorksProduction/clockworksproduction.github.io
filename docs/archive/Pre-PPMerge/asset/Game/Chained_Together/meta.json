@@ -1,0 +1,39 @@
+{
+  "name": "Chained Together",
+  "image": "",
+  "appId": {
+    "steam": 2567870,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/2567870/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

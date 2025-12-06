@@ -1,0 +1,273 @@
+/* ============================================================
+   COMMON.CSS — Clean, Modular, Component-Based Rewrite
+   ============================================================ */
+
+/* ============================================================
+   1. BASE RESET & TYPOGRAPHY
+   ============================================================ */
+
+   .body {
+    background-color: var(--bg-color);
+    background-image: var(--bg-texture);
+    color: var(--text-color);
+    font-family: var(--font-body);
+    transition: background-color .4s ease, color .4s ease;
+}
+
+.heading, .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
+    font-family: var(--font-heading);
+    color: var(--heading-color);
+    text-shadow: var(--heading-shadow);
+    transition: color .3s ease, text-shadow .3s ease;
+}
+
+.link {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color .3s ease, text-shadow .3s ease;
+}
+
+.link:hover {
+    color: var(--link-hover-color);
+    text-shadow: var(--link-hover-shadow);
+}
+
+/* ============================================================
+   2. FLEX & GRID UTILITIES
+   ============================================================ */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 { width: 8.333%; }
+.col-2 { width: 16.666%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.333%; }
+.col-6 { width: 50%; }
+.col-12 { width: 100%; }
+
+.grid {
+    display: grid;
+}
+
+.center-text { text-align: center; }
+.round { border-radius: 8px; }
+
+/* ============================================================
+   3. SPACING UTILITIES
+   ============================================================ */
+
+.pad-sm { padding: 8px 12px; }
+.pad { padding: 12px 18px; }
+.pad-lg { padding: 24px; }
+.pad-32 { padding-top: 32px; padding-bottom: 32px; }
+.pad-64 { padding-top: 64px; padding-bottom: 64px; }
+
+.mg-sm { margin: 8px 0; }
+.mg { margin: 16px 0; }
+.mg-lg { margin: 32px 0; }
+
+/* ============================================================
+   4. CARDS
+   ============================================================ */
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    box-shadow: var(--card-shadow);
+    padding: 24px;
+    border-radius: 6px;
+    backdrop-filter: blur(6px);
+    transition: all .3s ease;
+}
+
+.card:hover {
+    box-shadow: var(--card-hover-shadow);
+    transform: translateY(-4px);
+}
+
+.card-title {
+    font-family: var(--font-subheading);
+    color: var(--card-heading-color);
+    text-shadow: var(--card-heading-shadow);
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* ============================================================
+   5. NAVBAR (Clean & Responsive)
+   ============================================================ */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 18px;
+    background-color: var(--nav-bg);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--nav-shadow);
+    border-bottom: 1px solid var(--nav-border);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: auto;
+    width: 100%;
+}
+
+.nav-links {
+    display: none; /* Hide top nav links by default */
+}
+
+.nav-link {
+    padding: 8px 12px;
+    color: var(--nav-text);
+    border-radius: 4px;
+    transition: background-color .3s ease, color .3s ease;
+}
+
+.nav-link:hover {
+    background-color: var(--nav-hover-bg);
+    color: var(--nav-hover-text);
+}
+
+/* Hamburger icon */
+.nav-toggle {
+    display: block; /* Show hamburger by default */
+    cursor: pointer;
+    padding: 8px;
+}
+
+.nav-toggle-line {
+    width: 28px;
+    height: 3px;
+    background-color: var(--nav-text);
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+/* ============================================================
+   6. COLLAPSIBLE SIDEBAR
+   ============================================================ */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--sidebar-width, 240px);
+    height: 100%;
+    background-color: var(--nav-bg);
+    box-shadow: var(--nav-shadow);
+    padding-top: 70px;
+    overflow-y: auto;
+    transition: transform .4s ease;
+    z-index: 30;
+}
+
+/* Sidebar collapsed */
+.sidebar-closed {
+    transform: translateX(calc(var(--sidebar-width, 240px) * -1));
+}
+
+.sidebar .bar-item.button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 12px 18px;
+    color: var(--nav-text);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color .3s, color .3s;
+}
+
+.sidebar .bar-item.button:hover {
+    background-color: var(--nav-hover-bg);
+    color: var(--nav-hover-text);
+}
+
+
+/* Sidebar toggle button */
+.sidebar-toggle {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 40;
+    padding: 8px 12px;
+    background-color: var(--nav-bg);
+    border: 1px solid var(--nav-border);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sidebar-toggle:hover {
+    background-color: var(--nav-hover-bg);
+}
+
+/* ============================================================
+   7. FOOTER
+   ============================================================ */
+
+.footer {
+    padding: 40px 20px;
+    background-color: var(--footer-bg);
+    border-top: 1px solid var(--footer-border);
+    color: var(--footer-text);
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.footer-logo {
+    height: 64px;
+    width: auto;
+}
+
+.footer-column h4 {
+    color: var(--footer-heading-color);
+    font-family: var(--font-subheading);
+}
+
+.footer-link {
+    display: block;
+    padding: 4px 0;
+    color: var(--footer-text);
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 22px;
+    height: 22px;
+}
+
+/* ============================================================
+   8. RESPONSIVE RULES
+   ============================================================ */
+
+@media (max-width: 700px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}

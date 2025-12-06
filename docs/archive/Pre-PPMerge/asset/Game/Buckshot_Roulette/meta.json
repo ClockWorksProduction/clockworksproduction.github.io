@@ -1,0 +1,43 @@
+{
+  "name": "Buckshot Roulette",
+  "image": "",
+  "appId": {
+    "steam": 2835570,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Play Russian roulette with a 12-gauge shotgun. Four enter. One leaves. Roll the dice with your life. Good luck!",
+  "developer": "Mike Klubnika",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action",
+    "Indie",
+    "Simulation"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/2835570/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

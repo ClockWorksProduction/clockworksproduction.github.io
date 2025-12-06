@@ -1,0 +1,9 @@
+- [ ] Make a good looking design
+- [ ] add changes to the index.html page
+- [ ] Create a good footer
+- [ ] Create sections that will contain the websites content
+- [ ] Write the content of the different sections
+- [ ] Add button to go back to the top of the page
+- [ ] Create a good header
+- [ ] Add social media buttons for easy access
+- [ ] Explore building a cross-platform interaction system with a Discord bot backend to integrate website, Discord server, subreddit, and Twitch.

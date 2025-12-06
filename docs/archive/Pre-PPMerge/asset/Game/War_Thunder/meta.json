@@ -1,0 +1,43 @@
+{
+  "name": "War Thunder",
+  "image": "",
+  "appId": {
+    "steam": 236390,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Play for free with friends in the most realistic online game",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "MMO",
+    "Shooter games",
+    "Vehicle simulation"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/236390/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/war-thunder",
+    "gog": "",
+    "xbox": "https://www.xbox.com/en-US/games/store/war-thunder/bx10flpbt010",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://warthunder.com/en/"
+  }
+}

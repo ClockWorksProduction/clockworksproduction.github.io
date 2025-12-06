@@ -1,0 +1,41 @@
+{
+  "name": "Don't Starve Together",
+  "image": "",
+  "appId": {
+    "steam": 322330,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Newsletter Available On",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/322330/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/dont-starve-together",
+    "gog": "",
+    "xbox": "https://www.xbox.com/en-us/games/store/dont-starve-together-console-edition/bwd41869s2xk",
+    "playstation": "https://store.playstation.com/en-us/product/UP2107-CUSA06183_00-DONTSTARVETOGETH",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://www.kleientertainment.com/games/dont-starve-together"
+  }
+}

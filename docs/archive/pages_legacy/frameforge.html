@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <script src="https://kit.fontawesome.com/6b3a6b196a.js" crossorigin="anonymous"></script>
-    <link href="/assets/css/deafult.css" rel="stylesheet" type="text/css"/>
-    <link id="theme" rel="stylesheet" type="text/css" href="/assets/css/light-theme.css"/>
+    <link href="deafult.css" rel="stylesheet" type="text/css"/>
+    <link id="theme" rel="stylesheet" type="text/css" href="light-theme.css"/>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -35,7 +35,7 @@
     <!-- Main Content Area -->
         <div class="w3-flex" style="gap:8px">
             <div style="padding: 10px 10px 10px 10px">
-                <img src="/asset/FrameForge_Logo.png" alt="CWP LOGO" style="width: 125px">
+                <img src="asset/FrameForge_Logo.png" alt="CWP LOGO" style="width: 125px">
             </div>
             <div>
                 <h3>FRAMEFORGE - CWP's Animation Studio</h3>
@@ -59,17 +59,17 @@
 
     <!-- Common Scripts -->
     <script>
-        fetch('/partials/nav.html')
+        fetch('nav.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('nav-placeholder').innerHTML = data;
             });
-        fetch('/partials/footer.html')
+        fetch('footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer-placeholder').innerHTML = data;
             });
     </script>
-    <script src="/assets/js/javascript.js" type="text/javascript"></script>
+    <script src="javascript.js" type="text/javascript"></script>
 </body>
 </html>

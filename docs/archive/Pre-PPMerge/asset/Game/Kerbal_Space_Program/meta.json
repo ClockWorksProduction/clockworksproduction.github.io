@@ -1,0 +1,42 @@
+{
+  "name": "Kerbal Space Program",
+  "image": "",
+  "appId": {
+    "steam": 220200,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.",
+  "developer": "Squad",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Indie",
+    "Simulation"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/220200/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/kerbal-space-program",
+    "gog": "",
+    "xbox": "https://www.xbox.com/en-us/games/store/kerbal-space-program-enhanced-edition/9p4r2q2r2r3p",
+    "playstation": "https://store.playstation.com/en-us/product/UP1126-CUSA02724_00-KERBAL01USPS4000",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://www.kerbalspaceprogram.com/en/"
+  }
+}

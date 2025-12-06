@@ -1,0 +1,39 @@
+{
+  "name": "Backpack Hero",
+  "image": "https://cdn1.epicgames.com/spt-assets/da842a6b6e324c39b54b16910856bdb3/backpack-hero-1jin1.jpg",
+  "appId": {
+    "steam": 0,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "The inventory management roguelike! Collect rare items, organize your backpack, and vanquish your foes!",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/backpack-hero",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "VRChat",
+  "image": "",
+  "appId": {
+    "steam": 438100,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Join our growing community as you explore, play, and help craft the future of social VR. Create worlds and custom avatars. Welcome to VRChat.",
+  "developer": "VRChat Inc.",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Adventure",
+    "Casual",
+    "Massively Multiplayer",
+    "Simulation",
+    "Sports",
+    "Free To Play",
+    "Early Access"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/438100/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/vrchat",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://hello.vrchat.com/"
+  }
+}

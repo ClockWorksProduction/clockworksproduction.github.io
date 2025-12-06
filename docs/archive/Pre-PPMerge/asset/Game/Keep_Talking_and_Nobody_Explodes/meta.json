@@ -1,0 +1,41 @@
+{
+  "name": "Keep Talking and Nobody Explodes",
+  "image": "",
+  "appId": {
+    "steam": 341800,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Find yourself trapped alone in a room with a ticking time bomb. Your friends have the manual to defuse it, but they can",
+  "developer": "Steel Crate Games",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Indie"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/341800/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/keep-talking-and-nobody-explodes",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

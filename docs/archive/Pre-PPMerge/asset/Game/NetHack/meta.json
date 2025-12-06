@@ -1,0 +1,41 @@
+{
+  "name": "NetHack",
+  "image": "",
+  "appId": {
+    "steam": 0,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Download the best classic and new games on Windows, Mac & Linux. A vast selection of titles, DRM-free, with free goodies and 30-day money-back guarantee.",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "https://www.gog.com/game/nethack",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://www.nethack.org/"
+  }
+}

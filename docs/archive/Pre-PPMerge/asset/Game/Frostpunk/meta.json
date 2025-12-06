@@ -1,0 +1,42 @@
+{
+  "name": "Frostpunk",
+  "image": "",
+  "appId": {
+    "steam": 323190,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Frostpunk is the first society survival game. As the ruler of the last city on Earth, it is your duty to manage both its citizens and infrastructure. What decisions will you make to ensure your society",
+  "developer": "11 bit studios",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Simulation",
+    "Strategy"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/323190/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "https://www.gog.com/game/frostpunk",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

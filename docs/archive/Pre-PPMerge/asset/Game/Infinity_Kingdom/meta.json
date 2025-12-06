@@ -1,0 +1,44 @@
+{
+  "name": "Infinity Kingdom",
+  "image": "",
+  "appId": {
+    "steam": 1573360,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Conquer the city, discover the Infinity! Infinity Kingdom is a cartoon-style mmo strategy game. As a resourceful lord, you must defend the land of Norheim against the evil gnomes while protecting yourself from other invading players!",
+  "developer": "YOUZU (SINGAPORE) PTE. LTD.",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Adventure",
+    "Free To Play",
+    "Massively Multiplayer",
+    "Strategy"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1573360/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/infinity-kingdom-478a59",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

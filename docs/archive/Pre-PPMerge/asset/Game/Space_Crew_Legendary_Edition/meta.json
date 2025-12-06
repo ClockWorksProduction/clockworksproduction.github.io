@@ -1,0 +1,45 @@
+{
+  "name": "Space Crew: Legendary Edition",
+  "image": "",
+  "appId": {
+    "steam": 1176710,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Time for your toughest mission yet! Recruit and train your crew to tackle the growing threat from alien and android armies as you defend Earth to become a Galactic Legend in Space Crew: Legendary Edition. All new content free to existing owners of Space Crew!",
+  "developer": "Runner Duck",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Indie",
+    "Simulation",
+    "Strategy"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1176710/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/space-crew",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

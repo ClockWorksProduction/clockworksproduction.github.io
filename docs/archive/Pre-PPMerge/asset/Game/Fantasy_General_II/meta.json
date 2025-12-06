@@ -1,0 +1,41 @@
+{
+  "name": "Fantasy General II",
+  "image": "",
+  "appId": {
+    "steam": 1025440,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "The fantasy wargaming classic is back! Lead powerful heroes and mighty armies into battle in this critically acclaimed turn-based strategy milestone. Level up and train your units and guide them through a gripping story campaign to decide the fate of a world on the brink of destruction.",
+  "developer": "Owned by Gravity",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Strategy"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1025440/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "https://www.gog.com/game/fantasy_general_ii",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

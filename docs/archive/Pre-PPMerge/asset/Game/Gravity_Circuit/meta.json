@@ -1,0 +1,39 @@
+{
+  "name": "Gravity Circuit",
+  "image": "https://cdn1.epicgames.com/spt-assets/c259931bc98344a1a16427cb079f049f/gravity-circuit-offer-bngjv.jpg",
+  "appId": {
+    "steam": 0,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics. Follow Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit, on an adventure in a post-apocalyptic world inhabited by sentient robots.",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/gravity-circuit",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

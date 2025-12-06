@@ -1,0 +1,44 @@
+{
+  "name": "The Sims™ 4",
+  "image": "",
+  "appId": {
+    "steam": 1222670,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Play with life and discover the possibilities. Unleash your imagination and create a world of Sims that’s wholly unique. Explore and customize every detail from Sims to homes–and much more.",
+  "developer": "Maxis",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Adventure",
+    "Casual",
+    "Simulation",
+    "Free To Play"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1222670/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/the-sims-4",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

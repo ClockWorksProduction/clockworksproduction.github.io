@@ -1,0 +1,903 @@
+[
+  {
+    "name": "DOOM + DOOM II",
+    "appid": 2280,
+    "store_link": "https://store.steampowered.com/app/2280/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/sub/32950/"
+  },
+  {
+    "name": "Warhammer 40,000: Dawn of War - Anniversary Edition ",
+    "appid": 4570,
+    "store_link": "https://store.steampowered.com/app/4570/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Warhammer 40,000: Dawn of War - Dark Crusade",
+    "appid": 4580,
+    "store_link": "https://store.steampowered.com/app/4580/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Warhammer 40,000: Dawn of War - Winter Assault",
+    "appid": 9310,
+    "store_link": "https://store.steampowered.com/app/9310/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Warhammer 40,000: Dawn of War - Soulstorm",
+    "appid": 9450,
+    "store_link": "https://store.steampowered.com/app/9450/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Warhammer 40,000: Dawn of War II - Anniversary Edition",
+    "appid": 15620,
+    "store_link": "https://store.steampowered.com/app/15620/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Warhammer 40,000: Dawn of War II - Chaos Rising",
+    "appid": 20570,
+    "store_link": "https://store.steampowered.com/app/20570/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Stronghold 2",
+    "appid": 40960,
+    "store_link": "https://store.steampowered.com/app/40960/",
+    "playtime_minutes": 395
+  },
+  {
+    "name": "Warhammer 40,000: Dawn of War II - Retribution",
+    "appid": 56400,
+    "store_link": "https://store.steampowered.com/app/56400/",
+    "playtime_minutes": 1395
+  },
+  {
+    "name": "Neverwinter",
+    "appid": 109600,
+    "store_link": "https://store.steampowered.com/app/109600/",
+    "playtime_minutes": 21
+  },
+  {
+    "name": "XCOM: Enemy Unknown",
+    "appid": 200510,
+    "store_link": "https://store.steampowered.com/app/200510/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Tomb Raider",
+    "appid": 203160,
+    "store_link": "https://store.steampowered.com/app/203160/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Starbound",
+    "appid": 211820,
+    "store_link": "https://store.steampowered.com/app/211820/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Sonic & All-Stars Racing Transformed Collection",
+    "appid": 212480,
+    "store_link": "https://store.steampowered.com/app/212480/",
+    "playtime_minutes": 3327
+  },
+  {
+    "name": "TERA",
+    "appid": 212740,
+    "store_link": "https://store.steampowered.com/app/212740/",
+    "playtime_minutes": 3665
+  },
+  {
+    "name": "PlanetSide 2",
+    "appid": 218230,
+    "store_link": "https://store.steampowered.com/app/218230/",
+    "playtime_minutes": 14
+  },
+  {
+    "name": "Kerbal Space Program",
+    "appid": 220200,
+    "store_link": "https://store.steampowered.com/app/220200/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Warframe",
+    "appid": 230410,
+    "store_link": "https://store.steampowered.com/app/230410/",
+    "playtime_minutes": 58317
+  },
+  {
+    "name": "War Thunder",
+    "appid": 236390,
+    "store_link": "https://store.steampowered.com/app/236390/",
+    "playtime_minutes": 13
+  },
+  {
+    "name": "Aura Kingdom",
+    "appid": 268420,
+    "store_link": "https://store.steampowered.com/app/268420/",
+    "playtime_minutes": 1856
+  },
+  {
+    "name": "XCOM 2",
+    "appid": 268500,
+    "store_link": "https://store.steampowered.com/app/268500/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Evolve Stage 2",
+    "appid": 273350,
+    "store_link": "https://store.steampowered.com/app/273350/",
+    "playtime_minutes": 1
+  },
+  {
+    "name": "Metro 2033 Redux",
+    "appid": 286690,
+    "store_link": "https://store.steampowered.com/app/286690/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Metro: Last Light Redux",
+    "appid": 287390,
+    "store_link": "https://store.steampowered.com/app/287390/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Don't Starve Together",
+    "appid": 322330,
+    "store_link": "https://store.steampowered.com/app/322330/",
+    "playtime_minutes": 1963
+  },
+  {
+    "name": "Styx: Shards of Darkness",
+    "appid": 355790,
+    "store_link": "https://store.steampowered.com/app/355790/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "ASTRONEER",
+    "appid": 361420,
+    "store_link": "https://store.steampowered.com/app/361420/",
+    "playtime_minutes": 1
+  },
+  {
+    "name": "Blender",
+    "appid": 365670,
+    "store_link": "https://store.steampowered.com/app/365670/",
+    "playtime_minutes": 5633
+  },
+  {
+    "name": "Starbound - Unstable",
+    "appid": 367540,
+    "store_link": "https://store.steampowered.com/app/367540/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Fallout 4",
+    "appid": 377160,
+    "store_link": "https://store.steampowered.com/app/377160/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Kingdom Come: Deliverance",
+    "appid": 379430,
+    "store_link": "https://store.steampowered.com/app/379430/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Crossout",
+    "appid": 386180,
+    "store_link": "https://store.steampowered.com/app/386180/",
+    "playtime_minutes": 7
+  },
+  {
+    "name": "SMITE",
+    "appid": 386360,
+    "store_link": "https://store.steampowered.com/app/386360/",
+    "playtime_minutes": 167
+  },
+  {
+    "name": "Slime Rancher",
+    "appid": 433340,
+    "store_link": "https://store.steampowered.com/app/433340/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "VRChat",
+    "appid": 438100,
+    "store_link": "https://store.steampowered.com/app/438100/",
+    "playtime_minutes": 259043
+  },
+  {
+    "name": "Northgard",
+    "appid": 466560,
+    "store_link": "https://store.steampowered.com/app/466560/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Dragon Sin",
+    "appid": 534220,
+    "store_link": "https://store.steampowered.com/app/534220/",
+    "playtime_minutes": 18
+  },
+  {
+    "name": "Dead Rising 4",
+    "appid": 543460,
+    "store_link": "https://store.steampowered.com/app/543460/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "ASTA Online",
+    "appid": 612290,
+    "store_link": "https://store.steampowered.com/app/612290/",
+    "playtime_minutes": 1192
+  },
+  {
+    "name": "Dishonored®: Death of the Outsider™ ",
+    "appid": 614570,
+    "store_link": "https://store.steampowered.com/app/614570/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Bendy and the Ink Machine",
+    "appid": 622650,
+    "store_link": "https://store.steampowered.com/app/622650/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Generation Zero®",
+    "appid": 704270,
+    "store_link": "https://store.steampowered.com/app/704270/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Knights of Honor II: Sovereign",
+    "appid": 736820,
+    "store_link": "https://store.steampowered.com/app/736820/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Supraland",
+    "appid": 813630,
+    "store_link": "https://store.steampowered.com/app/813630/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Iron Harvest",
+    "appid": 826630,
+    "store_link": "https://store.steampowered.com/app/826630/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Super Animal Royale",
+    "appid": 843380,
+    "store_link": "https://store.steampowered.com/app/843380/",
+    "playtime_minutes": 59
+  },
+  {
+    "name": "The Cycle: Frontier",
+    "appid": 868270,
+    "store_link": "https://store.steampowered.com/app/868270/",
+    "playtime_minutes": 29
+  },
+  {
+    "name": "XCOM: Chimera Squad",
+    "appid": 882100,
+    "store_link": "https://store.steampowered.com/app/882100/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Century: Age of Ashes",
+    "appid": 918570,
+    "store_link": "https://store.steampowered.com/app/918570/",
+    "playtime_minutes": 27
+  },
+  {
+    "name": "Among Us",
+    "appid": 945360,
+    "store_link": "https://store.steampowered.com/app/945360/",
+    "playtime_minutes": 164
+  },
+  {
+    "name": "Trover Saves the Universe",
+    "appid": 1051200,
+    "store_link": "https://store.steampowered.com/app/1051200/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Metal: Hellsinger",
+    "appid": 1061910,
+    "store_link": "https://store.steampowered.com/app/1061910/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Party Animals",
+    "appid": 1260320,
+    "store_link": "https://store.steampowered.com/app/1260320/",
+    "playtime_minutes": 2682
+  },
+  {
+    "name": "Stranded: Alien Dawn",
+    "appid": 1324130,
+    "store_link": "https://store.steampowered.com/app/1324130/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "VTube Studio",
+    "appid": 1325860,
+    "store_link": "https://store.steampowered.com/app/1325860/",
+    "playtime_minutes": 159
+  },
+  {
+    "name": "Animaze",
+    "appid": 1364390,
+    "store_link": "https://store.steampowered.com/app/1364390/",
+    "playtime_minutes": 268
+  },
+  {
+    "name": "MOBILE SUIT GUNDAM BATTLE OPERATION 2",
+    "appid": 1367080,
+    "store_link": "https://store.steampowered.com/app/1367080/",
+    "playtime_minutes": 41
+  },
+  {
+    "name": "Super Mecha Champions",
+    "appid": 1368910,
+    "store_link": "https://store.steampowered.com/app/1368910/",
+    "playtime_minutes": 94
+  },
+  {
+    "name": "VTuber Maker",
+    "appid": 1368950,
+    "store_link": "https://store.steampowered.com/app/1368950/",
+    "playtime_minutes": 2656
+  },
+  {
+    "name": "Soulworker",
+    "appid": 1377580,
+    "store_link": "https://store.steampowered.com/app/1377580/",
+    "playtime_minutes": 2281
+  },
+  {
+    "name": "Deadlock",
+    "appid": 1422450,
+    "store_link": "https://store.steampowered.com/app/1422450/",
+    "playtime_minutes": 20
+  },
+  {
+    "name": "Yu-Gi-Oh!  Master Duel",
+    "appid": 1449850,
+    "store_link": "https://store.steampowered.com/app/1449850/",
+    "playtime_minutes": 10223
+  },
+  {
+    "name": "VRoid Studio",
+    "appid": 1486350,
+    "store_link": "https://store.steampowered.com/app/1486350/",
+    "playtime_minutes": 330
+  },
+  {
+    "name": "The Callisto Protocol",
+    "appid": 1544020,
+    "store_link": "https://store.steampowered.com/app/1544020/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "MY HERO ULTRA RUMBLE",
+    "appid": 1607250,
+    "store_link": "https://store.steampowered.com/app/1607250/",
+    "playtime_minutes": 3454
+  },
+  {
+    "name": "Stumble Guys",
+    "appid": 1677740,
+    "store_link": "https://store.steampowered.com/app/1677740/",
+    "playtime_minutes": 193
+  },
+  {
+    "name": "Friends vs Friends",
+    "appid": 1785150,
+    "store_link": "https://store.steampowered.com/app/1785150/",
+    "playtime_minutes": 89
+  },
+  {
+    "name": "Escape Academy",
+    "appid": 1812090,
+    "store_link": "https://store.steampowered.com/app/1812090/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "GUNDAM EVOLUTION",
+    "appid": 1816670,
+    "store_link": "https://store.steampowered.com/app/1816670/",
+    "playtime_minutes": 22
+  },
+  {
+    "name": "PAIcom (furry computer assistant)",
+    "appid": 1876280,
+    "store_link": "https://store.steampowered.com/app/1876280/",
+    "playtime_minutes": 97
+  },
+  {
+    "name": "Volzerk : Monsters and Lands Unknown",
+    "appid": 1995730,
+    "store_link": "https://store.steampowered.com/app/1995730/",
+    "playtime_minutes": 466
+  },
+  {
+    "name": "Ghostrunner 2",
+    "appid": 2144740,
+    "store_link": "https://store.steampowered.com/app/2144740/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Combat Master",
+    "appid": 2281730,
+    "store_link": "https://store.steampowered.com/app/2281730/",
+    "playtime_minutes": 98
+  },
+  {
+    "name": "DoronkoWanko",
+    "appid": 2512840,
+    "store_link": "https://store.steampowered.com/app/2512840/",
+    "playtime_minutes": 39
+  },
+  {
+    "name": "Chained Together",
+    "appid": 2567870,
+    "store_link": "https://store.steampowered.com/app/2567870/",
+    "playtime_minutes": 1
+  },
+  {
+    "name": "Wild Assault",
+    "appid": 2827230,
+    "store_link": "https://store.steampowered.com/app/2827230/",
+    "playtime_minutes": 4
+  },
+  {
+    "name": "Schedule I",
+    "appid": 3164500,
+    "store_link": "https://store.steampowered.com/app/3164500/",
+    "playtime_minutes": 759
+  },
+  {
+    "name": "PEAK",
+    "appid": 3527290,
+    "store_link": "https://store.steampowered.com/app/3527290/",
+    "playtime_minutes": 603
+  },
+  {
+    "name": "DOOM II",
+    "appid": 2300,
+    "store_link": "https://store.steampowered.com/app/2300/",
+    "playtime_minutes": 299,
+    "storeUrl": "https://store.steampowered.com/app/205770/"
+  },
+  {
+    "name": "Master Levels for DOOM II",
+    "appid": 9160,
+    "store_link": "https://store.steampowered.com/app/9160/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/2280/"
+  },
+  {
+    "name": "Borderlands 2",
+    "appid": 49520,
+    "store_link": "https://store.steampowered.com/app/49520/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/49520/"
+  },
+  {
+    "name": "PAYDAY 2",
+    "appid": 218620,
+    "store_link": "https://store.steampowered.com/app/218620/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/218620/"
+  },
+  {
+    "name": "Kerbal Space Program",
+    "appid": 220200,
+    "store_link": "https://store.steampowered.com/app/220200/",
+    "playtime_minutes": 20,
+    "storeUrl": "https://store.steampowered.com/app/220200/"
+  },
+  {
+    "name": "War Thunder",
+    "appid": 236390,
+    "store_link": "https://store.steampowered.com/app/236390/",
+    "playtime_minutes": 5231,
+    "storeUrl": "https://store.steampowered.com/app/236390/"
+  },
+  {
+    "name": "Space Engineers",
+    "appid": 244850,
+    "store_link": "https://store.steampowered.com/app/244850/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/244850/"
+  },
+  {
+    "name": "Metro 2033 Redux",
+    "appid": 286690,
+    "store_link": "https://store.steampowered.com/app/286690/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/286690/"
+  },
+  {
+    "name": "Don't Starve Together",
+    "appid": 322330,
+    "store_link": "https://store.steampowered.com/app/322330/",
+    "playtime_minutes": 3009,
+    "storeUrl": "https://store.steampowered.com/app/322330/"
+  },
+  {
+    "name": "Frostpunk",
+    "appid": 323190,
+    "store_link": "https://store.steampowered.com/app/323190/",
+    "playtime_minutes": 1,
+    "storeUrl": "https://store.steampowered.com/app/323330/"
+  },
+  {
+    "name": "Keep Talking and Nobody Explodes",
+    "appid": 341800,
+    "store_link": "https://store.steampowered.com/app/341800/",
+    "playtime_minutes": 64,
+    "storeUrl": "https://store.steampowered.com/app/341800/"
+  },
+  {
+    "name": "Besiege",
+    "appid": 346010,
+    "store_link": "https://store.steampowered.com/app/346010/",
+    "playtime_minutes": 6,
+    "storeUrl": "https://store.steampowered.com/app/346010/"
+  },
+  {
+    "name": "ASTRONEER",
+    "appid": 361420,
+    "store_link": "https://store.steampowered.com/app/361420/",
+    "playtime_minutes": 14,
+    "storeUrl": "https://store.steampowered.com/app/361420/"
+  },
+  {
+    "name": "Through the Woods",
+    "appid": 368430,
+    "store_link": "https://store.steampowered.com/app/368430/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/368430/"
+  },
+  {
+    "name": "Stardew Valley",
+    "appid": 413150,
+    "store_link": "https://store.steampowered.com/app/413150/",
+    "playtime_minutes": 140,
+    "storeUrl": "https://store.steampowered.com/app/413150/"
+  },
+  {
+    "name": "Pankapu",
+    "appid": 418670,
+    "store_link": "https://store.steampowered.com/app/418670/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/418670/"
+  },
+  {
+    "name": "Golf With Your Friends",
+    "appid": 431240,
+    "store_link": "https://store.steampowered.com/app/431240/",
+    "playtime_minutes": 336,
+    "storeUrl": "https://store.steampowered.com/app/431240/"
+  },
+  {
+    "name": "Slime Rancher",
+    "appid": 433340,
+    "store_link": "https://store.steampowered.com/app/433340/",
+    "playtime_minutes": 132,
+    "storeUrl": "https://store.steampowered.com/app/433340/"
+  },
+  {
+    "name": "VRChat",
+    "appid": 438100,
+    "store_link": "https://store.steampowered.com/app/438100/",
+    "playtime_minutes": 41290,
+    "storeUrl": "https://store.steampowered.com/app/438100/"
+  },
+  {
+    "name": "Crush Crush",
+    "appid": 459820,
+    "store_link": "https://store.steampowered.com/app/459820/",
+    "playtime_minutes": 232,
+    "storeUrl": "https://store.steampowered.com/app/402840/"
+  },
+  {
+    "name": "System Shock",
+    "appid": 482400,
+    "store_link": "https://store.steampowered.com/app/482400/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/482400/"
+  },
+  {
+    "name": "Battlestar Galactica Deadlock",
+    "appid": 544610,
+    "store_link": "https://store.steampowered.com/app/544610/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/544610/"
+  },
+  {
+    "name": "Black Desert",
+    "appid": 582660,
+    "store_link": "https://store.steampowered.com/app/582660/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/582660/"
+  },
+  {
+    "name": "Fallout Shelter",
+    "appid": 588430,
+    "store_link": "https://store.steampowered.com/app/588430/",
+    "playtime_minutes": 788,
+    "storeUrl": "https://store.steampowered.com/app/588430/"
+  },
+  {
+    "name": "Will To Live Online",
+    "appid": 707010,
+    "store_link": "https://store.steampowered.com/app/707010/",
+    "playtime_minutes": 56,
+    "storeUrl": "https://store.steampowered.com/app/579980/"
+  },
+  {
+    "name": "Aimlabs",
+    "appid": 714010,
+    "store_link": "https://store.steampowered.com/app/714010/",
+    "playtime_minutes": 157,
+    "storeUrl": "https://store.steampowered.com/app/714010/"
+  },
+  {
+    "name": "AtmaSphere",
+    "appid": 753660,
+    "store_link": "https://store.steampowered.com/app/753660/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/621530/"
+  },
+  {
+    "name": "Mini World: Block Art",
+    "appid": 814480,
+    "store_link": "https://store.steampowered.com/app/814480/",
+    "playtime_minutes": 113,
+    "storeUrl": "https://store.steampowered.com/app/814190/"
+  },
+  {
+    "name": "Totally Accurate Battlegrounds",
+    "appid": 823130,
+    "store_link": "https://store.steampowered.com/app/823130/",
+    "playtime_minutes": 25,
+    "storeUrl": "https://store.steampowered.com/app/823500/"
+  },
+  {
+    "name": "Cell to Singularity - Evolution Never Ends",
+    "appid": 977400,
+    "store_link": "https://store.steampowered.com/app/977400/",
+    "playtime_minutes": 341,
+    "storeUrl": "https://store.steampowered.com/app/1024880/"
+  },
+  {
+    "name": "Fantasy General II",
+    "appid": 1025440,
+    "store_link": "https://store.steampowered.com/app/1025440/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1025440/"
+  },
+  {
+    "name": "Ultimate Zombie Defense",
+    "appid": 1035510,
+    "store_link": "https://store.steampowered.com/app/1035510/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1035510/"
+  },
+  {
+    "name": "ISLANDERS",
+    "appid": 1046030,
+    "store_link": "https://store.steampowered.com/app/1046030/",
+    "playtime_minutes": 29,
+    "storeUrl": "https://store.steampowered.com/app/1046030/"
+  },
+  {
+    "name": "People Playground",
+    "appid": 1118200,
+    "store_link": "https://store.steampowered.com/app/1118200/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1118200/"
+  },
+  {
+    "name": "Black Skylands",
+    "appid": 1143810,
+    "store_link": "https://store.steampowered.com/app/1143810/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1143810/"
+  },
+  {
+    "name": "Space Crew: Legendary Edition",
+    "appid": 1176710,
+    "store_link": "https://store.steampowered.com/app/1176710/",
+    "playtime_minutes": 1,
+    "storeUrl": "https://store.steampowered.com/app/1176710/"
+  },
+  {
+    "name": "The Sims\u2122 4",
+    "appid": 1222670,
+    "store_link": "https://store.steampowered.com/app/1222670/",
+    "playtime_minutes": 796,
+    "storeUrl": "https://store.steampowered.com/app/1222670/"
+  },
+  {
+    "name": "Lords and Villeins",
+    "appid": 1287530,
+    "store_link": "https://store.steampowered.com/app/1287530/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1287530/"
+  },
+  {
+    "name": "Helltaker",
+    "appid": 1289310,
+    "store_link": "https://store.steampowered.com/app/1289310/",
+    "playtime_minutes": 109,
+    "storeUrl": "https://store.steampowered.com/app/1289310/"
+  },
+  {
+    "name": "Ampersat",
+    "appid": 1356040,
+    "store_link": "https://store.steampowered.com/app/1356040/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1335120/"
+  },
+  {
+    "name": "Field of Glory II: Medieval",
+    "appid": 1368870,
+    "store_link": "https://store.steampowered.com/app/1368870/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1368560/"
+  },
+  {
+    "name": "IdleOn",
+    "appid": 1476970,
+    "store_link": "https://store.steampowered.com/app/1476970/",
+    "playtime_minutes": 167,
+    "storeUrl": "https://store.steampowered.com/app/1498640/"
+  },
+  {
+    "name": "Machinika Museum",
+    "appid": 1507190,
+    "store_link": "https://store.steampowered.com/app/1507190/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1523310/"
+  },
+  {
+    "name": "Capcom Arcade Stadium",
+    "appid": 1515950,
+    "store_link": "https://store.steampowered.com/app/1515950/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1515950/"
+  },
+  {
+    "name": "Farmer Against Potatoes Idle",
+    "appid": 1535560,
+    "store_link": "https://store.steampowered.com/app/1535560/",
+    "playtime_minutes": 26,
+    "storeUrl": "https://store.steampowered.com/app/1764650/"
+  },
+  {
+    "name": "Infinity Kingdom",
+    "appid": 1573360,
+    "store_link": "https://store.steampowered.com/app/1573360/",
+    "playtime_minutes": 447,
+    "storeUrl": "https://store.steampowered.com/app/1814630/"
+  },
+  {
+    "name": "HITMAN World of Assassination",
+    "appid": 1659040,
+    "store_link": "https://store.steampowered.com/app/1659040/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1659040/"
+  },
+  {
+    "name": "Enlisted",
+    "appid": 2051620,
+    "store_link": "https://store.steampowered.com/app/2051620/",
+    "playtime_minutes": 26,
+    "storeUrl": "https://store.steampowered.com/app/2051670/"
+  },
+  {
+    "name": "Outpath: First Journey",
+    "appid": 2237980,
+    "store_link": "https://store.steampowered.com/app/2237980/",
+    "playtime_minutes": 123,
+    "storeUrl": "https://store.steampowered.com/app/2237930/"
+  },
+  {
+    "name": "Nubs!",
+    "appid": 2337860,
+    "store_link": "https://store.steampowered.com/app/2337860/",
+    "playtime_minutes": 0
+  },
+  {
+    "name": "Balatro",
+    "appid": 2379780,
+    "store_link": "https://store.steampowered.com/app/2379780/",
+    "playtime_minutes": 1535,
+    "storeUrl": "https://store.steampowered.com/app/2379780/"
+  },
+  {
+    "name": "ARC Raiders Playtest",
+    "appid": 2427520,
+    "store_link": "https://store.steampowered.com/app/2427520/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/1706630/"
+  },
+  {
+    "name": "PICO PARK 2",
+    "appid": 2644470,
+    "store_link": "https://store.steampowered.com/app/2644470/",
+    "playtime_minutes": 217,
+    "storeUrl": "https://store.steampowered.com/app/2274410/"
+  },
+  {
+    "name": "Tinkerlands: A Shipwrecked Adventure",
+    "appid": 2658710,
+    "store_link": "https://store.steampowered.com/app/2658710/",
+    "playtime_minutes": 1110,
+    "storeUrl": "https://store.steampowered.com/app/2556940/"
+  },
+  {
+    "name": "ATLYSS",
+    "appid": 2768430,
+    "store_link": "https://store.steampowered.com/app/2768430/",
+    "playtime_minutes": 3,
+    "storeUrl": "https://store.steampowered.com/app/1997380/"
+  },
+  {
+    "name": "Buckshot Roulette",
+    "appid": 2835570,
+    "store_link": "https://store.steampowered.com/app/2835570/",
+    "playtime_minutes": 196,
+    "storeUrl": "https://store.steampowered.com/app/2836810/"
+  },
+  {
+    "name": "Content Warning",
+    "appid": 2881650,
+    "store_link": "https://store.steampowered.com/app/2881650/",
+    "playtime_minutes": 0,
+    "storeUrl": "https://store.steampowered.com/app/2852230/"
+  },
+  {
+    "name": "PEAK",
+    "appid": 3527290,
+    "store_link": "https://store.steampowered.com/app/3527290/",
+    "playtime_minutes": 968,
+    "storeUrl": "https://store.steampowered.com/app/2860840/"
+  },
+  {
+    "name": "Upload Labs",
+    "appid": 3606890,
+    "store_link": "https://store.steampowered.com/app/3606890/",
+    "playtime_minutes": 424,
+    "storeUrl": "https://store.steampowered.com/app/2688000/"
+  },
+  {
+    "name": "Limbo",
+    "storeUrl": "https://store.steampowered.com/app/48000/"
+  },
+  {
+    "name": "Fallout: A Post Nuclear Role Playing Game",
+    "storeUrl": "https://store.steampowered.com/app/38400/"
+  },
+  {
+    "name": "Fallout 2: A Post Nuclear Role Playing Game",
+    "storeUrl": "https://store.steampowered.com/app/38410/"
+  },
+  {
+    "name": "Fallout Tactics: Brotherhood of Steel",
+    "storeUrl": "https://store.steampowered.com/app/38420/"
+  },
+  {
+    "name": "Nubs\\!",
+    "storeUrl": "https://store.steampowered.com/app/2342000/"
+  }
+]

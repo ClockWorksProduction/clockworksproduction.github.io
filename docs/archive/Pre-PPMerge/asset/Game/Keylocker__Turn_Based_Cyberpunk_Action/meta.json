@@ -1,0 +1,39 @@
+{
+  "name": "Keylocker | Turn Based Cyberpunk Action",
+  "image": "https://cdn1.epicgames.com/spt-assets/186103570e674b0f9b60a1003ec09d07/keylocker-x74v0.png",
+  "appId": {
+    "steam": 0,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Keylocker | Turn Based Cyberpunk Action",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/keylocker--turn-based-cyberpunk-action",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

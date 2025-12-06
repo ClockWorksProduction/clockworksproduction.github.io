@@ -1,0 +1,43 @@
+{
+  "name": "Outpath: First Journey",
+  "image": "",
+  "appId": {
+    "steam": 2237980,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Outpath: First Journey is a prologue chapter of the main game, Outpath. An experimental clicker base building game. Craft, gather &amp; manage resources, build your base and buy more islands to exploit and expand!",
+  "developer": "David Moralejo Sánchez",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Adventure",
+    "Casual",
+    "Indie"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/2237980/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/outpath-first-journey",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

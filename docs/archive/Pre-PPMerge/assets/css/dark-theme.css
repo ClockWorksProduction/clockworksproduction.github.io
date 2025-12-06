@@ -1,0 +1,98 @@
+/* ============================================================
+   DARK THEME — ARCANE / MYSTIC / CRYPTIC
+   ============================================================ */
+
+   .theme-dark {
+    /* ---- Core Palette ---- */
+    --bg: #0d0b12;
+    --bg-alt: #16141d;
+
+    --surface: #191721;
+    --surface-alt: #221f2c;
+
+    --text: #e3def7;
+    --text-dim: #b8b4d4;
+
+    /* ---- Arcanepunk Energies ---- */
+    --arcane-core: #9f5cff;
+    --arcane-flare: #53ffe6;
+    --arcane-void: #2b223d;
+
+    /* ---- Accents ---- */
+    --accent: var(--arcane-core);
+    --accent-alt: var(--arcane-flare);
+
+    /* ---- Shared Sakura/Eco Link Between Themes ---- */
+    --eco-sakura: #ff83a8;
+    --eco-soft-glow: rgba(255, 131, 168, 0.15);
+}
+
+/* ============================================================
+   COMPONENT STYLING FOR DARK THEME
+   ============================================================ */
+
+/* ---------------- Navbar ---------------- */
+.theme-dark .nav {
+    background: var(--surface);
+    border-bottom: 2px solid var(--arcane-core);
+    box-shadow: 0 0 18px rgba(159, 92, 255, 0.15);
+}
+
+.theme-dark .nav a {
+    color: var(--text);
+}
+
+.theme-dark .nav a:hover {
+    color: var(--accent-alt);
+}
+
+/* ---------------- Sidebar ---------------- */
+.theme-dark .sidebar {
+    background: var(--surface-alt);
+    border-right: 3px solid var(--arcane-core);
+    box-shadow: 0 0 14px rgba(83, 255, 230, 0.2);
+}
+
+.theme-dark .sidebar-toggle {
+    background: var(--arcane-core);
+    color: #fff;
+}
+
+.theme-dark .sidebar a {
+    color: var(--text);
+}
+
+.theme-dark .sidebar a:hover {
+    background: rgba(159, 92, 255, 0.18);
+    color: var(--accent-alt);
+}
+
+/* ---------------- Footer ---------------- */
+.theme-dark .footer {
+    background: var(--surface);
+    border-top: 2px solid var(--arcane-core);
+    box-shadow: 0 -4px 18px rgba(159, 92, 255, 0.12);
+}
+
+/* ---------------- Cards ---------------- */
+.theme-dark .card {
+    background: var(--surface-alt);
+    border: 2px solid var(--arcane-core);
+    box-shadow: 0 0 10px rgba(83, 255, 230, 0.12);
+}
+
+/* ---------------- Buttons ---------------- */
+.theme-dark .btn {
+    background: var(--arcane-core);
+    color: #fff;
+}
+.theme-dark .btn:hover {
+    background: var(--arcane-flare);
+    color: #000;
+}
+
+/* ---------------- Sakura Ambient Glow ---------------- */
+.theme-dark .sakura-glow {
+    box-shadow: 0 0 20px var(--eco-soft-glow),
+                0 0 40px rgba(159, 92, 255, 0.1);
+}

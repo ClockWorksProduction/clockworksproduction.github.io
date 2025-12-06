@@ -1,0 +1,39 @@
+{
+  "name": "Figment 2: Creed Valley",
+  "image": "https://cdn1.epicgames.com/item/109a4631336a475ca4e4a8a51cc6fe69/figment2_wide_2560x1440-c799fc78fe47bda5cf8a1bb205ca134f",
+  "appId": {
+    "steam": 0,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/figment2-creed-valley",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}
