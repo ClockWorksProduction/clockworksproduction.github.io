@@ -1,273 +1,254 @@
-/* ============================================================
-   COMMON.CSS — Clean, Modular, Component-Based Rewrite
-   ============================================================ */
+/* Clockwork Production Studio — W3.CSS v5 based Base + Themes
+   Rewritten as requested (Option D). Single-file bundle containing:
+   1) Base W3-compatible utilities & components
+   2) Theme variable system (light & dark)
+   3) Component overrides (cards, nav, sidebar, footer, buttons)
 
-/* ============================================================
-   1. BASE RESET & TYPOGRAPHY
-   ============================================================ */
+   Usage:
+   - Keep this file linked after importing w3.css v5 OR remove the @import line if you already load w3.css separately.
+   - Add the class `theme-light` or `theme-dark` to the <html> or <body> element to switch theme.
+   - Core classes compatible with W3: use `w3-container`, `w3-row`, `w3-col`, `w3-card` etc. alongside the custom classes below.
+*/
 
-   .body {
-    background-color: var(--bg-color);
-    background-image: var(--bg-texture);
-    color: var(--text-color);
-    font-family: var(--font-body);
-    transition: background-color .4s ease, color .4s ease;
+@import url('https://www.w3schools.com/w3css/5/w3.css');
+
+/* ==================================================
+   0. W3-Compatible Root Variables (defaults)
+   ================================================== */
+:root {
+  /* Core */
+  --cw-bg: #0e0e0f;
+  --cw-bg-alt: #141214;
+  --cw-surface: #1a1b1d;
+  --cw-surface-alt: #232325;
+  --cw-text: #f5f5f5;
+  --cw-text-dim: #bdb8c7;
+
+  /* Accent */
+  --cw-accent: #d99343;   /* brass-ish */
+  --cw-accent-2: #f0b56a; /* lighter brass */
+
+  /* Effects */
+  --cw-radius: 12px;
+  --cw-transition: 0.28s ease;
+  --cw-shadow-1: 0 4px 18px rgba(0,0,0,0.45);
+  --cw-shadow-2: 0 8px 36px rgba(0,0,0,0.55);
+
+  /* Card */
+  --card-bg: var(--cw-surface);
+  --card-border: rgba(255,255,255,0.03);
+  --card-shadow: 0 6px 20px rgba(0,0,0,0.45);
+  --card-hover-shadow: 0 12px 34px rgba(0,0,0,0.6);
+
+  /* Nav */
+  --nav-bg: var(--cw-surface);
+  --nav-text: var(--cw-text);
+  --nav-border: rgba(255,255,255,0.04);
+  --nav-shadow: 0 4px 18px rgba(0,0,0,0.5);
+  --nav-hover-bg: rgba(217,147,67,0.08);
+  --nav-hover-text: #000;
+
+  /* Footer */
+  --footer-bg: var(--cw-surface);
+  --footer-text: var(--cw-text-dim);
+  --footer-border: rgba(255,255,255,0.03);
+
+  /* Sidebar */
+  --sidebar-width: 260px;
+
+  /* Misc */
+  --eco-sakura: #ff83a8;
+  --eco-soft-glow: rgba(255,131,168,0.18);
 }
 
-.heading, .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
-    font-family: var(--font-heading);
-    color: var(--heading-color);
-    text-shadow: var(--heading-shadow);
-    transition: color .3s ease, text-shadow .3s ease;
+/* ==================================================
+   1. Base helpers (W3-compatible, prefer using w3- classes)
+   ================================================== */
+html,body {
+  height: 100%;
+  margin: 0;
+  background: var(--cw-bg);
+  color: var(--cw-text);
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, 'Helvetica Neue', Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background var(--cw-transition), color var(--cw-transition);
 }
 
-.link {
-    color: var(--link-color);
-    text-decoration: none;
-    transition: color .3s ease, text-shadow .3s ease;
-}
+/* normalize to W3 naming when useful */
+.w3-card.cw-card, .card { background: var(--card-bg); border-radius: var(--cw-radius); box-shadow: var(--card-shadow); }
 
-.link:hover {
-    color: var(--link-hover-color);
-    text-shadow: var(--link-hover-shadow);
-}
+/* Text styles */
+.h1, .heading-1 { font-size: 2.0rem; font-weight: 700; letter-spacing: -0.02em; }
+.h2, .heading-2 { font-size: 1.5rem; font-weight: 600; }
+.h3, .heading-3 { font-size: 1.25rem; font-weight: 600; }
+.lead { font-size: 1.05rem; color: var(--cw-text-dim); }
 
-/* ============================================================
-   2. FLEX & GRID UTILITIES
-   ============================================================ */
+a { color: var(--cw-accent); text-decoration: none; transition: color var(--cw-transition); }
+a:hover { color: var(--cw-accent-2); }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-1 { width: 8.333%; }
-.col-2 { width: 16.666%; }
-.col-3 { width: 25%; }
-.col-4 { width: 33.333%; }
-.col-6 { width: 50%; }
-.col-12 { width: 100%; }
-
-.grid {
-    display: grid;
-}
-
+/* Utilities (small selection — extend as needed) */
+.w3-margin { margin: 1rem !important; }
+.w3-padding { padding: 1rem !important; }
+.w3-round-large { border-radius: var(--cw-radius) !important; }
 .center-text { text-align: center; }
-.round { border-radius: 8px; }
 
-/* ============================================================
-   3. SPACING UTILITIES
-   ============================================================ */
+/* Grid helpers (wraps W3 classes) */
+.cw-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: 20px; }
+.cw-row { display:flex; flex-wrap:wrap; gap:12px; }
 
-.pad-sm { padding: 8px 12px; }
-.pad { padding: 12px 18px; }
-.pad-lg { padding: 24px; }
-.pad-32 { padding-top: 32px; padding-bottom: 32px; }
-.pad-64 { padding-top: 64px; padding-bottom: 64px; }
-
-.mg-sm { margin: 8px 0; }
-.mg { margin: 16px 0; }
-.mg-lg { margin: 32px 0; }
-
-/* ============================================================
-   4. CARDS
-   ============================================================ */
-
-.card {
-    background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
-    box-shadow: var(--card-shadow);
-    padding: 24px;
-    border-radius: 6px;
-    backdrop-filter: blur(6px);
-    transition: all .3s ease;
+/* ==================================================
+   2. Components (Navbar, Sidebar, Footer, Cards, Buttons)
+   Designed to be minimal and compatible with W3
+   ================================================== */
+/* Navbar — use .nav or .w3-bar */
+.nav, .navbar, .w3-bar.cw-nav {
+  width: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:12px 18px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent), var(--nav-bg);
+  border-bottom: 1px solid var(--nav-border);
+  box-shadow: var(--nav-shadow);
+  position: sticky; top: 0; z-index: 200;
 }
 
-.card:hover {
-    box-shadow: var(--card-hover-shadow);
-    transform: translateY(-4px);
+.nav .brand { display:flex; align-items:center; gap:12px; }
+.nav .brand img { height:44px; width:auto; display:block; }
+
+/* Nav links */
+.nav-links { display:flex; gap:8px; align-items:center; }
+.nav a.nav-link { padding:8px 10px; border-radius:8px; color:var(--nav-text); }
+.nav a.nav-link:hover { background: var(--nav-hover-bg); color: var(--nav-hover-text); }
+
+/* Hamburger for mobile */
+.nav .nav-toggle { display:flex; align-items:center; cursor:pointer; gap:6px; }
+.nav .nav-toggle .line { width:24px; height:3px; background:var(--nav-text); border-radius:3px; }
+
+/* Sidebar — collapsible */
+.sidebar, .cw-sidebar {
+  position: fixed; left: 0; top: 0; height: 100%; width: var(--sidebar-width);
+  background: var(--nav-bg); padding-top:72px; box-shadow: var(--nav-shadow);
+  transition: transform var(--cw-transition) ease; z-index:190;
+}
+.sidebar-closed { transform: translateX(calc(var(--sidebar-width) * -1)); }
+
+.sidebar .bar-item { display:block; width:100%; padding:12px 18px; color:var(--nav-text); text-align:left; border:none; background:transparent; cursor:pointer; }
+.sidebar .bar-item:hover { background: var(--nav-hover-bg); color: var(--nav-hover-text); }
+
+/* Sidebar toggle */
+.sidebar-toggle { position: fixed; left: 16px; top: 16px; z-index:210; padding:8px; border-radius:8px; background:var(--nav-bg); border:1px solid var(--nav-border); cursor:pointer; }
+.sidebar-toggle:hover { background: var(--nav-hover-bg); }
+
+/* Cards */
+.cw-card, .w3-card { padding:18px; border-radius:10px; background:var(--card-bg); border:1px solid var(--card-border); transition: transform var(--cw-transition), box-shadow var(--cw-transition); }
+.cw-card:hover { transform: translateY(-6px); box-shadow: var(--card-hover-shadow); }
+.cw-card .card-title { font-weight: 700; margin-bottom:8px; }
+.cw-card .card-img { width:100%; border-radius:6px; display:block; }
+
+/* Buttons */
+.btn, .w3-button { padding:8px 14px; border-radius:8px; border:none; background:var(--cw-accent); color:#000; font-weight:600; cursor:pointer; transition: background var(--cw-transition), transform var(--cw-transition); }
+.btn:hover { background: var(--cw-accent-2); transform: translateY(-2px); }
+.btn.ghost { background: transparent; color: var(--cw-text); border:1px solid rgba(255,255,255,0.04); }
+
+/* Footer */
+.footer, .cw-footer { padding:28px 20px; background: var(--footer-bg); border-top:1px solid var(--footer-border); color: var(--footer-text); }
+.footer .footer-container { display:flex; gap:20px; flex-wrap:wrap; }
+.footer .footer-logo { height:56px; width:auto; }
+.footer a.footer-link { color: var(--footer-text); text-decoration:none; }
+
+/* Sakura ambient glow helper (shared) */
+.sakura-glow { box-shadow: 0 0 14px var(--eco-soft-glow); }
+
+/* ==================================================
+   3. Accessibility & small improvements
+   ================================================== */
+:focus { outline: 3px solid rgba(217,147,67,0.12); outline-offset: 2px; }
+img { max-width:100%; height:auto; display:block; }
+.hidden { display:none !important; }
+
+/* ==================================================
+   4. Theme definitions — light & dark (use on <html> or <body>)
+   ================================================== */
+/* ---------------- LIGHT THEME ---------------- */
+.theme-light {
+  --cw-bg: #f5f3ef;
+  --cw-bg-alt: #ebe7e2;
+  --cw-surface: #ffffff;
+  --cw-surface-alt: #f0ece6;
+  --cw-text: #2a2a2a;
+  --cw-text-dim: #5c5c5c;
+  --cw-accent: #c89f43;   /* brass */
+  --cw-accent-2: #b06c3a; /* copper */
+  --nav-hover-bg: rgba(200,159,67,0.12);
+  --nav-text: var(--cw-text);
+  --card-bg: var(--cw-surface);
+  --footer-bg: var(--cw-surface);
+  --footer-text: var(--cw-text-dim);
+  --eco-soft-glow: rgba(255,131,168,0.35);
 }
 
-.card-title {
-    font-family: var(--font-subheading);
-    color: var(--card-heading-color);
-    text-shadow: var(--card-heading-shadow);
+/* Component tweaks for light theme */
+.theme-light .nav { background: linear-gradient(180deg, var(--cw-surface), var(--cw-surface-alt)); box-shadow: 0 6px 20px rgba(0,0,0,0.06); border-bottom: 3px solid var(--cw-accent); }
+.theme-light .sidebar { background: var(--cw-surface-alt); border-right: 4px solid var(--cw-accent); }
+.theme-light .sidebar-toggle { background: var(--cw-accent); color:#fff; }
+.theme-light .card { border:2px solid rgba(0,0,0,0.04); box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+.theme-light .btn { background: var(--cw-accent); color:#fff; }
+.theme-light .btn:hover { background: var(--cw-accent-2); }
+
+/* ---------------- DARK THEME ---------------- */
+.theme-dark {
+  --cw-bg: #0d0b12;
+  --cw-bg-alt: #16141d;
+  --cw-surface: #191721;
+  --cw-surface-alt: #221f2c;
+  --cw-text: #e3def7;
+  --cw-text-dim: #b8b4d4;
+  --cw-accent: #9f5cff;   /* arcane core */
+  --cw-accent-2: #53ffe6; /* arcane flare */
+  --nav-hover-bg: rgba(159,92,255,0.14);
+  --nav-text: var(--cw-text);
+  --card-bg: var(--cw-surface-alt);
+  --footer-bg: var(--cw-surface);
+  --footer-text: var(--cw-text-dim);
+  --eco-soft-glow: rgba(255,131,168,0.15);
 }
 
-.card-img {
-    width: 100%;
-    border-radius: 4px;
+/* Component tweaks for dark theme */
+.theme-dark .nav { background: linear-gradient(180deg, var(--cw-surface), var(--cw-surface-alt)); box-shadow: 0 0 24px rgba(159,92,255,0.06); border-bottom: 2px solid var(--cw-accent); }
+.theme-dark .sidebar { background: var(--cw-surface-alt); border-right: 3px solid var(--cw-accent); box-shadow: 0 0 18px rgba(83,255,230,0.06); }
+.theme-dark .sidebar-toggle { background: var(--cw-accent); color:#000; }
+.theme-dark .card { border:2px solid rgba(159,92,255,0.06); box-shadow: 0 0 12px rgba(83,255,230,0.05); }
+.theme-dark .btn { background: var(--cw-accent); color:#fff; }
+.theme-dark .btn:hover { background: var(--cw-accent-2); color:#000; }
+
+/* ==================================================
+   5. Responsive rules (mobile-first where possible)
+   ================================================== */
+@media (max-width: 900px) {
+  .nav-links { display:none; }
+  .nav .nav-toggle { display:flex; }
+  .sidebar { transform: translateX(calc(var(--sidebar-width) * -1)); }
+  .sidebar-open { transform: translateX(0); }
 }
 
-/* ============================================================
-   5. NAVBAR (Clean & Responsive)
-   ============================================================ */
-
-.navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 18px;
-    background-color: var(--nav-bg);
-    backdrop-filter: blur(10px);
-    box-shadow: var(--nav-shadow);
-    border-bottom: 1px solid var(--nav-border);
-    position: sticky;
-    top: 0;
-    z-index: 20;
+@media (min-width: 901px) {
+  .nav-links { display:flex; align-items:center; }
+  .nav .nav-toggle { display:none; }
+  .sidebar { transform: translateX(0); }
 }
 
-.navbar-left,
-.navbar-right {
-    display: flex;
-    align-items: center;
+@media (max-width:700px) {
+  .cw-grid { grid-template-columns: 1fr; }
+  .footer .footer-container { flex-direction:column; align-items:center; }
 }
 
-.navbar-logo {
-    height: auto;
-    width: 100%;
-}
+/* ==================================================
+   6. Small helper JS hooks (classes used by JS)
+   - .sidebar-open toggles the sidebar
+   - .theme-light / .theme-dark set on <html> or <body>
+   ================================================== */
 
-.nav-links {
-    display: none; /* Hide top nav links by default */
-}
-
-.nav-link {
-    padding: 8px 12px;
-    color: var(--nav-text);
-    border-radius: 4px;
-    transition: background-color .3s ease, color .3s ease;
-}
-
-.nav-link:hover {
-    background-color: var(--nav-hover-bg);
-    color: var(--nav-hover-text);
-}
-
-/* Hamburger icon */
-.nav-toggle {
-    display: block; /* Show hamburger by default */
-    cursor: pointer;
-    padding: 8px;
-}
-
-.nav-toggle-line {
-    width: 28px;
-    height: 3px;
-    background-color: var(--nav-text);
-    margin: 5px 0;
-    border-radius: 4px;
-}
-
-/* ============================================================
-   6. COLLAPSIBLE SIDEBAR
-   ============================================================ */
-
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: var(--sidebar-width, 240px);
-    height: 100%;
-    background-color: var(--nav-bg);
-    box-shadow: var(--nav-shadow);
-    padding-top: 70px;
-    overflow-y: auto;
-    transition: transform .4s ease;
-    z-index: 30;
-}
-
-/* Sidebar collapsed */
-.sidebar-closed {
-    transform: translateX(calc(var(--sidebar-width, 240px) * -1));
-}
-
-.sidebar .bar-item.button {
-    display: block;
-    width: 100%;
-    text-align: left;
-    padding: 12px 18px;
-    color: var(--nav-text);
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-family: inherit;
-    transition: background-color .3s, color .3s;
-}
-
-.sidebar .bar-item.button:hover {
-    background-color: var(--nav-hover-bg);
-    color: var(--nav-hover-text);
-}
-
-
-/* Sidebar toggle button */
-.sidebar-toggle {
-    position: fixed;
-    top: 16px;
-    left: 16px;
-    z-index: 40;
-    padding: 8px 12px;
-    background-color: var(--nav-bg);
-    border: 1px solid var(--nav-border);
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.sidebar-toggle:hover {
-    background-color: var(--nav-hover-bg);
-}
-
-/* ============================================================
-   7. FOOTER
-   ============================================================ */
-
-.footer {
-    padding: 40px 20px;
-    background-color: var(--footer-bg);
-    border-top: 1px solid var(--footer-border);
-    color: var(--footer-text);
-}
-
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-}
-
-.footer-logo {
-    height: 64px;
-    width: auto;
-}
-
-.footer-column h4 {
-    color: var(--footer-heading-color);
-    font-family: var(--font-subheading);
-}
-
-.footer-link {
-    display: block;
-    padding: 4px 0;
-    color: var(--footer-text);
-}
-
-.social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.social-icons img {
-    width: 22px;
-    height: 22px;
-}
-
-/* ============================================================
-   8. RESPONSIVE RULES
-   ============================================================ */
-
-@media (max-width: 700px) {
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
-}
+/* end of file */
