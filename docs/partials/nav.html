@@ -1,28 +1,30 @@
-<header class="w3-bar w3-top">
+<!-- Navbar (sit on top) -->
+<header class="w3-bar w3-top nav-top">
   <!-- Brand -->
-  <a href="/" class="w3-bar-item w3-button">
-    <img src="/assets/img/logo.png" alt="CWP Logo" style="height: 40px; width: 40px;">
+  <a href="/index.html" class="w3-bar-item w3-button nav-item nav-wide">
+    <img src="/asset/CWP_logo_static_edited_Transparant.png" alt="CWP Logo" class="logo" style="height: 40px; width: 40px;">
     <span class="logo-title">Clockwork Production Studio</span>
   </a>
 
   <!-- Desktop Links -->
-  <div class="w3-right w3-hide-small">
-    <a href="/pages/about_us.html" class="w3-bar-item w3-button">About</a>
-    <a href="/pages/community.html" class="w3-bar-item w3-button">Community</a>
-    <a href="/pages/meet_the_crew.html" class="w3-bar-item w3-button">Team :3</a>
-    <a href="/pages/contact.html" class="w3-bar-item w3-button">Contact</a>
+  <div class="w3-right w3-hide-small nav-links">
+    <a href="/pages/about_us.html" class="w3-bar-item w3-button nav-link">ABOUT US</a>
 
-    <div class="w3-dropdown-hover">
-      <button class="w3-button">Divisions ▾</button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="/pages/frameforge" class="w3-bar-item w3-button">FrameForge</a>
-        <a href="/pages/pixelpals" class="w3-bar-item w3-button">PixelPals</a>
-        <a href="/pages/cwp-studio" class="w3-bar-item w3-button">CWP Studio</a>
+    <div class="nav-links nav-item dropdown w3-dropdown-hover">
+      <button class="w3-button nav-link">OUR WORK ▾</button>
+      <div class="dropdown-content w3-bar-block w3-card-4">
+        <a href="/pages/pixelpulse.html" class="w3-bar-item w3-button nav-link">PIXELPULSE</a>
+        <a href="/pages/frameforge.html" class="w3-bar-item w3-button nav-link">FRAMEFORGE</a>
+        <a href="/pages/cwp_studio.html" class="w3-bar-item w3-button nav-link">CWP STUDIO</a>
       </div>
     </div>
 
-    <!-- THEME BUTTON -->
-    <button id="themeToggle" class="w3-button w3-round-xxlarge" aria-label="Toggle Theme">
+    <a href="/pages/meet_the_crew.html" class="w3-bar-item w3-button nav-link">TEAM :3</a>
+    <a href="/pages/contact.html" class="w3-bar-item w3-button nav-link">CONTACT</a>
+    <a href="/pages/community.html" class="w3-bar-item w3-button nav-link">COMMUNITY</a>
+
+    <!-- Theme Toggle -->
+    <button id="themeToggle" class="w3-button w3-round-xxlarge nav-link" aria-label="Toggle Theme">
       <span class="sun-icon"><i class="fa-solid fa-sun"></i></span>
       <span class="moon-icon"><i class="fa-solid fa-moon"></i></span>
     </button>
@@ -34,15 +36,23 @@
   </a>
 </header>
 
-<!-- SIDEBAR -->
+<!-- Sidebar (Mobile) -->
 <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-large w3-hide-medium" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close &times;</a>
-  <a href="/" class="w3-bar-item w3-button">Home</a>
-  <a href="/pages/about_us.html" class="w3-bar-item w3-button">About</a>
-  <a href="/pages/community.html" class="w3-bar-item w3-button">Community</a>
-  <a href="/pages/meet_the_crew.html" class="w3-bar-item w3-button">Team :3</a>
-  <a href="/pages/contact.html" class="w3-bar-item w3-button">Contact</a>
-  <a href="/pages/frameforge" class="w3-bar-item w3-button">FrameForge</a>
-  <a href="/pages/pixelpals" class="w3-bar-item w3-button">PixelPals</a>
-  <a href="/pages/cwp-studio" class="w3-bar-item w3-button">CWP Studio</a>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close ×</a>
+  <button id="theme-toggle-side" class="w3-bar-item w3-button" onclick="toggleTheme()">THEME</button>
+  <a href="/index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="/pages/about_us.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+
+  <div class="nav-links nav-item dropdown w3-dropdown-hover">
+    <button class="w3-button nav-link">OUR WORK ▾</button>
+    <div class="dropdown-content w3-bar-block w3-card-4">
+      <a href="/pages/pixelpulse.html" class="w3-bar-item w3-button nav-link">PIXELPULSE</a>
+      <a href="/pages/frameforge.html" class="w3-bar-item w3-button nav-link">FRAMEFORGE</a>
+      <a href="/pages/cwp_studio.html" class="w3-bar-item w3-button nav-link">CWP STUDIO</a>
+    </div>
+  </div>
+
+  <a href="/pages/meet_the_crew.html" onclick="w3_close()" class="w3-bar-item w3-button nav-link">TEAM :3</a>
+  <a href="/pages/community.html" onclick="w3_close()" class="w3-bar-item w3-button nav-link">COMMUNITY</a>
+  <a href="/pages/contact.html" onclick="w3_close()" class="w3-bar-item w3-button nav-link">CONTACT</a>
 </nav>
