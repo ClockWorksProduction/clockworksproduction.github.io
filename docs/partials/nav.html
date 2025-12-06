@@ -1,60 +1,51 @@
-<!-- nav.html -->
-<head>
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MWQLLMSF');</script>
-    <!-- End Google Tag Manager -->
-    <link rel="stylesheet" href="dark-theme.css" id="theme">
-</head>
+<!-- NAVIGATION -->
+<header class="nav w3-top">
+  <div class="nav-inner">
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-    <div class="w3-bar w3-card" id="myNavbar">
-        <a href="/index.html" class="w3-bar-item w3-button w3-wide">
-            <img src="asset/CWP_logo_static_edited_Transparant.png" alt="logo for CWP" class="logo"/>
-        </a>
-        <!-- Right-sided navbar links -->
-        <div class="nav-links">
-            <a href="/about_us.html" class="nav-link w3-bar-item">ABOUT US</a>
-            <div class="nav-links w3-bar-item w3-dropdown-hover" style="padding: 0px 0px 0px 0px">
-                <button class="nav-link w3-botton">OUR WORK</button>
-                <div class="w3-dropdown-content w3-bar-block w3-border">
-                    <a href="/pixelpulse.html" class="nav-link w3-bar-item w3-button">PIXELPULSE</a>
-                    <a href="/frameforge.html" class="nav-link w3-bar-item w3-button">FRAMEFORGE</a>
-                    <a href="/cwp_studio.html" class="nav-link w3-bar-item w3-button">CWP Studio</a>
-                </div>
-            </div>
-            <a href="/meet_the_crew.html" class="nav-link w3-bar-item">TEAM :3</a>
-            <a href="/contact.html" class="nav-link w3-bar-item">CONTACT</a>
-            <a href="/community.html" class="nav-link w3-bar-item">COMMUNITY</a>
-            <button id="theme-toggle-nav" class="nav-link w3-bar-item w3-botton" onclick="toggleTheme()">DARK</button>
+    <!-- Brand -->
+    <a href="/" class="brand">
+      <img src="/assets/img/logo.png" alt="CWP Logo">
+      <span class="logo-title">Clockwork Production Studio</span>
+    </a>
+
+    <!-- Desktop Links -->
+    <div class="nav-links">
+      <a href="/pages/about_us.html" class="nav-link">About</a>
+      <a href="/pages/community.html" class="nav-link">Community</a>
+      <a href="/pages/contact.html" class="nav-link">Contact</a>
+
+      <!-- Dropdown -->
+      <div class="w3-dropdown-hover">
+        <button class="nav-link w3-button">Divisions ▾</button>
+        <div class="w3-dropdown-content w3-card dropdown-panel">
+          <a href="/pages/frameforge" class="dropdown-item">FrameForge</a>
+          <a href="/pages/pixelpals" class="dropdown-item">PixelPals</a>
+          <a href="/pages/cwp-studio" class="dropdown-item">CWP Studio</a>
         </div>
-
-        <!-- Hide right-floated links on medium and large screens and replace them with a menu icon -->
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()">
-            <img src="/assets/svgs/solid/bars.svg" alt="Menu icon" width="20">
-        </a>
+      </div>
     </div>
-</div>
 
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-gray w3-card w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    <button id="theme-toggle-side" class="nav-link w3-bar-item" onclick="toggleTheme()">DARK</button>
-    <a href="/index.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">HOME</a>
-    <a href="/about_us.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">ABOUT US</a>
-    <div class="nav-links w3-bar-item w3-dropdown-hover" style="padding: 0px 0px 0px 0px">
-        <button class="nav-link w3-botton">OUR WORK <i class="fa fa-caret-down"></i></button>
-        <div class="w3-dropdown-content w3-bar-block w3-border">
-            <a href="/pixelpulse.html" class="nav-link w3-bar-item w3-button">PIXELPULSE</a>
-            <a href="/frameforge.html" class="nav-link w3-bar-item w3-button">FRAMEFORGE</a>
-            <a href="/cwp_studio.html" class="nav-link w3-bar-item w3-button">CWP Studio</a>
-        </div>
+    <!-- Hamburger -->
+    <div class="nav-toggle" onclick="toggleSidebar()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
     </div>
-    <a href="/meet_the_crew.html" class="nav-link w3-bar-item">TEAM :3</a>
-    <a href="/community.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">COMMUNITY</a>
-    <a href="/contact.html" onclick="w3_close()" class="nav-link w3-bar-item w3-button">CONTACT</a>
-</nav>
+
+  </div>
+</header>
+
+<!-- SIDEBAR -->
+<aside id="mobileSidebar" class="sidebar sidebar-closed">
+  <button class="bar-item" onclick="toggleSidebar()">✕ Close</button>
+
+  <a href="/" class="bar-item">Home</a>
+  <a href="/pages/about_us.html" class="bar-item">About</a>
+  <a href="/pages/community.html" class="bar-item">Community</a>
+  <a href="/pages/contact.html" class="bar-item">Contact</a>
+
+  <div class="bar-item" style="opacity:.6; margin-top:12px;">Divisions</div>
+  <a href="/pages/frameforge" class="bar-item">FrameForge</a>
+  <a href="/pages/pixelpals" class="bar-item">PixelPals</a>
+  <a href="/pages/cwp-studio" class="bar-item">CWP Studio</a>
+</aside>

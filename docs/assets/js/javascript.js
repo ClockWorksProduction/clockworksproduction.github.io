@@ -1,25 +1,19 @@
-/* common js
-================================================== */
+/* Sidebar Toggle */
+function toggleSidebar() {
+  const sidebar = document.getElementById("mobileSidebar");
+  sidebar.classList.toggle("sidebar-open");
+  sidebar.classList.toggle("sidebar-closed");
+}
 
-/* navaigation and footer */
-document.addEventListener("DOMContentLoaded", () => {
+/* Theme Toggle (optional) */
+function setTheme(mode) {
+  document.documentElement.classList.remove("theme-light", "theme-dark");
+  document.documentElement.classList.add(mode);
+  localStorage.setItem("cw-theme", mode);
+}
 
-  // Load footer
-  fetch('/partials/footer.html')
-    .then(response => response.text())
-    .then(data => {
-      const footer = document.getElementById('footer-placeholder');
-      if (footer) footer.innerHTML = data;
-    });
-
-  // Load navbar
-  fetch('/partials/nav.html')
-    .then(response => response.text())
-    .then(data => {
-      const nav = document.getElementById('nav-placeholder');
-      if (nav) nav.innerHTML = data;
-    });
-
-});
-
-
+/* Auto-load theme */
+(function() {
+  const saved = localStorage.getItem("cw-theme");
+  if (saved) document.documentElement.classList.add(saved);
+})();
