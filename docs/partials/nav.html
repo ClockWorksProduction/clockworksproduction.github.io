@@ -1,39 +1,41 @@
 <!-- Navbar (W3 structure with new CSS) -->
-<header class="w3-bar w3-top w3-card nav">
-  <!-- Brand -->
-  <a href="/index.html" class="w3-bar-item w3-button">
-    <img src="/asset/CWP_logo_static_edited_Transparant.png" alt="CWP Logo" style="height:40px;width:40px;">
-    <span class="logo-title">Clockwork Production Studio</span>
-  </a>
+<header class="w3-top nav">
+  <div class="w3-bar w3-card" id="myNavbar">
+    <!-- Brand -->
+    <a href="/" class="w3-bar-item w3-button">
+      <img src="/assets/img/logo.png" alt="CWP Logo" style="height:40px;width:40px;">
+      <span class="logo-title">ClockworkProduction</span>
+    </a>
 
-  <!-- Desktop links -->
-  <div class="w3-right w3-hide-small nav-links">
-    <a href="/pages/about_us.html" class="w3-bar-item w3-button">ABOUT US</a>
+    <!-- Desktop links -->
+    <div class="w3-bar-item w3-right w3-hide-small">
+      <a href="/pages/about_us.html" class="w3-bar-item w3-button">ABOUT US</a>
 
-    <div class="w3-dropdown-hover">
-      <button class="w3-button">OUR WORK ▾</button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="/pages/pixelpulse.html" class="w3-bar-item w3-button">PIXELPULSE</a>
-        <a href="/pages/frameforge.html" class="w3-bar-item w3-button">FRAMEFORGE</a>
-        <a href="/pages/cwp_studio.html" class="w3-bar-item w3-button">CWP STUDIO</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">OUR WORK ▾</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="/pages/pixelpulse.html" class="w3-bar-item w3-button">PIXELPULSE</a>
+          <a href="/pages/frameforge.html" class="w3-bar-item w3-button">FRAMEFORGE</a>
+          <a href="/pages/cwp_studio.html" class="w3-bar-item w3-button">CWP STUDIO</a>
+        </div>
       </div>
+
+      <a href="/pages/meet_the_crew.html" class="w3-bar-item w3-button">TEAM :3</a>
+      <a href="/pages/contact.html" class="w3-bar-item w3-button">CONTACT</a>
+      <a href="/pages/community.html" class="w3-bar-item w3-button">COMMUNITY</a>
+
+      <!-- Theme toggle button -->
+      <button id="themeToggle" class="w3-bar-item w3-button round" aria-label="Toggle Theme">
+        <span class="sun-icon"><i class="fa-solid fa-sun"></i></span>
+        <span class="moon-icon"><i class="fa-solid fa-moon"></i></span>
+      </button>
     </div>
 
-    <a href="/pages/meet_the_crew.html" class="w3-bar-item w3-button">TEAM :3</a>
-    <a href="/pages/contact.html" class="w3-bar-item w3-button">CONTACT</a>
-    <a href="/pages/community.html" class="w3-bar-item w3-button">COMMUNITY</a>
-
-    <!-- Theme toggle button -->
-    <button id="themeToggle" class="w3-button round" aria-label="Toggle Theme">
-      <span class="sun-icon"><i class="fa-solid fa-sun"></i></span>
-      <span class="moon-icon"><i class="fa-solid fa-moon"></i></span>
-    </button>
+    <!-- Mobile Hamburger -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
-
-  <!-- Mobile Hamburger -->
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-    <i class="fa fa-bars"></i>
-  </a>
 </header>
 
 <!-- Sidebar (mobile) -->
