@@ -1,11 +1,9 @@
 /* ============================================================================
-   CLOCKWORKS PRODUCTION SITE — MAIN CSS (REFACTORED)
-   Version: 5.3.0
+   CLOCKWORKS PRODUCTION SITE — MAIN CSS (RESPONSIVE)
+   Version: 5.3.0-RESP
    Author: Clockworks Production & Gemini
    License: MIT
-   Notes: This version restores the original navigation design, fully integrated
-          with the theme-aware design token system for a seamless and
-          consistent user experience.
+   Notes: Fully responsive units applied for all fixed values.
 ============================================================================ */
 
 /* ============================================================================
@@ -21,16 +19,15 @@
 ============================================================================ */
 
 :root {
-    /* ---- Core Palette & Themes ---- */
     --cw-bg: #f5f3ef; --cw-bg-alt: #ebe7e2; --cw-surface: #ffffff; --cw-surface-alt: #f0ece6;
     --cw-text: #2a2a2a; --cw-text-dim: #5c5c5c; --cw-accent: #c89f43; --cw-accent-alt: #b06c3a;
     --cw-switch-bg: #ccc; --cw-switch-knob-bg: white;
 
-    /* ---- Shadows & Shape ---- */
-    --cw-radius: 12px; --cw-shadow-1: 0 4px 12px rgba(0,0,0,0.07); --cw-shadow-2: 0 8px 18px rgba(0,0,0,0.1);
+    --cw-radius: 0.75rem; 
+    --cw-shadow-1: 0 0.25rem 0.75rem rgba(0,0,0,0.07); 
+    --cw-shadow-2: 0 0.5rem 1.125rem rgba(0,0,0,0.1);
     --cw-transition: 0.4s ease;
 
-    /* ---- Font System ---- */
     --font-h1: 'Cormorant Garamond', serif; --font-h2: 'Roboto Slab', serif; --font-p: 'Source Sans Pro', sans-serif;
     --font-nav: 'Roboto Condensed', sans-serif; --font-footer: 'Roboto Slab', serif; --font-code: 'Source Code Pro', monospace;
 }
@@ -38,34 +35,43 @@
 [data-theme="dark"] {
     --cw-bg: #0d0b12; --cw-bg-alt: #16141d; --cw-surface: #191721; --cw-surface-alt: #221f2c;
     --cw-text: #e3def7; --cw-text-dim: #b8b4d4; --cw-accent: #9f5cff; --cw-accent-alt: #53ffe6;
-    --cw-shadow-1: 0 0 18px rgba(159, 92, 255, 0.15); --cw-shadow-2: 0 0 30px rgba(83, 255, 230, 0.2);
+    --cw-shadow-1: 0 0 1.125rem rgba(159, 92, 255, 0.15); 
+    --cw-shadow-2: 0 0 1.875rem rgba(83, 255, 230, 0.2);
     --cw-switch-bg: var(--cw-accent-alt); --cw-switch-knob-bg: var(--cw-bg-alt);
     --font-h1: 'Cinzel Decorative', serif; --font-h2: 'Cinzel', serif; --font-p: 'Inter', sans-serif;
     --font-nav: 'Cinzel', sans-serif; --font-footer: 'Spectral', serif; --font-code: 'Fira Code', monospace;
 }
 
 /* ============================================================================
-   3. BASE & TYPOGRAPHY
+   3. BASE & TYPOGRAPHY (RESPONSIVE)
 ============================================================================ */
 
-html { box-sizing: border-box; font-size: 16px; line-height: 1.6; overflow-x: hidden; }
+html { box-sizing: border-box; font-size: 100%; line-height: 1.6; overflow-x: hidden; }
 *, *::before, *::after { box-sizing: inherit; margin: 0; padding: 0; }
-body { background-color: var(--cw-bg); color: var(--cw-text); font-family: var(--font-p); transition: background-color var(--cw-transition), color var(--cw-transition); }
-h1 { font-family: var(--font-h1); font-weight: 700; font-size: 3.5rem; line-height: 1.2; }
-h2 { font-family: var(--font-h2); font-weight: 600; font-size: 2.5rem; }
-h3 { font-family: var(--font-h2); font-weight: 500; font-size: 1.75rem; }
+
+body { 
+    background-color: var(--cw-bg); 
+    color: var(--cw-text); 
+    font-family: var(--font-p); 
+    transition: background-color var(--cw-transition), color var(--cw-transition); 
+}
+
+h1 { font-family: var(--font-h1); font-weight: 700; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.2; }
+h2 { font-family: var(--font-h2); font-weight: 600; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+h3 { font-family: var(--font-h2); font-weight: 500; font-size: clamp(1.25rem, 3vw, 1.75rem); }
+
 a { color: var(--cw-accent); text-decoration: none; transition: color var(--cw-transition); }
 a:hover { color: var(--cw-accent-alt); }
 
 /* ============================================================================
-   4. NAVIGATION
+   4. NAVIGATION (RESPONSIVE)
 ============================================================================ */
 
 .nav .w3-bar { 
     background-color: var(--cw-surface-alt);
     font-family: var(--font-nav);
     box-shadow: var(--cw-shadow-1);
-    border-bottom: 2px solid var(--cw-accent);
+    border-bottom: 0.125rem solid var(--cw-accent);
 }
 .nav .w3-button { color: var(--cw-text-dim); transition: all var(--cw-transition); }
 .nav .w3-button:hover { color: var(--cw-accent-alt); background-color: var(--cw-bg-alt); }
@@ -73,183 +79,77 @@ a:hover { color: var(--cw-accent-alt); }
 .w3-dropdown-content { background-color: var(--cw-surface); border-radius: var(--cw-radius); }
 .w3-sidebar { background-color: var(--cw-surface-alt); }
 
-
 /* ============================================================================
-   5. LAYOUT & CORE COMPONENTS
+   5. LAYOUT & CORE COMPONENTS (RESPONSIVE)
 ============================================================================ */
 
-.hero { display: flex; align-items: center; justify-content: center; text-align: center; min-height: 60vh; padding: 2rem; background-color: var(--cw-bg-alt);}
+.hero { display: flex; align-items: center; justify-content: center; text-align: center; min-height: 60vh; padding: 2vw; background-color: var(--cw-bg-alt); }
 .hero-content h1 { margin-bottom: 1rem; }
-.hero-content .subtitle { font-size: 1.25rem; color: var(--cw-text-dim); max-width: 600px; margin: 0 auto 2rem auto; }
-.service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 3rem 2rem; }
+.hero-content .subtitle { font-size: clamp(1rem, 2.5vw, 1.25rem); color: var(--cw-text-dim); max-width: 90%; margin: 0 auto 2rem auto; }
+.service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); gap: 2vw; padding: 3vw 2vw; }
 
 .cw-card {
-    background-color: var(--cw-surface); border-radius: var(--cw-radius); border: 1px solid var(--cw-accent);
-    transition: all var(--cw-transition); padding: 2rem; display: flex; flex-direction: column; box-shadow: var(--cw-shadow-1);
+    background-color: var(--cw-surface); 
+    border-radius: var(--cw-radius); 
+    border: 0.1rem solid var(--cw-accent);
+    transition: all var(--cw-transition); padding: 2vw; display: flex; flex-direction: column; box-shadow: var(--cw-shadow-1);
 }
-.cw-card:hover { transform: translateY(-4px); box-shadow: var(--cw-shadow-2); }
-.cw-card h3 { color: var(--cw-accent); margin-bottom: 1rem; }
+.cw-card:hover { transform: translateY(-0.25rem); box-shadow: var(--cw-shadow-2); }
+.cw-card h3 { color: var(--cw-accent); margin-bottom: 0.5rem; }
 .cw-card p { flex-grow: 1; }
-.cw-card .w3-button { margin-top: 1.5rem; background-color: var(--cw-accent); color: var(--cw-bg); border-radius: calc(var(--cw-radius) / 2); transition: background-color var(--cw-transition); }
+.cw-card .w3-button { margin-top: 1rem; background-color: var(--cw-accent); color: var(--cw-bg); border-radius: calc(var(--cw-radius)/2); transition: background-color var(--cw-transition); }
 .cw-card .w3-button:hover { background-color: var(--cw-accent-alt); color: var(--cw-bg) !important; }
 
-.footer { font-family: var(--font-footer); background-color: var(--cw-surface-alt); border-top: 2px solid var(--cw-accent); padding: 2rem; text-align: center; }
+.footer { font-family: var(--font-footer); background-color: var(--cw-surface-alt); border-top: 0.125rem solid var(--cw-accent); padding: 2vw; text-align: center; }
 
 /* ============================================================================
-   6. UTILITIES & WIDGETS
+   6. UTILITIES & WIDGETS (RESPONSIVE)
 ============================================================================ */
 
-/* --- Theme Toggle Switch --- */
-.theme-toggle-container { display: flex; align-items: center; justify-content: center; padding: 0 8px; }
-.switch { position: relative; display: inline-block; width: 60px; height: 34px; }
+/* Theme Toggle Switch */
+.theme-toggle-container { display: flex; align-items: center; justify-content: center; padding: 0 0.5rem; }
+.switch { position: relative; display: inline-block; width: 3.75rem; height: 2.125rem; }
 .switch input { opacity: 0; width: 0; height: 0; }
-.slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: var(--cw-switch-bg); transition: var(--cw-transition); border-radius: 34px; }
-.slider:before { position: absolute; content: ""; height: 26px; width: 26px; left: 4px; bottom: 4px; background-color: var(--cw-switch-knob-bg); transition: var(--cw-transition); border-radius: 50%; }
+.slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: var(--cw-switch-bg); transition: var(--cw-transition); border-radius: 50%; }
+.slider:before { position: absolute; content: ""; height: 1.625rem; width: 1.625rem; left: 0.25rem; bottom: 0.25rem; background-color: var(--cw-switch-knob-bg); transition: var(--cw-transition); border-radius: 50%; }
 input:checked + .slider { background-color: var(--cw-accent); }
-input:checked + .slider:before { transform: translateX(26px); }
+input:checked + .slider:before { transform: translateX(1.625rem); }
 
-/* --- Google Translate --- */
-#google_translate_element_desktop, #google_translate_element_mobile { padding: 0 8px; }
-.goog-te-banner-frame.skiptranslate, .goog-te-gadget-icon { display: none !important; }
-body { top: 0 !important; }
+/* Google Translate */
+#google_translate_element_desktop, #google_translate_element_mobile { padding: 0 0.5rem; }
 
-/* --- Animated Background --- */
+/* Animated Background */
 body::before { content: ""; position: fixed; inset: 0; pointer-events: none; z-index: -1; opacity: 0.1; animation: bg-animation 120s linear infinite; }
-[data-theme="dark"] body::before { filter: brightness(0.8); }
-@keyframes bg-animation { 0% { transform: translate(0,0) rotate(0deg); } 100% { transform: translate(20px, 10px) rotate(120deg); } }
+@keyframes bg-animation { 0% { transform: translate(0,0) rotate(0deg); } 100% { transform: translate(1.25vw, 0.625vw) rotate(120deg); } }
 
 /* ============================================================================
-   7. TIMELINE
+   7. TIMELINE (RESPONSIVE)
 ============================================================================ */
 
-/* The actual timeline (the vertical ruler) */
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+.timeline { position: relative; max-width: 90%; margin: 0 auto; }
+.timeline::after { content: ''; position: absolute; width: 0.375rem; background-color: var(--cw-accent); top: 0; bottom: 0; left: 50%; margin-left: -0.1875rem; }
 
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 6px;
-  background-color: var(--cw-accent);
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-}
+.timeline .container { padding: 0.625rem 2.5rem; position: relative; background-color: inherit; width: 50%; }
+.timeline .container::after { content: ''; position: absolute; width: 1.5625rem; height: 1.5625rem; right: -1.0625rem; background-color: var(--cw-surface); border: 0.25rem solid var(--cw-accent-alt); top: 0.9375rem; border-radius: 50%; z-index: 1; }
 
-/* Container around content */
-.timeline .container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
+.timeline .left { left: 0; }
+.timeline .right { left: 50%; }
+.timeline .left::before { content: ""; height: 0; position: absolute; top: 1.375rem; width: 0; z-index: 1; right: 1.875rem; border: 0.625rem solid var(--cw-surface); border-width: 0.625rem 0 0.625rem 0.625rem; border-color: transparent transparent transparent var(--cw-surface); }
+.timeline .right::before { content: ""; height: 0; position: absolute; top: 1.375rem; width: 0; z-index: 1; left: 1.875rem; border: 0.625rem solid var(--cw-surface); border-width: 0.625rem 0.625rem 0.625rem 0; border-color: transparent var(--cw-surface) transparent transparent; }
+.timeline .right::after { left: -1rem; }
 
-/* The circles on the timeline */
-.timeline .container::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: var(--cw-surface);
-  border: 4px solid var(--cw-accent-alt);
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-}
+.timeline .content { padding: 1.25rem 1.875rem; background-color: var(--cw-surface); position: relative; border-radius: var(--cw-radius); box-shadow: var(--cw-shadow-1); }
 
-/* Place the container to the left */
-.timeline .left {
-  left: 0;
-}
-
-/* Place the container to the right */
-.timeline .right {
-  left: 50%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.timeline .left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid var(--cw-surface);
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent var(--cw-surface);
-}
-
-/* Add arrows to the right container (pointing left) */
-.timeline .right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid var(--cw-surface);
-  border-width: 10px 10px 10px 0;
-  border-color: transparent var(--cw-surface) transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
-.timeline .right::after {
-  left: -16px;
-}
-
-/* The actual content */
-.timeline .content {
-  padding: 20px 30px;
-  background-color: var(--cw-surface);
-  position: relative;
-  border-radius: var(--cw-radius);
-  box-shadow: var(--cw-shadow-1);
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .timeline::after {
-    left: 31px;
-  }
-
-  /* Full-width containers */
-  .timeline .container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-
-  /* Make sure that all arrows are pointing leftwards */
-  .timeline .container::before {
-    left: 60px;
-    border: medium solid var(--cw-surface);
-    border-width: 10px 10px 10px 0;
-    border-color: transparent var(--cw-surface) transparent transparent;
-  }
-
-  /* Make sure all circles are at the same spot */
-  .timeline .left::after, .timeline .right::after {
-    left: 15px;
-  }
-
-  /* Make all right containers behave like the left ones */
-  .timeline .right {
-    left: 0%;
-  }
+@media screen and (max-width: 37.5rem) { /* 600px */
+    .timeline::after { left: 1.938rem; }
+    .timeline .container { width: 100%; padding-left: 4.375rem; padding-right: 1.5625rem; }
+    .timeline .container::before { left: 3.75rem; border-width: 0.625rem 0.625rem 0.625rem 0; border-color: transparent var(--cw-surface) transparent transparent; }
+    .timeline .left::after, .timeline .right::after { left: 0.9375rem; }
+    .timeline .right { left: 0; }
 }
 
 /* ============================================================================
-   8. HERO SECTION
+   8. HERO IMAGE SECTION (RESPONSIVE)
 ============================================================================ */
 
 .hero-image-section {
@@ -263,23 +163,14 @@ body::before { content: ""; position: fixed; inset: 0; pointer-events: none; z-i
     justify-content: center;
     text-align: center;
     color: var(--cw-text);
-    text-shadow: 0px 0px 1px var(--cw-accent-alt);
-    text-shadow: 1px 1px 2px var(--cw-accent);
+    text-shadow: 0 0 0.0625rem var(--cw-accent-alt), 0.0625rem 0.0625rem 0.125rem var(--cw-accent);
 }
 
 .hero-image-section.grayscale-min { filter: grayscale(30%); }
 .hero-image-section#home { background-image: url(../img/BTW1.jpg); background-color: var(--cw-bg-alt); }
 .hero-image-section#mtc { background-image: url(../img/BTW1.jpg); background-color: var(--cw-bg-alt); }
 
-.hero-content .jumbo { 
-    font-size: 4rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.hero-content .hero-subtitle { 
-    font-size: 1.5rem; 
-}
-
+.hero-content .jumbo { font-size: clamp(2.5rem, 6vw, 4rem); font-weight: bold; text-transform: uppercase; }
+.hero-content .hero-subtitle { font-size: clamp(1rem, 2.5vw, 1.5rem); }
 .hero-content .w3-animate-opacity { animation: opac 1.5s; }
 @keyframes opac { from { opacity: 0; } to { opacity: 1; } }

@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- PAGE-SPECIFIC: The title of the page should be changed here. -->
-    <title>Page Title - ClockWorksProduction</title>
+    <title>ClockWorksProduction</title>
     
     <!-- The single, unified stylesheet for the entire site. -->
     <link rel="stylesheet" href="/assets/css/main.css">
@@ -42,15 +42,122 @@
         <!-- Example Header -->
         <section class="hero hero-image-section" id="home">
             <div class="hero-content w3-animate-opacity">
-                <h1 class="jumbo">Welcome to ClockWorks</h1>
-                <p class="hero-subtitle">Innovative solutions for your creative projects</p>
+                <h1 class="jumbo">Welcome to ClockWorksProduction</h1>
+                <p class="hero-subtitle">Giving Knowledge in a Fun Way Since 2021</p>
                 <a href="#services" class="w3-button">Explore Services</a>
             </div>
         </section>
 
         <!-- Example Content Section -->
-        <div class="w3-container w3-padding-64" id="Lorem">
-             <p>Your main page content starts here.</p>
+        <div class="w3-container w3-padding-64" id="services">
+             <!-- About Section -->
+            <section class="w3-container w3-padding-64 w3-center" id="about">
+                <h2>About Us</h2>
+                <p>
+                    ClockWorksProduction (CWP) is a creative digital collective blending entertainment and education through immersive storytelling. Founded in 2021, what began as a passion project has grown into a multi-branch studio specializing in games, animation, and interactive media. With a focus on innovation, narrative, and atmospheric design, CWP is dedicated to crafting meaningful and engaging experiences across every medium we touch.
+                </p>
+                <p>
+                    Our team is made up of storytellers, coders, artists, and dreamers — all working together to bring compelling, eerie, and unforgettable experiences to life.
+                    Whether you're delving into one of our command-line horror games, watching animated tales unfold, or following our VTuber talent, we’re here to blur the line between fiction and reality.
+                </p>
+            </section>
+
+            <!-- Featured Projects -->
+            <section class="w3-container w3-padding-64 w3-center" id="projects">
+                <h2>CWP Sub-Branch</h2>
+                <div class="w3-row-padding" style="margin-top:64px">
+                    <div class="w3-third">
+                        <a href="/pages/pixelpals/" style="text-decoration: none;">
+                            <div class="w3-card-4">
+                                <img src="/assets/img/PixelPulse_Logo.png" alt="PixelPulse" style="width:100%">
+                                <div class="w3-container w3-center">
+                                    <h3>Pixel Pals</h3>
+                                    <p>CWP's in-house VTuber collective, focusing on enjoyable learning and fun through interactive streams and engaging videos. Meet talents like AgentBlackTigerStreams!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w3-third">
+                        <a href="/pages/frameforge/" style="text-decoration: none;">
+                            <div class="w3-card-4">
+                                <img src="/assets/img/FrameForge_Logo.png" alt="FrameForge" style="width:100%">
+                                <div class="w3-container w3-center">
+                                    <h3>FrameForge</h3>
+                                    <p>CWP's animation studio, known for producing stylized visuals and hauntingly creative short films. As we like to say, "Coffee + Synfig + Passion = Our Animation". Check out "MLBT" for a taste of our work!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w3-third">
+                        <a href="/pages/cwp-studio/" style="text-decoration: none;">
+                            <div class="w3-card-4">
+                                <img src="/assets/img/CWP_Studio_New_Logo.png" alt="CWP Studio" style="width:100%">
+                                <div class="w3-container w3-center">
+                                    <h3>CWP Studio</h3>
+                                    <p>Our game development arm. Here at CWP Studio, we aim to create and explore new ways of enjoyable learning through games and interactive experiences, just like how learning is supposed to be fun. :3c</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Vertical Timeline (gitGraph) -->
+            <section class="w3-container w3-padding-64 w3-center" id="timeline">
+                <div class="w3-card-4">
+                    <div class="w3-container">
+                        <h2>Our History</h2>
+                        <div class="mermaid">
+    %%{ init: { 'gitGraph': { 'mainBranchName': 'TKZI', 'rotateCommitLabel': true }, 'theme': 'base', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#e0e0e0', 'primaryBorderColor': '#cd7f32', 'lineColor': '#cd7f32', 'secondaryColor': '#00ffff', 'tertiaryColor': '#8a2be2' } } }%%
+                    gitGraph
+                        commit id: "6 Jan 2021: TKZI Setup"
+                        branch CWP
+                        commit id: "6 Jun 2021: Discord Community Created"
+                        checkout TKZI
+                        commit id: "8 Jun 2021: First TKZI Video"
+                        commit id: "Dec 2021: Expanded to MLBT"
+                        branch FrameForge
+                        commit id: "31 Dec 2022: FNIA Gacha Series Launch"
+                        checkout TKZI
+                        commit id: "20 Feb 2023: GETAK Launch (Video Essays)"
+                        commit id: "Q1 2023: GETAK Announced on MLBT"
+                        commit id: "Mid 2023: MLBT On-Hold"
+                        checkout FrameForge
+                        commit id: "Mid 2023: GETAK On-Hold"
+                        checkout TKZI
+                        branch PixelPals
+                        commit id: "Q1 2024: Twitch Channel Created"
+                        branch CWP_Studio
+                        checkout CWP
+                        commit id: "4 Feb 2024: Start 'Void Impendium'"
+                        checkout TKZI
+                        checkout PixelPals
+                        commit id: "16 May 2024: First Stream (w/ ZlimBratSki)"
+                        checkout CWP
+                        merge TKZI id: "May 2024: Restructure Content Branch"
+                        checkout PixelPals
+                        commit id: "10 Apr 2025: VRChat Debut & Furry Reveal"
+                        checkout CWP
+                        commit id: "8 Apr 2025: Discord Update & Birthday"
+                        commit id: "13 Apr 2025: New Website Launched"
+                        checkout FrameForge
+                        commit id: "25 May 2025: FNIA Series Continues"
+                        checkout CWP_Studio
+                        commit id: "26 May 2025: Void Impendium On-Hold"
+                        checkout CWP
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Community CTA -->
+            <section class="w3-container w3-padding-64 w3-center w3-theme-l4" id="join">
+                <h2>Join the Workshop</h2>
+                <p>Connect with the guild and become part of the grand experiment.</p>
+                <a href="#projects" class="w3-button w3-round-large w3-margin"><i class="fas fa-gamepad"></i> Explore Our Creations</a>
+                <a href="https://discord.gg/8Pspj3chzc" class="w3-button w3-round-large w3-margin"><i class="fab fa-discord"></i> Join Discord</a>
+                <a href="https://patreon.com/ClockWorksProduction?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" class="w3-button w3-round-large w3-margin"><i class="fas fa-heart"></i> Support Us</a>
+            </section>
         </div>
 
     </main>
@@ -63,6 +170,9 @@
     <script src="/assets/js/javascript.js"></script>
 
     <!-- PAGE-SPECIFIC: Optional scripts for a particular page can be added below -->
-    
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
 </body>
 </html>
