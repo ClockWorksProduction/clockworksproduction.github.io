@@ -25,10 +25,15 @@
             <a href="/pages/community.html" class="w3-bar-item w3-button">COMMUNITY</a>
 
             <!-- Theme toggle -->
-            <button id="theme-switch-btn-desktop" class="theme-switch-btn">
-                <i class="fa-solid fa-sun sun-icon"></i>
-                <i class="fa-solid fa-moon moon-icon"></i>
-            </button>
+            <div class="w3-bar-item">
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-desktop" class="theme-toggle-checkbox">
+                    <span class="slider round">
+                        <i class="fa-solid fa-magic-wand-sparkles"></i>
+                        <i class="fa-solid fa-gears"></i>
+                    </span>
+                </label>
+            </div>
         </div>
 
         <!-- Mobile Hamburger -->
@@ -43,10 +48,15 @@
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close ×</a>
 
     <!-- Theme toggle -->
-    <button id="theme-switch-btn-mobile" class="theme-switch-btn">
-        <i class="fa-solid fa-sun sun-icon"></i>
-        <i class="fa-solid fa-moon moon-icon"></i>
-    </button>
+    <div class="w3-bar-item">
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle-mobile" class="theme-toggle-checkbox">
+            <span class="slider round">
+                <i class="fa-solid fa-magic-wand-sparkles"></i>
+                <i class="fa-solid fa-gears"></i>
+            </span>
+        </label>
+    </div>
 
     <a href="/index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
     <a href="/pages/about_us.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>

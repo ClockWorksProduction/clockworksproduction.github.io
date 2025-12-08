@@ -44,25 +44,35 @@ function w3_close() {
 }
 
 // -------------------------------
-// 4. Theme Toggle Logic
+// 4. Theme Toggle Logic (Slider)
 // -------------------------------
 function setTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
   localStorage.setItem('theme', theme);
+
+  // Sync all checkbox sliders
+  const toggles = document.querySelectorAll('.theme-toggle-checkbox');
+  toggles.forEach(toggle => {
+    toggle.checked = theme === 'dark';
+  });
 }
 
-function initThemeSwitchButtons() {
-  const desktopBtn = document.getElementById('theme-switch-btn-desktop');
-  const mobileBtn = document.getElementById('theme-switch-btn-mobile');
+// Initialize slider after DOM loaded
+function initThemeSlider() {
+  const toggles = document.querySelectorAll('.theme-toggle-checkbox');
+  if (toggles.length === 0) return;
 
-  function toggleTheme() {
-      const current = document.documentElement.getAttribute('data-theme') || 'light';
-      const newTheme = current === 'light' ? 'dark' : 'light';
-      setTheme(newTheme);
-  }
+  // Set initial state from localStorage
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  setTheme(savedTheme);
 
-  if (desktopBtn) desktopBtn.addEventListener('click', toggleTheme);
-  if (mobileBtn) mobileBtn.addEventListener('click', toggleTheme);
+  // Add event listeners to all toggles
+  toggles.forEach(toggle => {
+    toggle.addEventListener('change', () => {
+        const newTheme = toggle.checked ? 'dark' : 'light';
+        setTheme(newTheme);
+    });
+  });
 }
 
 // -------------------------------
@@ -75,12 +85,8 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   Promise.all(partials).then(() => {
-      // Initialize sidebar buttons and theme switch
-      initThemeSwitchButtons();
-
-      // Load saved theme
-      const savedTheme = localStorage.getItem('theme') || 'light';
-      setTheme(savedTheme);
+      // Initialize slider after partials injected
+      initThemeSlider();
   });
 });
 
@@ -88,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // 6. Optional Libraries (e.g., Mermaid)
 // -------------------------------
 function initMermaid() {
-if (typeof mermaid !== "undefined") {
-  mermaid.initialize({ startOnLoad: true });
-}
+  if (typeof mermaid !== "undefined") {
+    mermaid.initialize({ startOnLoad: true });
+  }
 }
