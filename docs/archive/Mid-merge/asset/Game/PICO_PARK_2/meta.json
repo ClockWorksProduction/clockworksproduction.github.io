@@ -1,0 +1,42 @@
+{
+  "name": "PICO PARK 2",
+  "image": "",
+  "appId": {
+    "steam": 2644470,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "PICO PARK is back with all new levels! Play with 2-8 players locally or online in this co-op action-puzzle game!",
+  "developer": "TECOPARK",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action",
+    "Casual"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/2644470/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

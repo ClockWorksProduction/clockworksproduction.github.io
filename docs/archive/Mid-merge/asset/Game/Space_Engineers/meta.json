@@ -1,0 +1,41 @@
+{
+  "name": "Space Engineers",
+  "image": "",
+  "appId": {
+    "steam": 244850,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Unleash Your Need to Create",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/244850/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/space-engineers",
+    "gog": "",
+    "xbox": "https://www.xbox.com/en-us/games/store/space-engineers/bzv519n2wsd6",
+    "playstation": "https://store.playstation.com/en-us/product/UP4363-PPSA05235_00-SPACEENGINEERS01",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://www.spaceengineersgame.com/"
+  }
+}

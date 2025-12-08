@@ -1,0 +1,41 @@
+{
+  "name": "Fallout: A Post Nuclear Role Playing Game",
+  "image": "https://cdn1.epicgames.com/item/2e412cfcbd954e7180930e9784a47e18/EGS_FalloutAPostNuclearRolePlayingGame_BethesdaGameStudios_S1_2560x1440-548598863fb854e957d7706a24c6d381",
+  "appId": {
+    "steam": 0,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Fallout: A Post Nuclear Role Playing Game",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/38400/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/fallout-a-post-nuclear-role-playing-game",
+    "gog": "https://www.gog.com/game/fallout",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

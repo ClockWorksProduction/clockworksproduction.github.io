@@ -1,0 +1,43 @@
+{
+  "name": "Pankapu",
+  "image": "",
+  "appId": {
+    "steam": 418670,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Pankapu is a narrative action-platformer that takes place in the dreams of Djaha’rell, a child troubled by a tragic incident. Upgrade your skills, find new competencies, switch your Aegis in real time in order to get rid of Nightmare",
+  "developer": "Too Kind Studio",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Indie"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/418670/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/pankapu",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

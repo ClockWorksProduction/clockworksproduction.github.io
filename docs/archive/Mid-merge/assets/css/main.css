@@ -1,0 +1,611 @@
+/* ============================================================================
+    IMPORTS
+============================================================================ */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://www.w3schools.com/w3css/5/w3.css');
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;500;600;700&display=swap');
+
+/* ============================================================================
+   THEME VARIABLES
+============================================================================ */
+:root {
+    --cw-bg: #0e0e0f;
+    --cw-bg-alt: #141214;
+    --cw-surface: #1a1b1d;
+    --cw-surface-alt: #232325;
+    --cw-text: #f5f5f5;
+    --cw-text-dim: #bdb8c7;
+    --cw-accent: #d99343;
+    --cw-accent-2: #f0b56a;
+    --cw-radius: 12px;
+    --cw-gap: 12px;
+    --cw-transition: 0.28s ease;
+    --cw-shadow-1: 0 4px 18px rgba(0, 0, 0, 0.45);
+    --cw-shadow-2: 0 8px 36px rgba(0, 0, 0, 0.55);
+
+    --cw-h1-color: #3e2723;
+    --cw-h2-color: #4e342e;
+    --cw-h3-color: #5d4037;
+    --cw-h4-color: #6d4c41;
+    --cw-h5-color: #7d5a50;
+    --cw-h6-color: #8d6e63;
+    --cw-p-color: #2a2a2a;
+
+    --cw-h1-font-weight: 700;
+    --cw-h2-font-weight: 600;
+    --cw-h3-font-weight: 500;
+    --cw-h4-font-weight: 500;
+    --cw-h5-font-weight: 400;
+    --cw-h6-font-weight: 400;
+    --cw-p-font-weight: 300;
+
+    --cw-h1-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h2-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h3-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h4-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h5-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h6-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-p-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    --cw-h1-font-size: 36px;
+    --cw-h2-font-size: 30px;
+    --cw-h3-font-size: 24px;
+    --cw-h4-font-size: 20px;
+    --cw-h5-font-size: 18px;
+    --cw-h6-font-size: 16px;
+    --cw-p-font-size: 14px;
+
+    --cw-h1-decor: drop-shadow(0 0 4px #d99343);
+    --cw-h2-decor: drop-shadow(0 0 3px #d99343);
+    --cw-h3-decor: drop-shadow(0 0 2px #d99343);
+    --cw-h4-decor: drop-shadow(0 0 2px #d99343);
+    --cw-h5-decor: drop-shadow(0 0 1px #d99343);
+    --cw-h6-decor: drop-shadow(0 0 1px #d99343);
+    --cw-p-decor: none;
+}
+
+[data-theme="light"] {
+    --cw-bg: #f5f3ef;
+    --cw-bg-alt: #ebe7e2;
+    --cw-surface: #ffffff;
+    --cw-surface-alt: #f0ece6;
+    --cw-text: #2a2a2a;
+    --cw-text-dim: #5c5c5c;
+    --cw-accent: #c89f43;
+    --cw-accent-2: #b06c3a;
+
+    --cw-h1-color: #3e2723;
+    --cw-h2-color: #4e342e;
+    --cw-h3-color: #5d4037;
+    --cw-h4-color: #6d4c41;
+    --cw-h5-color: #7d5a50;
+    --cw-h6-color: #8d6e63;
+    --cw-p-color: #2a2a2a;
+
+    --cw-h1-font-weight: 700;
+    --cw-h2-font-weight: 600;
+    --cw-h3-font-weight: 500;
+    --cw-h4-font-weight: 500;
+    --cw-h5-font-weight: 400;
+    --cw-h6-font-weight: 400;
+    --cw-p-font-weight: 300;
+
+    --cw-h1-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h2-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h3-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h4-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h5-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h6-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-p-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    --cw-h1-decor: drop-shadow(0 0 4px #c89f43);
+    --cw-h2-decor: drop-shadow(0 0 3px #c89f43);
+    --cw-h3-decor: drop-shadow(0 0 2px #c89f43);
+    --cw-h4-decor: drop-shadow(0 0 2px #c89f43);
+    --cw-h5-decor: drop-shadow(0 0 1px #c89f43);
+    --cw-h6-decor: drop-shadow(0 0 1px #c89f43);
+    --cw-p-decor: none;
+}
+
+[data-theme="dark"] {
+    --cw-bg: #0d0b12;
+    --cw-bg-alt: #16141d;
+    --cw-surface: #191721;
+    --cw-surface-alt: #221f2c;
+    --cw-text: #e3def7;
+    --cw-text-dim: #b8b4d4;
+    --cw-accent: #9f5cff;
+    --cw-accent-2: #53ffe6;
+
+    --cw-h1-color: #d1c4e9;
+    --cw-h2-color: #b39ddb;
+    --cw-h3-color: #9575cd;
+    --cw-h4-color: #7e57c2;
+    --cw-h5-color: #673ab7;
+    --cw-h6-color: #5e35b1;
+    --cw-p-color: #e3def7;
+
+    --cw-h1-font-weight: 700;
+    --cw-h2-font-weight: 600;
+    --cw-h3-font-weight: 500;
+    --cw-h4-font-weight: 500;
+    --cw-h5-font-weight: 400;
+    --cw-h6-font-weight: 400;
+    --cw-p-font-weight: 300;
+
+    --cw-h1-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h2-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h3-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h4-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h5-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-h6-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cw-p-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    --cw-h1-decor: drop-shadow(0 0 4px #9f5cff);
+    --cw-h2-decor: drop-shadow(0 0 3px #9f5cff);
+    --cw-h3-decor: drop-shadow(0 0 2px #9f5cff);
+    --cw-h4-decor: drop-shadow(0 0 2px #9f5cff);
+    --cw-h5-decor: drop-shadow(0 0 1px #9f5cff);
+    --cw-h6-decor: drop-shadow(0 0 1px #9f5cff);
+    --cw-p-decor: none;
+}
+
+/* ============================================================================
+   BASE RESET & TYPOGRAPHY — W3.CSS + Custom Overrides
+============================================================================ */
+html {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after { box-sizing: inherit; }
+
+body { 
+    margin: 0; 
+    background-color: var(--cw-bg);
+    color: var(--cw-text);
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+    display: block;
+}
+
+audio, canvas, progress, video { display: inline-block; }
+[hidden], template { display: none; }
+
+a { color: inherit; text-decoration: none; background-color: transparent; }
+a:hover, a:active { outline: 0; }
+
+h1 { 
+    color: var(--cw-h1-color);
+    font-size: var(--cw-h1-font-size);
+    font-family: var(--cw-h1-font-family);
+    font-weight: var(--cw-h1-font-weight);
+    text-decoration: var(--cw-h1-decor);
+}
+
+h2 { 
+    color: var(--cw-h2-color);
+    font-size: var(--cw-h2-font-size);
+    font-family: var(--cw-h2-font-family);
+    font-weight: var(--cw-h2-font-weight);
+    text-decoration: var(--cw-h2-decor);
+}
+
+h3 { 
+    color: var(--cw-h3-color);
+    font-size: var(--cw-h3-font-size);
+    font-family: var(--cw-h3-font-family);
+    font-weight: var(--cw-h3-font-weight);
+    text-decoration: var(--cw-h3-decor);
+}
+
+h4 { 
+    color: var(--cw-h4-color);
+    font-size: var(--cw-h4-font-size);
+    font-family: var(--cw-h4-font-family);
+    font-weight: var(--cw-h4-font-weight);
+    text-decoration: var(--cw-h4-decor);
+}
+
+h5 { 
+    color: var(--cw-h5-color);
+    font-size: var(--cw-h5-font-size);
+    font-family: var(--cw-h5-font-family);
+    font-weight: var(--cw-h5-font-weight);
+    text-decoration: var(--cw-h5-decor);
+}
+
+h6 {
+    color: var(--cw-h6-color);
+    font-size: var(--cw-h6-font-size);
+    font-family: var(--cw-h6-font-family);
+    font-weight: var(--cw-h6-font-weight);
+    text-decoration: var(--cw-h6-decor);
+}
+
+
+p {
+    color: var(--cw-p-color);
+    font-family: var(--cw-p-font-family);
+    font-size: var(--cw-p-font-size);
+    font-weight: var(--cw-p-font-weight);
+    text-decoration: var(--cw-p-decor);
+}
+
+/* ============================================================================
+   UTILITIES — Spacing, Flex/Grid
+============================================================================ */
+.row { display: flex; flex-wrap: wrap; }
+.col-1 { width: 8.333%; } .col-2 { width: 16.666%; } .col-3 { width: 25%; }
+.col-4 { width: 33.333%; } .col-6 { width: 50%; } .col-12 { width: 100%; }
+
+.grid { display: grid; }
+.center-text { text-align: center; }
+.round { border-radius: 8px; }
+
+.pad-sm { padding: 8px 12px; }
+.pad { padding: 12px 18px; }
+.pad-lg { padding: 24px; }
+.pad-32 { padding-top: 32px; padding-bottom: 32px; }
+.pad-64 { padding-top: 64px; padding-bottom: 64px; }
+
+.mg-sm { margin: 8px 0; }
+.mg { margin: 16px 0; }
+.mg-lg { margin: 32px 0; }
+
+/* ============================================================================
+   COMPONENTS — Buttons, Inputs, Tags
+============================================================================ */
+.cw-button {
+    background-color: var(--cw-accent);
+    color: var(--cw-text);
+    border-radius: var(--cw-radius);
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    border: none;
+}
+
+.cw-button:hover { background-color: var(--cw-accent-2); box-shadow: var(--cw-shadow-1); }
+
+.cw-input, .cw-select {
+    border: none;
+    border-bottom: 2px solid var(--cw-text-dim);
+    background: var(--cw-bg-alt);
+    color: var(--cw-text);
+    padding: 8px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.cw-input:focus, .cw-select:focus { border-bottom: 2px solid var(--cw-accent); }
+
+.cw-tag, .cw-badge {
+    background-color: var(--cw-accent-2);
+    color: var(--cw-bg);
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 0 8px;
+    display: inline-block;
+}
+
+/* ============================================================================
+   NAVBAR
+============================================================================ */
+.nav, .cw-top {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 12px 24px; */
+    background-color: var(--cw-surface);
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    box-shadow: var(--cw-shadow-1);
+    transition: all 0.3s ease;
+}
+
+.nav-links a, .cw-bar-item {
+    color: var(--cw-text);
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover, .cw-bar-item:hover {
+    background-color: rgba(217,147,67,0.08);
+}
+
+[data-theme="dark"] .nav-links a:hover,
+[data-theme="dark"] .cw-bar-item:hover {
+    background-color: rgba(159,92,255,0.14);
+}
+
+[data-theme="light"] .nav-links a:hover {
+    background-color: rgba(200,159,67,0.12);
+}
+
+/* ============================================================================
+   FOOTER
+============================================================================ */
+.footer {
+    background-color: var(--cw-surface);
+    color: var(--cw-text-dim);
+    text-align: center;
+    padding: 24px;
+    border-top: 1px solid rgba(255,255,255,0.04);
+    box-shadow: var(--cw-shadow-1);
+    margin-top: 48px;
+}
+
+/* ============================================================================
+   CARDS
+============================================================================ */
+.card {
+    background-color: var(--cw-surface);
+    border: 1px solid var(--cw-bg-alt);
+    box-shadow: var(--cw-shadow-1);
+    padding: 24px;
+    border-radius: 6px;
+    backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+}
+
+.card:hover { box-shadow: var(--cw-shadow-2); transform: translateY(-2px); }
+
+/* ============================================================================
+   HERO SECTION
+============================================================================ */
+.hero-section {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--cw-text);
+    background: var(--cw-bg) center/cover no-repeat;
+}
+
+.hero-title-section {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--cw-text);
+    background: url('/assets/img/BTW1.jpg') center/cover no-repeat;
+}
+
+.hero-content {
+    margin-left: 48px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 24px;
+    border-radius: var(--cw-radius);
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 12px;
+    color: var(--cw-text);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: var(--cw-text-dim);
+}
+
+/* ============================================================================
+   PROGRESS BAR
+============================================================================ */
+.progress-container {
+    width: 100%;
+    background-color: var(--cw-surface-alt);
+    border-radius: var(--cw-radius);
+    box-shadow: var(--cw-shadow-1);
+}
+
+.progress-bar {
+    height: 24px;
+    background-color: var(--cw-accent);
+    border-radius: var(--cw-radius);
+    transition: width 0.4s ease;
+    text-align: right;
+    color: var(--cw-bg);
+    line-height: 24px;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+/* ============================================================================
+   SIDEBAR
+============================================================================ */
+#cw-sidebar, #mySidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: var(--cw-surface);
+    z-index: 30;
+    overflow-x: hidden;
+    transform: translateX(-100%);
+    transition: transform 0.35s ease;
+}
+
+#cw-sidebar.open, #mySidebar.open { transform: translateX(0); }
+
+#cw-sidebar a, #mySidebar a, #mySidebar button {
+    display: block;
+    color: var(--cw-text);
+    padding: 12px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+#cw-sidebar a:hover, #mySidebar a:hover, #mySidebar button:hover {
+    background-color: rgba(217,147,67,0.1);
+}
+
+/* ============================================================================
+   THEME TOGGLE SWITCH
+============================================================================ */
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.theme-switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+[data-theme="dark"] .slider:before {
+    background-color: var(--cw-bg-alt);
+}
+
+.theme-toggle-checkbox:checked + .slider {
+  background-color: var(--cw-accent);
+}
+
+.theme-toggle-checkbox:focus + .slider {
+  box-shadow: 0 0 1px var(--cw-accent);
+}
+
+.theme-toggle-checkbox:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.gear-icon, .crystal-ball-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.gear-icon {
+  color: goldenrod;
+}
+
+.crystal-ball-icon{
+    color: purple;
+}
+
+.crystal-ball-icon {
+  left: 8px;
+  opacity: 1;
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.gear-icon {
+  right: 8px;
+  opacity: 0;
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.theme-toggle-checkbox:checked + .slider .crystal-ball-icon {
+  opacity: 0;
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.theme-toggle-checkbox:checked + .slider .gear-icon {
+  opacity: 1;
+  transform: translateY(-50%) rotate(0deg);
+}
+
+/* ============================================================================
+   OVERLAY EFFECT — Steampunk / Sakura Accent
+============================================================================ */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 5;
+    background-repeat: repeat;
+    background-size: contain;
+    opacity: 0.1;
+    transition: background-image 0.5s ease;
+}
+
+[data-theme="dark"] body::before {
+    animation: darkParticleParallax 180s linear infinite, glowDark 4s ease-in-out infinite alternate;
+}
+
+@keyframes darkParticleParallax {
+    0% { transform: translate(0,0) rotate(0deg); }
+    25% { transform: translate(5px,-2px) rotate(15deg); }
+    50% { transform: translate(10px,4px) rotate(30deg); }
+    75% { transform: translate(5px,2px) rotate(45deg); }
+    100% { transform: translate(0,0) rotate(60deg); }
+}
+
+@keyframes glowDark {
+    0% { opacity: 0.08; filter: drop-shadow(0 0 2px #9f5cff); }
+    50% { opacity: 0.12; filter: drop-shadow(0 0 6px #9f5cff); }
+    100% { opacity: 0.08; filter: drop-shadow(0 0 2px #9f5cff); }
+}
+
+[data-theme="light"] body::before {
+    animation: lightParticleParallax 120s linear infinite, glowLight 3s ease-in-out infinite alternate;
+}
+
+@keyframes lightParticleParallax {
+    0% { transform: translate(0,0) rotate(0deg); }
+    25% { transform: translate(10px,-5px) rotate(30deg); }
+    50% { transform: translate(20px,10px) rotate(60deg); }
+    75% { transform: translate(10px,5px) rotate(90deg); }
+    100% { transform: translate(0,0)rotate(120deg); }
+}
+
+@keyframes glowLight {
+    0% { opacity: 0.08; filter: drop-shadow(0 0 2px #f0b56a); }
+    50% { opacity: 0.12; filter: drop-shadow(0 0 6px #f0b56a); }
+    100% { opacity: 0.08; filter: drop-shadow(0 0 2px #f0b56a); }
+}

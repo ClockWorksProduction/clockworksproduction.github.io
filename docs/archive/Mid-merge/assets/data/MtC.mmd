@@ -1,0 +1,65 @@
+%%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#e0e0e0', 'primaryBorderColor': '#cd7f32', 'lineColor': '#cd7f32', 'secondaryColor': '#00ffff', 'tertiaryColor': '#8a2be2' } } }%%
+flowchart TB
+    subgraph sg_Corp["ClockWorksProduction"]
+        O2["Current Owner"]
+        O3["Council of Administrators"]
+        sg_CWP["CWPStudio"]
+        sg_FrameForge["FrameForge"]
+        sg_PixelPulse["PixelPulse"]
+    end
+    subgraph sg_Founders["Founding Members"]
+        fB["Co-Founder: AbyssalWhiteTiger"]
+        fA["Founder: ClockWorks / BlackTiger"]
+    end
+    subgraph sg_Ex["Ex-Members"]
+        eA["Art Directorate: Elisa"]
+        eB["Story Planner: Tew"]
+        eC["Game Co-Designer: Zhumayi"]
+    end
+    subgraph sg_Owners["Owners"]
+        cA["Co-Owner: Mangafa"]
+        sg_Founders
+    end
+    subgraph sg_Admin["Council of Administrators"]
+        O3A["Council Core"]
+    end
+    subgraph sg_CWP["CWPStudio"]
+        csA["Head of Programming: ClockWorks/BlackTiger"]
+        csB["Art Directorate: Mangafa"]
+        csC["Head of Marketing: ClockWorks"]
+    end
+    subgraph sg_FrameForge["FrameForge"]
+        ffTalent["FrameForge Talent"]
+    end
+    subgraph ffTalent["FrameForge Talent"]
+        fftA["The Knowledge Zone International"]
+        fftB["PixelPals Animation"]
+    end
+    subgraph fftA["The Knowledge Zone International"]
+        tkziA["Head of TKZI: ClockWorks/BlackTiger"]
+        mlbt["Mission Logs: BlackTiger"]
+        getk["Gacha Explain — Theories & Knowledge"]
+    end
+    subgraph fftB["PixelPals Animation"]
+        PixPalAnimA["Head of PixelPals: Mangafa"]
+        PixPalAnimB["PixelPals Moderators"]
+    end
+    subgraph PixPalAnimB["PixelPals Moderators"]
+        PiPA["MasterNinjaOwO"]
+    end
+    subgraph sg_PixelPulse["PixelPulse"]
+        ppTalent["PixelPulse Talents / V-Tubers"]
+    end
+    subgraph ppTalent["PixelPulse Talents / V-Tubers"]
+        talentA["Agent Black Tigers Stream"]
+        talentB["Mangafs"]
+    end
+    sg_Owners --> O2
+    O2 --> O3
+    O3 --> sg_CWP
+    O3 --> sg_FrameForge
+    O3 --> sg_PixelPulse
+
+    PixPalAnimA --> PixPalAnimB
+    tkziA --> mlbt
+    tkziA --> getk

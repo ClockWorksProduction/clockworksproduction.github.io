@@ -1,0 +1,41 @@
+{
+  "name": "Fallout Tactics: Brotherhood of Steel",
+  "image": "https://cdn1.epicgames.com/item/b90be973f6e74975ac1a6ff15dbfd0b3/EGS_FalloutTacticsBrotherhoodofSteel_BethesdaGameStudios_S1_2560x1440-36cd52e1846a29ad9f0cf60dff64d210",
+  "appId": {
+    "steam": 0,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Fallout Tactics: Brotherhood of Steel",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/38420/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/fallout-tactics-brotherhood-of-steel",
+    "gog": "https://www.gog.com/game/fallout_tactics",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

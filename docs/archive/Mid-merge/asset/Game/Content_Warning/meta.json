@@ -1,0 +1,39 @@
+{
+  "name": "Content Warning",
+  "image": "",
+  "appId": {
+    "steam": 2881650,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "We focus on gameplay above all else",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "macOS"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/2881650/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://landfall.se/content-warning/"
+  }
+}

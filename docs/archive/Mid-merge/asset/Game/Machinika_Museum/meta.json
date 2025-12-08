@@ -1,0 +1,43 @@
+{
+  "name": "Machinika Museum",
+  "image": "",
+  "appId": {
+    "steam": 1507190,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Welcome to the Museum! Machinika Museum is a mystery game where you discover beautiful and mysterious machines of extra-terrestrial origins in an atmospheric galaxy-spanning 3D puzzle game. Will you be able to understand their stories and discover what happened to their previous owner?",
+  "developer": "Littlefield Studio",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Adventure",
+    "Casual",
+    "Indie"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1507190/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/machinika-museum",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

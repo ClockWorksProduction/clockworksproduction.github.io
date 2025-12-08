@@ -1,0 +1,42 @@
+{
+  "name": "Besiege",
+  "image": "",
+  "appId": {
+    "steam": 346010,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Besiege is a physics building game about constructing mechanical machines to annihilate armies, obliterate castles and overcome challenging obstacles. Conquer the campaign or skirmish with friends in Multiplayer!",
+  "developer": "Spiderling Studios",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Indie",
+    "Simulation"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/346010/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "https://www.gog.com/game/besiege",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Slime Rancher",
+  "image": "",
+  "appId": {
+    "steam": 433340,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Slime Rancher is the tale of Beatrix LeBeau, a plucky, young rancher who sets out for a life a thousand light years away from Earth on the ‘Far, Far Range’ where she tries her hand at making a living wrangling slimes.",
+  "developer": "Monomi Park",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Indie",
+    "Simulation"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/433340/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/slime-rancher",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

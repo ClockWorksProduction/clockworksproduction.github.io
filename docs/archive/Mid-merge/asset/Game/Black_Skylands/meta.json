@@ -1,0 +1,44 @@
+{
+  "name": "Black Skylands",
+  "image": "",
+  "appId": {
+    "steam": 1143810,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Become the captain of an airship and explore the world of the skies, gather resources and build powerful weapons, uncover ancient secrets and fight beneath your ship",
+  "developer": "Hungry Couch Games",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Indie",
+    "RPG"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1143810/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/black-skylands",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

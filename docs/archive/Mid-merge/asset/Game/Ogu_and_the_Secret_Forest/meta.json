@@ -1,0 +1,39 @@
+{
+  "name": "Ogu and the Secret Forest",
+  "image": "https://cdn1.epicgames.com/spt-assets/ab32c6c664f340f0bb18afcb9b036dae/ogu-and-the-secret-forest-1uk56.png",
+  "appId": {
+    "steam": 0,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Explore the wonderful world with baby Ogu! 'Ogu and the Secret Forest' is a 2D adventure game with hand-drawn characters and various types of puzzles. Befriend bouncy characters and defeat strange creatures to unravel the mystery of the charming world.",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/ogu-and-the-secret-forest",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

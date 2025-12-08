@@ -1,0 +1,46 @@
+{
+  "name": "IdleOn",
+  "image": "",
+  "appId": {
+    "steam": 1476970,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "The management RPG where your heroes keep fighting even when you",
+  "developer": "Lavaflame2",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Casual",
+    "Indie",
+    "Massively Multiplayer",
+    "RPG",
+    "Simulation",
+    "Free To Play"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1476970/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/idleon",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

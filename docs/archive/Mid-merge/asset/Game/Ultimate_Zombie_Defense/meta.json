@@ -1,0 +1,44 @@
+{
+  "name": "Ultimate Zombie Defense",
+  "image": "",
+  "appId": {
+    "steam": 1035510,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Team up or face it alone in this top down zombie slaying defense adventure! Featuring up to 4 player online co-op, cleanse the infected wave by wave and upgrade your base with traps &amp; defenses to build the Ultimate Zombie Defense. Can YOU stop them?",
+  "developer": "Terror Dog Studio",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Casual",
+    "Strategy"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1035510/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/ultimate-zombie-defense",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

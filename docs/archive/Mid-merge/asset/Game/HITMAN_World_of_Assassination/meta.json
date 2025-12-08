@@ -1,0 +1,41 @@
+{
+  "name": "HITMAN World of Assassination",
+  "image": "",
+  "appId": {
+    "steam": 1659040,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Enter the world of the ultimate assassin. HITMAN World of Assassination delivers the definitive stealth action experience, putting you in the shoes of Agent 47, a master assassin. Explore immersive locations, uncover hidden secrets, and eliminate targets with complete freedom of approach.",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1659040/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/hitman-3",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

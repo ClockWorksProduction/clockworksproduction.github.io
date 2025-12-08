@@ -1,0 +1,42 @@
+{
+  "name": "Field of Glory II: Medieval",
+  "image": "",
+  "appId": {
+    "steam": 1368870,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Field of Glory II Medieval is a turn-based tactical game set in the High Middle Ages from 1040 AD to 1270 AD. Developed by legendary designer Richard Bodley Scott it brings the best from the tabletop world into the best digital framework.",
+  "developer": "Byzantine Games",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Simulation",
+    "Strategy"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1368870/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "https://www.gog.com/game/field_of_glory_ii_medieval",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Upload Labs",
+  "image": "",
+  "appId": {
+    "steam": 3606890,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "A sci-fi management game where you build and optimize your computer",
+  "developer": "EnigmaDev Studios",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Simulation",
+    "Free To Play"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/3606890/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

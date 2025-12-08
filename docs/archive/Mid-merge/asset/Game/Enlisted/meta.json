@@ -1,0 +1,41 @@
+{
+  "name": "Enlisted",
+  "image": "",
+  "appId": {
+    "steam": 2051620,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Enlisted is an MMO squad based shooter for PC, Xbox One, Xbox Series X|S, PlayStation 4 and PlayStation 5 in World War II where you act as an infantry squad leader, tank crew or an aircraft pilot. The weaponry, soldier",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/2051620/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/enlisted",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://enlisted.net/en/"
+  }
+}

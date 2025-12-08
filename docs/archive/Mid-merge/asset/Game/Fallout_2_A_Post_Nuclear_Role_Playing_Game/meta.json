@@ -1,0 +1,41 @@
+{
+  "name": "Fallout 2: A Post Nuclear Role Playing Game",
+  "image": "https://cdn1.epicgames.com/item/aae22da1fb884fa395b25bc30dd61faf/EGS_Fallout2APostNuclearRolePlayingGame_BethesdaGameStudios_S1_2560x1440-4cfbea54e590ef00cb9c440ac3b3a36c",
+  "appId": {
+    "steam": 0,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Fallout 2: A Post Nuclear Role Playing Game",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/38410/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/fallout-2-a-post-nuclear-role-playing-game",
+    "gog": "https://www.gog.com/game/fallout_2",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

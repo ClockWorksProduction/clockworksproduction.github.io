@@ -1,0 +1,45 @@
+{
+  "name": "Mini World: Block Art",
+  "image": "",
+  "appId": {
+    "steam": 814480,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Mini World is a 3D free sandbox game about adventure, exploration, and creating your dream worlds. There is no grinding or leveling up. No IAP gate that locks features from free to play players. Everyone can enjoy the game’s full features with great freedom",
+  "developer": "MINOVATE HONG KONG LIMITED",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Adventure",
+    "Casual",
+    "Massively Multiplayer",
+    "Simulation",
+    "Free To Play"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/814480/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/mini-world-block-art",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

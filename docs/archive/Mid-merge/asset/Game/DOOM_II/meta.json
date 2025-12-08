@@ -1,0 +1,41 @@
+{
+  "name": "DOOM II",
+  "image": "",
+  "appId": {
+    "steam": 2300,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Hell has invaded Earth, and to save it, you must battle mightier demons with even more powerful weapons. This beloved sequel to the groundbreaking DOOM (1993) introduced players to the brutal Super Shotgun, the infamous Icon of Sin boss, and more intense FPS action.",
+  "developer": "id Software",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/2300/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "https://www.gog.com/game/doom_2",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://bethesda.net/en/game/doomii"
+  }
+}

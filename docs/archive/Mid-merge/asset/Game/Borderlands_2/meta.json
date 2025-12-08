@@ -1,0 +1,42 @@
+{
+  "name": "Borderlands 2",
+  "image": "",
+  "appId": {
+    "steam": 49520,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "The Ultimate Vault Hunter’s Upgrade lets you get the most out of the Borderlands 2 experience.",
+  "developer": "Gearbox Software",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action",
+    "RPG"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/49520/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/borderlands-2",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://borderlands.com/en-US/"
+  }
+}

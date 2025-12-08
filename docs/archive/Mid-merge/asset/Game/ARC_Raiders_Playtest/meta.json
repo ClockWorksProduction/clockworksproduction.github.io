@@ -1,0 +1,41 @@
+{
+  "name": "ARC Raiders Playtest",
+  "image": "",
+  "appId": {
+    "steam": 2427520,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
+  "developer": "Embark Studios",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/2427520/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/arc-raiders",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

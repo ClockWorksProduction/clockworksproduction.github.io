@@ -1,0 +1,43 @@
+{
+  "name": "Golf With Your Friends",
+  "image": "",
+  "appId": {
+    "steam": 431240,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Why have friends if not to play Golf... With Your Friends! Nothing is out of bounds as you take on courses filled with fast paced, exciting, simultaneous mini golf for up to 12 players!",
+  "developer": "Blacklight Interactive",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Casual",
+    "Indie",
+    "Sports"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/431240/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/golf-with-your-friends",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

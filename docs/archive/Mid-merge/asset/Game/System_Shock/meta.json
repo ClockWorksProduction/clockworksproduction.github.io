@@ -1,0 +1,42 @@
+{
+  "name": "System Shock",
+  "image": "",
+  "appId": {
+    "steam": 482400,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "A first-person fight to the death in the depths of space!",
+  "developer": "Nightdive Studios",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action",
+    "Adventure"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/482400/",
+    "itchIo": "",
+    "epicGames": "",
+    "gog": "https://www.gog.com/game/system_shock",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

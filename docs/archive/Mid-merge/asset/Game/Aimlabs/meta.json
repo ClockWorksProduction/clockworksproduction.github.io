@@ -1,0 +1,41 @@
+{
+  "name": "Aimlabs",
+  "image": "https://cdn1.epicgames.com/spt-assets/186103570e674b0f9b60a1003ec09d07/aimlabs-1c9t2.png",
+  "appId": {
+    "steam": 714010,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Aimlabs is the aim trainer of choice for over 40 Million players, from beginners to esports pros. Our unique aim analysis optimizes your gameplay, targets your weaknesses & builds key skills for any FPS/TPS game, all for free!",
+  "developer": "",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    ""
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/714010/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/aimlabs",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": "https://aimlabs.com/"
+  }
+}

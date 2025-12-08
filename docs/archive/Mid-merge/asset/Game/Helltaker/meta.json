@@ -1,0 +1,43 @@
+{
+  "name": "Helltaker",
+  "image": "",
+  "appId": {
+    "steam": 1289310,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Helltaker is a short game about sharply dressed demon girls.",
+  "developer": "vanripper",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Adventure",
+    "Free To Play",
+    "Indie"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1289310/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/helltaker",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}

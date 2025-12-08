@@ -1,0 +1,44 @@
+{
+  "name": "People Playground",
+  "image": "",
+  "appId": {
+    "steam": 1118200,
+    "itchIo": 0,
+    "epicGames": 0,
+    "gog": 0,
+    "xbox": 0,
+    "playstation": 0,
+    "nintendo": 0,
+    "newgrounds": 0,
+    "other": 0
+  },
+  "description": "Shoot, stab, burn, poison, tear, vaporise, or crush ragdolls in a large open space.",
+  "developer": "mestiez",
+  "publisher": "",
+  "releaseDate": "",
+  "genre": [
+    "Action",
+    "Casual",
+    "Indie",
+    "Simulation"
+  ],
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "tags": [
+    ""
+  ],
+  "storeUrl": {
+    "steam": "https://store.steampowered.com/app/1118200/",
+    "itchIo": "",
+    "epicGames": "https://store.epicgames.com/en-US/p/people-playground",
+    "gog": "",
+    "xbox": "",
+    "playstation": "",
+    "nintendo": "",
+    "newgrounds": "",
+    "other": ""
+  }
+}
