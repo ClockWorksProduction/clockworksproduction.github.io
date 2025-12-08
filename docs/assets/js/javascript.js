@@ -52,27 +52,24 @@ function loadNavAndFooter() {
 
 /* THEME TOGGLE */
 function initThemeToggle() {
-  const toggleButtons = document.querySelectorAll(".theme-toggle");
+  const toggleCheckboxes = document.querySelectorAll(".theme-toggle-checkbox");
   const savedTheme = localStorage.getItem("cw-theme") || "light";
 
-  // Set the initial state of the buttons
-  toggleButtons.forEach(btn => {
-    if (savedTheme === "dark") {
-      btn.classList.add("dark-mode");
-    }
+  // Set the initial state of the checkboxes
+  toggleCheckboxes.forEach(checkbox => {
+    checkbox.checked = savedTheme === "dark";
   });
 
-  toggleButtons.forEach(btn => {
-    btn.addEventListener("click", () => {
-      const current = document.documentElement.getAttribute("data-theme");
-      const next = current === "light" ? "dark" : "light";
+  toggleCheckboxes.forEach(checkbox => {
+    checkbox.addEventListener("change", () => {
+      const next = checkbox.checked ? "dark" : "light";
 
       document.documentElement.classList.add("theme-anim");
       document.documentElement.setAttribute("data-theme", next);
       localStorage.setItem("cw-theme", next);
 
-      // Toggle the active state for the animation
-      toggleButtons.forEach(b => b.classList.toggle("dark-mode"));
+      // Sync all toggle switches
+      toggleCheckboxes.forEach(cb => { cb.checked = checkbox.checked; });
 
       setTimeout(() => {
         document.documentElement.classList.remove("theme-anim");
