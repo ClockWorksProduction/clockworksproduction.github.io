@@ -149,74 +149,95 @@
 }
 
 /* ============================================================================
-   A.4 CUSTOMIZE ELEMENT-LEVEL TOKENS (all declared; they reference semantic tokens)
-   You can override any of these individually to micro-tune elements.
-   ============================================================================ */
-   :root{
-    /* Headings */
-    --cw-h1-size: var(--cw-scale-xxl);
-    --cw-h1-weight: var(--cw-weight-bold);
-    --cw-h1-family: var(--cw-ff-serif-display);
-    --cw-h1-color: var(--cw-color-text);
-  
-    --cw-h2-size: var(--cw-scale-xl);
-    --cw-h2-weight: var(--cw-weight-semi);
-    --cw-h2-family: var(--cw-ff-serif);
-    --cw-h2-color: var(--cw-color-text);
-  
-    --cw-h3-size: var(--cw-scale-l);
-    --cw-h3-weight: var(--cw-weight-medium);
-    --cw-h3-family: var(--cw-ff-slab);
-    --cw-h3-color: var(--cw-color-text);
-  
-    --cw-h4-size: var(--cw-scale-m);
-    --cw-h4-weight: var(--cw-weight-medium);
-  
-    --cw-h5-size: var(--cw-scale-s);
-    --cw-h5-weight: var(--cw-weight-regular);
-  
-    --cw-h6-size: var(--cw-scale-xs);
-    --cw-h6-weight: var(--cw-weight-regular);
-  
-    /* Body / paragraph */
-    --cw-p-size: var(--cw-scale-body);
-    --cw-p-weight: var(--cw-weight-regular);
-    --cw-p-family: var(--cw-ff-ui);
-    --cw-p-lineheight: 1.5;
-    --cw-p-color: var(--cw-color-text);
-  
-    /* Buttons */
-    --cw-button-bg: var(--cw-color-primary);
-    --cw-button-color: var(--cw-color-bg);
-    --cw-button-padding-y: calc(var(--cw-space-s) * 0.8);
-    --cw-button-padding-x: calc(var(--cw-space-l) * 0.6);
-    --cw-button-radius: var(--cw-radius-base);
-    --cw-button-font-weight: var(--cw-weight-medium);
-    --cw-button-shadow: var(--cw-shadow-1);
-  
-    /* Cards */
-    --cw-card-bg: var(--cw-color-surface);
-    --cw-card-border: rgba(255,255,255,0.04);
-    --cw-card-radius: var(--cw-radius-sm);
-    --cw-card-padding: var(--cw-space-l);
-    --cw-card-shadow: var(--cw-shadow-1);
-  
-    /* Inputs */
-    --cw-input-bg: var(--cw-color-bg-alt);
-    --cw-input-color: var(--cw-color-text);
-    --cw-input-border: rgba(255,255,255,0.06);
-    --cw-input-focus: var(--cw-color-primary);
-  
-    /* Sidebar / navbar / footer */
-    --cw-nav-bg: var(--cw-color-surface);
-    --cw-footer-bg: var(--cw-color-surface);
-    --cw-sidebar-bg: var(--cw-color-surface);
-  
-    /* Misc */
-    --cw-overlay-opacity: 0.1;
-    --cw-hero-height: 60vh;
-  }
-
-/* ============================================================================
    B. CORE BASE STYLES
 ============================================================================ */
+html { box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
+*, *:before, *:after { box-sizing: inherit; }
+body {
+    margin: 0;
+    font-family: var(--font-body, var(--font-sans));
+    font-size: var(--fs-body);
+    line-height: 1.5;
+    color: var(--cw-text, var(--cw-text-fallback));
+    background: var(--cw-bg, #000);
+}
+
+h1, h2, h3, h4, h5, h6, p { margin: 0 0 0.4em 0; line-height: 1.3; }
+h1 { font-family: var(--font-h1); font-size: var(--fs-h1); font-weight: var(--fw-h1); color: var(--cw-text-h1); filter: var(--cw-shadow-h1); }
+h2 { font-family: var(--font-h2); font-size: var(--fs-h2); font-weight: var(--fw-h2); color: var(--cw-text-h2); filter: var(--cw-shadow-h2); }
+h3 { font-family: var(--font-h3); font-size: var(--fs-h3); font-weight: var(--fw-h3); color: var(--cw-text-h3); filter: var(--cw-shadow-h3); }
+h4 { font-family: var(--font-h4); font-size: var(--fs-h4); font-weight: var(--fw-h4); color: var(--cw-text-h4); filter: var(--cw-shadow-h4); }
+h5 { font-family: var(--font-h5); font-size: var(--fs-h5); font-weight: var(--fw-h5); color: var(--cw-text-h5); filter: var(--cw-shadow-h5); }
+h6 { font-family: var(--font-h6); font-size: var(--fs-h6); font-weight: var(--fw-h6); color: var(--cw-text-h6); filter: var(--cw-shadow-h6); }
+
+a { color: var(--cw-accent); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--cw-accent-alt); }
+
+/* ============================================================================
+   C. COMPONENTS & UTILITIES
+============================================================================ */
+/* Buttons */
+.cw-button { padding: var(--cw-space-3) var(--cw-space-4); border: none; border-radius: var(--cw-radius-md); background: var(--cw-accent); color: var(--cw-text-on-accent); font-weight: 500; cursor: pointer; transition: var(--cw-transition); }
+.cw-button:hover { filter: brightness(1.1); background-color: var(--cw-accent-alt); color: var(--cw-text-on-accent-alt); }
+
+/* Cards */
+.cw-card { background: var(--cw-surface-0); border-radius: var(--cw-radius); box-shadow: var(--cw-shadow-1); padding: calc(var(--cw-gap) * 1.5); transition: var(--cw-transition); }
+.cw-card:hover { transform: translateY(-3px); box-shadow: var(--cw-shadow-2); }
+
+/* Footer */
+.cw-footer { background: var(--cw-surface-1); padding: 1.5rem; text-align: center; font-family: var(--font-condensed); border-top: 2px solid var(--cw-accent); }
+
+/* Inputs / Forms */
+.cw-input, .cw-select, .cw-textarea { width: 100%; padding: var(--cw-space-3); border: 1px solid var(--cw-border); background: var(--cw-surface-1); color: var(--cw-text); font-size: 1rem; border-radius: var(--cw-radius-md); transition: var(--cw-transition); }
+.cw-input:focus, .cw-select:focus, .cw-textarea:focus { border-color: var(--cw-accent); outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--cw-accent) 30%, transparent); }
+
+/* Flex & Grid */
+.cw-flex { display: flex; }
+.cw-justify { justify-content: center; }
+.cw-align-items { align-items: center; }
+.cw-flex-wrap { flex-wrap: wrap; }
+.cw-gap { gap: var(--cw-gap); }
+.cw-grid { display: grid; }
+.cw-grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+.cw-grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+.cw-grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+.cw-grid-cols-6 { grid-template-columns: repeat(6, 1fr); }
+.cw-grid-cols-12 { grid-template-columns: repeat(12, 1fr); }
+
+/* ============================================================================
+   F. MISSING EXTENSIONS
+============================================================================ */
+
+/* Checkboxes / Radios / Toggles */
+.cw-checkbox, .cw-radio { accent-color: var(--cw-accent); width: 1.2em; height: 1.2em; cursor: pointer; transition: var(--cw-transition); }
+.cw-toggle { position: relative; display: inline-block; width: 48px; height: 24px; }
+.cw-toggle input { opacity: 0; width: 0; height: 0; }
+.cw-toggle-slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: var(--cw-surface-1); transition: var(--cw-transition); border-radius: 24px; }
+.cw-toggle-slider::before { position: absolute; content: ""; height: 18px; width: 18px; left: 3px; bottom: 3px; background-color: var(--cw-surface-0); transition: var(--cw-transition); border-radius: 50%; }
+.cw-toggle input:checked + .cw-toggle-slider { background-color: var(--cw-accent); }
+.cw-toggle input:checked + .cw-toggle-slider::before { transform: translateX(24px); }
+
+/* Range Slider Cross-Browser */
+.cw-range::-webkit-slider-thumb { background: var(--cw-accent); border-radius: 50%; cursor: pointer; }
+.cw-range::-moz-range-thumb { background: var(--cw-accent); border-radius: 50%; cursor: pointer; }
+.cw-range::-ms-thumb { background: var(--cw-accent); border-radius: 50%; cursor: pointer; }
+
+/* Spinner Variants */
+.cw-spinner-sm { width: 16px; height: 16px; border-width: 2px; }
+.cw-spinner-lg { width: 64px; height: 64px; border-width: 6px; }
+
+/* Utility Classes */
+.m-0 { margin: 0 !important; } .m-1 { margin: var(--cw-space-1) !important; } .m-2 { margin: var(--cw-space-2) !important; } .m-3 { margin: var(--cw-space-3) !important; } .m-4 { margin: var(--cw-space-4) !important; } .m-5 { margin: var(--cw-space-5) !important; }
+.p-0 { padding: 0 !important; } .p-1 { padding: var(--cw-space-1) !important; } .p-2 { padding: var(--cw-space-2) !important; } .p-3 { padding: var(--cw-space-3) !important; } .p-4 { padding: var(--cw-space-4) !important; } .p-5 { padding: var(--cw-space-5) !important; }
+
+.text-accent { color: var(--cw-accent) !important; }
+.text-accent-alt { color: var(--cw-accent-alt) !important; }
+.bg-accent { background-color: var(--cw-accent) !important; }
+.bg-accent-alt { background-color: var(--cw-accent-alt) !important; }
+
+/* Responsive Helpers */
+@media (max-width: 640px) { .sm-hidden { display: none !important; } }
+@media (max-width: 768px) { .md-hidden { display: none !important; } }
+@media (max-width: 1024px) { .lg-hidden { display: none !important; } }
+@media (max-width: 1280px) { .xl-hidden { display: none !important; } }
+
