@@ -1,1125 +1,645 @@
 /* ============================================================================
-   CLOCKWORKS PRODUCTION SITE — MAIN CSS
-   Version: 2.0.0
-   Author: Clockworks Production
-   License: MIT
-   Notes: W3.CSS framework tokenized with custom design system variables.
+    MAIN CSS FILE FOR CLOCKWORKS PRODUCTION DOCUMENTATION SITE
+    - Version: 1.0.0
+    MODIFIED FROM: W3.CSS FRAMEWORK (https://www.w3schools.com/w3css/)
+    --------------------------------------------------------------------------
+    @author: Clockworks Production
+    @license: MIT License
+    --------------------------------------------------------------------------
+    CLEANUP NOTE: Migrated W3.CSS legacy styles to use modern CSS variables
+    (tokens) and removed redundant/conflicting declarations (like hardcoded colors
+    and the old W3.CSS grid classes).
 ============================================================================ */
 
 /* ============================================================================
-   1. IMPORTS
+    IMPORTS (Consolidated & Cleaned)
 ============================================================================ */
+
+/* Icon Libraries */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Combined Font Imports for All Themes and Weights */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cinzel+Decorative:wght@400;700;900&family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;700&family=Roboto+Condensed:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Cormorant+Garamond:wght@400;600;700&family=IBM+Plex+Sans:wght@400;700&family=Source+Code+Pro:wght@400;700&family=Spectral:wght@400;600;700&family=Spectral+SC:wght@400;600;700&family=Fira+Code:wght@400;700&family=Oxanium+Mono&display=swap');
 
 /* ============================================================================
-   2. DESIGN TOKENS & THEME SYSTEM
+   1 GLOBAL TOKENS & BASE STYLES
 ============================================================================ */
+
+/* -------------------------------------------------------------
+   1.1 BASE & FALLBACK TOKENS
+------------------------------------------------------------- */
 :root {
-  /* Color Tokens */
-  --cw-color-bg: #0e0e0f;
-  --cw-color-bg-alt: #141214;
-  --cw-color-surface-0: #1a1b1d;
-  --cw-color-surface-1: #232325;
-  --cw-color-surface-2: #303033;
-  --cw-color-text: #f5f5f5;
-  --cw-color-text-dim: #bdb8c7;
-  --cw-color-primary: #d99343;
-  --cw-color-primary-dark: #b57a35;
-  --cw-color-primary-light: #f0b56a;
-  --cw-color-accent: #f0b56a;
-  --cw-color-success: #2ecc71;
-  --cw-color-warning: #f39c12;
-  --cw-color-danger: #e74c3c;
-  --cw-color-muted: rgba(255,255,255,0.06);
-  --cw-color-border: rgba(255,255,255,0.1);
-  --cw-color-border-light: rgba(255,255,255,0.05);
-  
-  /* W3.CSS Color Mapping */
-  --cw-color-primary: var(--cw-color-primary);
-  --cw-color-secondary: var(--cw-color-surface-2);
-  --cw-color-dark: var(--cw-color-bg);
-  --cw-color-light: var(--cw-color-text);
-  --cw-color-success: var(--cw-color-success);
-  --cw-color-warning: var(--cw-color-warning);
-  --cw-color-danger: var(--cw-color-danger);
-  --cw-color-info: var(--cw-color-accent);
-  --cw-color-disabled: var(--cw-color-muted);
-  
-  /* Typography Tokens */
-  --cw-font-primary: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  --cw-font-secondary: 'EB Garamond', serif;
-  --cw-font-display: 'Cinzel Decorative', 'Cormorant Garamond', serif;
-  --cw-font-mono: 'Oxanium Mono', 'Fira Code', monospace;
-  
-  --cw-font-size-xs: 12px;
-  --cw-font-size-sm: 14px;
-  --cw-font-size-base: 16px;
-  --cw-font-size-md: 18px;
-  --cw-font-size-lg: 20px;
-  --cw-font-size-xl: 24px;
-  --cw-font-size-2xl: 30px;
-  --cw-font-size-3xl: 36px;
-  --cw-font-size-4xl: 48px;
-  --cw-font-size-5xl: 64px;
-  
-  --cw-font-weight-light: 300;
-  --cw-font-weight-normal: 400;
-  --cw-font-weight-medium: 500;
-  --cw-font-weight-semibold: 600;
-  --cw-font-weight-bold: 700;
-  --cw-font-weight-black: 900;
-  
-  --cw-line-height-tight: 1.25;
-  --cw-line-height-normal: 1.5;
-  --cw-line-height-relaxed: 1.75;
-  
-  /* Spacing Tokens */
-  --cw-space-0: 0;
-  --cw-space-1: 4px;
-  --cw-space-2: 8px;
-  --cw-space-3: 12px;
-  --cw-space-4: 16px;
-  --cw-space-5: 20px;
-  --cw-space-6: 24px;
-  --cw-space-8: 32px;
-  --cw-space-10: 40px;
-  --cw-space-12: 48px;
-  --cw-space-16: 64px;
-  --cw-space-20: 80px;
-  
-  /* W3.CSS Spacing Mapping */
-  --cw-space-xs: var(--cw-space-1);
-  --cw-space-sm: var(--cw-space-2);
-  --cw-space-md: var(--cw-space-4);
-  --cw-space-lg: var(--cw-space-6);
-  --cw-space-xl: var(--cw-space-12);
-  
-  /* Border Radius Tokens */
-  --cw-radius-none: 0;
-  --cw-radius-sm: 4px;
-  --cw-radius-base: 8px;
-  --cw-radius-md: 12px;
-  --cw-radius-lg: 16px;
-  --cw-radius-xl: 24px;
-  --cw-radius-full: 9999px;
-  
-  /* Shadow Tokens */
-  --cw-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
-  --cw-shadow-base: 0 4px 6px rgba(0, 0, 0, 0.15);
-  --cw-shadow-md: 0 8px 12px rgba(0, 0, 0, 0.25);
-  --cw-shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.35);
-  --cw-shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.45);
-  
-  /* Z-index Tokens */
-  --cw-z-dropdown: 1000;
-  --cw-z-sticky: 1020;
-  --cw-z-fixed: 1030;
-  --cw-z-modal-backdrop: 1040;
-  --cw-z-modal: 1050;
-  --cw-z-popover: 1060;
-  --cw-z-tooltip: 1070;
-  
-  /* Animation Tokens */
-  --cw-transition-fast: 150ms ease;
-  --cw-transition-base: 250ms ease;
-  --cw-transition-slow: 350ms ease;
-  
-  /* Layout Tokens */
-  --cw-container-sm: 640px;
-  --cw-container-md: 768px;
-  --cw-container-lg: 1024px;
-  --cw-container-xl: 1200px;
-  --cw-container-2xl: 1400px;
-  
-  --cw-navbar-height: 64px;
-  --cw-sidebar-width: 250px;
-  --cw-footer-height: 80px;
-  
-  /* Breakpoint Tokens */
-  --cw-breakpoint-sm: 640px;
-  --cw-breakpoint-md: 768px;
-  --cw-breakpoint-lg: 1024px;
-  --cw-breakpoint-xl: 1280px;
-  --cw-breakpoint-2xl: 1536px;
+    /* GLOBAL ELEMENT VARIBLE */
+    --cw-body-font-size: 0.95rem;
+    --cw-body-font-weight: 300;
+    --cw-body-color: #2a2a2a;
+    --cw-body-bg: #fdf6e3;
+    --cw-global-margin: 0;
+    --cw-global-padding: 0;
+    --cw-h-margin-bottom: 12px;
+    --cw-h-line-height: 1.2;
+
+    /* --- Color Palette --- */
+    --cw-color-primary: #c89f43;
+    --cw-color-primary-alt: #f0b56a;
+    --cw-color-secondary: #4e342e;
+    --cw-color-secondary-alt: #7d5a50;
+    --cw-color-accent: #d99343;
+    --cw-color-accent-alt: #f0b56a;
+    --cw-color-bg: #fdf6e3;
+    --cw-color-bg-alt: #f0e6d2;
+    --cw-color-surface: #ffffff;
+    --cw-color-surface-alt: #f7f3e9;
+    --cw-color-text: #2a2a2a;
+    --cw-color-text-dim: #555555;
+    --cw-color-text-inverted: #0e0e0f;
+
+    /* TYPOGRAPHY VARIBLE */
+    --cw-p-line-height: 1.5;
+    --cw-p-margin-bottom: 16px;
+    --cw-h-transition: color var(--cw-transition), text-shadow var(--cw-transition);
+    --cw-p-transition: color var(--cw-transition), text-shadow var(--cw-transition);
+
+    /* LINK VARIBLE */
+    --cw-link-color: var(--cw-accent);
+    --cw-link-hover-color: var(--cw-accent-alt);
+    --cw-link-text-decoration: none;
+    --cw-link-hover-text-decoration: underline;
+
+    /* IMAGE VARIBLE */
+    --cw-img-max-width: 100%;
+    --cw-img-height: auto;
+    --cw-img-radius: var(--cw-radius-md);
+    /* 8px */
+    --cw-img-shadow: var(--cw-shadow-1);
+    --cw-img-hover-shadow: var(--cw-shadow-2);
+
+    /* BUTTON VARIBLE */
+    --cw-button-bg: var(--cw-accent);
+    --cw-button-color: var(--cw-text-on-accent);
+    --cw-button-padding: 10px 20px;
+    --cw-button-border: none;
+    --cw-button-radius: var(--cw-radius-md);
+    /* 8px */
+    --cw-button-cursor: pointer;
+    --cw-button-font-size: 1rem;
+    --cw-button-hover-bg: var(--cw-accent-alt);
+    --cw-button-hover-shadow: var(--cw-shadow-1);
+
+    /* FORM ELEMENT VARIBLE */
+    --cw-form-width: 100%;
+    --cw-form-padding: 10px;
+    --cw-form-border: 1px solid var(--cw-border-fallback);
+    --cw-form-radius: var(--cw-radius-md);
+    /* 8px */
+    --cw-form-bg: var(--cw-surface-1);
+    --cw-form-color: var(--cw-text);
+    --cw-form-font-size: 1rem;
+    --cw-form-focus-border-color: var(--cw-accent);
+    --cw-form-focus-shadow: 0 0 5px var(--cw-accent);
+    --cw-form-focus-outline: none;
+
+    /* TABLE ELEMENT VARIBLE */
+    --cw-table-width: 100%;
+    --cw-table-collapse: collapse;
+    --cw-table-margin-bottom: 16px;
+    --cw-table-cell-padding: 12px;
+    --cw-table-cell-border: 1px solid var(--cw-border-fallback);
+    --cw-table-cell-align: left;
+    --cw-table-header-bg: var(--cw-surface-1);
+    --cw-table-header-color: var(--cw-text);
+    --cw-table-row-even-bg: var(--cw-surface-2);
+    --cw-table-row-hover-bg: var(--cw-surface-1);
+
+
+    /* Spacing Scale */
+    --cw-radius: 12px;
+    --cw-radius-md: 8px;
+    --cw-radius-lg: 16px;
+    --cw-gap: 12px;
+    --cw-transition: 0.28s ease;
+    --cw-shadow-1: 0 4px 18px rgba(0, 0, 0, 0.45);
+    --cw-shadow-2: 0 8px 36px rgba(0, 0, 0, 0.55);
+
+    /* Fallback Colors */
+    --cw-border-fallback: #ccc;
+    --cw-border-alt-fallback: #ddd;
+    --cw-surface-alt-fallback: #f1f1f1;
+    --cw-surface-fallback: #fff;
+    --cw-text-fallback: #2a2a2a;
+
+    /* Font Families */
+    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    --font-serif: "Cormorant Garamond", "Cinzel", "EB Garamond", serif;
+    --font-condensed: "Roboto Condensed", "Spectral SC", sans-serif;
+    --font-mono: "Oxanium Mono", "Fira Code", "Source Code Pro", "Courier New", Courier, monospace;
+
+    /* Font Sizes*/
+    --fs-h1: 2.4rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.6rem;
+    --fs-h4: 1.35rem;
+    --fs-h5: 1.15rem;
+    --fs-h6: 1rem;
+    --fs-body: 0.95rem;
+
+    /* Font Weights */
+    --fw-h1: 700;
+    --fw-h2: 600;
+    --fw-h3: 500;
+    --fw-h4: 500;
+    --fw-h5: 400;
+    --fw-h6: 400;
+    --fw-body: 300;
 }
 
-/* Light Theme Override */
+/* -------------------------------------------------------------
+   1.2 LIGHT THEME TOKENS
+------------------------------------------------------------- */
 :root[data-theme="light"] {
-  --cw-color-bg: #fdf6e3;
-  --cw-color-bg-alt: #f0e6d2;
-  --cw-color-surface-0: #ffffff;
-  --cw-color-surface-1: #f7f3e9;
-  --cw-color-surface-2: #e0d9c4;
-  --cw-color-text: #2a2a2a;
-  --cw-color-text-dim: #555555;
-  --cw-color-primary: #c89f43;
-  --cw-color-primary-dark: #a88536;
-  --cw-color-primary-light: #e8c079;
-  --cw-color-accent: #f0b56a;
-  --cw-color-border: rgba(0,0,0,0.1);
-  --cw-color-border-light: rgba(0,0,0,0.05);
-  --cw-color-muted: rgba(0,0,0,0.06);
+    --cw-bg: #fdf6e3;
+    --cw-bg-alt: #f0e6d2;
+    --cw-surface-0: #ffffff;
+    --cw-surface-1: #f7f3e9;
+    --cw-surface-2: #e0d9c4;
+    --cw-text: #2a2a2a;
+    --cw-text-dim: #555555;
+    --cw-accent: #c89f43;
+    --cw-accent-alt: #f0b56a;
+
+    --font-h1: "Cormorant Garamond", serif;
+    --font-h2: "Roboto Slab", serif;
+    --font-h3: "Cormorant Garamond", serif;
+    --font-h4: "Roboto Condensed", sans-serif;
+    --font-h5: "Source Sans Pro", sans-serif;
+    --font-h6: "Source Sans Pro", sans-serif;
+    --font-body: "Source Sans Pro", sans-serif;
+
+    --cw-text-h1: #3e2723;
+    --cw-text-h2: #4e342e;
+    --cw-text-h3: #5d4037;
+    --cw-text-h4: #6d4c41;
+    --cw-text-h5: #7d5a50;
+    --cw-text-h6: #8d6e63;
+    --cw-text-body: #2a2a2a;
+    --cw-text-on-accent: #ffffff;
+    --cw-text-on-accent-alt: #ffffff;
+    --cw-text-inverted: #fdf6e3;
+
+    --cw-shadow-h1: drop-shadow(2px 2px 4px var(--cw-accent));
+    --cw-shadow-h2: drop-shadow(2px 2px 4px var(--cw-accent));
+    --cw-shadow-h3: drop-shadow(1px 1px 3px var(--cw-accent));
+    --cw-shadow-h4: drop-shadow(1px 1px 2px var(--cw-accent));
+    --cw-shadow-h5: drop-shadow(1px 1px 2px var(--cw-accent));
+    --cw-shadow-h6: drop-shadow(1px 1px 2px var(--cw-accent));
+    --cw-shadow-body: none;
 }
 
-/* Dark Theme Override (default) */
+/* -------------------------------------------------------------
+   1.3 DARK THEME TOKENS
+------------------------------------------------------------- */
 :root[data-theme="dark"] {
-  --cw-color-bg: #0e0e0f;
-  --cw-color-bg-alt: #141214;
-  --cw-color-surface-0: #1a1b1d;
-  --cw-color-surface-1: #232325;
-  --cw-color-surface-2: #303033;
-  --cw-color-text: #f5f5f5;
-  --cw-color-text-dim: #bdb8c7;
-  --cw-color-primary: #d99343;
-  --cw-color-primary-dark: #b57a35;
-  --cw-color-primary-light: #f0b56a;
-  --cw-color-border: rgba(255,255,255,0.1);
-  --cw-color-border-light: rgba(255,255,255,0.05);
-  --cw-color-muted: rgba(255,255,255,0.06);
+    --cw-bg: #0e0e0f;
+    --cw-bg-alt: #141214;
+    --cw-surface-0: #1a1b1d;
+    --cw-surface-1: #232325;
+    --cw-surface-2: #303033;
+    --cw-text: #f5f5f5;
+    --cw-text-dim: #bdb8c7;
+    --cw-accent: #d99343;
+    --cw-accent-alt: #f0b56a;
+
+    --font-h1: "Cinzel Decorative", serif;
+    --font-h2: "Cinzel", serif;
+    --font-h3: "EB Garamond", serif;
+    --font-h4: "Spectral SC", serif;
+    --font-h5: "Inter", sans-serif;
+    --font-h6: "Inter", sans-serif;
+    --font-body: "Inter", sans-serif;
+
+    --cw-text-h1: #d1c4e9;
+    --cw-text-h2: #b39ddb;
+    --cw-text-h3: #9575cd;
+    --cw-text-h4: #7e57c2;
+    --cw-text-h5: #673ab7;
+    --cw-text-h6: #5e35b1;
+    --cw-text-body: #f5f5f5;
+    --cw-text-on-accent: #000000;
+    --cw-text-on-accent-alt: #000000;
+    --cw-text-inverted: #0e0e0f;
+
+    --cw-shadow-h1: drop-shadow(2px 2px 4px var(--cw-accent));
+    --cw-shadow-h2: drop-shadow(2px 2px 4px var(--cw-accent));
+    --cw-shadow-h3: drop-shadow(1px 1px 3px var(--cw-accent));
+    --cw-shadow-h4: drop-shadow(1px 1px 2px var(--cw-accent));
+    --cw-shadow-h5: drop-shadow(1px 1px 2px var(--cw-accent));
+    --cw-shadow-h6: drop-shadow(1px 1px 2px var(--cw-accent));
 }
 
 /* ============================================================================
-   3. BASE RESET & TOKENIZED W3.CSS
+   1.4 CUSTOMIZE ELEMENT-LEVEL TOKENS (all declared; they reference semantic tokens)
+   You can override any of these individually to micro-tune elements.
+   ============================================================================ */
+:root {
+    /* Headings */
+    --cw-h1-size: var(--cw-scale-xxl);
+    --cw-h1-weight: var(--cw-weight-bold);
+    --cw-h1-family: var(--cw-ff-serif-display);
+    --cw-h1-color: var(--cw-color-text);
+
+    --cw-h2-size: var(--cw-scale-xl);
+    --cw-h2-weight: var(--cw-weight-semi);
+    --cw-h2-family: var(--cw-ff-serif);
+    --cw-h2-color: var(--cw-color-text);
+
+    --cw-h3-size: var(--cw-scale-l);
+    --cw-h3-weight: var(--cw-weight-medium);
+    --cw-h3-family: var(--cw-ff-slab);
+    --cw-h3-color: var(--cw-color-text);
+
+    --cw-h4-size: var(--cw-scale-m);
+    --cw-h4-weight: var(--cw-weight-medium);
+
+    --cw-h5-size: var(--cw-scale-s);
+    --cw-h5-weight: var(--cw-weight-regular);
+
+    --cw-h6-size: var(--cw-scale-xs);
+    --cw-h6-weight: var(--cw-weight-regular);
+
+    /* Body / paragraph */
+    --cw-p-size: var(--cw-scale-body);
+    --cw-p-weight: var(--cw-weight-regular);
+    --cw-p-family: var(--cw-ff-ui);
+    --cw-p-lineheight: 1.5;
+    --cw-p-color: var(--cw-color-text);
+
+    /* Buttons */
+    --cw-button-bg: var(--cw-color-primary);
+    --cw-button-color: var(--cw-color-bg);
+    --cw-button-padding-y: calc(var(--cw-space-s) * 0.8);
+    --cw-button-padding-x: calc(var(--cw-space-l) * 0.6);
+    --cw-button-radius: var(--cw-radius-base);
+    --cw-button-font-weight: var(--cw-weight-medium);
+    --cw-button-shadow: var(--cw-shadow-1);
+
+    /* Cards */
+    --cw-card-bg: var(--cw-color-surface);
+    --cw-card-border: rgba(255, 255, 255, 0.04);
+    --cw-card-radius: var(--cw-radius-sm);
+    --cw-card-padding: var(--cw-space-l);
+    --cw-card-shadow: var(--cw-shadow-1);
+
+    /* Inputs */
+    --cw-input-bg: var(--cw-color-bg-alt);
+    --cw-input-color: var(--cw-color-text);
+    --cw-input-border: rgba(255, 255, 255, 0.06);
+    --cw-input-focus: var(--cw-color-primary);
+
+    /* Sidebar / navbar / footer */
+    --cw-nav-bg: var(--cw-color-surface);
+    --cw-footer-bg: var(--cw-color-surface);
+    --cw-sidebar-bg: var(--cw-color-surface);
+
+    /* Misc */
+    --cw-overlay-opacity: 0.1;
+    --cw-hero-height: 60vh;
+}
+
+/* ============================================================================
+   2. CORE ELEMENT STYLES
 ============================================================================ */
-
-/* Box Sizing Reset */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* HTML & Body with Tokens */
-html {
-  font-family: var(--cw-font-primary);
-  font-size: var(--cw-font-size-base);
-  line-height: var(--cw-line-height-normal);
-  overflow-x: hidden;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
+/* -------------------------------------------------------------
+   2.1 GLOBAL ELEMENT STYLES
+------------------------------------------------------------- */
 body {
-  margin: 0;
-  background-color: var(--cw-color-bg);
-  color: var(--cw-color-text);
-  font-family: var(--cw-font-primary);
-  font-size: var(--cw-font-size-base);
-  line-height: var(--cw-line-height-normal);
+    margin: var(--cw-global-margin);
+    font-family: var(--font-body);
+    font-size: var(--cw-body-font-size);
+    font-weight: var(--cw-body-font-weight);
+    color: var(--cw-body-color);
+    background-color: var(--cw-body-bg);
+    transition: background-color var(--cw-transition), color var(--cw-transition);
 }
 
-/* ============================================================================
-   4. TOKENIZED TYPOGRAPHY
-============================================================================ */
-
-/* Headings with Tokens */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--cw-font-display);
-  font-weight: var(--cw-font-weight-bold);
-  margin: var(--cw-space-4) 0;
-  color: var(--cw-color-text);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: var(--cw-global-margin);
+    margin-bottom: var(--cw-h-margin-bottom);
+    font-weight: inherit;
+    line-height: var(--cw-h-line-height);
+    transition: var(--cw-h-transition);
 }
 
-h1 { 
-  font-size: var(--cw-font-size-3xl);
-  line-height: var(--cw-line-height-tight);
+div,
+p,
+span,
+a,
+ul,
+ol,
+li,
+header,
+footer,
+section,
+article,
+nav,
+aside {
+    margin: var(--cw-global-margin);
+    padding: var(--cw-global-padding);
+    box-sizing: border-box;
+    transition: background-color var(--cw-transition), color var(--cw-transition);
 }
 
-h2 { 
-  font-size: var(--cw-font-size-2xl);
-  line-height: var(--cw-line-height-tight);
+/* -------------------------------------------------------------
+   2.2 TYPOGRAPHY STYLES
+------------------------------------------------------------- */
+h1 {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-h1);
+    font-family: var(--font-h1);
+    color: var(--cw-text-h1);
+    text-shadow: var(--cw-shadow-h1);
 }
 
-h3 { 
-  font-size: var(--cw-font-size-xl);
-  line-height: var(--cw-line-height-tight);
+/* ... h2 to h6 styles remain the same as they already use tokens ... */
+h2 {
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-h2);
+    font-family: var(--font-h2);
+    color: var(--cw-text-h2);
+    text-shadow: var(--cw-shadow-h2);
 }
 
-h4 { 
-  font-size: var(--cw-font-size-lg);
-  line-height: var(--cw-line-height-normal);
+h3 {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-h3);
+    font-family: var(--font-h3);
+    color: var(--cw-text-h3);
+    text-shadow: var(--cw-shadow-h3);
 }
 
-h5 { 
-  font-size: var(--cw-font-size-md);
-  line-height: var(--cw-line-height-normal);
+h4 {
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-h4);
+    font-family: var(--font-h4);
+    color: var(--cw-text-h4);
+    text-shadow: var(--cw-shadow-h4);
 }
 
-h6 { 
-  font-size: var(--cw-font-size-base);
-  line-height: var(--cw-line-height-normal);
+h5 {
+    font-size: var(--fs-h5);
+    font-weight: var(--fw-h5);
+    font-family: var(--font-h5);
+    color: var(--cw-text-h5);
+    text-shadow: var(--cw-shadow-h5);
 }
 
-/* Paragraphs */
+h6 {
+    font-size: var(--fs-h6);
+    font-weight: var(--fw-h6);
+    font-family: var(--font-h6);
+    color: var(--cw-text-h6);
+    text-shadow: var(--cw-shadow-h6);
+}
+
 p {
-  margin: var(--cw-space-4) 0;
-  color: var(--cw-color-text-dim);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-body);
+    line-height: var(--cw-p-line-height);
+    color: var(--cw-text-body);
+    text-shadow: var(--cw-shadow-body);
+    margin-bottom: var(--cw-p-margin-bottom);
 }
 
-/* Links */
+/* -------------------------------------------------------------
+   2.3 LINK STYLES
+------------------------------------------------------------- */
 a {
-  color: var(--cw-color-primary);
-  text-decoration: none;
-  transition: color var(--cw-transition-fast);
+    color: var(--cw-link-color);
+    text-decoration: var(--cw-link-text-decoration);
+    transition: color var(--cw-transition);
 }
 
 a:hover {
-  color: var(--cw-color-primary-light);
-  text-decoration: underline;
+    color: var(--cw-link-hover-color);
+    text-decoration: var(--cw-link-hover-text-decoration);
+}
+
+/* -------------------------------------------------------------
+   2.4 IMAGE STYLES
+------------------------------------------------------------- */
+img {
+    max-width: var(--cw-img-max-width);
+    height: var(--cw-img-height);
+    border-radius: var(--cw-img-radius);
+    box-shadow: var(--cw-img-shadow);
+    transition: box-shadow var(--cw-transition);
+}
+
+img:hover {
+    box-shadow: var(--cw-img-hover-shadow);
+}
+
+/* -------------------------------------------------------------
+   2.5 BUTTON STYLES
+------------------------------------------------------------- */
+button {
+    background-color: var(--cw-button-bg);
+    color: var(--cw-button-color);
+    padding: var(--cw-button-padding);
+    border: var(--cw-button-border);
+    border-radius: var(--cw-button-radius);
+    cursor: var(--cw-button-cursor);
+    font-size: var(--cw-button-font-size);
+    transition: background-color var(--cw-transition), box-shadow var(--cw-transition);
+}
+
+button:hover {
+    background-color: var(--cw-button-hover-bg);
+    box-shadow: var(--cw-button-hover-shadow);
+}
+
+/* -------------------------------------------------------------
+   2.6 FORM ELEMENT STYLES
+------------------------------------------------------------- */
+input,
+textarea,
+select {
+    width: var(--cw-form-width);
+    padding: var(--cw-form-padding);
+    border: var(--cw-form-border);
+    border-radius: var(--cw-form-radius);
+    background-color: var(--cw-form-bg);
+    color: var(--cw-form-color);
+    font-size: var(--cw-form-font-size);
+    transition: border-color var(--cw-transition), box-shadow var(--cw-transition);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--cw-form-focus-border-color);
+    box-shadow: var(--cw-form-focus-shadow);
+    outline: var(--cw-form-focus-outline);
+}
+
+/* -------------------------------------------------------------
+   2.7 TABLE STYLES
+------------------------------------------------------------- */
+table {
+    width: var(--cw-table-width);
+    border-collapse: var(--cw-table-collapse);
+    margin-bottom: var(--cw-table-margin-bottom);
+}
+
+th,
+td {
+    padding: var(--cw-table-cell-padding);
+    border: var(--cw-table-cell-border);
+    text-align: var(--cw-table-cell-align);
+}
+
+th {
+    background-color: var(--cw-table-header-bg);
+    color: var(--cw-table-header-color);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--cw-table-row-even-bg);
+}
+
+tbody tr:hover {
+    background-color: var(--cw-table-row-hover-bg);
 }
 
 /* ============================================================================
-   5. TOKENIZED W3.CSS COMPONENTS
+   3. COMPONENT STYLES
 ============================================================================ */
-
-/* Container */
-.cw-container {
-  padding: var(--cw-space-4);
-  margin: 0 auto;
-  max-width: var(--cw-container-xl);
-  background-color: var(--cw-color-surface-0);
-  color: var(--cw-color-text);
-  border-radius: var(--cw-radius-base);
-}
-
-/* Panels */
-.cw-panel {
-  padding: var(--cw-space-4);
-  margin-top: var(--cw-space-4);
-  margin-bottom: var(--cw-space-4);
-  background-color: var(--cw-color-surface-0);
-  border-radius: var(--cw-radius-base);
-  box-shadow: var(--cw-shadow-sm);
-}
-
-/* Cards */
-.cw-card,
-.cw-card-2 {
-  box-shadow: var(--cw-shadow-sm);
-  background-color: var(--cw-color-surface-0);
-  border-radius: var(--cw-radius-base);
-  overflow: hidden;
-  transition: transform var(--cw-transition-base), box-shadow var(--cw-transition-base);
-}
-
-.cw-card-4,
-.cw-hover-shadow:hover {
-  box-shadow: var(--cw-shadow-md);
+/* -------------------------------------------------------------
+   3.1 CARD COMPONENT
+------------------------------------------------------------- */
+.cw-card {
+    background-color: var(--cw-surface-0);
+    border: 1px solid var(--cw-border-alt-fallback);
+    border-radius: var(--cw-radius-md);
+    box-shadow: var(--cw-shadow-1);
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: box-shadow var(--cw-transition);
 }
 
 .cw-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--cw-shadow-lg);
+    box-shadow: var(--cw-shadow-2);
 }
 
-/* Buttons */
-.cw-btn,
-.cw-button {
-  border: none;
-  display: inline-block;
-  padding: var(--cw-space-2) var(--cw-space-4);
-  vertical-align: middle;
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  background-color: inherit;
-  text-align: center;
-  cursor: pointer;
-  white-space: nowrap;
-  font-family: var(--cw-font-primary);
-  font-size: var(--cw-font-size-base);
-  font-weight: var(--cw-font-weight-medium);
-  border-radius: var(--cw-radius-base);
-  transition: all var(--cw-transition-base);
+.cw-card h1,
+.cw-card h2,
+.cw-card h3,
+.cw-card h4,
+.cw-card h5,
+.cw-card h6 {
+    margin-top: 0;
 }
 
-.cw-btn:hover,
-.cw-button:hover {
-  box-shadow: var(--cw-shadow-md);
+.cw-card h1 {
+    font-size: 1.8rem;
 }
 
-.cw-btn:disabled,
-.cw-button:disabled {
-  cursor: not-allowed;
-  opacity: 0.5;
+.cw-card h2 {
+    font-size: 1.6rem;
 }
 
-/* Primary Button */
-.cw-btn.cw-primary,
-.cw-button.cw-primary {
-  background-color: var(--cw-color-primary);
-  color: var(--cw-color-bg);
-  border: 2px solid var(--cw-color-primary);
+.cw-card h3 {
+    font-size: 1.4rem;
 }
 
-.cw-btn.cw-primary:hover,
-.cw-button.cw-primary:hover {
-  background-color: var(--cw-color-primary-dark);
-  border-color: var(--cw-color-primary-dark);
-  box-shadow: var(--cw-shadow-md);
+.cw-card h4 {
+    font-size: 1.2rem;
 }
 
-/* Secondary Button */
-.cw-btn.cw-secondary,
-.cw-button.cw-secondary {
-  background-color: var(--cw-color-surface-1);
-  color: var(--cw-color-text);
-  border: 2px solid var(--cw-color-border);
+.cw-card h5 {
+    font-size: 1rem;
 }
 
-/* Outline Button */
-.cw-btn.cw-outline,
-.cw-button.cw-outline {
-  background-color: transparent;
-  color: var(--cw-color-primary);
-  border: 2px solid var(--cw-color-primary);
+.cw-card h6 {
+    font-size: 0.9rem;
 }
 
-/* Inputs */
-.cw-input {
-  padding: var(--cw-space-2) var(--cw-space-3);
-  display: block;
-  border: 1px solid var(--cw-color-border);
-  border-radius: var(--cw-radius-sm);
-  width: 100%;
-  background-color: var(--cw-color-surface-0);
-  color: var(--cw-color-text);
-  font-family: var(--cw-font-primary);
-  font-size: var(--cw-font-size-base);
-  transition: border-color var(--cw-transition-fast);
+.cw-card p {
+    margin-bottom: 0;
 }
 
-.cw-input:focus {
-  outline: none;
-  border-color: var(--cw-color-primary);
-  box-shadow: 0 0 0 3px rgba(217, 147, 67, 0.1);
+.cw-card button {
+    margin-top: 12px;
 }
 
-/* Select */
-.cw-select {
-  padding: var(--cw-space-2) 0;
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid var(--cw-color-border);
-  background-color: var(--cw-color-surface-0);
-  color: var(--cw-color-text);
-  font-family: var(--cw-font-primary);
+/* -------------------------------------------------------------
+   3.2 NAVBAR COMPONENT
+------------------------------------------------------------- */
+.cw-navbar {
+    background-color: var(--cw-surface-0);
+    padding: 12px 16px;
+    box-shadow: var(--cw-shadow-1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow var(--cw-transition);
 }
 
-/* Tables */
-.cw-table,
-.cw-table-all {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  display: table;
-  background-color: var(--cw-color-surface-0);
-  color: var(--cw-color-text);
-  border-radius: var(--cw-radius-base);
-  overflow: hidden;
+.cw-navbar a {
+    color: var(--cw-text);
+    margin: 0 8px;
+    text-decoration: none;
+    transition: color var(--cw-transition);
 }
 
-.cw-table-all {
-  border: 1px solid var(--cw-color-border);
+.cw-navbar a:hover {
+    color: var(--cw-accent);
 }
 
-.cw-table td,
-.cw-table th,
-.cw-table-all td,
-.cw-table-all th {
-  padding: var(--cw-space-2) var(--cw-space-4);
-  display: table-cell;
-  text-align: left;
-  vertical-align: top;
-  border-bottom: 1px solid var(--cw-color-border-light);
+/* -------------------------------------------------------------
+   3.3 FOOTER COMPONENT
+------------------------------------------------------------- */
+.cw-footer {
+    background-color: var(--cw-surface-0);
+    padding: 16px;
+    text-align: center;
+    box-shadow: var(--cw-shadow-1);
+    transition: box-shadow var(--cw-transition);
 }
 
-.cw-table th {
-  background-color: var(--cw-color-surface-1);
-  font-weight: var(--cw-font-weight-semibold);
+.cw-footer p {
+    margin: 0;
+    color: var(--cw-text-dim);
 }
 
-.cw-striped tbody tr:nth-child(even) {
-  background-color: var(--cw-color-surface-1);
-}
-
-.cw-bordered tr,
-.cw-table-all tr {
-  border-bottom: 1px solid var(--cw-color-border);
-}
-
-.cw-hoverable tbody tr:hover {
-  background-color: var(--cw-color-surface-2);
-}
-
-/* Lists */
-.cw-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  background-color: var(--cw-color-surface-0);
-  border-radius: var(--cw-radius-base);
-  overflow: hidden;
-}
-
-.cw-ul li {
-  padding: var(--cw-space-3) var(--cw-space-4);
-  border-bottom: 1px solid var(--cw-color-border-light);
-  color: var(--cw-color-text);
-}
-
-.cw-ul li:last-child {
-  border-bottom: none;
-}
-
-.cw-ul.cw-hoverable li:hover {
-  background-color: var(--cw-color-surface-1);
-}
-
-/* Code Blocks */
-.cw-code {
-  width: auto;
-  background-color: var(--cw-color-surface-1);
-  padding: var(--cw-space-3);
-  border-left: 4px solid var(--cw-color-primary);
-  word-wrap: break-word;
-  font-family: var(--cw-font-mono);
-  font-size: var(--cw-font-size-sm);
-  color: var(--cw-color-text);
-  border-radius: var(--cw-radius-sm);
-}
-
-.cw-codespan {
-  color: var(--cw-color-primary);
-  background-color: var(--cw-color-surface-1);
-  padding: var(--cw-space-1) var(--cw-space-2);
-  font-size: 85%;
-  border-radius: var(--cw-radius-sm);
-  font-family: var(--cw-font-mono);
-}
-
-/* Badges & Tags */
-.cw-badge,
-.cw-tag {
-  background-color: var(--cw-color-primary);
-  color: var(--cw-color-bg);
-  display: inline-block;
-  padding: var(--cw-space-1) var(--cw-space-2);
-  text-align: center;
-  font-size: var(--cw-font-size-xs);
-  font-weight: var(--cw-font-weight-medium);
-  border-radius: var(--cw-radius-full);
-}
-
-.cw-tag {
-  border-radius: var(--cw-radius-sm);
-}
-
-/* ============================================================================
-   6. TOKENIZED W3.CSS LAYOUT SYSTEM
-============================================================================ */
-
-/* Grid System */
-.cw-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 calc(var(--cw-space-2) * -1);
-}
-
-.cw-col,
-.cw-half,
-.cw-third,
-.cw-twothird,
-.cw-threequarter,
-.cw-quarter {
-  float: left;
-  width: 100%;
-  padding: 0 var(--cw-space-2);
-  margin-bottom: var(--cw-space-4);
-}
-
-/* Responsive Columns */
-@media (min-width:601px) {
-  .cw-col.m1 { width: 8.33333%; }
-  .cw-col.m2 { width: 16.66666%; }
-  .cw-col.m3, .cw-quarter { width: 24.99999%; }
-  .cw-col.m4, .cw-third { width: 33.33333%; }
-  .cw-col.m5 { width: 41.66666%; }
-  .cw-col.m6, .cw-half { width: 49.99999%; }
-  .cw-col.m7 { width: 58.33333%; }
-  .cw-col.m8, .cw-twothird { width: 66.66666%; }
-  .cw-col.m9, .cw-threequarter { width: 74.99999%; }
-  .cw-col.m10 { width: 83.33333%; }
-  .cw-col.m11 { width: 91.66666%; }
-  .cw-col.m12 { width: 99.99999%; }
-}
-
-@media (min-width:993px) {
-  .cw-col.l1 { width: 8.33333%; }
-  .cw-col.l2 { width: 16.66666%; }
-  .cw-col.l3 { width: 24.99999%; }
-  .cw-col.l4 { width: 33.33333%; }
-  .cw-col.l5 { width: 41.66666%; }
-  .cw-col.l6 { width: 49.99999%; }
-  .cw-col.l7 { width: 58.33333%; }
-  .cw-col.l8 { width: 66.66666%; }
-  .cw-col.l9 { width: 74.99999%; }
-  .cw-col.l10 { width: 83.33333%; }
-  .cw-col.l11 { width: 91.66666%; }
-  .cw-col.l12 { width: 99.99999%; }
-}
-
-/* Grid Utilities */
-.cw-grid {
-  display: grid;
-  gap: var(--cw-space-4);
-}
-
-.cw-grid-padding {
-  display: grid;
-  gap: var(--cw-space-4);
-}
-
-.cw-flex {
-  display: flex;
-  gap: var(--cw-space-4);
-}
-
-/* ============================================================================
-   7. TOKENIZED W3.CSS UTILITIES
-============================================================================ */
-
-/* Display Utilities */
-.cw-hide { display: none !important; }
-.cw-show { display: block !important; }
-.cw-show-inline-block { display: inline-block !important; }
-
-/* Responsive Display */
-@media (max-width:600px) {
-  .cw-hide-small { display: none !important; }
-  .cw-mobile { display: block; width: 100% !important; }
-}
-
-@media (max-width:992px) and (min-width:601px) {
-  .cw-hide-medium { display: none !important; }
-}
-
-@media (min-width:993px) {
-  .cw-hide-large { display: none !important; }
-}
-
-/* Margin Utilities */
-.cw-margin { margin: var(--cw-space-4) !important; }
-.cw-margin-top { margin-top: var(--cw-space-4) !important; }
-.cw-margin-bottom { margin-bottom: var(--cw-space-4) !important; }
-.cw-margin-left { margin-left: var(--cw-space-4) !important; }
-.cw-margin-right { margin-right: var(--cw-space-4) !important; }
-
-.cw-margin-0 { margin: 0 !important; }
-.cw-margin-4 { margin: var(--cw-space-4) !important; }
-.cw-margin-8 { margin: var(--cw-space-8) !important; }
-.cw-margin-12 { margin: var(--cw-space-12) !important; }
-
-/* Padding Utilities */
-.cw-padding { padding: var(--cw-space-4) !important; }
-.cw-padding-small { padding: var(--cw-space-2) !important; }
-.cw-padding-large { padding: var(--cw-space-6) !important; }
-.cw-padding-16 { padding-top: var(--cw-space-4) !important; padding-bottom: var(--cw-space-4) !important; }
-.cw-padding-24 { padding-top: var(--cw-space-6) !important; padding-bottom: var(--cw-space-6) !important; }
-.cw-padding-32 { padding-top: var(--cw-space-8) !important; padding-bottom: var(--cw-space-8) !important; }
-
-/* Border Utilities */
-.cw-border {
-  border: 1px solid var(--cw-color-border) !important;
-}
-
-.cw-border-top {
-  border-top: 1px solid var(--cw-color-border) !important;
-}
-
-.cw-border-bottom {
-  border-bottom: 1px solid var(--cw-color-border) !important;
-}
-
-.cw-border-left {
-  border-left: 1px solid var(--cw-color-border) !important;
-}
-
-.cw-border-right {
-  border-right: 1px solid var(--cw-color-border) !important;
-}
-
-.cw-border-0 {
-  border: 0 !important;
-}
-
-/* Border Radius */
-.cw-round-small {
-  border-radius: var(--cw-radius-sm) !important;
-}
-
-.cw-round,
-.cw-round-medium {
-  border-radius: var(--cw-radius-base) !important;
-}
-
-.cw-round-large {
-  border-radius: var(--cw-radius-md) !important;
-}
-
-.cw-round-xlarge {
-  border-radius: var(--cw-radius-lg) !important;
-}
-
-.cw-round-xxlarge {
-  border-radius: var(--cw-radius-xl) !important;
-}
-
-.cw-circle {
-  border-radius: var(--cw-radius-full) !important;
-}
-
-/* Opacity Utilities */
-.cw-opacity,
-.cw-hover-opacity:hover {
-  opacity: 0.6;
-}
-
-.cw-opacity-off,
-.cw-hover-opacity-off:hover {
-  opacity: 1;
-}
-
-.cw-opacity-max {
-  opacity: 0.25;
-}
-
-.cw-opacity-min {
-  opacity: 0.75;
-}
-
-/* Text Utilities */
-.cw-text-center { text-align: center; }
-.cw-text-left { text-align: left; }
-.cw-text-right { text-align: right; }
-.cw-text-justify { text-align: justify; }
-
-.cw-text-bold,
-.cw-bold {
-  font-weight: var(--cw-font-weight-bold) !important;
-}
-
-.cw-text-italic,
-.cw-italic {
-  font-style: italic !important;
-}
-
-/* Text Sizes */
-.cw-tiny { font-size: var(--cw-font-size-xs) !important; }
-.cw-small { font-size: var(--cw-font-size-sm) !important; }
-.cw-medium { font-size: var(--cw-font-size-base) !important; }
-.cw-large { font-size: var(--cw-font-size-md) !important; }
-.cw-xlarge { font-size: var(--cw-font-size-lg) !important; }
-.cw-xxlarge { font-size: var(--cw-font-size-xl) !important; }
-.cw-xxxlarge { font-size: var(--cw-font-size-2xl) !important; }
-.cw-jumbo { font-size: var(--cw-font-size-3xl) !important; }
-
-/* ============================================================================
-   8. TOKENIZED W3.CSS COLOR SYSTEM
-============================================================================ */
-
-/* Background Colors */
-.cw-primary { 
-  background-color: var(--cw-color-primary) !important; 
-  color: var(--cw-color-bg) !important; 
-}
-
-.cw-secondary { 
-  background-color: var(--cw-color-surface-1) !important; 
-  color: var(--cw-color-text) !important; 
-}
-
-.cw-success { 
-  background-color: var(--cw-color-success) !important; 
-  color: white !important; 
-}
-
-.cw-warning { 
-  background-color: var(--cw-color-warning) !important; 
-  color: black !important; 
-}
-
-.cw-danger { 
-  background-color: var(--cw-color-danger) !important; 
-  color: white !important; 
-}
+/* ============================================================
+   4. Animations & KEYFRAMES
+============================================================ */
 
-.cw-info { 
-  background-color: var(--cw-color-accent) !important; 
-  color: black !important; 
-}
-
-/* Theme-aware colors */
-.cw-dark { 
-  background-color: var(--cw-color-bg) !important; 
-  color: var(--cw-color-text) !important; 
-}
-
-.cw-light { 
-  background-color: var(--cw-color-surface-0) !important; 
-  color: var(--cw-color-text) !important; 
-}
-
-.cw-white { 
-  background-color: var(--cw-color-surface-0) !important; 
-  color: var(--cw-color-text) !important; 
-}
-
-.cw-black { 
-  background-color: var(--cw-color-bg) !important; 
-  color: var(--cw-color-text) !important; 
-}
-
-.cw-grey,
-.cw-gray { 
-  background-color: var(--cw-color-surface-2) !important; 
-  color: var(--cw-color-text) !important; 
-}
-
-/* Text Colors */
-.cw-text-primary { color: var(--cw-color-primary) !important; }
-.cw-text-secondary { color: var(--cw-color-text-dim) !important; }
-.cw-text-success { color: var(--cw-color-success) !important; }
-.cw-text-warning { color: var(--cw-color-warning) !important; }
-.cw-text-danger { color: var(--cw-color-danger) !important; }
-.cw-text-info { color: var(--cw-color-accent) !important; }
-
-.cw-text-dark { color: var(--cw-color-text) !important; }
-.cw-text-light { color: var(--cw-color-text-dim) !important; }
-.cw-text-white { color: var(--cw-color-surface-0) !important; }
-.cw-text-black { color: var(--cw-color-bg) !important; }
-.cw-text-grey,
-.cw-text-gray { color: var(--cw-color-text-dim) !important; }
-
-/* Border Colors */
-.cw-border-primary { border-color: var(--cw-color-primary) !important; }
-.cw-border-secondary { border-color: var(--cw-color-surface-2) !important; }
-.cw-border-success { border-color: var(--cw-color-success) !important; }
-.cw-border-warning { border-color: var(--cw-color-warning) !important; }
-.cw-border-danger { border-color: var(--cw-color-danger) !important; }
-
-.cw-border-dark { border-color: var(--cw-color-border) !important; }
-.cw-border-light { border-color: var(--cw-color-border-light) !important; }
-
-/* Hover Colors */
-.cw-hover-primary:hover { 
-  background-color: var(--cw-color-primary) !important; 
-  color: var(--cw-color-bg) !important; 
-}
-
-.cw-hover-secondary:hover { 
-  background-color: var(--cw-color-surface-1) !important; 
-  color: var(--cw-color-text) !important; 
-}
-
-.cw-hover-success:hover { 
-  background-color: var(--cw-color-success) !important; 
-  color: white !important; 
-}
-
-.cw-hover-warning:hover { 
-  background-color: var(--cw-color-warning) !important; 
-  color: black !important; 
-}
-
-.cw-hover-danger:hover { 
-  background-color: var(--cw-color-danger) !important; 
-  color: white !important; 
-}
-
-.cw-hover-dark:hover { 
-  background-color: var(--cw-color-bg) !important; 
-  color: var(--cw-color-text) !important; 
-}
-
-.cw-hover-light:hover { 
-  background-color: var(--cw-color-surface-0) !important; 
-  color: var(--cw-color-text) !important; 
-}
-
-/* ============================================================================
-   9. TOKENIZED ANIMATIONS & TRANSITIONS
-============================================================================ */
-
-.cw-spin {
-  animation: cw-spin 2s infinite linear;
-}
-
-@keyframes cw-spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(359deg); }
-}
-
-.cw-animate-fading {
-  animation: cw-fading 3s infinite;
-}
-
-@keyframes cw-fading {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-.cw-animate-opacity {
-  animation: cw-opac var(--cw-transition-slow);
-}
-
-@keyframes cw-opac {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-.cw-animate-top {
-  position: relative;
-  animation: cw-animatetop var(--cw-transition-base);
-}
-
-@keyframes cw-animatetop {
-  from { 
-    top: -300px; 
-    opacity: 0; 
-  }
-  to { 
-    top: 0; 
-    opacity: 1; 
-  }
-}
-
-.cw-animate-left {
-  position: relative;
-  animation: cw-animateleft var(--cw-transition-base);
-}
+/* ============================================================
+   5. UTILITIES
+============================================================ */
 
-@keyframes cw-animateleft {
-  from { 
-    left: -300px; 
-    opacity: 0; 
-  }
-  to { 
-    left: 0; 
-    opacity: 1; 
-  }
-}
-
-.cw-animate-right {
-  position: relative;
-  animation: cw-animateright var(--cw-transition-base);
-}
-
-@keyframes cw-animateright {
-  from { 
-    right: -300px; 
-    opacity: 0; 
-  }
-  to { 
-    right: 0; 
-    opacity: 1; 
-  }
-}
-
-.cw-animate-bottom {
-  position: relative;
-  animation: cw-animatebottom var(--cw-transition-base);
-}
-
-@keyframes cw-animatebottom {
-  from { 
-    bottom: -300px; 
-    opacity: 0; 
-  }
-  to { 
-    bottom: 0; 
-    opacity: 1; 
-  }
-}
-
-.cw-animate-zoom {
-  animation: cw-animatezoom var(--cw-transition-base);
-}
-
-@keyframes cw-animatezoom {
-  from { transform: scale(0); }
-  to { transform: scale(1); }
-}
-
-/* ============================================================================
-   10. THEME TOGGLE COMPONENT
-============================================================================ */
-.theme-switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-.theme-switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  background-color: var(--cw-color-surface-2);
-  transition: var(--cw-transition-base);
-  border-radius: var(--cw-radius-full);
-  inset: 0;
-}
-
-.slider::before {
-  content: "";
-  position: absolute;
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: var(--cw-color-surface-0);
-  transition: var(--cw-transition-base);
-  border-radius: var(--cw-radius-full);
-}
-
-.slider i {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
-  font-size: 14px;
-  transition: var(--cw-transition-base);
-}
-
-.slider .gear-icon {
-  left: 8px;
-  color: var(--cw-color-text-dim);
-}
-
-.slider .crystal-ball-icon {
-  right: 8px;
-  color: var(--cw-color-text-dim);
-}
-
-.theme-toggle-checkbox:checked + .slider {
-  background-color: var(--cw-color-primary);
-}
-
-.theme-toggle-checkbox:checked + .slider::before {
-  transform: translateX(26px);
-}
-
-.theme-toggle-checkbox:checked + .slider .gear-icon {
-  color: var(--cw-color-bg);
-}
-
-.theme-toggle-checkbox:checked + .slider .crystal-ball-icon {
-  color: var(--cw-color-bg);
-}
-
-/* ============================================================================
-   11. ADDITIONAL TOKENIZED UTILITIES
-============================================================================ */
+/* ===================================================
+   6. RESPONSIVE LAYOUT HELPERS
+=================================================== */
 
-/* Width & Height */
-.cw-width-25 { width: 25% !important; }
-.cw-width-50 { width: 50% !important; }
-.cw-width-75 { width: 75% !important; }
-.cw-width-100 { width: 100% !important; }
+/* ===================================================
+   7. THEME PRESETS
+=================================================== */
 
-.cw-height-25 { height: 25% !important; }
-.cw-height-50 { height: 50% !important; }
-.cw-height-75 { height: 75% !important; }
-.cw-height-100 { height: 100% !important; }
-
-/* Overflow */
-.cw-overflow-auto { overflow: auto !important; }
-.cw-overflow-hidden { overflow: hidden !important; }
-.cw-overflow-visible { overflow: visible !important; }
-.cw-overflow-scroll { overflow: scroll !important; }
-
-/* Position */
-.cw-relative { position: relative !important; }
-.cw-absolute { position: absolute !important; }
-.cw-fixed { position: fixed !important; }
-.cw-sticky { position: sticky !important; }
-
-.cw-top-0 { top: 0 !important; }
-.cw-bottom-0 { bottom: 0 !important; }
-.cw-left-0 { left: 0 !important; }
-.cw-right-0 { right: 0 !important; }
-
-/* Z-index */
-.cw-z-0 { z-index: 0 !important; }
-.cw-z-10 { z-index: 10 !important; }
-.cw-z-20 { z-index: 20 !important; }
-.cw-z-30 { z-index: 30 !important; }
-.cw-z-40 { z-index: 40 !important; }
-.cw-z-50 { z-index: 50 !important; }
-
-/* Flex Utilities */
-.cw-flex-row { flex-direction: row !important; }
-.cw-flex-col { flex-direction: column !important; }
-.cw-flex-wrap { flex-wrap: wrap !important; }
-.cw-flex-nowrap { flex-wrap: nowrap !important; }
-
-.cw-justify-start { justify-content: flex-start !important; }
-.cw-justify-end { justify-content: flex-end !important; }
-.cw-justify-center { justify-content: center !important; }
-.cw-justify-between { justify-content: space-between !important; }
-.cw-justify-around { justify-content: space-around !important; }
-
-.cw-items-start { align-items: flex-start !important; }
-.cw-items-end { align-items: flex-end !important; }
-.cw-items-center { align-items: center !important; }
-.cw-items-baseline { align-items: baseline !important; }
-.cw-items-stretch { align-items: stretch !important; }
-
-/* ============================================================================
-   12. CLEARFIX & RESPONSIVE HELPERS
-============================================================================ */
-.cw-container:after,
-.cw-container:before,
-.cw-panel:after,
-.cw-panel:before,
-.cw-row:after,
-.cw-row:before,
-.cw-row-padding:after,
-.cw-row-padding:before,
-.cw-cell-row:before,
-.cw-cell-row:after,
-.cw-clear:after,
-.cw-clear:before,
-.cw-bar:before,
-.cw-bar:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive Images */
-.cw-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Print Styles */
-@media print {
-  .cw-no-print {
-    display: none !important;
-  }
-  
-  .cw-print {
-    display: block !important;
-  }
-}
+/* ===================================================
+   8. ACCESSIBILITY HELPERS
+=================================================== */
+
+/* ===================================================
+   9. DEBUGGING HELPERS
+=================================================== */
+
+/* ===================================================
+   10. ALIAS CLASSES FOR LEGACY SUPPORT
+=================================================== */
