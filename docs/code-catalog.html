@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Catalog - ClockWorksProduction</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <style>
+        .code-example {
+            background-color: var(--cw-surface-alt);
+            border: 1px solid var(--cw-accent);
+            border-radius: var(--cw-radius);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .code-snippet {
+            background-color: var(--cw-bg-alt);
+            border: 1px dashed var(--cw-accent-alt);
+            padding: 1rem;
+            border-radius: 8px;
+            white-space: pre-wrap; /* Allows code to wrap */
+            font-family: var(--font-mermaid); /* Use a monospace font */
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+
+    <main id="main-content">
+        <header class="w3-container w3-center" style="padding:100px 16px">
+            <h1 class="w3-jumbo">Code Catalog & Style Guide</h1>
+            <p class="w3-large">A central reference for all standard UI components.</p>
+        </header>
+
+        <div class="w3-container w3-padding-32">
+
+            <!-- ======================= TYPOGRAPHY ======================= -->
+            <div class="code-example">
+                <h2>Typography</h2>
+                <p>The font families and sizes change with the theme. Toggle the theme to see the effect.</p>
+                <hr>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+                <p>This is a standard paragraph of text. It uses the `var(--font-p)` token. <a href="#">This is a link</a>, which uses the accent color.</p>
+                <div class="code-snippet">
+                    &lt;h1&gt;Heading 1&lt;/h1&gt;
+                    &lt;p&gt;This is a standard paragraph. &lt;a href="#"&gt;This is a link&lt;/a&gt;.&lt;/p&gt;
+                </div>
+            </div>
+
+            <!-- ======================= HERO SECTIONS ======================= -->
+            <div class="code-example">
+                <h2>Hero Sections</h2>
+                <p>Large, attention-grabbing headers for the top of a page.</p>
+                <hr>
+                <div class="hero-title-section" style="height: 300px; margin-bottom: 2rem;">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Hero Title</h1>
+                        <p class="hero-subtitle">A catchy subtitle.</p>
+                        <a href="#" class="w3-button w3-round-large w3-padding-large w3-margin-top">Call to Action</a>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    &lt;header class="hero-title-section"&gt;
+                        &lt;div class="hero-content"&gt;
+                            &lt;h1 class="hero-title"&gt;...&lt;/h1&gt;
+                            &lt;p class="hero-subtitle"&gt;...&lt;/p&gt;
+                            &lt;a href="#" class="w3-button ..."&gt;...&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/header&gt;
+                </div>
+            </div>
+
+            <!-- ======================= CARDS ======================= -->
+            <div class="code-example">
+                <h2>Cards</h2>
+                <p>Cards are the primary containers for content.</p>
+                <hr>
+                <h3>Basic Card</h3>
+                <div class="w3-card w3-container w3-padding">
+                    <p>A simple card for displaying basic information.</p>
+                </div>
+                
+                <h3 style="margin-top:2rem;">Clickable Card</h3>
+                <a href="#" style="text-decoration: none;">
+                    <div class="w3-card-4">
+                        <img src="https://via.placeholder.com/400x200" alt="Image" style="width:100%">
+                        <div class="w3-container w3-center">
+                            <p>This entire card is a single link.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="code-snippet">
+                    &lt;a href="#"&gt;
+                        &lt;div class="w3-card-4"&gt;
+                           ... 
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+                </div>
+            </div>
+
+            <!-- ======================= PROFILE CARD ======================= -->
+            <div class="code-example">
+                <h2>Profile Card</h2>
+                <p>A detailed card for team members.</p>
+                <hr>
+                <div class="w3-card">
+                    <header class="w3-container w3-center w3-padding-16">
+                        <img src="https://via.placeholder.com/150" alt="Avatar" class="w3-circle" style="width:100px;height:100px;">
+                    </header>
+                    <div class="w3-container w3-center">
+                        <h3>Team Member</h3>
+                        <p>Role or Title</p>
+                        <div class="w3-row w3-section">
+                            <a href="#" class="w3-half w3-button"><i class="fa fa-brands fa-twitter"></i> Twitter</a>
+                            <a href="#" class="w3-half w3-button"><i class="fa fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <footer class="w3-bar">
+                         <a href="#" class="w3-bar-item w3-button w3-hover-none w3-border-right w3-third"><i class="fa fa-paw"></i></a>
+                         <a href="#" class="w3-bar-item w3-button w3-hover-none w3-border-right w3-third"><i class="fa-brands fa-linkedin"></i></a>
+                         <a href="#" class="w3-bar-item w3-button w3-hover-none w3-third"><i class="fa-solid fa-mug-hot"></i></a>
+                    </footer>
+                </div>
+                <div class="code-snippet">
+                    &lt;div class="w3-card"&gt;
+                        &lt;header&gt;...&lt;/header&gt;
+                        &lt;div&gt;...&lt;/div&gt;
+                        &lt;footer&gt;...&lt;/footer&gt;
+                    &lt;/div&gt;
+                </div>
+            </div>
+
+            <!-- ======================= MERMAID DIAGRAMS ======================= -->
+            <div class="code-example">
+                <h2>Mermaid.js Diagrams</h2>
+                <p>Create diagrams from text. Requires the Mermaid script to be included on the page.</p>
+                <hr>
+                <h3>Flowchart</h3>
+                <div class="mermaid">
+                    graph TD;
+                        A[Start] --> B{Is it working?};
+                        B -->|Yes| C[Great!];
+                        B -->|No| D[Check console];
+                </div>
+                <h3 style="margin-top:2rem;">GitGraph</h3>
+                <div class="mermaid">
+                  gitGraph
+                    commit
+                    branch feature
+                    commit
+                    checkout main
+                    merge feature
+                </div>
+                <div class="code-snippet">
+                    &lt;div class="mermaid"&gt;
+                        graph TD; A --> B;
+                    &lt;/div&gt;
+
+                    &lt;!-- Add this script to the page --&gt;
+                    &lt;script type="module"&gt;
+                      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.js';
+                      mermaid.initialize({ startOnLoad: true });
+                    &lt;/script&gt;
+                </div>
+            </div>
+
+            <!-- ======================= CALL TO ACTION ======================= -->
+            <div class="code-example">
+                 <h2>Call to Action Section</h2>
+                <p>A full-width section to draw user attention.</p>
+                <hr>
+                <section class="w3-container w3-padding-32 w3-center w3-theme-l4">
+                    <h2>Join the Conversation</h2>
+                    <p>Connect with us and other fans.</p>
+                    <a href="#" class="w3-button w3-round-large w3-margin"><i class="fab fa-discord"></i> Join Discord</a>
+                    <a href="#" class="w3-button w3-round-large w3-margin"><i class="fab fa-patreon"></i> Support Us</a>
+                </section>
+                 <div class="code-snippet">
+                     &lt;section class="w3-container w3-padding-32 w3-center w3-theme-l4"&gt;
+                        ...
+                     &lt;/section&gt;
+                 </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script src="/assets/js/javascript.js"></script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.js';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</body>
+</html>

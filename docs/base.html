@@ -1,53 +1,68 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light"> <!-- Default theme is set here -->
 <head>
     <!-- Google Tag Manager -->
-    <script>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MWQLLMSF');
-    </script>
-    <!-- End GTM -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MWQLLMSF');</script>
+    <!-- End Google Tag Manager -->
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clockwork Production Studio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PAGE-SPECIFIC: The title of the page should be changed here. -->
+    <title>Page Title - ClockWorksProduction</title>
+    
+    <!-- The single, unified stylesheet for the entire site. -->
+    <link rel="stylesheet" href="/assets/css/main.css">
 
-    <!-- Favicon -->
-    <link rel="icon" href="/assets/img/logo.png">
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="/assets/css/main.css" />
 </head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWQLLMSF"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-<body class="has-full-header">
-
-    <!-- NoScript GTM -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWQLLMSF"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-
-    <!-- AUTO-LOADED NAV -->
+    <!-- Navigation placeholder (loaded by javascript.js) -->
     <div id="nav-placeholder"></div>
 
-    <!-- PAGE CONTENT STARTS HERE -->
+    <!-- Main Content wrapper -->
     <main id="main-content">
-        <!-- This is where each page injects content -->
+        <!-- 
+          ==========================================================================
+          PAGE-SPECIFIC CONTENT GOES HERE. 
+          
+          To build a new page, copy this base.html file and place your content
+          within this <main> tag.
+          ==========================================================================
+        -->
+
+        <!-- Example Header -->
+        <header class="title" id="home">
+            <div class="title-container">
+                <h1>Title</h1>
+                <p>Subtitle</p>
+                <a href="#Lorem">Enter section</a>
+            </div>
+        </header>
+
+        <!-- Example Content Section -->
+        <div class="w3-container w3-padding-64" id="Lorem">
+             <p>Your main page content starts here.</p>
+        </div>
+
     </main>
-    <!-- PAGE CONTENT ENDS HERE -->
+    <!-- Main Content ends here -->
 
-    <!-- AUTO-LOADED FOOTER -->
+    <!-- Footer placeholder (loaded by javascript.js) -->
     <div id="footer-placeholder"></div>
-
-    <!-- EXTERNAL LIBS PER PAGE (optional) -->
-    <!-- Example: Mermaid.js only if needed on this page -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({ startOnLoad: true });</script> -->
-
-    <!-- GLOBAL JS -->
+    
+    <!-- Global site script -->
     <script src="/assets/js/javascript.js"></script>
+
+    <!-- PAGE-SPECIFIC: Optional scripts for a particular page can be added below -->
+    
 </body>
 </html>
