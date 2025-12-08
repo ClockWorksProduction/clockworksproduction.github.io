@@ -12,7 +12,7 @@
 ============================================================================ */
 
 /* FontAwsome */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css.4.7.0/css/font-awesome.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 
 /* W3.CSS Framework */
 @import url('https://www.w3schools.com/w3css/5/w3.css');
@@ -72,6 +72,11 @@
     --fw-h5: 400;
     --fw-h6: 400;
     --fw-body: 300;
+
+    /* theme var */
+    --theme-button-bg: #fff;
+    --theme-border: #ccc;
+    --theme-icon-color: #555;
 }
 
 /* -------------------------------------------------------------
@@ -120,6 +125,11 @@
     --cw-shadow-h5: drop-shadow(1px 1px 2px var(--cw-accent));
     --cw-shadow-h6: drop-shadow(1px 1px 2px var(--cw-accent));
     --cw-shadow-body: none;
+
+    /* theme var */
+    --theme-button-bg: #fff;
+    --theme-border: #ccc;
+    --theme-icon-color: #555;
 }
 
 /* -------------------------------------------------------------
@@ -167,6 +177,11 @@
     --cw-shadow-h4: drop-shadow(1px 1px 2px var(--cw-accent));
     --cw-shadow-h5: drop-shadow(1px 1px 2px var(--cw-accent));
     --cw-shadow-h6: drop-shadow(1px 1px 2px var(--cw-accent));
+
+    /* theme var */
+    --theme-button-bg: #333;
+    --theme-border: #888;
+    --theme-icon-color: #fff;
 }
 
 /* ============================================================================
