@@ -15,6 +15,8 @@
     IMPORTS (Consolidated & Cleaned)
 ============================================================================ */
 
+@import url('main.css');
+
 /* Icon Libraries */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
@@ -240,4 +242,3 @@ a:hover { text-decoration: underline; color: var(--cw-accent-alt); }
 @media (max-width: 768px) { .md-hidden { display: none !important; } }
 @media (max-width: 1024px) { .lg-hidden { display: none !important; } }
 @media (max-width: 1280px) { .xl-hidden { display: none !important; } }
-
