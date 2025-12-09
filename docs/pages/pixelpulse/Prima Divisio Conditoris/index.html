@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MWQLLMSF');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prima Divisio Conditoris - ClockWorksProduction</title>
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" href="/assets/img/pdc-insignia.png">
+
+    <style>
+        /* ============================================================
+   PRIMA DIVISIO CONDITORIS — CHAPTER THEME (LIGHT + DARK)
+   Custom embed styling for chapter page
+   Aesthetic: Aether-Tech • Arcane Engineering • Legion Formality
+   Motto: Ab Origine Prima ad Aeternitatem; Nos Sumus Fundamentum
+   ============================================================ */
+
+        /* --------------------------------------
+   BASE COLOR TOKENS FOR THIS CHAPTER
+-------------------------------------- */
+        :root {
+            --pdc-gold: #d3b56d;
+            --pdc-gold-bright: #f0d9a0;
+            --pdc-gold-soft: rgba(211, 181, 109, 0.35);
+
+            --pdc-steel: #8a8f9b;
+            --pdc-steel-light: #b7bcc7;
+            --pdc-steel-dark: #3a3f4a;
+
+            --pdc-black: #141418;
+            --pdc-white: #f5f5f7;
+
+            --pdc-accent-blue: #5a7dd5;
+            --pdc-accent-blue-glow: rgba(90, 125, 213, 0.45);
+        }
+
+        /* --------------------------------------
+   LIGHT THEME
+-------------------------------------- */
+        [data-theme="light"] {
+            --pdc-bg: var(--pdc-white);
+            --pdc-bg-alt: #f1f1f4;
+            --pdc-text: #1a1a1d;
+            --pdc-text-soft: #3b3b40;
+
+            --pdc-border: var(--pdc-steel-light);
+            --pdc-hero-overlay: rgba(255, 255, 255, 0.65);
+        }
+
+        /* --------------------------------------
+   DARK THEME
+-------------------------------------- */
+        [data-theme="dark"] {
+            --pdc-bg: var(--pdc-black);
+            --pdc-bg-alt: #1d1d21;
+            --pdc-text: #eaeaf0;
+            --pdc-text-soft: #aaaab7;
+
+            --pdc-border: var(--pdc-steel-dark);
+            --pdc-hero-overlay: rgba(0, 0, 0, 0.45);
+        }
+
+        /* --------------------------------------
+   GLOBAL PAGE STYLE OVERRIDES
+-------------------------------------- */
+        body.chapter-pdc {
+            background: var(--pdc-bg);
+            color: var(--pdc-text);
+        }
+
+        body.chapter-pdc h1,
+        body.chapter-pdc h2,
+        body.chapter-pdc h3 {
+            color: var(--pdc-gold);
+            letter-spacing: 1px;
+            text-shadow: 0 0 8px var(--pdc-gold-soft);
+        }
+
+        body.chapter-pdc a {
+            color: var(--pdc-accent-blue);
+        }
+
+        body.chapter-pdc a:hover {
+            text-shadow: 0 0 6px var(--pdc-accent-blue-glow);
+        }
+
+        /* --------------------------------------
+   HERO BANNER (ARCANE-ENGINEERING STYLE)
+-------------------------------------- */
+        .hero-image-section {
+            background-image: linear-gradient(var(--pdc-hero-overlay),
+                    var(--pdc-hero-overlay)), url('/assets/img/pdc-banner.jpg');
+            /* replace with your banner */
+            background-size: cover;
+            background-position: center;
+            border-bottom: 2px solid var(--pdc-gold);
+            padding: 160px 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 3.1rem;
+            font-weight: 700;
+            color: var(--pdc-gold-bright);
+            text-transform: uppercase;
+            text-shadow:
+                0 0 12px var(--pdc-gold-soft),
+                0 0 24px var(--pdc-gold-soft);
+        }
+
+        .hero-subtitle {
+            color: var(--pdc-text-soft);
+            font-style: italic;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .hero-content .w3-button {
+            margin-top: 25px;
+            background: var(--pdc-gold);
+            color: var(--pdc-bg);
+            border-radius: 8px;
+            padding: 12px 24px;
+            text-transform: uppercase;
+            font-weight: 600;
+            transition: 0.25s;
+        }
+
+        .hero-content .w3-button:hover {
+            background: var(--pdc-gold-bright);
+            box-shadow: 0 0 16px var(--pdc-gold-soft);
+        }
+
+        /* --------------------------------------
+   SECTION BLOCKS
+-------------------------------------- */
+        .section-pdc {
+            background: var(--pdc-bg-alt);
+            border-left: 4px solid var(--pdc-gold);
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 6px;
+        }
+
+        /* --------------------------------------
+   DIVIDERS (chapter style)
+-------------------------------------- */
+        .pdc-divider {
+            width: 180px;
+            height: 2px;
+            background: var(--pdc-gold);
+            margin: 30px auto;
+            box-shadow: 0 0 6px var(--pdc-gold-soft);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWQLLMSF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="nav-placeholder"></div>
+
+    <main id="main-content">
+        <!-- ============================================================
+            PRIMA DIVISIO CONDITORIS — CHAPTER PAGE CONTENT
+        ============================================================ -->
+
+        <!-- HERO SECTION -->
+        <section class="hero hero-image-section" id="home">
+            <div class="hero-content w3-animate-opacity">
+                <h1 class="jumbo">Prima Divisio Conditoris</h1>
+                <p class="hero-subtitle">Ab Origine Prima ad Aeternitatem; Nos Sumus Fundamentum</p>
+                <a href="#chapter-overview" class="w3-button">Enter the Archive</a>
+            </div>
+        </section>
+
+        <!-- INTRODUCTION -->
+        <section id="chapter-overview" class="section-pdc w3-animate-bottom">
+            <h2>Foundational Archive</h2>
+            <div class="pdc-divider"></div>
+            <p>
+                The <strong>Prima Divisio Conditoris</strong>, known also as the
+                <em>First Founders Division</em>, is the earliest and most essential cadre
+                of the Clockwork Production VTuber Collective.
+                The division represents the core architects of creativity — the origin of ideas,
+                the designers of worlds, and the eternal keepers of the studio’s legacy.
+            </p>
+        </section>
+
+        <!-- CHAPTER LORE -->
+        <section id="lore" class="section-pdc w3-animate-bottom">
+            <h2>Chapter Lore</h2>
+            <div class="pdc-divider"></div>
+            <p>
+                In the early cycles of the Clockwork Continuum, when the digital æther
+                was formless, it was the Prima Divisio Conditoris who forged the first threads.
+                They shaped concepts, crafted characters, and engineered narratives—establishing
+                the framework from which all other divisions would eventually emerge.
+            </p>
+
+            <p>
+                To this day, members of the Prima Divisio Conditoris are seen as
+                <strong>architects</strong> and <strong>engineers</strong> of creativity,
+                combining precision, imagination, and a deep respect for the foundational
+                mechanisms that power the Collective.
+            </p>
+        </section>
+
+        <!-- INSIGNIA -->
+        <section id="insignia" class="section-pdc w3-animate-bottom">
+            <h2>Chapter Heraldic Achievement & Symbolism</h2>
+            <div class="pdc-divider"></div>
+
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <p>
+                        The insignia of the Prima Divisio Conditoris is a stylized
+                        <strong>golden cog encircling a central spark</strong> — symbolizing
+                        the union of engineering and inspiration.
+                    </p>
+                    <ul>
+                        <li><strong>Golden Cog</strong> — the eternal mechanism</li>
+                        <li><strong>Central Spark</strong> — the birth of creation</li>
+                        <li><strong>Outer Ring</strong> — the continuity of legacy</li>
+                    </ul>
+                    <p>
+                        The cog is always depicted in <strong>PDC Gold (#d3b56d)</strong>,
+                        representing nobility and craftsmanship.
+                    </p>
+                </div>
+
+                <div class="w3-half" style="text-align:center;">
+                    <img src="/assets/img/pdc-heraldic-achievement.png" alt="Prima Divisio Conditoris Heraldic achievement"
+                        style="max-width:100%; margin-top:10px;">
+                </div>
+            </div>
+        </section>
+
+        <!-- ORGANIZATION STRUCTURE -->
+        <section id="structure" class="section-pdc w3-animate-bottom">
+            <h2>Organizational Structure</h2>
+            <div class="pdc-divider"></div>
+        </section>
+
+        <!-- SUB-UNITS -->
+        <section id="subunits" class="section-pdc w3-animate-bottom">
+            <h2>Sub-Units of the Division</h2>
+            <div class="pdc-divider"></div>
+        </section>
+
+        <!-- MEMBER ROSTER -->
+        <section id="roster" class="section-pdc w3-animate-bottom">
+            <h2>Member Roster</h2>
+            <div class="pdc-divider"></div>
+
+            <p>
+                Below is the current active roster of the Prima Divisio Conditoris:
+            </p>
+
+            <ul>
+                <li><strong>AgentBlackTigerStreams</strong> — </li>
+                <li><strong>Mangafa The Variety Streamer</strong> — Machinae Custos</li>
+            </ul>
+        </section>
+
+        <!-- CHAPTER COLOURS & MOTTO -->
+        <section id="colours" class="section-pdc w3-animate-bottom">
+            <h2>Chapter Colours & Motto</h2>
+            <div class="pdc-divider"></div>
+
+            <p><strong>Primary Colours:</strong></p>
+            <ul>
+                <li><span style="color:#d3b56d;">PDC Gold</span> — Craft, nobility</li>
+                <li><span style="color:#5a7dd5;">Aether Blue</span> — Knowledge, clarity</li>
+                <li><span style="color:#141418;">Abyssal Black</span> — Foundation</li>
+            </ul>
+
+            <p><strong>Motto:</strong></p>
+            <blockquote>
+                <em>Ab Origine Prima ad Aeternitatem; Nos Sumus Fundamentum</em><br>
+                <small>“From the First Origin to Eternity; We Are the Foundation.”</small>
+            </blockquote>
+        </section>
+
+        <!-- TIMELINE -->
+        <section id="timeline" class="section-pdc w3-animate-bottom">
+            <h2>Founding Timeline</h2>
+            <div class="pdc-divider"></div>
+
+            <ul>
+                <li><strong>Cycle 0 — Genesis:</strong> The division is conceptualized.</li>
+                <li><strong>Cycle 1 — Establishment:</strong> First members join.</li>
+                <li><strong>Cycle 2 — Stabilization:</strong> Insignia, hierarchy, and sub-units formed.</li>
+                <li><strong>Cycle 3 — Expansion:</strong> External collaborations and lore-building begin.</li>
+            </ul>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/assets/js/javascript.js"></script>
+</body>
+
+</html>

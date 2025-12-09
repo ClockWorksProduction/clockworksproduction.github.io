@@ -126,11 +126,11 @@ body::before { content: ""; position: fixed; inset: 0; pointer-events: none; z-i
    7. TIMELINE (RESPONSIVE)
 ============================================================================ */
 
-.timeline { position: relative; max-width: 90%; margin: 0 auto; }
+.timeline { position: relative; max-width: 95% !important; margin: 0 auto; }
 .timeline::after { content: ''; position: absolute; width: 0.375rem; background-color: var(--cw-accent); top: 0; bottom: 0; left: 50%; margin-left: -0.1875rem; }
 
-.timeline .container { padding: 0.625rem 2.5rem; position: relative; background-color: inherit; width: 50%; }
-.timeline .container::after { content: ''; position: absolute; width: 1.5625rem; height: 1.5625rem; right: -1.0625rem; background-color: var(--cw-surface); border: 0.25rem solid var(--cw-accent-alt); top: 0.9375rem; border-radius: 50%; z-index: 1; }
+.timeline .w3-container { padding: 0.625rem 2.5rem; position: relative; background-color: inherit; width: 50%; }
+.timeline .w3-container::after { content: ''; position: absolute; width: 1.5625rem; height: 1.5625rem; right: -1.0625rem; background-color: var(--cw-surface); border: 0.25rem solid var(--cw-accent-alt); top: 0.9375rem; border-radius: 50%; z-index: 1; }
 
 .timeline .left { left: 0; }
 .timeline .right { left: 50%; }
@@ -142,8 +142,8 @@ body::before { content: ""; position: fixed; inset: 0; pointer-events: none; z-i
 
 @media screen and (max-width: 37.5rem) { /* 600px */
     .timeline::after { left: 1.938rem; }
-    .timeline .container { width: 100%; padding-left: 4.375rem; padding-right: 1.5625rem; }
-    .timeline .container::before { left: 3.75rem; border-width: 0.625rem 0.625rem 0.625rem 0; border-color: transparent var(--cw-surface) transparent transparent; }
+    .timeline .w3-container { width: 100%; padding-left: 4.375rem; padding-right: 1.5625rem; }
+    .timeline .w3-container::before { left: 3.75rem; border-width: 0.625rem 0.625rem 0.625rem 0; border-color: transparent var(--cw-surface) transparent transparent; }
     .timeline .left::after, .timeline .right::after { left: 0.9375rem; }
     .timeline .right { left: 0; }
 }
