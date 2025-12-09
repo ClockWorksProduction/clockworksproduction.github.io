@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light"> <!-- Default theme is set here -->
 <head>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -12,9 +12,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Meet The Crew - ClockWorksProduction</title>
+    <!-- PAGE-SPECIFIC: The title of the page should be changed here. -->
+    <title>Page Title - ClockWorksProduction</title>
     
+    <!-- The single, unified stylesheet for the entire site. -->
     <link rel="stylesheet" href="/assets/css/main.css">
+
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -22,140 +25,44 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <!-- Navigation placeholder (loaded by javascript.js) -->
     <div id="nav-placeholder"></div>
 
+    <!-- Main Content wrapper -->
     <main id="main-content">
-        <header class="w3-container w3-center" style="padding:100px 16px">
-            <h1 class="w3-jumbo">Meet the Crew</h1>
-            <p class="w3-large">The minds behind the machine.</p>
-        </header>
+        <!-- 
+          ==========================================================================
+          PAGE-SPECIFIC CONTENT GOES HERE. 
+          
+          To build a new page, copy this base.html file and place your content
+          within this <main> tag.
+          ==========================================================================
+        -->
 
-        <!-- Team Structure Diagram -->
-        <div class="w3-container w3-padding-32">
-            <h2 class="w3-center">CWP Structure</h2>
-            <div class="w3-card w3-padding">
-                <div class="mermaid">
-                    %%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#e0e0e0', 'primaryBorderColor': '#cd7f32', 'lineColor': '#cd7f32', 'secondaryColor': '#00ffff', 'tertiaryColor': '#8a2be2' } } }%%
-flowchart TB
-    subgraph sg_Corp["ClockWorksProduction"]
-        O2["Current Owner"]
-        O3["Council of Administrators"]
-        sg_CWP["CWPStudio"]
-        sg_FrameForge["FrameForge"]
-        sg_PixelPulse["PixelPulse"]
-    end
-    subgraph sg_Founders["Founding Members"]
-        fB["Co-Founder: AbyssalWhiteTiger"]
-        fA["Founder: ClockWorks / BlackTiger"]
-    end
-    subgraph sg_Ex["Ex-Members"]
-        eA["Art Directorate: Elisa"]
-        eB["Story Planner: Tew"]
-        eC["Game Co-Designer: Zhumayi"]
-    end
-    subgraph sg_Owners["Owners"]
-        cA["Co-Owner: Mangafa"]
-        sg_Founders
-    end
-    subgraph sg_Admin["Council of Administrators"]
-        O3A["Council Core"]
-    end
-    subgraph sg_CWP["CWPStudio"]
-        csA["Head of Programming: ClockWorks/BlackTiger"]
-        csB["Art Directorate: Mangafa"]
-        csC["Head of Marketing: ClockWorks"]
-    end
-    subgraph sg_FrameForge["FrameForge"]
-        ffTalent["FrameForge Talent"]
-    end
-    subgraph ffTalent["FrameForge Talent"]
-        fftA["The Knowledge Zone International"]
-        fftB["PixelPals Animation"]
-    end
-    subgraph fftA["The Knowledge Zone International"]
-        tkziA["Head of TKZI: ClockWorks/BlackTiger"]
-        mlbt["Mission Logs: BlackTiger"]
-        getk["Gacha Explain — Theories & Knowledge"]
-    end
-    subgraph fftB["PixelPals Animation"]
-        PixPalAnimA["Head of PixelPals: Mangafa"]
-        PixPalAnimB["PixelPals Moderators"]
-    end
-    subgraph PixPalAnimB["PixelPals Moderators"]
-        PiPA["MasterNinjaOwO"]
-    end
-    subgraph sg_PixelPulse["PixelPulse"]
-        ppTalent["PixelPulse Talents / V-Tubers"]
-    end
-    subgraph ppTalent["PixelPulse Talents / V-Tubers"]
-        talentA["Agent Black Tigers Stream"]
-        talentB["Mangafs"]
-    end
-    sg_Owners --> O2
-    O2 --> O3
-    O3 --> sg_CWP
-    O3 --> sg_FrameForge
-    O3 --> sg_PixelPulse
-
-    PixPalAnimA --> PixPalAnimB
-    tkziA --> mlbt
-    tkziA --> getk
-                </div>
+        <!-- Example Header -->
+        <section class="hero hero-image-section" id="home">
+            <div class="hero-content w3-animate-opacity">
+                <h1 class="jumbo">Welcome to ClockWorks</h1>
+                <p class="hero-subtitle">Innovative solutions for your creative projects</p>
+                <a href="#services" class="w3-button">Explore Services</a>
             </div>
-        </div>
+        </section>
 
-        <!-- Profile Cards -->
-        <div class="w3-row-padding w3-padding-64">
-
-            <!-- Founder -->
-            <div class="w3-third w3-margin-bottom">
-                <div class="w3-card">
-                    <header class="w3-container w3-center w3-padding-16">
-                        <img src="/assets/img/Meet_The_Founder.png" alt="ClockWork" class="w3-circle" style="width:100px;height:100px;">
-                    </header>
-                    <div class="w3-container w3-center">
-                        <h3>Meet The Founder — ClockWork / BlackTiger</h3>
-                        <p>Hi :3c</p>
-                        <div class="w3-row w3-section">
-                            <a href="https://ko-fi.com/E1E111ARI6" class="w3-half w3-button"><i class="fa-solid fa-mug-hot"></i> Buy me a coffee</a>
-                            <a href="https://throne.com/blacktiger" class="w3-half w3-button"><i class="fa-brands fa-web-awesome"></i> My wishlist</a>
-                        </div>
-                    </div>
-                    <footer class="w3-bar">
-                        <a href="https://www.furaffinity.net/user/cyberclockworks" class="w3-bar-item w3-button w3-hover-none w3-border-right w3-quarter"><i class="fa fa-paw"></i></a>
-                        <a href="https://bsky.app/profile/clockworkmlbt.bsky.social" class="w3-bar-item w3-button w3-hover-none w3-border-right w3-quarter"><i class="fa-brands fa-bluesky"></i></a>
-                        <a href="https://www.twitch.tv/agentblacktigerstreams" class="w3-bar-item w3-button w3-hover-none w3-border-right w3-quarter"><i class="fa fa-twitch"></i></a>
-                        <a href="https://github.com/MissionLogBlackTiger" class="w3-bar-item w3-button w3-hover-none w3-quarter"><i class="fa fa-github"></i></a>
-                    </footer>
-                </div>
-            </div>
-
-            <!-- Co-Owner -->
-            <div class="w3-third w3-margin-bottom">
-                <div class="w3-card">
-                    <header class="w3-container w3-center w3-padding-16">
-                        <img src="/assets/img/Meet_The_Co-Owner.png" alt="Mangafa" class="w3-circle" style="width:100px;height:100px;">
-                    </header>
-                    <div class="w3-container w3-center">
-                        <h3>Meet The Co-Owner — Mangafa</h3>
-                        <p>Mangafa The variety streamer</p>
-                    </div>
-                    <footer class="w3-bar w3-padding-top">
-                        <!-- Add social links here when available -->
-                    </footer>
-                </div>
-            </div>
-
+        <!-- Example Content Section -->
+        <div class="w3-container w3-padding-64" id="Lorem">
+             <p>Your main page content starts here.</p>
         </div>
 
     </main>
+    <!-- Main Content ends here -->
 
+    <!-- Footer placeholder (loaded by javascript.js) -->
     <div id="footer-placeholder"></div>
     
+    <!-- Global site script -->
     <script src="/assets/js/javascript.js"></script>
-    <script type="module">
-        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.js';
-        mermaid.initialize({ startOnLoad: true });
-    </script>
+
+    <!-- PAGE-SPECIFIC: Optional scripts for a particular page can be added below -->
+    
 </body>
 </html>
