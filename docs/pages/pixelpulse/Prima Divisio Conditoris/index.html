@@ -2,81 +2,49 @@
 <html lang="en" data-theme="light">
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-MWQLLMSF');</script>
-    <!-- End Google Tag Manager -->
-
+    <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-MWQLLMSF');</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Prima Divisio Conditoris - ClockWorksProduction</title>
-
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="icon" href="/assets/img/pdc-insignia.png">
-
     <style>
-        /* ============================================================
-   PRIMA DIVISIO CONDITORIS — CHAPTER THEME (LIGHT + DARK)
-   Custom embed styling for chapter page
-   Aesthetic: Aether-Tech • Arcane Engineering • Legion Formality
-   Motto: Ab Origine Prima ad Aeternitatem; Nos Sumus Fundamentum
-   ============================================================ */
-
-        /* --------------------------------------
-   BASE COLOR TOKENS FOR THIS CHAPTER
--------------------------------------- */
+        /* ============================================================PRIMA DIVISIO CONDITORIS — CHAPTER THEME (LIGHT + DARK)Custom embed styling for chapter pageAesthetic: Aether-Tech • Arcane Engineering • Legion FormalityMotto: Ab Origine Prima ad Aeternitatem; Nos Sumus Fundamentum============================================================ */
+        /* --------------------------------------BASE COLOR TOKENS FOR THIS CHAPTER-------------------------------------- */
         :root {
             --pdc-gold: #d3b56d;
             --pdc-gold-bright: #f0d9a0;
             --pdc-gold-soft: rgba(211, 181, 109, 0.35);
-
             --pdc-steel: #8a8f9b;
             --pdc-steel-light: #b7bcc7;
             --pdc-steel-dark: #3a3f4a;
-
             --pdc-black: #141418;
             --pdc-white: #f5f5f7;
-
             --pdc-accent-blue: #5a7dd5;
             --pdc-accent-blue-glow: rgba(90, 125, 213, 0.45);
         }
 
-        /* --------------------------------------
-   LIGHT THEME
--------------------------------------- */
+        /* --------------------------------------LIGHT THEME-------------------------------------- */
         [data-theme="light"] {
             --pdc-bg: var(--pdc-white);
             --pdc-bg-alt: #f1f1f4;
             --pdc-text: #1a1a1d;
             --pdc-text-soft: #3b3b40;
-
             --pdc-border: var(--pdc-steel-light);
             --pdc-hero-overlay: rgba(255, 255, 255, 0.65);
         }
 
-        /* --------------------------------------
-   DARK THEME
--------------------------------------- */
+        /* --------------------------------------DARK THEME-------------------------------------- */
         [data-theme="dark"] {
             --pdc-bg: var(--pdc-black);
             --pdc-bg-alt: #1d1d21;
             --pdc-text: #eaeaf0;
             --pdc-text-soft: #aaaab7;
-
             --pdc-border: var(--pdc-steel-dark);
             --pdc-hero-overlay: rgba(0, 0, 0, 0.45);
         }
 
-        /* --------------------------------------
-   GLOBAL PAGE STYLE OVERRIDES
--------------------------------------- */
+        /* --------------------------------------GLOBAL PAGE STYLE OVERRIDES-------------------------------------- */
         body.chapter-pdc {
             background: var(--pdc-bg);
             color: var(--pdc-text);
@@ -98,12 +66,9 @@
             text-shadow: 0 0 6px var(--pdc-accent-blue-glow);
         }
 
-        /* --------------------------------------
-   HERO BANNER (ARCANE-ENGINEERING STYLE)
--------------------------------------- */
+        /* --------------------------------------HERO BANNER (ARCANE-ENGINEERING STYLE)-------------------------------------- */
         .hero-image-section {
-            background-image: linear-gradient(var(--pdc-hero-overlay),
-                    var(--pdc-hero-overlay)), url('/assets/img/pdc-banner.jpg');
+            background-image: linear-gradient(var(--pdc-hero-overlay), var(--pdc-hero-overlay)), url('/assets/img/pdc-banner.jpg');
             /* replace with your banner */
             background-size: cover;
             background-position: center;
@@ -116,9 +81,7 @@
             font-weight: 700;
             color: var(--pdc-gold-bright);
             text-transform: uppercase;
-            text-shadow:
-                0 0 12px var(--pdc-gold-soft),
-                0 0 24px var(--pdc-gold-soft);
+            text-shadow: 0 0 12px var(--pdc-gold-soft), 0 0 24px var(--pdc-gold-soft);
         }
 
         .hero-subtitle {
@@ -144,9 +107,7 @@
             box-shadow: 0 0 16px var(--pdc-gold-soft);
         }
 
-        /* --------------------------------------
-   SECTION BLOCKS
--------------------------------------- */
+        /* --------------------------------------SECTION BLOCKS-------------------------------------- */
         .section-pdc {
             background: var(--pdc-bg-alt);
             border-left: 4px solid var(--pdc-gold);
@@ -155,9 +116,7 @@
             border-radius: 6px;
         }
 
-        /* --------------------------------------
-   DIVIDERS (chapter style)
--------------------------------------- */
+        /* --------------------------------------DIVIDERS (chapter style)-------------------------------------- */
         .pdc-divider {
             width: 180px;
             height: 2px;
@@ -165,187 +124,164 @@
             margin: 30px auto;
             box-shadow: 0 0 6px var(--pdc-gold-soft);
         }
-    </style>
 
+        /* --------------------------------------  W3.CSS COLUMN FALLBACK STYLES (To prevent breaking)-------------------------------------- */
+        .w3-row-padding {
+            padding: 0 8px;
+            /* Standard W3.CSS padding */
+        }
+
+        .w3-row-padding:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .w3-half {
+            float: left;
+            width: 49.99999%;
+            /* Close to 50% */
+            padding: 0 8px;
+            /* Apply padding from row */
+            box-sizing: border-box;
+            /* Include padding in width */
+        }
+
+        /* Mobile adjustment (Optional, but good practice) */
+        @media (max-width: 600px) {
+            .w3-half {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
 </head>
 
-<body>
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWQLLMSF" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
+<body><noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWQLLMSF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <div id="nav-placeholder"></div>
-
     <main id="main-content">
         <section class="hero hero-image-section" id="home">
-            <div class="hero-content w3-animate-opacity">
+            <div class="hero-content w3-animate-opacity"><img src="/assets/img/pdc-heraldic-achievement.png"
+                    alt="Prima Divisio Conditoris Heraldic Achievement"
+                    style="max-width:100%; max-height: 250px; height: auto; margin-top:10px; filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));">
                 <h1 class="jumbo">Prima Divisio Conditoris</h1>
-                <p class="hero-subtitle">Ab Origine Prima ad Aeternitatem; Nos Sumus Fundamentum</p>
-                <a href="#chapter-overview" class="w3-button">Enter the Archive</a>
+                <p class="hero-subtitle">Ab Origine Prima ad Aeternitatem; Nos Sumus Fundamentum</p> <a
+                    href="#chapter-overview" class="w3-button">Enter the Archive</a>
             </div>
         </section>
-
         <section id="chapter-overview" class="section-pdc w3-animate-bottom">
             <h2>Foundational Archive: Mandate of the First</h2>
             <div class="pdc-divider"></div>
-            <p>
-                The <b>Prima Divisio Conditoris</b> (PDC), or <i>First Founder's Division</i>, is the sovereign and most senior
-                cadre of the Clockwork Production Collective. They are the <b>Architects of Genesis</b> and the source from
-                which all other divisional structures are derived.
-            </p>
-            <p>
-                The PDC's mandate is dual: <b>To establish the creative foundation</b> and <b>to ensure the perpetual
-                continuation</b> of the agency's legacy. They are the balance of the Lion's visible authority and the
-                Wolf's strategic cunning.
-            </p>
+            <p> The <b>Prima Divisio Conditoris</b> (PDC), or <i>First Founder's Division</i>, is the sovereign and most
+                senior cadre of the Clockwork Production Collective. They are the <b>Architects of Genesis</b> and the
+                source from which all other divisional structures are derived. </p>
+            <p> The PDC's mandate is dual: <b>To establish the creative foundation</b> and <b>to ensure the
+                    perpetualcontinuation</b> of the agency's legacy. They are the balance of the Lion's visible
+                authority and the Wolf's strategic cunning. </p>
         </section>
-
         <section id="lore" class="section-pdc w3-animate-bottom">
             <h2>The Four Pillars of the Conditoris</h2>
             <div class="pdc-divider"></div>
-            <div class="w3-half" style="text-align:center;">
-                    <img src="/assets/img/pdc-heraldic-achievement.png" alt="Prima Divisio Conditoris Heraldic Achievement"
-                        style="max-width:80%; margin-top:20px; margin-bottom: 20px;">
+            <div class="w3-row-padding">
+                <div class="w3-half" style="text-align:center;"><img src="/assets/img/pdc-heraldic-achievement.png"
+                        alt="Prima Divisio Conditoris Heraldic Achievement"
+                        style="max-width:80%; margin-top:20px; margin-bottom: 20px;"></div>
+                <div class="w3-half">
+                    <p> The PDC was forged in the <b>Genesis Cycle</b> to set the enduring framework forthe Clockwork
+                        Continuum. Their function is defined by the four quadrants of their Shield:</p>
+                    <ul>
+                        <li><b>The Origin (Q1 - Sun):</b> They channel the initial <b>Sovereign Spark</b> (the Sun on a
+                            regal field).They are the keepers of the earliest creative codes and the ultimate source of
+                            all agency lore. </li>
+                        <li><b>The Eternity (Q2 - Phoenix):</b> They embody the promise of <b>Continuous Renewal</b>
+                            (the Phoenix).Their projects and presence are designed for perpetual endurance, ensuring the
+                            agency transcends allcycles of collapse and rebirth. </li>
+                        <li><b>The Foundation (Q3 - Tower):</b> They are the physical <b>Structure and Defense</b> of
+                            the creative core (the Turreted Tower on a Brick Wall). They manage the archives, secure the
+                            creative assets, and provide an unwavering base. </li>
+                        <li><b>The Creator (Q4 - Swords/Crown):</b> They hold the <b>Authority to Build and Command</b>
+                            (the Crownover the Crossed Swords). They are the active force that translates abstract
+                            concepts into tangible,defendable VTuber personalities and narratives. </li>
+                    </ul>
                 </div>
-            <div class="w3-half">
-            <p>
-                The PDC was forged in the <b>Genesis Cycle</b> to set the enduring framework for the Clockwork Continuum.
-                Their function is defined by the four quadrants of their Shield:
-            </p>
-
-            <ul>
-                <li>
-                    <b>The Origin (Q1 - Sun):</b> They channel the initial <b>Sovereign Spark</b> (the Sun on a regal field).
-                    They are the keepers of the earliest creative codes and the ultimate source of all agency lore.
-                </li>
-                <li>
-                    <b>The Eternity (Q2 - Phoenix):</b> They embody the promise of <b>Continuous Renewal</b> (the Phoenix).
-                    Their projects and presence are designed for perpetual endurance, ensuring the agency transcends all
-                    cycles of collapse and rebirth.
-                </li>
-                <li>
-                    <b>The Foundation (Q3 - Tower):</b> They are the physical <b>Structure and Defense</b> of the creative
-                    core (the Turreted Tower on a Brick Wall). They manage the archives, secure the creative assets, and
-                    provide an unwavering base.
-                </li>
-                <li>
-                    <b>The Creator (Q4 - Swords/Crown):</b> They hold the <b>Authority to Build and Command</b> (the Crown
-                    over the Crossed Swords). They are the active force that translates abstract concepts into tangible,
-                    defendable VTuber personalities and narratives.
-                </li>
-            </ul>
             </div>
         </section>
-
         <section id="insignia" class="section-pdc w3-animate-bottom">
             <h2>Chapter Heraldic Achievement & Symbolism</h2>
             <div class="pdc-divider"></div>
-
             <div class="w3-row-padding">
-                <div class="w3-half" style="text-align:center;">
-                    <img src="/assets/img/pdc-insignia.png" alt="Prima Divisio Conditoris Insignia"
-                        style="max-width:80%; margin-top:20px; margin-bottom: 20px;">
-                </div>
-
+                <div class="w3-half" style="text-align:center;"><img src="/assets/img/pdc-insignia.png"
+                        alt="Prima Divisio Conditoris Insignia"
+                        style="max-width:80%; margin-top:20px; margin-bottom: 20px;"></div>
                 <div class="w3-half">
                     <h3>The Nexus and The Crest</h3>
-                    <p>
-                        The core identity is the <b>Nexus Insignia</b> — a golden <b>Cogwheel</b> (The Mechanism) encompassing a
-                        <b>Stellar Core</b> (The Origin). This is the mechanical heart that drives all subsequent
-                        divisions.
-                    </p>
-                    <p>
-                        The Crest, a <b>Demi-Pegasus</b> issuing from a Coronet, symbolizes the <b>Transcendent Character</b>
-                        and <b>Noble Aspiration</b> of the founders, while the Supporters—the <b>Lion</b> (Authority) and the
-                        <b>Wolf</b> (Strategy)—represent the balance of power that upholds the Foundation.
-                    </p>
-
-                    <h3 style="margin-top: 20px;">The Escutcheon Motto</h3>
-                    <blockquote style="margin-left: 0; padding-left: 15px; border-left: 3px solid var(--pdc-gold);">
-                        <em>Ab Origine Prima ad Aeternitatem; Nos Sumus Fundamentum</em><br>
-                        <small>“From the First Origin to Eternity; We Are the Foundation.”</small>
-                    </blockquote>
+                    <p>The core identity is the <b>Nexus Insignia</b> — a golden<b>Cogwheel</b> (The Mechanism)
+                        encompassing a<b>Stellar Core</b> (The Origin). This is the mechanical heart thatdrives all
+                        subsequentdivisions. </p>
+                    <p>The Crest, a <b>Demi-Pegasus</b> issuing from a Coronet, symbolizes the<b>Transcendent
+                            Character</b>and <b>Noble Aspiration</b> of the founders, while the
+                        Supporters—the<b>Lion</b> (Authority) and the<b>Wolf</b> (Strategy)—represent the balance of
+                        power that upholds theFoundation. </p>
+                    <h3 style="margin-top: 20px;">The Escutcheon Motto</h3> <blockquotestyle="margin-left: 0;
+                        padding-left: 15px; border-left: 3px solid var(--pdc-gold);"><em>Ab Origine Prima ad
+                            Aeternitatem; Nos Sumus Fundamentum</em><br><small>“From the First Origin to Eternity; We
+                            Are the Foundation.”</small> </blockquote>
                 </div>
             </div>
         </section>
-
         <section id="structure" class="section-pdc w3-animate-bottom">
             <h2>Organizational Structure: The Chain of Command</h2>
             <div class="pdc-divider"></div>
-            <p>
-                The PDC maintains a formal, hierarchical structure reflecting its foundational role. All sub-units
-                report directly to the <b>High Conditoris</b> and are aligned to one of the Four Pillars.
-            </p>
-            <p>
-                <b>High Conditoris</b> (The Sovereign Authority) → <b>Archivists of the Sun</b> (Q1) → <b>Engineers of the
-                Tower</b> (Q3) → <b>Strategists of the Blade</b> (Q4).
-            </p>
+            <p> The PDC maintains a formal, hierarchical structure reflecting its foundational role. All sub-units
+                report directly to the <b>High Conditoris</b> and are aligned to one of the Four Pillars. </p>
+            <p> <b>High Conditoris</b> (The Sovereign Authority) → <b>Archivists of the Sun</b> (Q1) → <b>Engineers of
+                    theTower</b> (Q3) → <b>Strategists of the Blade</b> (Q4).</p>
         </section>
-
         <section id="subunits" class="section-pdc w3-animate-bottom">
             <h2>Sub-Units of the Division</h2>
             <div class="pdc-divider"></div>
             <ul>
                 <li><b>The Archive:</b> Dedicated to preserving the initial codes and lore of the Genesis Cycle (Q1 -
                     Origin).</li>
-                <li><b>The Sentinel Guard:</b> Responsible for defending the digital assets and maintaining the stability
-                    of the core structure (Q3 - Foundation).</li>
+                <li><b>The Sentinel Guard:</b> Responsible for defending the digital assets and maintaining the
+                    stability of the core structure (Q3 - Foundation).</li>
                 <li><b>The Forge Masters:</b> Focus on creating new characters, narratives, and developing the agency's
                     creative tools (Q4 - Creator).</li>
             </ul>
         </section>
-
         <section id="roster" class="section-pdc w3-animate-bottom">
             <h2>Member Roster</h2>
             <div class="pdc-divider"></div>
-
-            <p>
-                Below is the current active roster of the Prima Divisio Conditoris:
-            </p>
-
+            <p> Below is the current active roster of the Prima Divisio Conditoris: </p>
             <ul>
-                <li>
-                    <strong>AgentBlackTigerStreams</strong> — <b>Archivist of the Sun</b> (Role aligned with Q1: Origin &
-                    Lore)
-                </li>
-                <li>
-                    <strong>Mangafa The Variety Streamer</strong> — <b>Machinae Custos</b> (Keeper of the Machine, aligned
-                    with Q3: Foundation & Structure)
-                </li>
+                <li> <strong>AgentBlackTigerStreams</strong> — <b>Archivist of the Sun</b> (Role aligned with Q1: Origin
+                    & Lore)</li>
+                <li> <strong>Mangafa The Variety Streamer</strong> — <b>Machinae Custos</b> (Keeper of the Machine,
+                    aligned with Q3: Foundation & Structure)</li>
             </ul>
         </section>
-
         <section id="colours" class="section-pdc w3-animate-bottom">
             <h2>Chapter Tinctures & Motto</h2>
             <div class="pdc-divider"></div>
-
             <p><strong>Primary Tinctures (from the Escutcheon):</strong></p>
             <ul>
-                <li><span style="color:#d3b56d;"><b>PDC Gold</b></span> — Sovereignty, wisdom (Metal of the Chief and Sun).
-                </li>
+                <li><span style="color:#d3b56d;"><b>PDC Gold</b></span> — Sovereignty, wisdom (Metal of the Chief and
+                    Sun).</li>
                 <li><span style="color:Purple;"><b>Purpure (Regal Purple)</b></span> — Authority and the Genesis Cycle
                     (Color of Q1).</li>
-                <li><span style="color:#5a7dd5;"><b>Azure (Deep Blue)</b></span> — Constancy, truth, and the endless Aether
-                    (Color of Q2).</li>
-                <li><span style="color:DarkRed;"><b>Gules (Deep Red)</b></span> — Strength, endurance, and the zeal of the
-                    Founders (Color of Q3).</li>
+                <li><span style="color:#5a7dd5;"><b>Azure (Deep Blue)</b></span> — Constancy, truth, and the endless
+                    Aether (Color of Q2).</li>
+                <li><span style="color:DarkRed;"><b>Gules (Deep Red)</b></span> — Strength, endurance, and the zeal of
+                    the Founders (Color of Q3).</li>
             </ul>
-
             <p><strong>Motto:</strong></p>
-            <blockquote>
-                <em>Ab Origine Prima ad Aeternitatem; Nos Sumus Fundamentum</em><br>
-                <small>“From the First Origin to Eternity; We Are the Foundation.”</small>
-            </blockquote>
+            <blockquote> <em>Ab Origine Prima ad Aeternitatem; Nos Sumus Fundamentum</em><br> <small>“From the First
+                    Origin to Eternity; We Are the Foundation.”</small> </blockquote>
         </section>
-
         <section id="timeline" class="section-pdc w3-animate-bottom">
             <h2>Founding Timeline (The Genesis Cycles)</h2>
             <div class="pdc-divider"></div>
-
             <ul>
                 <li><strong>Cycle 0 — Genesis:</strong> The division is conceptualized, and the Mandate of Eternity is
                     established.</li>
@@ -358,9 +294,7 @@
             </ul>
         </section>
     </main>
-
     <div id="footer-placeholder"></div>
-
     <script src="/assets/js/javascript.js"></script>
 </body>
 
